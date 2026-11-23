@@ -31,19 +31,7 @@ desktop.ini
 *.lock
 *.metadata
 
-# Large Dataset Media & Annotation Dumps
-# Keep configs (*.yaml, *.txt, *.md, *.json, *.py), exclude high-volume image & raw box dumps
-**/train/
-**/val/
-**/valid/
-**/test/
-**/images/
-**/labels/
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.webp
-*.gif
-*.xml
-
+# Ignore raw bulk datasets (e.g. Khana 131,000 images, raw downloads)
+Food_Detection/DataSet/RawData/
+/DataSet/
+dataset_v1.zip
