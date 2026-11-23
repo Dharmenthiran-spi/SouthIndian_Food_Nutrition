@@ -45,3 +45,4 @@ Or via CLI:
 ```bash
 yolo detect train resume model="Food_Detection/Models/Food Detection/Version1/last.pt"
 ```
+
