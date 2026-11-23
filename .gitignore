@@ -1,0 +1,49 @@
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# YOLO & PyTorch artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+wandb/
+
+# OS & Editor files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# HuggingFace & Caches
+.cache/
+*.lock
+*.metadata
+
+# Large Dataset Media & Annotation Dumps
+# Keep configs (*.yaml, *.txt, *.md, *.json, *.py), exclude high-volume image & raw box dumps
+**/train/
+**/val/
+**/valid/
+**/test/
+**/images/
+**/labels/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.gif
+*.xml
+
