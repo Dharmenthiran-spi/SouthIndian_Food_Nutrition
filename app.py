@@ -198,18 +198,17 @@ def render_home_hotel_section(food_name, key_prefix="text"):
         # Calculate proportional hotel split
         hotel_calc = calculate_hotel_proportional(food_name, typed_hotel_weight)
         
+        banner_scale_text = f" (Scaled {hotel_calc['scale_factor']}x from standard {hotel['total_weight_g']}g)" if hotel_calc['scale_factor'] != 1.0 else ""
         st.markdown(
-            f"""
-            <div style="background-color: #EBF3FB; border-left: 5px solid #1E88E5; padding: 14px 18px; border-radius: 6px; margin: 12px 0;">
-                <h4 style="color: #0D47A1; margin: 0 0 6px 0;">🏨 Commercial Restaurant / Hotel Analysis</h4>
-                <p style="margin: 0; color: #37474F; font-size: 0.95rem;">
-                    <b>Standard Benchmark:</b> {hotel['portion_desc']} &nbsp;|&nbsp; 
-                    <b>Overall Serving Weight:</b> <span style="background:#BBDEFB; padding:3px 10px; border-radius:12px; font-weight:bold; color:#0D47A1;">{hotel_calc['total_weight_g']} g</span>
-                    {" (Scaled " + str(hotel_calc['scale_factor']) + "x from standard " + str(hotel['total_weight_g']) + "g)" if hotel_calc['scale_factor'] != 1.0 else ""}
-                </p>
-                <p style="margin: 8px 0 0 0; color: #455A64; font-size: 0.9rem;"><i>💡 {hotel['note']}</i></p>
-            </div>
-            """,
+            f'<div style="background-color: #EBF3FB; border-left: 5px solid #1E88E5; padding: 14px 18px; border-radius: 6px; margin: 12px 0;">'
+            f'<h4 style="color: #0D47A1; margin: 0 0 6px 0;">🏨 Commercial Restaurant / Hotel Analysis</h4>'
+            f'<p style="margin: 0; color: #37474F; font-size: 0.95rem;">'
+            f'<b>Standard Benchmark:</b> {hotel["portion_desc"]} &nbsp;|&nbsp; '
+            f'<b>Overall Serving Weight:</b> <span style="background:#BBDEFB; padding:3px 10px; border-radius:12px; font-weight:bold; color:#0D47A1;">{hotel_calc["total_weight_g"]} g</span>'
+            f'{banner_scale_text}'
+            f'</p>'
+            f'<p style="margin: 8px 0 0 0; color: #455A64; font-size: 0.9rem;"><i>💡 {hotel["note"]}</i></p>'
+            f'</div>',
             unsafe_allow_html=True
         )
         
@@ -235,16 +234,14 @@ def render_home_hotel_section(food_name, key_prefix="text"):
             st.info(f"📌 **Standard Home Portion:** {home['portion_desc']}\n*Baseline Cooked Weight: {home['total_weight_g']}g*")
             
         st.markdown(
-            f"""
-            <div style="background-color: #E8F5E9; border-left: 5px solid #43A047; padding: 14px 18px; border-radius: 6px; margin: 12px 0;">
-                <h4 style="color: #1B5E20; margin: 0 0 6px 0;">🏠 Traditional Home Cooked Recipe (Customizable)</h4>
-                <p style="margin: 0; color: #2E7D32; font-size: 0.95rem;">
-                    <b>Standard Recipe:</b> {home['portion_desc']} &nbsp;|&nbsp; 
-                    <i>Type exact ingredient weights below or add additional ingredients.</i>
-                </p>
-                <p style="margin: 6px 0 0 0; color: #388E3C; font-size: 0.9rem;"><i>💡 {home['note']}</i></p>
-            </div>
-            """,
+            f'<div style="background-color: #E8F5E9; border-left: 5px solid #43A047; padding: 14px 18px; border-radius: 6px; margin: 12px 0;">'
+            f'<h4 style="color: #1B5E20; margin: 0 0 6px 0;">🏠 Traditional Home Cooked Recipe (Customizable)</h4>'
+            f'<p style="margin: 0; color: #2E7D32; font-size: 0.95rem;">'
+            f'<b>Standard Recipe:</b> {home["portion_desc"]} &nbsp;|&nbsp; '
+            f'<i>Type exact ingredient weights below or add additional ingredients.</i>'
+            f'</p>'
+            f'<p style="margin: 6px 0 0 0; color: #388E3C; font-size: 0.9rem;"><i>💡 {home["note"]}</i></p>'
+            f'</div>',
             unsafe_allow_html=True
         )
         
