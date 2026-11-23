@@ -260,6 +260,10 @@ class IngredientNutritionPredictor:
             "cooking_method": info["cooking_method"]
         }
 
+    def predict(self, food_name, threshold=0.35):
+        """Standard convenience wrapper for predict_with_nn."""
+        return self.predict_with_nn(food_name, threshold=threshold)
+
     def get_home_hotel_recipe(self, food_name):
         """Retrieve Home vs Hotel recipe details, portion sizes, and ingredient breakdown."""
         if not food_name:
