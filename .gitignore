@@ -1,4 +1,4 @@
-# Python & Environments
+# Python bytecode & Environments
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,15 +9,11 @@ venv/
 .venv/
 ENV/
 
-# YOLO & PyTorch artifacts
-*.pt
-*.pth
-*.onnx
-*.engine
+# Temporary training experiment run logs
 runs/
 wandb/
 
-# OS & Editor files
+# OS & Editor artifacts
 .DS_Store
 ._*
 Thumbs.db
@@ -26,12 +22,19 @@ desktop.ini
 .vscode/
 *.swp
 
-# HuggingFace & Caches
+# Caches & locks
 .cache/
 *.lock
 *.metadata
 
-# Ignore raw bulk datasets (e.g. Khana 131,000 images, raw downloads)
+# Ignore raw bulk unannotated data dumps (Khana 131,000 raw images)
 Food_Detection/DataSet/RawData/
 /DataSet/
 dataset_v1.zip
+
+# Explicitly ALLOW Models and Datasets for Centralized GitHub Sync
+!Food_Detection/Models/**
+!Food_Detection/DataSet/Version1 Used Data/**
+!*.pt
+!*.pth
+!*.onnx
