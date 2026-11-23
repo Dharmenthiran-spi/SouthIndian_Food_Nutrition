@@ -7,10 +7,12 @@ This document provides a comprehensive technical reference for the **end-to-end 
 ## 📑 Table of Contents
 1. [End-to-End System Workflow](#1-end-to-end-system-workflow)
 2. [Sequence of Execution & Inter-Module Communication](#2-sequence-of-execution--inter-module-communication)
-3. [The Calculation Engine](#3-the-calculation-engine)
-   - [A. Baseline Portion Weight & Proportional Scaling](#a-baseline-portion-weight--proportional-scaling)
-   - [B. Hotel / Restaurant Mode Proportional Split Calculation](#b-hotel--restaurant-mode-proportional-split-calculation)
-   - [C. Home Made Mode Custom Typed Weights & Additional Ingredients](#c-home-made-mode-custom-typed-weights--additional-ingredients)
+3. [The Calculation Engine (Intuitive, Step-by-Step Breakdown)](#3-the-calculation-engine)
+   - [Overview: The 3 Calculation Modes](#overview-the-3-calculation-modes)
+   - [Formula 1: Standard Serving Weight Scaling (Typeable Portion)](#formula-1-standard-serving-weight-scaling)
+   - [Formula 2: Hotel / Restaurant Proportional Split Calculation](#formula-2-hotel--restaurant-proportional-split-calculation)
+   - [Formula 3: Home Made Custom Cooking & Extra Ingredients](#formula-3-home-made-custom-cooking--extra-ingredients)
+   - [Quick Comparison Matrix: How the 3 Modes Differ](#quick-comparison-matrix)
 4. [Source Code Function Mapping (app.py ➔ ingredient_predictor.py)](#4-source-code-function-mapping)
 5. [Worked Step-by-Step Example: Ven Pongal](#5-worked-step-by-step-example-ven-pongal)
 
@@ -105,75 +107,167 @@ sequenceDiagram
 
 ## 3. The Calculation Engine
 
-### A. Baseline Portion Weight & Proportional Scaling
+### Overview: The 3 Calculation Modes
 
-When Model 2 predicts the nutrition and ingredients for a dish, the values correspond to an empirical **standard baseline portion weight** $W_{\text{base}}$ (e.g., 200g for Ven Pongal, 120g for Dosa).
+The system provides 3 intuitive calculation methods depending on how the user interacts with the app:
 
-When the user modifies the portion weight in the UI to a typed weight $W_{\text{typed}}$, the system computes a dimensionless scale factor $S$:
-
-$$S = \frac{W_{\text{typed}}}{W_{\text{base}}}$$
-
-Each individual predicted ingredient weight $w_i$ and each baseline nutritional parameter $N_{\text{base}} \in \{\text{Calories}, \text{Protein}, \text{Carbs}, \text{Fat}, \text{Fiber}\}$ scales proportionally:
-
-$$w_i' = w_i \times S$$
-
-$$N' = N_{\text{base}} \times S$$
-
-$$\Delta N = N' - N_{\text{base}}$$
+| Mode | What the User Does | What the System Calculates |
+|:---|:---|:---|
+| **Mode 1: Standard Rescaling** | Types any overall portion weight in grams (e.g., changing 200g to 300g) | Proportionally multiplies all predicted ingredient weights and macros by a **Scaling Multiplier**. |
+| **Mode 2: Hotel / Restaurant Style** | Types a total restaurant serving weight (e.g., 350g) | Splits the 350g into restaurant ingredient proportions (higher oil/ghee) and scales commercial nutrition. |
+| **Mode 3: Home Made Style** | Types exact grams for individual ingredients or adds extras (cashews, ghee, egg) | Computes nutrition from scratch for every single ingredient using official **ICMR-NIN 100g reference values**. |
 
 ---
 
-### B. Hotel / Restaurant Mode Proportional Split Calculation
+### Formula 1: Standard Serving Weight Scaling
 
-In commercial establishments (hotels, restaurants, tiffin centers), recipes use standardized bulk preparation formulas with elevated cooking fats (oil, ghee, dalda) and sodium.
+#### Plain English Idea:
+> *"If you eat 1.5 times the standard serving of food, you are eating 1.5 times the ingredients and taking in 1.5 times the calories."*
 
-#### 1. Proportional Ingredient Weight Allocation:
-Given a benchmark restaurant portion with standard total weight $W_{\text{hotel, std}}$ containing $k$ constituent ingredients with benchmark weights $w_{1, \text{std}}, w_{2, \text{std}}, \dots, w_{k, \text{std}}$:
+#### Step 1: Find the Scaling Multiplier
+$$\text{Scaling Multiplier } (S) = \frac{\text{Portion Weight You Typed (grams)}}{\text{Standard Baseline Weight (grams)}}$$
 
-The weight proportion $p_i$ of each ingredient $i$ is:
+#### Step 2: Scale Every Ingredient Weight
+$$\text{New Ingredient Weight} = \text{Standard Ingredient Weight} \times S$$
 
-$$p_i = \frac{w_{i, \text{std}}}{W_{\text{hotel, std}}}$$
+#### Step 3: Scale Every Nutritional Value
+$$\text{New Calories} = \text{Standard Calories} \times S$$
+$$\text{New Protein} = \text{Standard Protein} \times S$$
+$$\text{New Carbs} = \text{Standard Carbs} \times S$$
+$$\text{New Fat} = \text{Standard Fat} \times S$$
+$$\text{New Fiber} = \text{Standard Fiber} \times S$$
 
-When the user enters a typed hotel serving weight $W_{\text{hotel, typed}}$, the weight allocated to ingredient $i$ is:
+#### 🔢 Worked Numbers Example:
+* **Dish**: Ven Pongal (Standard Baseline = `200g`, Calories = `335 kcal`, Raw Rice = `70g`).
+* **User Types**: `300g`.
 
-$$w_{i, \text{typed}} = W_{\text{hotel, typed}} \times p_i$$
+1. **Calculate Multiplier**:
+   $$S = \frac{300\text{ g}}{200\text{ g}} = 1.5\times$$
+2. **Calculate New Ingredient Weight**:
+   $$\text{Raw Rice} = 70\text{ g} \times 1.5 = 105.0\text{ g}$$
+3. **Calculate New Calories**:
+   $$\text{Calories} = 335\text{ kcal} \times 1.5 = 502.5\text{ kcal}$$
 
-#### 2. Nutritional Composition Scaling:
-The nutritional values scale linearly from the commercial recipe benchmark:
-
-$$S_{\text{hotel}} = \frac{W_{\text{hotel, typed}}}{W_{\text{hotel, std}}}$$
-
-$$\text{Calories}_{\text{hotel}} = \text{Calories}_{\text{std}} \times S_{\text{hotel}}$$
-
-$$\text{Nutrient}_{j, \text{hotel}} = \text{Nutrient}_{j, \text{std}} \times S_{\text{hotel}}$$
+#### 💻 Python Code in `app.py` ([Lines 462 & 476](file:///d:/Yolo_Food_Inspection/app.py#L462)):
+```python
+scale_factor = typed_std_wt / base_std_wt
+scaled_ingredient_weight = ingredient_weight * scale_factor
+scaled_calories = round(baseline_nutrition['calories_kcal'] * scale_factor, 1)
+```
 
 ---
 
-### C. Home Made Mode Custom Typed Weights & Additional Ingredients
+### Formula 2: Hotel / Restaurant Proportional Split Calculation
 
-In home cooking, ingredient proportions vary significantly based on dietary preferences. The home calculation engine operates at the **raw/cooked component level**, sourcing verified nutritional density per 100g from the **ICMR-NIN Indian Food Composition Tables (IFCT 2017)**.
+#### Plain English Idea:
+> *"A restaurant serves a 350g plate of Ven Pongal. How many grams of rice, moong dal, and ghee are in it? The system takes the restaurant's known recipe ratio, splits the 350g across the ingredients, and computes commercial restaurant nutrition (which has more oil and ghee than home food)."*
 
-#### 1. Total Cooked Portion Weight:
-Let $\mathcal{I}_{\text{custom}}$ be the set of modified base recipe ingredients, and $\mathcal{I}_{\text{extra}}$ be the set of newly added pantry ingredients (e.g., Cashew nuts, Extra Ghee, Boiled Egg, Paneer):
+#### Step 1: Find the Ingredient Percentage in the Hotel Recipe
+$$\text{Ingredient Share (\%)} = \frac{\text{Standard Ingredient Weight in Hotel Recipe (g)}}{\text{Standard Total Hotel Weight (g)}} \times 100\%$$
 
-$$W_{\text{total, home}} = \sum_{j \in \mathcal{I}_{\text{custom}}} w_j + \sum_{k \in \mathcal{I}_{\text{extra}}} w_k$$
+#### Step 2: Split the User's Typed Weight Across Ingredients
+$$\text{Grams in Your Serving} = \text{Total Serving Weight You Typed (g)} \times \left(\frac{\text{Ingredient Share (\%)}}{100}\right)$$
 
-#### 2. Macronutrient Summation Formulas:
-For any nutritional attribute $N \in \{\text{Calories (kcal)}, \text{Protein (g)}, \text{Carbs (g)}, \text{Fat (g)}, \text{Fiber (g)}\}$:
+#### Step 3: Scale Restaurant Nutrition
+$$\text{Hotel Multiplier } (S_{\text{hotel}}) = \frac{\text{Total Serving Weight You Typed (g)}}{\text{Standard Total Hotel Weight (g)}}$$
 
-$$N_{\text{total}} = \sum_{m \in (\mathcal{I}_{\text{custom}} \cup \mathcal{I}_{\text{extra}})} \left( \frac{w_m}{100} \times \nu_N(m) \right)$$
+$$\text{Hotel Calories} = \text{Standard Hotel Calories} \times S_{\text{hotel}}$$
+$$\text{Hotel Fat} = \text{Standard Hotel Fat} \times S_{\text{hotel}}$$
 
-Where:
-- $w_m$ is the weight in grams of ingredient $m$.
-- $\nu_N(m)$ is the nutritional density of nutrient $N$ per 100g of ingredient $m$ as published by ICMR-NIN.
+#### 🔢 Worked Numbers Example:
+* **Standard Hotel Pongal Serving**: Total = `220g` (contains `75g` Raw Rice, `28g` Ghee/Dalda blend, `410 kcal`, `18g` Fat).
+* **User Types**: `330g` Hotel Serving.
 
-#### 3. Delta Variance Analysis:
-The UI computes the differential against the standard home baseline:
+1. **Calculate Multiplier**:
+   $$S_{\text{hotel}} = \frac{330\text{ g}}{220\text{ g}} = 1.5\times$$
+2. **Split Ingredients**:
+   $$\text{Raw Rice} = 75\text{ g} \times 1.5 = 112.5\text{ g}$$
+   $$\text{Commercial Ghee \& Dalda} = 28\text{ g} \times 1.5 = 42.0\text{ g}$$
+3. **Scaled Hotel Nutrition**:
+   $$\text{Calories} = 410\text{ kcal} \times 1.5 = 615.0\text{ kcal}$$
+   $$\text{Fat} = 18.0\text{ g} \times 1.5 = 27.0\text{ g}$$
 
-$$\Delta N = N_{\text{total}} - N_{\text{home, benchmark}}$$
+#### 💻 Python Code in `ingredient_predictor.py` (`calculate_hotel_proportional`):
+```python
+scale = round(target_weight_g / base_total, 3)
+split_ingredients = {
+    ing_name: round(std_weight * scale, 1)
+    for ing_name, std_weight in hotel_recipe["ingredients"].items()
+}
+scaled_hotel_nutrition = {
+    nutrient: round(std_value * scale, 1)
+    for nutrient, std_value in hotel_recipe["nutrition"].items()
+}
+```
 
-- If $\Delta \text{Calories} > 0$: Displayed as `+XX kcal` (Orange/Warning).
-- If $\Delta \text{Protein} > 0$: Displayed as `+XX g` (Green/Positive).
+---
+
+### Formula 3: Home Made Custom Cooking & Extra Ingredients
+
+#### Plain English Idea:
+> *"When cooking at home, you control exactly how much rice, dal, or ghee goes into the pot. If you want to add 15g extra cashews or a boiled egg, the system calculates the nutrition for every single ingredient from scratch using the official Indian Food Composition Tables (ICMR-NIN IFCT 2017)."*
+
+#### Step 1: Calculate Total Plate Cooked Weight
+Add up the weights of all modified ingredients plus any extra items added:
+$$\text{Total Plate Weight (g)} = (\text{Weight of Ingredient 1} + \text{Weight of Ingredient 2} + \dots) + \text{Extra Ingredients Weight}$$
+
+#### Step 2: Calculate Nutrition for Each Ingredient Using ICMR-NIN 100g Values
+The ICMR-NIN database stores nutrition **per 100 grams**. For any ingredient:
+$$\text{Nutrient from this Ingredient} = \frac{\text{Grams You Used}}{100} \times \text{Nutrient Value in 100g (from ICMR database)}$$
+
+#### Step 3: Sum All Ingredients to Get the Total Plate Nutrition
+$$\text{Total Calories} = \text{Calories from Ingredient 1} + \text{Calories from Ingredient 2} + \dots + \text{Calories from Extras}$$
+$$\text{Total Protein} = \text{Protein from Ingredient 1} + \text{Protein from Ingredient 2} + \dots + \text{Protein from Extras}$$
+$$\text{Total Fat} = \text{Fat from Ingredient 1} + \text{Fat from Ingredient 2} + \dots + \text{Fat from Extras}$$
+
+#### Step 4: Compare with Normal Home Baseline (Delta Difference)
+$$\text{Delta } (\Delta) = \text{Your Custom Total} - \text{Normal Standard Baseline}$$
+* If $\Delta \text{Calories} > 0$: Displays in UI as `+XX kcal` (warning that meal is richer).
+* If $\Delta \text{Protein} > 0$: Displays in UI as `+XX g` (positive indicator for higher protein).
+
+#### 🔢 Worked Numbers Example:
+* **User customizes Home Pongal**:
+  - `Raw Rice`: Typed as `60g` (ICMR per 100g: 345 kcal, 6.8g protein, 0.5g fat)
+  - `Moong Dal`: Typed as `40g` (ICMR per 100g: 348 kcal, 24.5g protein, 1.2g fat)
+  - `Pure Cow Ghee`: Typed as `10g` (ICMR per 100g: 900 kcal, 0.0g protein, 100.0g fat)
+  - `Extra Fried Cashews`: Added `15g` (ICMR per 100g: 553 kcal, 18.2g protein, 43.8g fat)
+
+1. **Calculate Calories from each**:
+   - Rice: $\frac{60}{100} \times 345 = 207.0\text{ kcal}$
+   - Moong Dal: $\frac{40}{100} \times 348 = 139.2\text{ kcal}$
+   - Ghee: $\frac{10}{100} \times 900 = 90.0\text{ kcal}$
+   - Extra Cashews: $\frac{15}{100} \times 553 = 82.95\text{ kcal}$
+2. **Sum Total Calories**:
+   $$\text{Total Calories} = 207.0 + 139.2 + 90.0 + 82.95 = 519.2\text{ kcal}$$
+3. **Calculate Total Protein**:
+   $$\text{Total Protein} = \left(\frac{60}{100} \times 6.8\right) + \left(\frac{40}{100} \times 24.5\right) + 0 + \left(\frac{15}{100} \times 18.2\right) = 4.08 + 9.80 + 2.73 = 16.6\text{ g}$$
+
+#### 💻 Python Code in `ingredient_predictor.py` (`calculate_custom_nutrition`):
+```python
+total_weight = sum(custom_ingredients.values()) + sum(additional_ingredients.values())
+
+for ing_name, weight_g in all_items.items():
+    nut_per_100g = get_ingredient_nutrition(ing_name)
+    factor = weight_g / 100.0
+    total_calories += nut_per_100g['calories_kcal'] * factor
+    total_protein  += nut_per_100g['protein_g'] * factor
+    total_carbs    += nut_per_100g['carbs_g'] * factor
+    total_fat      += nut_per_100g['fat_g'] * factor
+    total_fiber    += nut_per_100g['fiber_g'] * factor
+```
+
+---
+
+### Quick Comparison Matrix
+
+| Feature | Mode 1: Standard Scaling | Mode 2: Hotel / Restaurant | Mode 3: Home Made Custom |
+|:---|:---|:---|:---|
+| **Primary Input** | Single Portion Weight (e.g. `250g`) | Overall Hotel Weight (e.g. `350g`) | Individual ingredient weights (g) |
+| **How Ingredients are Calculated** | Multiplied by $\frac{\text{typed}}{\text{standard}}$ | Split using commercial recipe ratio | Directly typed by user in number boxes |
+| **Pantry Additions Supported?** | No (scales existing set) | No (standard restaurant recipe) | **Yes** (add Cashews, Egg, Ghee, Paneer) |
+| **Cooking Fat / Oil Model** | Standard benchmark | High commercial oil/ghee blend | Pure measured home ingredients |
+| **Source of Truth** | PyTorch Model 2 baseline | Verified restaurant benchmarks | Official ICMR-NIN IFCT 2017 per 100g |
+| **Delta ($\pm$) Indicator** | Difference from standard baseline | Difference from standard hotel | Live difference from home recipe |
 
 ---
 
@@ -247,4 +341,3 @@ The table below maps the UI interactions in [app.py](file:///d:/Yolo_Food_Inspec
      $$\left(\frac{60}{100} \times 6.8\right) + \left(\frac{40}{100} \times 24.5\right) + 0 + \left(\frac{15}{100} \times 18.2\right) = 4.08 + 9.80 + 2.73 = 16.6\text{ g}$$
 4. **UI Delta Display**:
    - Shows live metric cards with exact `+` or `-` differences compared to the standard 200g home baseline.
-
