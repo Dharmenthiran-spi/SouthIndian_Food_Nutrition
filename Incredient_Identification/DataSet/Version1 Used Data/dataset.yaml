@@ -1,0 +1,38 @@
+dataset_name: South Indian Food Ingredient & Nutrition Dataset
+version: 1.0.0
+num_classes: 31
+classes:
+  0: Appam
+  1: Beetroot poriyal
+  2: Boiled Egg
+  3: Carrot poriyal
+  4: Chicken 65
+  5: Chicken briyani
+  6: Dosa
+  7: Idly
+  8: Kaara chutney
+  9: Kali
+  10: Koozh
+  11: Lemon Rice
+  12: Mushroom briyani
+  13: Mutton Briyani
+  14: Nandu masala
+  15: Nei satham
+  16: Paal kolukattai
+  17: Paneer briyani
+  18: Panner masala
+  19: Parupu vada
+  20: Pidi kolukattai
+  21: Poorna kolukattai
+  22: Prawn thokku
+  23: Puthina Chutney
+  24: Sambar
+  25: Sambar satham
+  26: Satham
+  27: Thengai chutney
+  28: Uzhuntha vadai
+  29: Veg briyani
+  30: Ven Pongal
+csv_path: south_indian_food_ingredients_nutrition.csv
+json_path: dishes_ingredients_map.json
+vocabulary_path: ingredients_vocabulary.csv

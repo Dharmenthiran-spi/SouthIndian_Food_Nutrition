@@ -1,0 +1,613 @@
+"""
+Generates the comprehensive Home vs Hotel Recipe and Ingredient Gram Weights Dataset
+for all 31 South Indian Food Classes.
+"""
+
+import os
+import json
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUT_DIR = os.path.join(BASE_DIR, "..", "DataSet", "Version1 Used Data")
+os.makedirs(OUT_DIR, exist_ok=True)
+
+HOME_HOTEL_DATA = {
+    "Appam": {
+        "food_id": 0,
+        "regional_name": "ஆப்பம் / Palappam",
+        "home": {
+            "portion_desc": "2 pieces (~140g)",
+            "total_weight_g": 140,
+            "ingredients": {"raw_rice_flour": 70, "coconut_milk": 40, "sugar": 5, "oil_minimal": 2},
+            "nutrition": {"calories_kcal": 210, "protein_g": 3.8, "carbs_g": 44.0, "fat_g": 2.2, "fiber_g": 1.5},
+            "note": "Prepared at home with light coconut milk and minimal oil."
+        },
+        "hotel": {
+            "portion_desc": "2 pieces (~170g) + Sweet Coconut Milk cup",
+            "total_weight_g": 170,
+            "ingredients": {"raw_rice_flour": 85, "thick_coconut_milk": 65, "sugar": 14, "ghee_oil": 6},
+            "nutrition": {"calories_kcal": 310, "protein_g": 4.5, "carbs_g": 54.0, "fat_g": 8.5, "fiber_g": 1.8},
+            "note": "Restaurant style uses extra thick coconut milk and higher sugar content."
+        },
+        "adjustable_keys": ["raw_rice_flour", "coconut_milk", "sugar"]
+    },
+    "Beetroot poriyal": {
+        "food_id": 1,
+        "regional_name": "பீட்ரூட் பொரியல்",
+        "home": {
+            "portion_desc": "1 cup (~130g)",
+            "total_weight_g": 130,
+            "ingredients": {"beetroot": 110, "fresh_coconut": 12, "oil": 4, "urad_dal_tadka": 4},
+            "nutrition": {"calories_kcal": 90, "protein_g": 2.2, "carbs_g": 14.0, "fat_g": 2.8, "fiber_g": 4.2},
+            "note": "Home cooked with low oil and fresh grated coconut."
+        },
+        "hotel": {
+            "portion_desc": "1 cup (~150g meals kootu/poriyal)",
+            "total_weight_g": 150,
+            "ingredients": {"beetroot": 115, "fresh_coconut": 20, "oil": 10, "urad_dal_tadka": 5},
+            "nutrition": {"calories_kcal": 145, "protein_g": 2.9, "carbs_g": 17.0, "fat_g": 7.2, "fiber_g": 4.5},
+            "note": "Hotel meals preparation uses generous oil tempering and extra coconut."
+        },
+        "adjustable_keys": ["beetroot", "fresh_coconut", "oil"]
+    },
+    "Boiled Egg": {
+        "food_id": 2,
+        "regional_name": "அவித்த முட்டை",
+        "home": {
+            "portion_desc": "1 large egg (50g)",
+            "total_weight_g": 50,
+            "ingredients": {"whole_egg": 50, "black_pepper": 1},
+            "nutrition": {"calories_kcal": 78, "protein_g": 6.3, "carbs_g": 0.6, "fat_g": 5.3, "fiber_g": 0.0},
+            "note": "Plain hard boiled with pinch of black pepper."
+        },
+        "hotel": {
+            "portion_desc": "1 egg with pepper fry/shallow roast (60g)",
+            "total_weight_g": 60,
+            "ingredients": {"whole_egg": 50, "oil_fry": 8, "masala_spices": 2},
+            "nutrition": {"calories_kcal": 135, "protein_g": 6.5, "carbs_g": 1.2, "fat_g": 11.5, "fiber_g": 0.1},
+            "note": "Hotel muttai roast lightly tossed in spiced oil."
+        },
+        "adjustable_keys": ["whole_egg"]
+    },
+    "Carrot poriyal": {
+        "food_id": 3,
+        "regional_name": "கேரட் பொரியல்",
+        "home": {
+            "portion_desc": "1 cup (~130g)",
+            "total_weight_g": 130,
+            "ingredients": {"carrot": 110, "fresh_coconut": 10, "oil": 4, "urad_dal_tadka": 4},
+            "nutrition": {"calories_kcal": 85, "protein_g": 1.8, "carbs_g": 12.5, "fat_g": 2.5, "fiber_g": 3.8},
+            "note": "Steamed carrot tossed with light mustard-curry leaf tempering."
+        },
+        "hotel": {
+            "portion_desc": "1 cup (~150g)",
+            "total_weight_g": 150,
+            "ingredients": {"carrot": 115, "fresh_coconut": 18, "oil": 10, "urad_dal_tadka": 5},
+            "nutrition": {"calories_kcal": 135, "protein_g": 2.3, "carbs_g": 15.0, "fat_g": 7.0, "fiber_g": 4.0},
+            "note": "Restaurant meals side dish with heavier oil and coconut."
+        },
+        "adjustable_keys": ["carrot", "fresh_coconut", "oil"]
+    },
+    "Chicken 65": {
+        "food_id": 4,
+        "regional_name": "சிக்கன் 65",
+        "home": {
+            "portion_desc": "1 serving (~130g pan/air fried)",
+            "total_weight_g": 130,
+            "ingredients": {"boneless_chicken": 110, "curd": 10, "corn_flour": 5, "oil": 8},
+            "nutrition": {"calories_kcal": 240, "protein_g": 26.5, "carbs_g": 5.0, "fat_g": 12.0, "fiber_g": 0.8},
+            "note": "Home shallow/air-fried using 1 teaspoon oil."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~170g deep fried)",
+            "total_weight_g": 170,
+            "ingredients": {"boneless_chicken": 130, "curd": 15, "corn_flour": 15, "deep_fry_oil": 25},
+            "nutrition": {"calories_kcal": 385, "protein_g": 29.0, "carbs_g": 12.5, "fat_g": 24.5, "fiber_g": 1.2},
+            "note": "Commercial deep-fried with crispy batter absorbing higher cooking oil."
+        },
+        "adjustable_keys": ["boneless_chicken", "oil"]
+    },
+    "Chicken briyani": {
+        "food_id": 5,
+        "regional_name": "சிக்கன் பிரியாணி",
+        "home": {
+            "portion_desc": "1 plate (~280g)",
+            "total_weight_g": 280,
+            "ingredients": {"seeraga_samba_rice": 120, "chicken_pieces": 110, "onion_tomato": 35, "ghee_oil": 12},
+            "nutrition": {"calories_kcal": 460, "protein_g": 28.0, "carbs_g": 58.0, "fat_g": 12.5, "fiber_g": 2.8},
+            "note": "Home dum biryani prepared with controlled ghee and lean cuts."
+        },
+        "hotel": {
+            "portion_desc": "1 full plate (~380g Dindigul/Ambur style)",
+            "total_weight_g": 380,
+            "ingredients": {"seeraga_samba_rice": 160, "chicken_pieces": 140, "onion_tomato": 50, "ghee_oil": 28},
+            "nutrition": {"calories_kcal": 680, "protein_g": 34.5, "carbs_g": 76.0, "fat_g": 26.0, "fiber_g": 3.8},
+            "note": "Hotel biryani with rich dalcha/gravy seasoning and generous ghee."
+        },
+        "adjustable_keys": ["seeraga_samba_rice", "chicken_pieces", "ghee_oil"]
+    },
+    "Dosa": {
+        "food_id": 6,
+        "regional_name": "தோசை / Plain Dosa",
+        "home": {
+            "portion_desc": "2 plain dosas (~140g)",
+            "total_weight_g": 140,
+            "ingredients": {"rice_batter": 90, "urad_dal_batter": 30, "oil_tossed": 6},
+            "nutrition": {"calories_kcal": 220, "protein_g": 5.8, "carbs_g": 41.0, "fat_g": 4.2, "fiber_g": 2.2},
+            "note": "Cooked on iron tawa with 1 tsp sesame/groundnut oil."
+        },
+        "hotel": {
+            "portion_desc": "1 restaurant Ghee Roast (~150g crispy)",
+            "total_weight_g": 150,
+            "ingredients": {"rice_batter": 100, "urad_dal_batter": 30, "hotel_ghee_butter": 22},
+            "nutrition": {"calories_kcal": 360, "protein_g": 6.2, "carbs_g": 45.0, "fat_g": 17.5, "fiber_g": 2.5},
+            "note": "Hotel crispy roast basted generously with pure cow ghee."
+        },
+        "adjustable_keys": ["rice_batter", "urad_dal_batter", "oil_tossed"]
+    },
+    "Idly": {
+        "food_id": 7,
+        "regional_name": "இட்லி / Steamed Idli",
+        "home": {
+            "portion_desc": "2 pieces (~120g)",
+            "total_weight_g": 120,
+            "ingredients": {"idli_rice_cooked": 85, "urad_dal_cooked": 35, "oil": 0},
+            "nutrition": {"calories_kcal": 130, "protein_g": 4.2, "carbs_g": 26.5, "fat_g": 0.4, "fiber_g": 1.6},
+            "note": "Pure steam cooked in idli pot with zero added oil."
+        },
+        "hotel": {
+            "portion_desc": "2 pieces with Ghee Podi / Sambar Dip (~160g)",
+            "total_weight_g": 160,
+            "ingredients": {"idli_rice_cooked": 95, "urad_dal_cooked": 35, "ghee_drizzle": 12, "podi": 6},
+            "nutrition": {"calories_kcal": 245, "protein_g": 5.5, "carbs_g": 31.0, "fat_g": 11.0, "fiber_g": 2.2},
+            "note": "Restaurant Ghee Podi Idli or Sambar Idli soaked in rich broth."
+        },
+        "adjustable_keys": ["idli_rice_cooked", "urad_dal_cooked"]
+    },
+    "Kaara chutney": {
+        "food_id": 8,
+        "regional_name": "கார சட்னி",
+        "home": {
+            "portion_desc": "3 tbsp (~45g)",
+            "total_weight_g": 45,
+            "ingredients": {"tomato": 25, "onion": 15, "red_chilli_garlic": 3, "sesame_oil": 4},
+            "nutrition": {"calories_kcal": 55, "protein_g": 1.1, "carbs_g": 6.5, "fat_g": 3.0, "fiber_g": 1.2},
+            "note": "Tangy spicy chutney tempered with 1 tsp gingelly oil."
+        },
+        "hotel": {
+            "portion_desc": "1 cup serving (~70g)",
+            "total_weight_g": 70,
+            "ingredients": {"tomato": 35, "onion": 20, "red_chilli_garlic": 5, "sesame_oil": 10},
+            "nutrition": {"calories_kcal": 105, "protein_g": 1.6, "carbs_g": 9.5, "fat_g": 7.0, "fiber_g": 1.8},
+            "note": "Hotel spicy red chutney with rich oil surface sheen."
+        },
+        "adjustable_keys": ["tomato", "onion", "sesame_oil"]
+    },
+    "Kali": {
+        "food_id": 9,
+        "regional_name": "உளுந்தங்களி / Ulundhu Kali",
+        "home": {
+            "portion_desc": "1 cup (~140g)",
+            "total_weight_g": 140,
+            "ingredients": {"black_urad_dal": 50, "rice": 20, "jaggery": 45, "sesame_oil": 10},
+            "nutrition": {"calories_kcal": 310, "protein_g": 8.5, "carbs_g": 56.0, "fat_g": 6.8, "fiber_g": 5.8},
+            "note": "Traditional home postpartum/bone strength health recipe."
+        },
+        "hotel": {
+            "portion_desc": "1 sweet portion (~160g)",
+            "total_weight_g": 160,
+            "ingredients": {"black_urad_dal": 55, "rice": 25, "jaggery": 55, "sesame_oil": 18},
+            "nutrition": {"calories_kcal": 415, "protein_g": 9.2, "carbs_g": 68.0, "fat_g": 12.5, "fiber_g": 6.2},
+            "note": "Sweet stall style with higher jaggery and gingelly oil."
+        },
+        "adjustable_keys": ["black_urad_dal", "jaggery", "sesame_oil"]
+    },
+    "Koozh": {
+        "food_id": 10,
+        "regional_name": "கேழ்வரகு கூழ்",
+        "home": {
+            "portion_desc": "1 large glass (~250ml)",
+            "total_weight_g": 250,
+            "ingredients": {"ragi_flour": 45, "broken_rice": 15, "buttermilk": 140, "shallots": 15},
+            "nutrition": {"calories_kcal": 170, "protein_g": 5.2, "carbs_g": 32.0, "fat_g": 2.2, "fiber_g": 4.5},
+            "note": "Fermented overnight at home with fresh churned sour buttermilk."
+        },
+        "hotel": {
+            "portion_desc": "1 earthen pot serving (~320ml with side sides)",
+            "total_weight_g": 320,
+            "ingredients": {"ragi_flour": 60, "broken_rice": 20, "buttermilk": 180, "shallots": 25, "oil_pickle": 8},
+            "nutrition": {"calories_kcal": 245, "protein_g": 6.8, "carbs_g": 44.0, "fat_g": 4.5, "fiber_g": 5.5},
+            "note": "Roadside/hotel traditional mud pot koozh served with spicy pickle & dried fish."
+        },
+        "adjustable_keys": ["ragi_flour", "buttermilk", "shallots"]
+    },
+    "Lemon Rice": {
+        "food_id": 11,
+        "regional_name": "எலுமிச்சை சாதம்",
+        "home": {
+            "portion_desc": "1 plate (~180g)",
+            "total_weight_g": 180,
+            "ingredients": {"cooked_rice": 140, "lemon_juice": 15, "peanuts": 12, "oil_tempering": 6},
+            "nutrition": {"calories_kcal": 275, "protein_g": 5.6, "carbs_g": 48.0, "fat_g": 6.8, "fiber_g": 2.4},
+            "note": "Home lunchbox rice tossed with fresh lemon juice and roasted peanuts."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~240g hotel variety meal)",
+            "total_weight_g": 240,
+            "ingredients": {"cooked_rice": 180, "lemon_juice": 20, "peanuts": 20, "oil_tempering": 15},
+            "nutrition": {"calories_kcal": 380, "protein_g": 7.5, "carbs_g": 62.0, "fat_g": 12.5, "fiber_g": 3.2},
+            "note": "Hotel lunch special with extra oil seasoning for shine and shelf life."
+        },
+        "adjustable_keys": ["cooked_rice", "peanuts", "oil_tempering"]
+    },
+    "Mushroom briyani": {
+        "food_id": 12,
+        "regional_name": "காளான் பிரியாணி",
+        "home": {
+            "portion_desc": "1 plate (~260g)",
+            "total_weight_g": 260,
+            "ingredients": {"seeraga_samba_rice": 120, "mushrooms": 90, "onion_tomato": 35, "ghee_oil": 10},
+            "nutrition": {"calories_kcal": 370, "protein_g": 9.5, "carbs_g": 60.0, "fat_g": 9.2, "fiber_g": 4.5},
+            "note": "Home pressure cooker mushroom biryani with low fat."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~350g)",
+            "total_weight_g": 350,
+            "ingredients": {"seeraga_samba_rice": 160, "mushrooms": 110, "onion_tomato": 50, "ghee_oil": 22},
+            "nutrition": {"calories_kcal": 510, "protein_g": 12.8, "carbs_g": 75.0, "fat_g": 17.5, "fiber_g": 5.8},
+            "note": "Restaurant biryani enriched with fried onions and ghee."
+        },
+        "adjustable_keys": ["seeraga_samba_rice", "mushrooms", "ghee_oil"]
+    },
+    "Mutton Briyani": {
+        "food_id": 13,
+        "regional_name": "மட்டன் பிரியாணி",
+        "home": {
+            "portion_desc": "1 plate (~290g)",
+            "total_weight_g": 290,
+            "ingredients": {"seeraga_samba_rice": 120, "mutton_meat": 110, "onion_tomato": 35, "ghee_oil": 14},
+            "nutrition": {"calories_kcal": 520, "protein_g": 31.0, "carbs_g": 56.0, "fat_g": 17.5, "fiber_g": 2.8},
+            "note": "Home Sunday mutton biryani cooked with bone-in tender goat meat."
+        },
+        "hotel": {
+            "portion_desc": "1 full plate (~400g Thalappakatti/Seeraga style)",
+            "total_weight_g": 400,
+            "ingredients": {"seeraga_samba_rice": 170, "mutton_meat": 140, "onion_tomato": 50, "ghee_oil": 32},
+            "nutrition": {"calories_kcal": 760, "protein_g": 39.5, "carbs_g": 72.0, "fat_g": 34.0, "fiber_g": 3.5},
+            "note": "Famous restaurant style with rich mutton fat infusion and double ghee."
+        },
+        "adjustable_keys": ["seeraga_samba_rice", "mutton_meat", "ghee_oil"]
+    },
+    "Nandu masala": {
+        "food_id": 14,
+        "regional_name": "நண்டு மசாலா",
+        "home": {
+            "portion_desc": "1 cup (~180g)",
+            "total_weight_g": 180,
+            "ingredients": {"crab_meat": 110, "shallots_tomato": 45, "black_pepper_spices": 10, "oil": 8},
+            "nutrition": {"calories_kcal": 210, "protein_g": 24.5, "carbs_g": 7.5, "fat_g": 8.8, "fiber_g": 1.8},
+            "note": "Chettinad home cold-cure recipe heavy on crushed black pepper."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~240g)",
+            "total_weight_g": 240,
+            "ingredients": {"crab_meat": 130, "shallots_tomato": 65, "coconut_paste": 25, "oil": 16},
+            "nutrition": {"calories_kcal": 310, "protein_g": 28.0, "carbs_g": 12.0, "fat_g": 16.5, "fiber_g": 2.5},
+            "note": "Hotel seafood thalavazhi gravy with coconut paste and oil."
+        },
+        "adjustable_keys": ["crab_meat", "oil"]
+    },
+    "Nei satham": {
+        "food_id": 15,
+        "regional_name": "நெய் சாதம் / Ghee Rice",
+        "home": {
+            "portion_desc": "1 plate (~170g)",
+            "total_weight_g": 170,
+            "ingredients": {"cooked_rice": 135, "cow_ghee": 12, "cashews": 8, "spices": 3},
+            "nutrition": {"calories_kcal": 310, "protein_g": 4.8, "carbs_g": 46.0, "fat_g": 11.5, "fiber_g": 1.2},
+            "note": "Made at home with pure cow ghee and fragrant Jeera samba rice."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~230g Kuska/Ghee rice)",
+            "total_weight_g": 230,
+            "ingredients": {"cooked_rice": 170, "commercial_ghee": 24, "cashews": 15, "fried_onions": 15},
+            "nutrition": {"calories_kcal": 470, "protein_g": 6.8, "carbs_g": 59.0, "fat_g": 22.0, "fiber_g": 1.8},
+            "note": "Wedding / hotel banquet style topped with deep fried onions & fried cashews."
+        },
+        "adjustable_keys": ["cooked_rice", "cow_ghee", "cashews"]
+    },
+    "Paal kolukattai": {
+        "food_id": 16,
+        "regional_name": "பால் கொழுக்கட்டை",
+        "home": {
+            "portion_desc": "1 bowl (~150g)",
+            "total_weight_g": 150,
+            "ingredients": {"rice_flour_dumplings": 70, "milk_coconut_milk": 50, "jaggery": 25},
+            "nutrition": {"calories_kcal": 240, "protein_g": 4.2, "carbs_g": 46.0, "fat_g": 4.5, "fiber_g": 1.6},
+            "note": "Home sweet dish sweetened with unrefined jaggery."
+        },
+        "hotel": {
+            "portion_desc": "1 bowl (~190g)",
+            "total_weight_g": 190,
+            "ingredients": {"rice_flour_dumplings": 80, "thick_coconut_cream": 70, "sugar_jaggery": 38},
+            "nutrition": {"calories_kcal": 340, "protein_g": 5.2, "carbs_g": 58.0, "fat_g": 10.5, "fiber_g": 2.0},
+            "note": "Restaurant dessert enriched with thick coconut cream."
+        },
+        "adjustable_keys": ["rice_flour_dumplings", "jaggery"]
+    },
+    "Paneer briyani": {
+        "food_id": 17,
+        "regional_name": "பன்னீர் பிரியாணி",
+        "home": {
+            "portion_desc": "1 plate (~270g)",
+            "total_weight_g": 270,
+            "ingredients": {"cooked_rice": 120, "paneer_cubes": 70, "onion_tomato": 40, "ghee_oil": 10},
+            "nutrition": {"calories_kcal": 420, "protein_g": 16.5, "carbs_g": 56.0, "fat_g": 14.5, "fiber_g": 3.2},
+            "note": "Home vegetarian protein biryani with fresh paneer."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~360g)",
+            "total_weight_g": 360,
+            "ingredients": {"cooked_rice": 160, "fried_paneer": 100, "onion_tomato": 50, "ghee_oil": 24},
+            "nutrition": {"calories_kcal": 610, "protein_g": 21.0, "carbs_g": 72.0, "fat_g": 26.5, "fiber_g": 4.2},
+            "note": "Restaurant style with deep-fried paneer cubes and extra butter."
+        },
+        "adjustable_keys": ["cooked_rice", "paneer_cubes", "ghee_oil"]
+    },
+    "Panner masala": {
+        "food_id": 18,
+        "regional_name": "பன்னீர் மசாலா",
+        "home": {
+            "portion_desc": "1 cup (~180g)",
+            "total_weight_g": 180,
+            "ingredients": {"paneer_cubes": 90, "onion_tomato_gravy": 70, "butter_oil": 8, "cashews": 8},
+            "nutrition": {"calories_kcal": 280, "protein_g": 14.2, "carbs_g": 11.5, "fat_g": 19.5, "fiber_g": 2.5},
+            "note": "Light home curry cooked with milk rather than heavy cream."
+        },
+        "hotel": {
+            "portion_desc": "1 bowl (~240g Paneer Butter Masala)",
+            "total_weight_g": 240,
+            "ingredients": {"paneer_cubes": 110, "rich_makhani_gravy": 80, "butter": 20, "fresh_cream": 20},
+            "nutrition": {"calories_kcal": 450, "protein_g": 17.5, "carbs_g": 16.0, "fat_g": 34.0, "fiber_g": 3.2},
+            "note": "Restaurant Paneer Butter Masala laden with butter, cream, and cashew paste."
+        },
+        "adjustable_keys": ["paneer_cubes", "butter_oil"]
+    },
+    "Parupu vada": {
+        "food_id": 19,
+        "regional_name": "பருப்பு வடை / Masala Vadai",
+        "home": {
+            "portion_desc": "2 pieces (~70g)",
+            "total_weight_g": 70,
+            "ingredients": {"chana_dal_coarse": 45, "onion_chillies": 15, "oil_absorbed": 7},
+            "nutrition": {"calories_kcal": 175, "protein_g": 6.8, "carbs_g": 22.0, "fat_g": 7.2, "fiber_g": 4.2},
+            "note": "Home tea-time snack fried in fresh single-use oil."
+        },
+        "hotel": {
+            "portion_desc": "2 larger pieces (~90g)",
+            "total_weight_g": 90,
+            "ingredients": {"chana_dal_coarse": 55, "onion_chillies": 20, "oil_absorbed": 13},
+            "nutrition": {"calories_kcal": 240, "protein_g": 7.8, "carbs_g": 26.5, "fat_g": 12.5, "fiber_g": 4.8},
+            "note": "Tea shop style crunchy exterior with higher oil absorption."
+        },
+        "adjustable_keys": ["chana_dal_coarse", "onion_chillies"]
+    },
+    "Pidi kolukattai": {
+        "food_id": 20,
+        "regional_name": "பிடி கொழுக்கட்டை",
+        "home": {
+            "portion_desc": "3 dumplings (~110g)",
+            "total_weight_g": 110,
+            "ingredients": {"rice_flour": 65, "jaggery": 30, "coconut": 10, "ghee": 2},
+            "nutrition": {"calories_kcal": 210, "protein_g": 3.0, "carbs_g": 44.0, "fat_g": 2.2, "fiber_g": 2.2},
+            "note": "Pure steamed dumplings with unrefined country jaggery."
+        },
+        "hotel": {
+            "portion_desc": "3 pieces (~130g sweet box item)",
+            "total_weight_g": 130,
+            "ingredients": {"rice_flour": 75, "jaggery": 40, "coconut": 15, "ghee": 6},
+            "nutrition": {"calories_kcal": 280, "protein_g": 3.6, "carbs_g": 52.0, "fat_g": 6.5, "fiber_g": 2.5},
+            "note": "Festival sweet stall style with richer ghee flavor."
+        },
+        "adjustable_keys": ["rice_flour", "jaggery", "coconut"]
+    },
+    "Poorna kolukattai": {
+        "food_id": 21,
+        "regional_name": "பூரண கொழுக்கட்டை / Modak",
+        "home": {
+            "portion_desc": "2 pieces (~90g)",
+            "total_weight_g": 90,
+            "ingredients": {"rice_flour_dough": 50, "coconut_jaggery_poornam": 35, "ghee": 2},
+            "nutrition": {"calories_kcal": 195, "protein_g": 2.8, "carbs_g": 39.0, "fat_g": 3.5, "fiber_g": 2.0},
+            "note": "Traditional Vinayagar Chaturthi steamed sweet modak."
+        },
+        "hotel": {
+            "portion_desc": "2 large pieces (~120g)",
+            "total_weight_g": 120,
+            "ingredients": {"rice_flour_dough": 60, "coconut_jaggery_poornam": 50, "ghee": 6},
+            "nutrition": {"calories_kcal": 270, "protein_g": 3.5, "carbs_g": 51.0, "fat_g": 6.0, "fiber_g": 2.5},
+            "note": "Commercial sweet stall preparation with sweet jaggery syrup."
+        },
+        "adjustable_keys": ["rice_flour_dough", "coconut_jaggery_poornam"]
+    },
+    "Prawn thokku": {
+        "food_id": 22,
+        "regional_name": "இறால் தொக்கு",
+        "home": {
+            "portion_desc": "1 cup (~160g)",
+            "total_weight_g": 160,
+            "ingredients": {"cleaned_prawns": 100, "shallots_tomato": 45, "oil": 8, "masala": 5},
+            "nutrition": {"calories_kcal": 190, "protein_g": 22.0, "carbs_g": 6.8, "fat_g": 8.5, "fiber_g": 1.6},
+            "note": "Home seafood fry cooked in cold-pressed sesame oil."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~210g)",
+            "total_weight_g": 210,
+            "ingredients": {"cleaned_prawns": 120, "shallots_tomato": 65, "oil": 18, "masala": 8},
+            "nutrition": {"calories_kcal": 285, "protein_g": 26.5, "carbs_g": 10.0, "fat_g": 16.0, "fiber_g": 2.2},
+            "note": "Chettinad restaurant thokku with high oil content."
+        },
+        "adjustable_keys": ["cleaned_prawns", "oil"]
+    },
+    "Puthina Chutney": {
+        "food_id": 23,
+        "regional_name": "புதினா சட்னி",
+        "home": {
+            "portion_desc": "3 tbsp (~45g)",
+            "total_weight_g": 45,
+            "ingredients": {"mint_coriander": 25, "fresh_coconut": 10, "urad_dal_roasted": 5, "oil": 3},
+            "nutrition": {"calories_kcal": 45, "protein_g": 1.2, "carbs_g": 4.2, "fat_g": 2.5, "fiber_g": 1.6},
+            "note": "Fresh herb dominant home digestive chutney."
+        },
+        "hotel": {
+            "portion_desc": "1 cup serving (~65g)",
+            "total_weight_g": 65,
+            "ingredients": {"mint_coriander": 20, "fresh_coconut": 25, "urad_dal_roasted": 10, "oil": 7},
+            "nutrition": {"calories_kcal": 95, "protein_g": 1.9, "carbs_g": 6.5, "fat_g": 6.8, "fiber_g": 2.2},
+            "note": "Hotel tiffin chutney with higher coconut for volume."
+        },
+        "adjustable_keys": ["mint_coriander", "fresh_coconut"]
+    },
+    "Sambar": {
+        "food_id": 24,
+        "regional_name": "சாம்பார்",
+        "home": {
+            "portion_desc": "1 cup (~180ml)",
+            "total_weight_g": 180,
+            "ingredients": {"toor_dal_cooked": 35, "vegetables_drumstick_carrot": 70, "tamarind_pulp": 15, "oil_tempering": 3},
+            "nutrition": {"calories_kcal": 115, "protein_g": 5.8, "carbs_g": 18.0, "fat_g": 2.4, "fiber_g": 4.8},
+            "note": "Vegetable-loaded home stew with fresh hand-pounded sambar powder."
+        },
+        "hotel": {
+            "portion_desc": "1 bowl (~220ml hotel tiffin sambar)",
+            "total_weight_g": 220,
+            "ingredients": {"toor_dal_cooked": 40, "shallots_potato": 60, "jaggery_sugar": 5, "oil_ghee_tadka": 10},
+            "nutrition": {"calories_kcal": 175, "protein_g": 6.8, "carbs_g": 25.0, "fat_g": 6.0, "fiber_g": 5.2},
+            "note": "Saravana Bhavan style hotel sambar, slightly sweet and thickened with dal paste."
+        },
+        "adjustable_keys": ["toor_dal_cooked", "vegetables_drumstick_carrot", "oil_tempering"]
+    },
+    "Sambar satham": {
+        "food_id": 25,
+        "regional_name": "சாம்பார் சாதம்",
+        "home": {
+            "portion_desc": "1 plate (~240g)",
+            "total_weight_g": 240,
+            "ingredients": {"cooked_rice": 120, "toor_dal": 45, "vegetables": 55, "ghee": 6},
+            "nutrition": {"calories_kcal": 310, "protein_g": 8.8, "carbs_g": 54.0, "fat_g": 5.5, "fiber_g": 5.8},
+            "note": "Comforting one-pot home meal with generous vegetables."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~320g Bisi Bele Bath / Sambar Rice)",
+            "total_weight_g": 320,
+            "ingredients": {"cooked_rice": 160, "toor_dal": 55, "vegetables": 60, "pure_ghee": 18},
+            "nutrition": {"calories_kcal": 450, "protein_g": 11.5, "carbs_g": 68.0, "fat_g": 15.0, "fiber_g": 7.0},
+            "note": "Restaurant specialty served piping hot with dripping melted ghee."
+        },
+        "adjustable_keys": ["cooked_rice", "toor_dal", "ghee"]
+    },
+    "Satham": {
+        "food_id": 26,
+        "regional_name": "சாதம் / Steamed Rice",
+        "home": {
+            "portion_desc": "1 cup (~140g cooked)",
+            "total_weight_g": 140,
+            "ingredients": {"cooked_rice": 140},
+            "nutrition": {"calories_kcal": 180, "protein_g": 3.8, "carbs_g": 41.0, "fat_g": 0.3, "fiber_g": 0.8},
+            "note": "Home boiled Ponni rice drained of excess starch."
+        },
+        "hotel": {
+            "portion_desc": "1 bowl (~190g unlimited meals scoop)",
+            "total_weight_g": 190,
+            "ingredients": {"cooked_rice": 190},
+            "nutrition": {"calories_kcal": 245, "protein_g": 5.0, "carbs_g": 55.0, "fat_g": 0.5, "fiber_g": 1.1},
+            "note": "Hotel meals cooked in commercial rice steamers."
+        },
+        "adjustable_keys": ["cooked_rice"]
+    },
+    "Thengai chutney": {
+        "food_id": 27,
+        "regional_name": "தேங்காய் சட்னி",
+        "home": {
+            "portion_desc": "3 tbsp (~45g)",
+            "total_weight_g": 45,
+            "ingredients": {"fresh_coconut": 25, "roasted_gram": 10, "chilli_ginger": 4, "oil": 3},
+            "nutrition": {"calories_kcal": 80, "protein_g": 1.8, "carbs_g": 3.8, "fat_g": 6.8, "fiber_g": 2.2},
+            "note": "Home ground fresh with minimal oil tadka."
+        },
+        "hotel": {
+            "portion_desc": "1 cup serving (~65g)",
+            "total_weight_g": 65,
+            "ingredients": {"fresh_coconut": 35, "roasted_gram": 15, "chilli_ginger": 5, "coconut_oil": 8},
+            "nutrition": {"calories_kcal": 135, "protein_g": 2.4, "carbs_g": 5.5, "fat_g": 11.8, "fiber_g": 2.8},
+            "note": "Rich creamy hotel white chutney."
+        },
+        "adjustable_keys": ["fresh_coconut", "roasted_gram"]
+    },
+    "Uzhuntha vadai": {
+        "food_id": 28,
+        "regional_name": "உளுந்த வடை / Medu Vada",
+        "home": {
+            "portion_desc": "2 pieces (~80g)",
+            "total_weight_g": 80,
+            "ingredients": {"urad_dal_batter": 55, "onion_pepper": 12, "oil_absorbed": 9},
+            "nutrition": {"calories_kcal": 210, "protein_g": 7.2, "carbs_g": 23.0, "fat_g": 10.0, "fiber_g": 3.8},
+            "note": "Fried at home in fresh sunflower/groundnut oil."
+        },
+        "hotel": {
+            "portion_desc": "2 large hotel vadas (~110g)",
+            "total_weight_g": 110,
+            "ingredients": {"urad_dal_batter": 75, "onion_pepper": 15, "oil_absorbed": 18},
+            "nutrition": {"calories_kcal": 310, "protein_g": 8.8, "carbs_g": 29.0, "fat_g": 18.0, "fiber_g": 4.5},
+            "note": "Deep fried crispy hotel medu vada with higher oil absorption."
+        },
+        "adjustable_keys": ["urad_dal_batter"]
+    },
+    "Veg briyani": {
+        "food_id": 29,
+        "regional_name": "காய்கறி பிரியாணி",
+        "home": {
+            "portion_desc": "1 plate (~260g)",
+            "total_weight_g": 260,
+            "ingredients": {"cooked_rice": 120, "mixed_veggies_peas": 80, "onion_tomato": 35, "ghee_oil": 10},
+            "nutrition": {"calories_kcal": 350, "protein_g": 7.5, "carbs_g": 58.0, "fat_g": 9.8, "fiber_g": 5.5},
+            "note": "Loaded with carrots, beans and peas with controlled ghee."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~350g)",
+            "total_weight_g": 350,
+            "ingredients": {"cooked_rice": 160, "mixed_veggies_peas": 90, "onion_tomato": 50, "ghee_oil": 24},
+            "nutrition": {"calories_kcal": 490, "protein_g": 9.5, "carbs_g": 74.0, "fat_g": 18.5, "fiber_g": 6.5},
+            "note": "Hotel vegetable dum biryani served with raita and kurma."
+        },
+        "adjustable_keys": ["cooked_rice", "mixed_veggies_peas", "ghee_oil"]
+    },
+    "Ven Pongal": {
+        "food_id": 30,
+        "regional_name": "வெண் பொங்கல்",
+        "home": {
+            "portion_desc": "1 plate (~180g)",
+            "total_weight_g": 180,
+            "ingredients": {"raw_rice": 85, "yellow_moong_dal": 45, "cow_ghee": 12, "cashews_pepper": 10},
+            "nutrition": {"calories_kcal": 305, "protein_g": 7.8, "carbs_g": 44.0, "fat_g": 11.2, "fiber_g": 3.2},
+            "note": "Home comfort breakfast cooked with balanced cow ghee."
+        },
+        "hotel": {
+            "portion_desc": "1 plate (~240g hotel breakfast scoop)",
+            "total_weight_g": 240,
+            "ingredients": {"raw_rice": 110, "yellow_moong_dal": 55, "pure_ghee": 25, "cashews_pepper": 16},
+            "nutrition": {"calories_kcal": 445, "protein_g": 9.8, "carbs_g": 56.0, "fat_g": 20.5, "fiber_g": 4.0},
+            "note": "Classic hotel tiffin pongal drenched in rich melted ghee and fried cashews."
+        },
+        "adjustable_keys": ["raw_rice", "yellow_moong_dal", "cow_ghee"]
+    }
+}
+
+def main():
+    json_path = os.path.join(OUT_DIR, "home_hotel_recipes.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(HOME_HOTEL_DATA, f, indent=2, ensure_ascii=False)
+    print(f"Generated home_hotel_recipes.json ({len(HOME_HOTEL_DATA)} dishes) at: {json_path}")
+
+if __name__ == "__main__":
+    main()
+

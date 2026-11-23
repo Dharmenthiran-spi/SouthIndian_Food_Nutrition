@@ -1,0 +1,848 @@
+{
+  "Appam": {
+    "food_id": 0,
+    "regional_name": "ஆப்பம் / Palappam",
+    "category": "Breakfast / Tiffin",
+    "dietary_type": "Vegetarian",
+    "portion_size": "2 pieces (150g)",
+    "nutrition": {
+      "calories_kcal": 240,
+      "protein_g": 4.2,
+      "carbs_g": 48.0,
+      "fat_g": 3.5,
+      "fiber_g": 1.8
+    },
+    "main_ingredients": [
+      "raw_rice",
+      "parboiled_rice",
+      "coconut_milk",
+      "sugar",
+      "yeast"
+    ],
+    "ingredient_display": "Raw Rice, Parboiled Rice, Fresh Coconut Milk, Sugar, Yeast",
+    "cooking_method": "Fermented & Steamed/Shallow Cooked in Appachatti",
+    "health_benefits": "Gluten-Free, Easily Digestible, Fermented Probiotics, Low Sodium"
+  },
+  "Beetroot poriyal": {
+    "food_id": 1,
+    "regional_name": "பீட்ரூட் பொரியல்",
+    "category": "Side Dish / Poriyal",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "1 cup (150g)",
+    "nutrition": {
+      "calories_kcal": 110,
+      "protein_g": 2.8,
+      "carbs_g": 16.5,
+      "fat_g": 4.2,
+      "fiber_g": 4.5
+    },
+    "main_ingredients": [
+      "beetroot",
+      "coconut",
+      "mustard_seeds",
+      "urad_dal",
+      "green_chilli",
+      "curry_leaves",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Beetroot, Fresh Grated Coconut, Mustard Seeds, Urad Dal, Green Chilli, Curry Leaves, Oil",
+    "cooking_method": "Sautéed with Tempering & Grated Coconut",
+    "health_benefits": "High Dietary Fiber, Rich in Folate & Iron, Lowers Blood Pressure, Antioxidant Betalains"
+  },
+  "Boiled Egg": {
+    "food_id": 2,
+    "regional_name": "அவித்த முட்டை",
+    "category": "Protein Side Dish",
+    "dietary_type": "Non-Vegetarian (Eggetarian)",
+    "portion_size": "1 large egg (50g)",
+    "nutrition": {
+      "calories_kcal": 78,
+      "protein_g": 6.3,
+      "carbs_g": 0.6,
+      "fat_g": 5.3,
+      "fiber_g": 0.0
+    },
+    "main_ingredients": [
+      "egg",
+      "black_pepper"
+    ],
+    "ingredient_display": "Whole Egg, Black Pepper, Salt",
+    "cooking_method": "Hard Boiled",
+    "health_benefits": "Complete High-Quality Protein, Rich in Choline, Vitamin B12, Zero Glycemic Impact"
+  },
+  "Carrot poriyal": {
+    "food_id": 3,
+    "regional_name": "கேரட் பொரியல்",
+    "category": "Side Dish / Poriyal",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "1 cup (150g)",
+    "nutrition": {
+      "calories_kcal": 95,
+      "protein_g": 2.1,
+      "carbs_g": 14.0,
+      "fat_g": 3.8,
+      "fiber_g": 4.0
+    },
+    "main_ingredients": [
+      "carrot",
+      "coconut",
+      "mustard_seeds",
+      "urad_dal",
+      "green_chilli",
+      "curry_leaves",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Carrot, Grated Coconut, Mustard Seeds, Urad Dal, Green Chilli, Curry Leaves, Oil",
+    "cooking_method": "Sautéed with Mustard Tempering & Coconut",
+    "health_benefits": "Rich in Beta-Carotene (Vitamin A), Supports Eye Health, High Fiber, Low Calorie"
+  },
+  "Chicken 65": {
+    "food_id": 4,
+    "regional_name": "சிக்கன் 65",
+    "category": "Appetizer / Starter",
+    "dietary_type": "Non-Vegetarian",
+    "portion_size": "1 serving (150g)",
+    "nutrition": {
+      "calories_kcal": 340,
+      "protein_g": 28.5,
+      "carbs_g": 8.2,
+      "fat_g": 21.0,
+      "fiber_g": 1.2
+    },
+    "main_ingredients": [
+      "chicken",
+      "ginger",
+      "garlic",
+      "curd",
+      "red_chilli_powder",
+      "corn_flour",
+      "curry_leaves",
+      "lemon_juice",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Boneless Chicken, Ginger, Garlic, Curd, Kashmiri Red Chilli, Corn Flour, Curry Leaves, Lemon Juice",
+    "cooking_method": "Marinated & Deep Fried",
+    "health_benefits": "High Muscle-Building Protein, Rich in Niacin, Vitamin B6, Highly Satiating"
+  },
+  "Chicken briyani": {
+    "food_id": 5,
+    "regional_name": "சிக்கன் பிரியாணி / Dindigul Chicken Biryani",
+    "category": "Main Course",
+    "dietary_type": "Non-Vegetarian",
+    "portion_size": "1 plate (350g)",
+    "nutrition": {
+      "calories_kcal": 560,
+      "protein_g": 32.0,
+      "carbs_g": 68.0,
+      "fat_g": 18.5,
+      "fiber_g": 3.5
+    },
+    "main_ingredients": [
+      "seeraga_samba_rice",
+      "chicken",
+      "onion",
+      "tomato",
+      "curd",
+      "ginger",
+      "garlic",
+      "mint_leaves",
+      "coriander_leaves",
+      "green_chilli",
+      "cinnamon",
+      "clove",
+      "cardamom",
+      "ghee",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Seeraga Samba Rice, Tender Chicken, Onion, Tomato, Curd, Ginger-Garlic Paste, Mint, Coriander, Spices, Ghee",
+    "cooking_method": "Dum Cooking (Slow Steam Infusion)",
+    "health_benefits": "Balanced Macronutrient Profile, Rich in Lean Protein, Energy-Dense, Antioxidant Spices"
+  },
+  "Dosa": {
+    "food_id": 6,
+    "regional_name": "தோசை / Plain Dosa",
+    "category": "Breakfast / Tiffin",
+    "dietary_type": "Vegetarian",
+    "portion_size": "2 plain dosas (160g)",
+    "nutrition": {
+      "calories_kcal": 265,
+      "protein_g": 6.8,
+      "carbs_g": 45.2,
+      "fat_g": 6.5,
+      "fiber_g": 2.6
+    },
+    "main_ingredients": [
+      "parboiled_rice",
+      "raw_rice",
+      "urad_dal",
+      "fenugreek",
+      "sesame_oil"
+    ],
+    "ingredient_display": "Parboiled Rice, Raw Rice, Urad Dal, Fenugreek Seeds, Gingelly / Sesame Oil",
+    "cooking_method": "Fermented Batter Griddled on Tawa",
+    "health_benefits": "Fermented Probiotic Food, Gut Microbiome Support, Moderate Glycemic Index, Gluten-Free"
+  },
+  "Idly": {
+    "food_id": 7,
+    "regional_name": "இட்லி / Steamed Idli",
+    "category": "Breakfast / Tiffin",
+    "dietary_type": "Vegetarian",
+    "portion_size": "2 pieces (120g)",
+    "nutrition": {
+      "calories_kcal": 130,
+      "protein_g": 4.2,
+      "carbs_g": 26.5,
+      "fat_g": 0.4,
+      "fiber_g": 1.6
+    },
+    "main_ingredients": [
+      "idli_rice",
+      "urad_dal",
+      "fenugreek"
+    ],
+    "ingredient_display": "Idli Rice (Parboiled), Whole White Urad Dal, Fenugreek Seeds",
+    "cooking_method": "Steam Cooked (Zero Oil)",
+    "health_benefits": "Zero Added Oil, Steamed & Heart-Healthy, Easily Digestible, Probiotic Gut Benefits"
+  },
+  "Kaara chutney": {
+    "food_id": 8,
+    "regional_name": "கார சட்னி / Spicy Red Chutney",
+    "category": "Accompaniment / Chutney",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "3 tablespoons (50g)",
+    "nutrition": {
+      "calories_kcal": 65,
+      "protein_g": 1.2,
+      "carbs_g": 7.5,
+      "fat_g": 3.6,
+      "fiber_g": 1.4
+    },
+    "main_ingredients": [
+      "tomato",
+      "onion",
+      "red_chilli",
+      "garlic",
+      "tamarind",
+      "mustard_seeds",
+      "curry_leaves",
+      "sesame_oil"
+    ],
+    "ingredient_display": "Ripe Tomato, Onion, Dried Red Chilli, Garlic, Tamarind, Mustard Seeds, Curry Leaves, Gingelly Oil",
+    "cooking_method": "Sautéed and Ground",
+    "health_benefits": "Rich in Lycopene & Allicin, Metabolism Boosting, Digestive Aid"
+  },
+  "Kali": {
+    "food_id": 9,
+    "regional_name": "உளுந்தங்களி / Ulundhu Kali",
+    "category": "Traditional Health Food",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 cup (150g)",
+    "nutrition": {
+      "calories_kcal": 320,
+      "protein_g": 8.5,
+      "carbs_g": 58.0,
+      "fat_g": 7.2,
+      "fiber_g": 5.8
+    },
+    "main_ingredients": [
+      "black_urad_dal",
+      "rice",
+      "jaggery",
+      "sesame_oil",
+      "cardamom"
+    ],
+    "ingredient_display": "Whole Black Urad Dal, Raw Rice, Organic Jaggery, Cold-Pressed Gingelly Oil, Cardamom",
+    "cooking_method": "Slow Cooked Porridge with Sesame Oil",
+    "health_benefits": "Strengthens Bones & Spine, High Iron & Calcium, Restores Postpartum Energy"
+  },
+  "Koozh": {
+    "food_id": 10,
+    "regional_name": "கேழ்வரகு கூழ் / Keppai Koozh",
+    "category": "Traditional Summer Beverage / Breakfast",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 bowl (250ml)",
+    "nutrition": {
+      "calories_kcal": 180,
+      "protein_g": 5.5,
+      "carbs_g": 34.0,
+      "fat_g": 2.5,
+      "fiber_g": 4.8
+    },
+    "main_ingredients": [
+      "ragi",
+      "rice",
+      "buttermilk",
+      "shallots",
+      "green_chilli",
+      "curry_leaves"
+    ],
+    "ingredient_display": "Finger Millet (Ragi), Broken Rice, Fermented Sour Buttermilk, Small Onions, Green Chilli",
+    "cooking_method": "Fermented Ragi Porridge with Buttermilk",
+    "health_benefits": "Natural Body Coolant, Extremely High Calcium, Probiotic Gut Immunity, Low Glycemic Index"
+  },
+  "Lemon Rice": {
+    "food_id": 11,
+    "regional_name": "எலுமிச்சை சாதம் / Chitranna",
+    "category": "Variety Rice",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "1 plate (200g)",
+    "nutrition": {
+      "calories_kcal": 310,
+      "protein_g": 6.2,
+      "carbs_g": 52.0,
+      "fat_g": 8.8,
+      "fiber_g": 2.8
+    },
+    "main_ingredients": [
+      "rice",
+      "lemon_juice",
+      "peanuts",
+      "turmeric",
+      "mustard_seeds",
+      "green_chilli",
+      "curry_leaves",
+      "ginger",
+      "chana_dal",
+      "urad_dal",
+      "asafoetida",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Cooked Rice, Fresh Lemon Juice, Roasted Peanuts, Turmeric, Mustard, Green Chilli, Curry Leaves, Lentils",
+    "cooking_method": "Tossed Cooked Rice with Lemon Tempering",
+    "health_benefits": "Rich in Vitamin C, Anti-inflammatory Curcumin, Satiating Healthy Fats from Peanuts"
+  },
+  "Mushroom briyani": {
+    "food_id": 12,
+    "regional_name": "காளான் பிரியாணி",
+    "category": "Main Course",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 plate (320g)",
+    "nutrition": {
+      "calories_kcal": 430,
+      "protein_g": 11.5,
+      "carbs_g": 69.0,
+      "fat_g": 12.0,
+      "fiber_g": 5.2
+    },
+    "main_ingredients": [
+      "seeraga_samba_rice",
+      "mushroom",
+      "onion",
+      "tomato",
+      "curd",
+      "mint_leaves",
+      "coriander_leaves",
+      "ginger",
+      "garlic",
+      "cinnamon",
+      "clove",
+      "cardamom",
+      "ghee",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Seeraga Samba Rice, Fresh Button Mushrooms, Onion, Tomato, Curd, Mint, Coriander, Spices, Ghee",
+    "cooking_method": "Dum Cooked Rice with Spiced Mushrooms",
+    "health_benefits": "Rich in Selenium & Ergothioneine Antioxidants, Vitamin D, Good Source of Plant Protein"
+  },
+  "Mutton Briyani": {
+    "food_id": 13,
+    "regional_name": "மட்டன் பிரியாணி / Chettinad Mutton Biryani",
+    "category": "Main Course",
+    "dietary_type": "Non-Vegetarian",
+    "portion_size": "1 plate (350g)",
+    "nutrition": {
+      "calories_kcal": 620,
+      "protein_g": 36.0,
+      "carbs_g": 65.0,
+      "fat_g": 24.5,
+      "fiber_g": 3.2
+    },
+    "main_ingredients": [
+      "seeraga_samba_rice",
+      "mutton",
+      "onion",
+      "tomato",
+      "curd",
+      "ginger",
+      "garlic",
+      "mint_leaves",
+      "coriander_leaves",
+      "cinnamon",
+      "clove",
+      "cardamom",
+      "ghee"
+    ],
+    "ingredient_display": "Seeraga Samba Rice, Goat Meat (Mutton), Onion, Tomato, Curd, Ginger-Garlic Paste, Mint, Spices, Pure Ghee",
+    "cooking_method": "Dum Cooked Aromatic Rice with Tender Goat Meat",
+    "health_benefits": "High Bioavailable Heme Iron, Zinc, Vitamin B12, High Muscle Protein"
+  },
+  "Nandu masala": {
+    "food_id": 14,
+    "regional_name": "நண்டு மசாலா / Chettinad Crab Curry",
+    "category": "Seafood Main Dish",
+    "dietary_type": "Non-Vegetarian",
+    "portion_size": "1 serving (200g)",
+    "nutrition": {
+      "calories_kcal": 240,
+      "protein_g": 26.0,
+      "carbs_g": 9.5,
+      "fat_g": 11.0,
+      "fiber_g": 2.2
+    },
+    "main_ingredients": [
+      "crab",
+      "shallots",
+      "tomato",
+      "ginger",
+      "garlic",
+      "black_pepper",
+      "fennel_seeds",
+      "coriander_seeds",
+      "turmeric",
+      "curry_leaves",
+      "coconut_oil"
+    ],
+    "ingredient_display": "Fresh Sea Crab, Small Onions, Tomato, Ginger, Garlic, Fresh Ground Black Pepper, Fennel, Curry Leaves, Coconut Oil",
+    "cooking_method": "Simmered in Peppery Chettinad Gravy",
+    "health_benefits": "Rich in Omega-3 Fatty Acids, Excellent Cold & Respiratory Relief, Lean Protein"
+  },
+  "Nei satham": {
+    "food_id": 15,
+    "regional_name": "நெய் சாதம் / Ghee Rice",
+    "category": "Special Rice",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 plate (200g)",
+    "nutrition": {
+      "calories_kcal": 380,
+      "protein_g": 5.8,
+      "carbs_g": 53.0,
+      "fat_g": 16.0,
+      "fiber_g": 1.5
+    },
+    "main_ingredients": [
+      "rice",
+      "ghee",
+      "cashew_nuts",
+      "cumin_seeds",
+      "black_pepper",
+      "curry_leaves"
+    ],
+    "ingredient_display": "Ponni Rice, Pure Cow Ghee, Roasted Cashews, Cumin Seeds, Whole Black Pepper, Curry Leaves",
+    "cooking_method": "Tempered Rice Cooked in Cow Ghee",
+    "health_benefits": "Butyric Acid for Gut Lining, Fat-Soluble Vitamin Absorption, High Quick Energy"
+  },
+  "Paal kolukattai": {
+    "food_id": 16,
+    "regional_name": "பால் கொழுக்கட்டை",
+    "category": "Traditional Dessert",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 bowl (180g)",
+    "nutrition": {
+      "calories_kcal": 290,
+      "protein_g": 4.8,
+      "carbs_g": 52.0,
+      "fat_g": 8.0,
+      "fiber_g": 2.0
+    },
+    "main_ingredients": [
+      "rice_flour",
+      "coconut_milk",
+      "milk",
+      "jaggery",
+      "cardamom"
+    ],
+    "ingredient_display": "Rice Flour Dumplings, Thick Coconut Milk, Cow Milk, Jaggery, Cardamom Powder",
+    "cooking_method": "Steamed Rice Dumplings Simmered in Sweet Coconut Milk",
+    "health_benefits": "Gluten-Free, Unrefined Natural Sweetener (Jaggery), Lauric Acid from Coconut Milk"
+  },
+  "Paneer briyani": {
+    "food_id": 17,
+    "regional_name": "பன்னீர் பிரியாணி",
+    "category": "Main Course",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 plate (330g)",
+    "nutrition": {
+      "calories_kcal": 510,
+      "protein_g": 18.5,
+      "carbs_g": 66.0,
+      "fat_g": 19.5,
+      "fiber_g": 4.0
+    },
+    "main_ingredients": [
+      "seeraga_samba_rice",
+      "paneer",
+      "onion",
+      "tomato",
+      "curd",
+      "mint_leaves",
+      "coriander_leaves",
+      "ginger",
+      "garlic",
+      "cinnamon",
+      "clove",
+      "cardamom",
+      "ghee"
+    ],
+    "ingredient_display": "Seeraga Samba Rice, Fresh Cottage Cheese (Paneer), Onion, Tomato, Curd, Mint, Coriander, Spices, Ghee",
+    "cooking_method": "Dum Cooked Rice with Spiced Cottage Cheese",
+    "health_benefits": "Excellent Vegetarian Protein & Calcium, Sustained Satiety, Wholesome Meal"
+  },
+  "Panner masala": {
+    "food_id": 18,
+    "regional_name": "பன்னீர் மசாலா / Paneer Butter Masala",
+    "category": "Curry / Gravy",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 cup (200g)",
+    "nutrition": {
+      "calories_kcal": 360,
+      "protein_g": 15.0,
+      "carbs_g": 14.0,
+      "fat_g": 27.0,
+      "fiber_g": 3.2
+    },
+    "main_ingredients": [
+      "paneer",
+      "onion",
+      "tomato",
+      "ginger",
+      "garlic",
+      "cashew_nuts",
+      "butter",
+      "garam_masala"
+    ],
+    "ingredient_display": "Paneer Cubes, Onion, Ripe Tomatoes, Ginger, Garlic, Cashew Paste, Butter, Garam Masala",
+    "cooking_method": "Simmered in Rich Tomato-Cashew Gravy",
+    "health_benefits": "High Calcium for Bone Density, Quality Dairy Protein, Rich Satiating Fats"
+  },
+  "Parupu vada": {
+    "food_id": 19,
+    "regional_name": "பருப்பு வடை / Masala Vadai",
+    "category": "Snack",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "2 pieces (80g)",
+    "nutrition": {
+      "calories_kcal": 210,
+      "protein_g": 7.2,
+      "carbs_g": 24.5,
+      "fat_g": 9.8,
+      "fiber_g": 4.8
+    },
+    "main_ingredients": [
+      "chana_dal",
+      "onion",
+      "green_chilli",
+      "ginger",
+      "fennel_seeds",
+      "curry_leaves",
+      "coriander_leaves",
+      "asafoetida",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Coarse Chana Dal (Bengal Gram), Chopped Onion, Green Chilli, Ginger, Fennel, Curry Leaves, Oil",
+    "cooking_method": "Coarsely Ground Bengal Gram Deep Fried",
+    "health_benefits": "High Dietary Fiber & Plant Protein, Low Glycemic Index Pulse, Crispy Tea-Time Snack"
+  },
+  "Pidi kolukattai": {
+    "food_id": 20,
+    "regional_name": "பிடி கொழுக்கட்டை / Uppu & Vellam Kolukattai",
+    "category": "Traditional Snack",
+    "dietary_type": "Vegetarian",
+    "portion_size": "3 dumplings (120g)",
+    "nutrition": {
+      "calories_kcal": 220,
+      "protein_g": 3.2,
+      "carbs_g": 46.0,
+      "fat_g": 3.5,
+      "fiber_g": 2.5
+    },
+    "main_ingredients": [
+      "rice_flour",
+      "jaggery",
+      "coconut",
+      "cardamom",
+      "ghee"
+    ],
+    "ingredient_display": "Rice Flour, Jaggery, Fresh Grated Coconut, Cardamom Powder, Touch of Ghee",
+    "cooking_method": "Hand Pressed & Steamed",
+    "health_benefits": "Steam Cooked with Minimal Fat, Clean Fuel from Natural Jaggery, Gluten-Free"
+  },
+  "Poorna kolukattai": {
+    "food_id": 21,
+    "regional_name": "பூரண கொழுக்கட்டை / Modak",
+    "category": "Festive Sweet",
+    "dietary_type": "Vegetarian",
+    "portion_size": "2 pieces (100g)",
+    "nutrition": {
+      "calories_kcal": 215,
+      "protein_g": 3.0,
+      "carbs_g": 42.5,
+      "fat_g": 4.2,
+      "fiber_g": 2.2
+    },
+    "main_ingredients": [
+      "rice_flour",
+      "coconut",
+      "jaggery",
+      "cardamom",
+      "ghee"
+    ],
+    "ingredient_display": "Steamed Rice Flour Casing, Sweet Filling of Coconut, Jaggery & Cardamom",
+    "cooking_method": "Steamed Rice Dumpling with Sweet Coconut-Jaggery Stuffing",
+    "health_benefits": "Steamed, No Trans Fats, Natural Mineral-Rich Jaggery, Low Sodium"
+  },
+  "Prawn thokku": {
+    "food_id": 22,
+    "regional_name": "இறால் தொக்கு / Chettinad Prawn Masala",
+    "category": "Seafood Main Dish",
+    "dietary_type": "Non-Vegetarian",
+    "portion_size": "1 cup (180g)",
+    "nutrition": {
+      "calories_kcal": 225,
+      "protein_g": 24.5,
+      "carbs_g": 8.0,
+      "fat_g": 10.5,
+      "fiber_g": 2.0
+    },
+    "main_ingredients": [
+      "prawns",
+      "shallots",
+      "tomato",
+      "ginger",
+      "garlic",
+      "red_chilli",
+      "turmeric",
+      "curry_leaves",
+      "fennel_seeds",
+      "mustard_seeds",
+      "sesame_oil"
+    ],
+    "ingredient_display": "Fresh Prawns / Shrimp, Shallots, Tomato, Ginger, Garlic, Red Chilli, Curry Leaves, Fennel, Gingelly Oil",
+    "cooking_method": "Thick Sautéed Seafood Gravy",
+    "health_benefits": "Lean Protein, Rich in Selenium, Iodine & Astaxanthin Antioxidant, Low Carbohydrates"
+  },
+  "Puthina Chutney": {
+    "food_id": 23,
+    "regional_name": "புதினா சட்னி / Mint Chutney",
+    "category": "Accompaniment / Chutney",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "3 tablespoons (50g)",
+    "nutrition": {
+      "calories_kcal": 55,
+      "protein_g": 1.5,
+      "carbs_g": 5.0,
+      "fat_g": 3.2,
+      "fiber_g": 1.8
+    },
+    "main_ingredients": [
+      "mint_leaves",
+      "coriander_leaves",
+      "coconut",
+      "green_chilli",
+      "ginger",
+      "tamarind",
+      "urad_dal"
+    ],
+    "ingredient_display": "Fresh Mint Leaves, Coriander Leaves, Grated Coconut, Green Chilli, Ginger, Tamarind, Urad Dal",
+    "cooking_method": "Sautéed Fresh Herbs & Ground",
+    "health_benefits": "Potent Digestive Aid (Menthol), Cleanses Palate, Rich in Chlorophyll & Vitamin C"
+  },
+  "Sambar": {
+    "food_id": 24,
+    "regional_name": "சாம்பார் / South Indian Sambar",
+    "category": "Lentil Stew / Curry",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "1 cup (200ml)",
+    "nutrition": {
+      "calories_kcal": 135,
+      "protein_g": 6.5,
+      "carbs_g": 21.0,
+      "fat_g": 3.0,
+      "fiber_g": 5.2
+    },
+    "main_ingredients": [
+      "toor_dal",
+      "tamarind",
+      "shallots",
+      "tomato",
+      "drumstick",
+      "carrot",
+      "sambar_powder",
+      "turmeric",
+      "mustard_seeds",
+      "curry_leaves",
+      "asafoetida",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Toor Dal, Tamarind Pulp, Shallots, Tomato, Drumstick, Carrot, Sambar Powder, Mustard, Curry Leaves, Hing",
+    "cooking_method": "Boiled Lentils & Veggies Stewed in Tamarind Broth with Tempering",
+    "health_benefits": "Complete Plant Protein & Fiber, Digestive Spices (Hing/Turmeric), Nutrient-Dense Vegetables"
+  },
+  "Sambar satham": {
+    "food_id": 25,
+    "regional_name": "சாம்பார் சாதம் / Sambar Sadam",
+    "category": "One-Pot Meal",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 plate (250g)",
+    "nutrition": {
+      "calories_kcal": 340,
+      "protein_g": 9.8,
+      "carbs_g": 58.0,
+      "fat_g": 7.5,
+      "fiber_g": 6.5
+    },
+    "main_ingredients": [
+      "rice",
+      "toor_dal",
+      "shallots",
+      "tomato",
+      "drumstick",
+      "carrot",
+      "tamarind",
+      "sambar_powder",
+      "ghee",
+      "mustard_seeds",
+      "curry_leaves",
+      "asafoetida"
+    ],
+    "ingredient_display": "Ponni Rice, Toor Dal, Shallots, Tomato, Drumstick, Tamarind, Sambar Spices, Tempering, Cow Ghee",
+    "cooking_method": "One-Pot Pressure Cooked Rice & Lentil Stew with Ghee",
+    "health_benefits": "Complete Cereal + Pulse Protein Complementarity, High Satiety, Wholesome Comfort Food"
+  },
+  "Satham": {
+    "food_id": 26,
+    "regional_name": "சாதம் / Steamed Rice",
+    "category": "Staple Grain",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "1 cup cooked (150g)",
+    "nutrition": {
+      "calories_kcal": 195,
+      "protein_g": 4.0,
+      "carbs_g": 44.0,
+      "fat_g": 0.4,
+      "fiber_g": 0.8
+    },
+    "main_ingredients": [
+      "rice"
+    ],
+    "ingredient_display": "Steamed South Indian Ponni / Sona Masuri Rice",
+    "cooking_method": "Boiled / Steamed in Water",
+    "health_benefits": "Easily Digestible Carbohydrate, Zero Cholesterol, Low Sodium, Primary South Indian Energy Staple"
+  },
+  "Thengai chutney": {
+    "food_id": 27,
+    "regional_name": "தேங்காய் சட்னி / Coconut Chutney",
+    "category": "Accompaniment / Chutney",
+    "dietary_type": "Vegetarian / Vegan",
+    "portion_size": "3 tablespoons (50g)",
+    "nutrition": {
+      "calories_kcal": 90,
+      "protein_g": 1.8,
+      "carbs_g": 4.2,
+      "fat_g": 7.5,
+      "fiber_g": 2.4
+    },
+    "main_ingredients": [
+      "coconut",
+      "roasted_gram",
+      "green_chilli",
+      "ginger",
+      "mustard_seeds",
+      "curry_leaves",
+      "asafoetida",
+      "coconut_oil"
+    ],
+    "ingredient_display": "Fresh Grated Coconut, Roasted Chana Dal (Pottukadala), Green Chilli, Ginger, Mustard Tempering",
+    "cooking_method": "Freshly Ground & Tempered with Mustard & Curry Leaves",
+    "health_benefits": "Medium Chain Triglycerides (MCTs) for Fast Metabolism, Antimicrobial Lauric Acid"
+  },
+  "Uzhuntha vadai": {
+    "food_id": 28,
+    "regional_name": "உளுந்த வடை / Medu Vada",
+    "category": "Snack / Breakfast Side",
+    "dietary_type": "Vegetarian",
+    "portion_size": "2 pieces (90g)",
+    "nutrition": {
+      "calories_kcal": 245,
+      "protein_g": 7.8,
+      "carbs_g": 26.0,
+      "fat_g": 12.5,
+      "fiber_g": 4.2
+    },
+    "main_ingredients": [
+      "urad_dal",
+      "onion",
+      "green_chilli",
+      "black_pepper",
+      "ginger",
+      "curry_leaves",
+      "asafoetida",
+      "vegetable_oil"
+    ],
+    "ingredient_display": "Soaked & Fluffed Urad Dal, Finely Chopped Onion, Black Pepper, Green Chilli, Curry Leaves, Oil",
+    "cooking_method": "Aerated Urad Dal Batter Deep Fried to Golden Crisp",
+    "health_benefits": "High Pulse Protein, Satiating Healthy Snack, Rich in Potassium & Magnesium"
+  },
+  "Veg briyani": {
+    "food_id": 29,
+    "regional_name": "காய்கறி பிரியாணி / Vegetable Biryani",
+    "category": "Main Course",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 plate (320g)",
+    "nutrition": {
+      "calories_kcal": 410,
+      "protein_g": 8.5,
+      "carbs_g": 68.0,
+      "fat_g": 11.5,
+      "fiber_g": 6.2
+    },
+    "main_ingredients": [
+      "seeraga_samba_rice",
+      "carrot",
+      "french_beans",
+      "green_peas",
+      "potato",
+      "onion",
+      "tomato",
+      "ginger",
+      "garlic",
+      "mint_leaves",
+      "coriander_leaves",
+      "curd",
+      "cinnamon",
+      "clove",
+      "cardamom",
+      "ghee"
+    ],
+    "ingredient_display": "Seeraga Samba Rice, Carrots, Beans, Green Peas, Potatoes, Onion, Tomato, Curd, Mint, Biryani Spices, Ghee",
+    "cooking_method": "Dum Cooked Fragrant Rice with Garden Vegetables",
+    "health_benefits": "Fiber Rich, Broad Spectrum Micronutrients (Vitamins A, C, K), Plant-Based Wholesome Meal"
+  },
+  "Ven Pongal": {
+    "food_id": 30,
+    "regional_name": "வெண் பொங்கல் / Khara Pongal",
+    "category": "Breakfast / Tiffin",
+    "dietary_type": "Vegetarian",
+    "portion_size": "1 plate (200g)",
+    "nutrition": {
+      "calories_kcal": 340,
+      "protein_g": 8.2,
+      "carbs_g": 48.0,
+      "fat_g": 13.0,
+      "fiber_g": 3.5
+    },
+    "main_ingredients": [
+      "rice",
+      "moong_dal",
+      "ghee",
+      "cumin_seeds",
+      "black_pepper",
+      "ginger",
+      "curry_leaves",
+      "cashew_nuts",
+      "asafoetida"
+    ],
+    "ingredient_display": "Raw Rice, Split Yellow Moong Dal, Pure Cow Ghee, Black Peppercorns, Cumin Seeds, Ginger, Curry Leaves, Cashews",
+    "cooking_method": "Rice & Moong Dal Cooked Soft and Tempered with Ghee, Pepper & Cumin",
+    "health_benefits": "Ayurvedic Tridoshic Healing Meal, Complete Amino Acids (Rice + Moong), Easy on Sensitive Stomachs"
+  }
+}
