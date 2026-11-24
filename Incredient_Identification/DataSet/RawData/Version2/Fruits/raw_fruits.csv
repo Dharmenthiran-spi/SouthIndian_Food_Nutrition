@@ -1,0 +1,23 @@
+name,tamil,food_state,serving_g,serving_desc,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,source_name,source_id
+Apple,ஆப்பிள்,Raw,150,1 medium apple (150g),78.0,0.4,20.7,0.3,3.6,USDA FoodData Central,FDC_APPLE_RAW
+Banana,வாழைப்பழம்,Raw,120,1 medium banana (120g),107.0,1.3,27.4,0.4,3.1,ICMR-NIN IFCT 2017,IFCT_BANANA_ROBUSTA
+Mango,மாம்பழம்,Raw,150,1 cup sliced mango (150g),90.0,1.2,22.5,0.6,2.4,ICMR-NIN IFCT 2017,IFCT_MANGO_RIPE
+Orange,ஆரஞ்சு,Raw,130,1 medium orange (130g),62.0,1.2,15.4,0.2,3.1,ICMR-NIN IFCT 2017,IFCT_ORANGE_SWEET
+Papaya,பப்பாளி,Raw,150,1 cup diced papaya (150g),63.0,0.7,16.2,0.4,2.6,ICMR-NIN IFCT 2017,IFCT_PAPAYA_RIPE
+Pineapple,அன்னாசி,Raw,150,1 cup pineapple chunks (150g),75.0,0.8,19.5,0.2,2.1,ICMR-NIN IFCT 2017,IFCT_PINEAPPLE_RAW
+Watermelon,தர்பூசணி,Raw,200,1 wedge / bowl (200g),60.0,1.2,15.0,0.3,0.8,ICMR-NIN IFCT 2017,IFCT_WATERMELON_RAW
+Muskmelon,முலாம் பழம்,Raw,200,1 bowl diced muskmelon (200g),68.0,1.6,16.4,0.4,1.8,ICMR-NIN IFCT 2017,IFCT_MUSKMELON_RAW
+Guava,கொய்யா,Raw,100,1 medium country guava (100g),68.0,2.6,14.3,1.0,5.4,ICMR-NIN IFCT 2017,IFCT_GUAVA_WHITE
+Grapes,திராட்சை,Raw,100,1 cup grapes (100g),69.0,0.7,18.1,0.2,0.9,ICMR-NIN IFCT 2017,IFCT_GRAPES_PANEER
+Pomegranate,மாதுளை,Raw,100,1/2 cup arils (100g),83.0,1.7,18.7,1.2,4.0,ICMR-NIN IFCT 2017,IFCT_POMEGRANATE
+Kiwi,கிவி,Raw,75,1 medium kiwi fruit (75g),46.0,0.8,11.1,0.4,2.3,USDA FoodData Central,FDC_KIWI_RAW
+Dragon fruit,டிராகன் பழம்,Raw,100,100g diced dragon fruit,60.0,1.2,13.0,0.0,2.9,USDA FoodData Central,FDC_DRAGON_FRUIT
+Strawberry,ஸ்ட்ராபெர்ரி,Raw,100,1 cup whole strawberries (100g),32.0,0.7,7.7,0.3,2.0,USDA FoodData Central,FDC_STRAWBERRY_RAW
+Blueberry,புளூபெர்ரி,Raw,100,1 cup blueberries (100g),57.0,0.7,14.5,0.3,2.4,USDA FoodData Central,FDC_BLUEBERRY_RAW
+Avocado,வெண்ணெய் பழம்,Raw,100,1/2 medium avocado (100g),160.0,2.0,8.5,14.7,6.7,USDA FoodData Central,FDC_AVOCADO_RAW
+Jackfruit,பலாப்பழம்,Raw,100,4-5 bulbs fresh jackfruit (100g),95.0,1.7,23.2,0.6,1.5,ICMR-NIN IFCT 2017,IFCT_JACKFRUIT_RIPE
+Dates,பேரீச்சம்பழம்,Dried,40,4 dried dates (40g),111.0,1.0,30.0,0.2,3.2,ICMR-NIN IFCT 2017,IFCT_DATES_DRIED
+Fig,அத்திப்பழம்,Fresh/Dried,50,2 dried figs (50g),125.0,1.6,32.0,0.5,4.9,ICMR-NIN IFCT 2017,IFCT_FIGS_DRIED
+Sapota,சப்போட்டா,Raw,100,1 medium sapota / chiku (100g),83.0,0.4,20.0,1.1,5.3,ICMR-NIN IFCT 2017,IFCT_SAPOTA_RAW
+Custard apple,சீத்தாப்பழம்,Raw,100,100g custard apple pulp,94.0,2.1,23.6,0.3,4.4,ICMR-NIN IFCT 2017,IFCT_CUSTARD_APPLE
+Coconut,தேங்காய்,Raw,50,1 piece fresh raw coconut kernel (50g),177.0,1.7,7.6,16.8,4.5,ICMR-NIN IFCT 2017,IFCT_F001_COCONUT

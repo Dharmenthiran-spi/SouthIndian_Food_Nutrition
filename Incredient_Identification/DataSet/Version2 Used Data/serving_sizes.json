@@ -1,0 +1,914 @@
+{
+  "Idli": {
+    "serving_size_g": 100.0,
+    "serving_desc": "2 medium idlis (100g)"
+  },
+  "Dosa": {
+    "serving_size_g": 120.0,
+    "serving_desc": "1 plain roast dosa (120g)"
+  },
+  "Masala dosa": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 masala dosa with potato stuffing (180g)"
+  },
+  "Ragi dosa": {
+    "serving_size_g": 120.0,
+    "serving_desc": "1 ragi dosa (120g)"
+  },
+  "Ragi koozh": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass / cup (250g)"
+  },
+  "Pongal": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 plate ven pongal (200g)"
+  },
+  "Upma": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 plate rava upma (180g)"
+  },
+  "Appam": {
+    "serving_size_g": 140.0,
+    "serving_desc": "2 pieces appam (140g)"
+  },
+  "Puttu": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 portion steamed rice puttu (150g)"
+  },
+  "Idiyappam": {
+    "serving_size_g": 150.0,
+    "serving_desc": "3 pieces idiyappam (150g)"
+  },
+  "Adai": {
+    "serving_size_g": 140.0,
+    "serving_desc": "1 thick multigrain adai (140g)"
+  },
+  "Chapati": {
+    "serving_size_g": 80.0,
+    "serving_desc": "2 whole wheat chapatis (80g)"
+  },
+  "Parotta": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 layered maida parotta (100g)"
+  },
+  "Rice": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup plain cooked white rice (150g)"
+  },
+  "Lemon rice": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 plate lemon rice with peanuts (200g)"
+  },
+  "Curd rice": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 plate tempered curd rice (200g)"
+  },
+  "Tomato rice": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 plate spiced tomato rice (200g)"
+  },
+  "Sambar rice": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 plate sambar rice with ghee (250g)"
+  },
+  "Rasam rice": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 plate rasam rice (250g)"
+  },
+  "Biryani": {
+    "serving_size_g": 300.0,
+    "serving_desc": "1 plate dum biryani (300g)"
+  },
+  "Pulao": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 plate vegetable pulao (250g)"
+  },
+  "Kichadi": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 plate rava vegetable kichadi (200g)"
+  },
+  "Sambar": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 katori / bowl (150g)"
+  },
+  "Rasam": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup rasam (150g)"
+  },
+  "Dal": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup yellow tadka dal (150g)"
+  },
+  "Kootu": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup dal vegetable kootu (150g)"
+  },
+  "Poriyal": {
+    "serving_size_g": 130.0,
+    "serving_desc": "1 cup beans carrot poriyal (130g)"
+  },
+  "Avial": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup mixed veg coconut avial (150g)"
+  },
+  "Kurma": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup vegetable kurma (150g)"
+  },
+  "Paneer butter masala": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl paneer butter masala (200g)"
+  },
+  "Palak paneer": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl spinach paneer (200g)"
+  },
+  "Chana masala": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl chickpea curry (200g)"
+  },
+  "Rajma": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl kidney bean curry (200g)"
+  },
+  "Vegetable curry": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 bowl mixed vegetable gravy (180g)"
+  },
+  "Mushroom curry": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 bowl mushroom gravy (180g)"
+  },
+  "Vegetable pulao": {
+    "serving_size_g": 220.0,
+    "serving_desc": "1 plate vegetable pulao (220g)"
+  },
+  "Vegetable fried rice": {
+    "serving_size_g": 220.0,
+    "serving_desc": "1 plate fried rice (220g)"
+  },
+  "Chicken curry": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl chicken curry (200g)"
+  },
+  "Chicken gravy": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl chicken gravy (200g)"
+  },
+  "Chicken 65": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 plate chicken 65 (150g)"
+  },
+  "Chicken fry": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 plate chicken sukka / fry (150g)"
+  },
+  "Chicken biryani": {
+    "serving_size_g": 350.0,
+    "serving_desc": "1 plate chicken biryani (350g)"
+  },
+  "Chicken tandoori": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 quarter tandoori chicken (200g)"
+  },
+  "Tandoori chicken": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 quarter tandoori chicken (200g)"
+  },
+  "Chicken tikka": {
+    "serving_size_g": 150.0,
+    "serving_desc": "5 pieces boneless chicken tikka (150g)"
+  },
+  "Grilled chicken": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 skinless grilled chicken breast (150g)"
+  },
+  "Chicken kebab": {
+    "serving_size_g": 150.0,
+    "serving_desc": "4 pieces chicken seekh/shami kebab (150g)"
+  },
+  "Mutton curry": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl mutton curry (200g)"
+  },
+  "Mutton biryani": {
+    "serving_size_g": 350.0,
+    "serving_desc": "1 plate mutton biryani (350g)"
+  },
+  "Fish curry": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl South Indian fish curry (200g)"
+  },
+  "Fish fry": {
+    "serving_size_g": 120.0,
+    "serving_desc": "1 medium slice fish fry (120g)"
+  },
+  "Grilled fish": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 grilled fish fillet (150g)"
+  },
+  "Prawn masala": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 bowl prawn masala (180g)"
+  },
+  "Prawn fry": {
+    "serving_size_g": 120.0,
+    "serving_desc": "1 portion prawn fry (120g)"
+  },
+  "Crab curry": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl crab masala curry (200g)"
+  },
+  "Egg boiled": {
+    "serving_size_g": 50.0,
+    "serving_desc": "1 large boiled egg (50g)"
+  },
+  "Egg omelette": {
+    "serving_size_g": 100.0,
+    "serving_desc": "2-egg onion omelette (100g)"
+  },
+  "Egg bhurji": {
+    "serving_size_g": 120.0,
+    "serving_desc": "2-egg scrambled bhurji (120g)"
+  },
+  "Egg dosa": {
+    "serving_size_g": 160.0,
+    "serving_desc": "1 egg dosa (160g)"
+  },
+  "Burger": {
+    "serving_size_g": 160.0,
+    "serving_desc": "1 standard burger (160g)"
+  },
+  "Chicken burger": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 chicken fillet burger (180g)"
+  },
+  "Veg burger": {
+    "serving_size_g": 170.0,
+    "serving_desc": "1 crispy veg patty burger (170g)"
+  },
+  "Cheese burger": {
+    "serving_size_g": 190.0,
+    "serving_desc": "1 double cheese burger (190g)"
+  },
+  "Pizza": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium slice (100g)"
+  },
+  "Chicken pizza": {
+    "serving_size_g": 120.0,
+    "serving_desc": "1 slice chicken BBQ pizza (120g)"
+  },
+  "Veg pizza": {
+    "serving_size_g": 115.0,
+    "serving_desc": "1 slice veg supreme pizza (115g)"
+  },
+  "Cheese pizza": {
+    "serving_size_g": 110.0,
+    "serving_desc": "1 slice margherita cheese pizza (110g)"
+  },
+  "Sandwich": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 club sandwich (150g)"
+  },
+  "Grilled sandwich": {
+    "serving_size_g": 160.0,
+    "serving_desc": "1 grilled cheese veg sandwich (160g)"
+  },
+  "Wraps": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 paneer/chicken wrap (180g)"
+  },
+  "Shawarma": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 chicken shawarma roll (200g)"
+  },
+  "Tacos": {
+    "serving_size_g": 130.0,
+    "serving_desc": "2 crispy tacos (130g)"
+  },
+  "Pasta": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 plate tomato penne pasta (200g)"
+  },
+  "Macaroni": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 bowl desi macaroni (180g)"
+  },
+  "Noodles": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 plate hakka noodles (200g)"
+  },
+  "Fried rice": {
+    "serving_size_g": 220.0,
+    "serving_desc": "1 plate egg/veg fried rice (220g)"
+  },
+  "French fries": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium portion fries (100g)"
+  },
+  "Nachos": {
+    "serving_size_g": 85.0,
+    "serving_desc": "1 portion nachos with cheese dip (85g)"
+  },
+  "Hot dogs": {
+    "serving_size_g": 120.0,
+    "serving_desc": "1 chicken/meat hot dog with bun (120g)"
+  },
+  "Apple": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 medium apple (150g)"
+  },
+  "Banana": {
+    "serving_size_g": 120.0,
+    "serving_desc": "1 medium banana (120g)"
+  },
+  "Mango": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup sliced mango (150g)"
+  },
+  "Orange": {
+    "serving_size_g": 130.0,
+    "serving_desc": "1 medium orange (130g)"
+  },
+  "Papaya": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup diced papaya (150g)"
+  },
+  "Pineapple": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup pineapple chunks (150g)"
+  },
+  "Watermelon": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 wedge / bowl (200g)"
+  },
+  "Muskmelon": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl diced muskmelon (200g)"
+  },
+  "Guava": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium country guava (100g)"
+  },
+  "Grapes": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup grapes (100g)"
+  },
+  "Pomegranate": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1/2 cup arils (100g)"
+  },
+  "Kiwi": {
+    "serving_size_g": 75.0,
+    "serving_desc": "1 medium kiwi fruit (75g)"
+  },
+  "Dragon fruit": {
+    "serving_size_g": 100.0,
+    "serving_desc": "100g diced dragon fruit"
+  },
+  "Strawberry": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup whole strawberries (100g)"
+  },
+  "Blueberry": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup blueberries (100g)"
+  },
+  "Avocado": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1/2 medium avocado (100g)"
+  },
+  "Jackfruit": {
+    "serving_size_g": 100.0,
+    "serving_desc": "4-5 bulbs fresh jackfruit (100g)"
+  },
+  "Dates": {
+    "serving_size_g": 40.0,
+    "serving_desc": "4 dried dates (40g)"
+  },
+  "Fig": {
+    "serving_size_g": 50.0,
+    "serving_desc": "2 dried figs (50g)"
+  },
+  "Sapota": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium sapota / chiku (100g)"
+  },
+  "Custard apple": {
+    "serving_size_g": 100.0,
+    "serving_desc": "100g custard apple pulp"
+  },
+  "Coconut": {
+    "serving_size_g": 50.0,
+    "serving_desc": "1 piece fresh raw coconut kernel (50g)"
+  },
+  "Carrot": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium carrot (100g)"
+  },
+  "Beetroot": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium beetroot (100g)"
+  },
+  "Cucumber": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium cucumber (100g)"
+  },
+  "Tomato": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium ripe tomato (100g)"
+  },
+  "Onion": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium onion (100g)"
+  },
+  "Potato": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 medium boiled potato (150g)"
+  },
+  "Sweet potato": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 medium boiled sweet potato (150g)"
+  },
+  "Broccoli": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup steamed broccoli florets (100g)"
+  },
+  "Cauliflower": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup steamed cauliflower (100g)"
+  },
+  "Spinach": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup cooked spinach (100g)"
+  },
+  "Amaranth leaves": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup cooked amaranth leaves (100g)"
+  },
+  "Cabbage": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup cooked cabbage (100g)"
+  },
+  "Beans": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup french beans (100g)"
+  },
+  "Capsicum": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 medium bell pepper (100g)"
+  },
+  "Pumpkin": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup boiled yellow pumpkin (100g)"
+  },
+  "Bottle gourd": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup cooked bottle gourd (100g)"
+  },
+  "Bitter gourd": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup cooked bitter gourd (100g)"
+  },
+  "Drumstick": {
+    "serving_size_g": 100.0,
+    "serving_desc": "100g cooked drumstick pods"
+  },
+  "Brinjal": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup cooked eggplant (100g)"
+  },
+  "Mushroom": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup cooked button mushrooms (100g)"
+  },
+  "Almonds": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful ~23 kernels (30g)"
+  },
+  "Cashews": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful ~18 cashews (30g)"
+  },
+  "Walnuts": {
+    "serving_size_g": 30.0,
+    "serving_desc": "7 whole shelled walnuts (30g)"
+  },
+  "Pistachios": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful ~45 kernels (30g)"
+  },
+  "Peanuts": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful roasted peanuts (30g)"
+  },
+  "Hazelnuts": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful ~21 hazelnuts (30g)"
+  },
+  "Brazil nuts": {
+    "serving_size_g": 30.0,
+    "serving_desc": "6 kernels (30g)"
+  },
+  "Macadamia nuts": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful ~11 nuts (30g)"
+  },
+  "Pecans": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful ~19 halves (30g)"
+  },
+  "Chia seeds": {
+    "serving_size_g": 20.0,
+    "serving_desc": "2 tablespoons (20g)"
+  },
+  "Flax seeds": {
+    "serving_size_g": 20.0,
+    "serving_desc": "2 tablespoons ground (20g)"
+  },
+  "Pumpkin seeds": {
+    "serving_size_g": 30.0,
+    "serving_desc": "1 ounce / handful (30g)"
+  },
+  "Sunflower seeds": {
+    "serving_size_g": 30.0,
+    "serving_desc": "1 ounce / handful (30g)"
+  },
+  "Sesame seeds": {
+    "serving_size_g": 20.0,
+    "serving_desc": "2 tablespoons (20g)"
+  },
+  "Watermelon seeds": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful dried (30g)"
+  },
+  "Melon seeds": {
+    "serving_size_g": 30.0,
+    "serving_desc": "Handful dried (30g)"
+  },
+  "Hemp seeds": {
+    "serving_size_g": 30.0,
+    "serving_desc": "3 tablespoons (30g)"
+  },
+  "Basil seeds": {
+    "serving_size_g": 15.0,
+    "serving_desc": "1 tablespoon soaked (15g dry)"
+  },
+  "Poppy seeds": {
+    "serving_size_g": 15.0,
+    "serving_desc": "1 tablespoon (15g)"
+  },
+  "Green gram sprouts": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup raw sprouted moong (100g)"
+  },
+  "Black gram sprouts": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup sprouted urad (100g)"
+  },
+  "Chickpea sprouts": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup sprouted chana (100g)"
+  },
+  "Black chana": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup boiled black chana (150g)"
+  },
+  "Horse gram": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup boiled horse gram (150g)"
+  },
+  "Mixed sprouts": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup mixed sprouts (100g)"
+  },
+  "Boiled chickpeas": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup boiled white chana (150g)"
+  },
+  "Kidney beans": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup boiled rajma (150g)"
+  },
+  "Lentils": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup boiled brown/green lentils (150g)"
+  },
+  "Soybeans": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup boiled whole soybeans (150g)"
+  },
+  "Green peas": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup boiled green peas (100g)"
+  },
+  "Sundal varieties": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup tempered sundal with coconut (150g)"
+  },
+  "Cucumber salad": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 bowl cucumber salad with lime (150g)"
+  },
+  "Carrot salad": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 bowl grated carrot salad with lemon (150g)"
+  },
+  "Beetroot salad": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 bowl grated beetroot salad (150g)"
+  },
+  "Onion tomato salad": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 bowl diced onion tomato kachumber (150g)"
+  },
+  "Mixed vegetable salad": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 large bowl mixed garden salad (200g)"
+  },
+  "Sprouts salad": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 bowl sprouted moong salad (150g)"
+  },
+  "Chickpea salad": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl chickpea Mediterranean salad (200g)"
+  },
+  "Protein salad": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 bowl grilled chicken / paneer egg salad (250g)"
+  },
+  "Mixed fruit salad": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl fresh cut fruits (200g)"
+  },
+  "Apple fruit salad": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 bowl diced apple salad with walnuts (180g)"
+  },
+  "Mango fruit salad": {
+    "serving_size_g": 180.0,
+    "serving_desc": "1 bowl fresh mango salad with mint (180g)"
+  },
+  "Watermelon fruit salad": {
+    "serving_size_g": 220.0,
+    "serving_desc": "1 large bowl watermelon mint salad (220g)"
+  },
+  "Seasonal fruit salad": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 bowl local seasonal fruits (200g)"
+  },
+  "Water": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass water (250ml)"
+  },
+  "Tender coconut water": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 coconut water serving (250ml)"
+  },
+  "Milk": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 cup whole milk (200ml)"
+  },
+  "Skimmed milk": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 cup skimmed milk (200ml)"
+  },
+  "Buttermilk": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 glass spiced buttermilk (200ml)"
+  },
+  "Lassi": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass sweet lassi (250ml)"
+  },
+  "Filter coffee": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 dabara filter coffee with milk & sugar (150ml)"
+  },
+  "Tea": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup milk tea with sugar (150ml)"
+  },
+  "Green tea": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 cup brewed green tea without sugar (200ml)"
+  },
+  "Lemon juice": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass fresh lime juice (250ml)"
+  },
+  "Orange juice": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass fresh orange juice (250ml)"
+  },
+  "Apple juice": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass fresh apple juice (250ml)"
+  },
+  "Sugarcane juice": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass fresh sugarcane juice with ginger (250ml)"
+  },
+  "Fresh fruit juices": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 glass mixed fruit juice (250ml)"
+  },
+  "Soft drinks": {
+    "serving_size_g": 330.0,
+    "serving_desc": "1 can cola carbonated soft drink (330ml)"
+  },
+  "Energy drinks": {
+    "serving_size_g": 250.0,
+    "serving_desc": "1 can energy drink with caffeine (250ml)"
+  },
+  "Oats": {
+    "serving_size_g": 40.0,
+    "serving_desc": "1 serving dry rolled oats (40g)"
+  },
+  "Overnight oats": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 jar overnight oats with milk & chia (200g)"
+  },
+  "Oatmeal": {
+    "serving_size_g": 240.0,
+    "serving_desc": "1 bowl cooked oatmeal with water/milk (240g)"
+  },
+  "Cornflakes": {
+    "serving_size_g": 30.0,
+    "serving_desc": "1 bowl cornflakes dry (30g)"
+  },
+  "Muesli": {
+    "serving_size_g": 40.0,
+    "serving_desc": "1 serving fruit & nut muesli (40g)"
+  },
+  "Granola": {
+    "serving_size_g": 45.0,
+    "serving_desc": "1/2 cup honey almond granola (45g)"
+  },
+  "Peanut butter": {
+    "serving_size_g": 32.0,
+    "serving_desc": "2 tablespoons (32g)"
+  },
+  "Boiled corn": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup boiled sweet corn kernels (100g)"
+  },
+  "Popcorn": {
+    "serving_size_g": 30.0,
+    "serving_desc": "3 cups air-popped popcorn (30g)"
+  },
+  "Samosa": {
+    "serving_size_g": 80.0,
+    "serving_desc": "1 medium aloo samosa (80g)"
+  },
+  "Vada": {
+    "serving_size_g": 60.0,
+    "serving_desc": "1 medu vada (60g)"
+  },
+  "Bajji": {
+    "serving_size_g": 60.0,
+    "serving_desc": "1 plantain / onion bajji (60g)"
+  },
+  "Bonda": {
+    "serving_size_g": 70.0,
+    "serving_desc": "1 potato aloo bonda (70g)"
+  },
+  "Sundal": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 cup chana sundal (100g)"
+  },
+  "Murukku": {
+    "serving_size_g": 50.0,
+    "serving_desc": "3 pieces crunchy murukku (50g)"
+  },
+  "Biscuits": {
+    "serving_size_g": 30.0,
+    "serving_desc": "3 digestive/marie biscuits (30g)"
+  },
+  "Protein bars": {
+    "serving_size_g": 50.0,
+    "serving_desc": "1 bar (50g)"
+  },
+  "Whole milk": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 cup whole milk 3.5% fat (200ml)"
+  },
+  "Toned milk": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 cup toned milk 3% fat (200ml)"
+  },
+  "Curd": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup whole milk curd (150g)"
+  },
+  "Greek yogurt": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 cup strained greek yogurt (150g)"
+  },
+  "Paneer": {
+    "serving_size_g": 100.0,
+    "serving_desc": "100g fresh paneer cubes"
+  },
+  "Cheese": {
+    "serving_size_g": 30.0,
+    "serving_desc": "1 slice cheddar cheese (30g)"
+  },
+  "Butter": {
+    "serving_size_g": 15.0,
+    "serving_desc": "1 tablespoon butter (15g)"
+  },
+  "Ghee": {
+    "serving_size_g": 15.0,
+    "serving_desc": "1 tablespoon pure desi ghee (15g)"
+  },
+  "Whey": {
+    "serving_size_g": 200.0,
+    "serving_desc": "1 cup fresh liquid cheese whey (200ml)"
+  },
+  "Payasam": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 bowl semiya payasam (150g)"
+  },
+  "Halwa": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 portion tirunelveli wheat halwa (100g)"
+  },
+  "Laddu": {
+    "serving_size_g": 50.0,
+    "serving_desc": "1 medium besan / boondi laddu (50g)"
+  },
+  "Gulab jamun": {
+    "serving_size_g": 80.0,
+    "serving_desc": "2 pieces in sugar syrup (80g)"
+  },
+  "Rasgulla": {
+    "serving_size_g": 80.0,
+    "serving_desc": "2 pieces rasgulla (80g)"
+  },
+  "Kheer": {
+    "serving_size_g": 150.0,
+    "serving_desc": "1 bowl rice kheer (150g)"
+  },
+  "Ice cream": {
+    "serving_size_g": 100.0,
+    "serving_desc": "1 scoop vanilla ice cream (100g)"
+  },
+  "Cake": {
+    "serving_size_g": 80.0,
+    "serving_desc": "1 slice sponge cake (80g)"
+  },
+  "Brownies": {
+    "serving_size_g": 60.0,
+    "serving_desc": "1 chocolate fudge brownie (60g)"
+  },
+  "Dark chocolate": {
+    "serving_size_g": 30.0,
+    "serving_desc": "3 squares 70% dark chocolate (30g)"
+  },
+  "Dates-based sweets": {
+    "serving_size_g": 50.0,
+    "serving_desc": "2 date & nut energy rolls (50g)"
+  },
+  "Whey protein": {
+    "serving_size_g": 30.4,
+    "serving_desc": "1 rounded scoop (30.4g)"
+  },
+  "Whey isolate": {
+    "serving_size_g": 30.0,
+    "serving_desc": "1 scoop (30g)"
+  },
+  "Casein protein": {
+    "serving_size_g": 33.0,
+    "serving_desc": "1 rounded scoop (33g)"
+  },
+  "Plant protein": {
+    "serving_size_g": 34.0,
+    "serving_desc": "1 scoop (34g)"
+  },
+  "Soy protein": {
+    "serving_size_g": 30.0,
+    "serving_desc": "1 scoop (30g)"
+  },
+  "Creatine": {
+    "serving_size_g": 5.0,
+    "serving_desc": "1 level scoop (5g / 3g pure creatine)"
+  },
+  "Mass gainers": {
+    "serving_size_g": 167.0,
+    "serving_desc": "1 heaping scoop (167g - half serving)"
+  },
+  "Electrolyte drinks": {
+    "serving_size_g": 10.0,
+    "serving_desc": "1 tablet dissolved in 500ml water (10g)"
+  },
+  "Pre-workout drinks": {
+    "serving_size_g": 6.5,
+    "serving_desc": "1 level scoop (6.5g)"
+  },
+  "Recovery shakes": {
+    "serving_size_g": 50.0,
+    "serving_desc": "3 scoops (50g)"
+  }
+}

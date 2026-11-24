@@ -28,13 +28,18 @@ desktop.ini
 *.metadata
 
 # Ignore raw bulk unannotated data dumps (Khana 131,000 raw images)
-Food_Detection/DataSet/RawData/
+Food_Detection/DataSet/RawData/Version1/
 /DataSet/
 dataset_v1.zip
 
 # Explicitly ALLOW Models and Datasets for Centralized GitHub Sync
 !Food_Detection/Models/**
 !Food_Detection/DataSet/Version1 Used Data/**
+!Food_Detection/DataSet/Version2 Used Data/**
+!Food_Detection/DataSet/RawData/Version2/**
+!Incredient_Identification/DataSet/**
+!Version_2_Food_Dataset/**
 !*.pt
 !*.pth
 !*.onnx
+!*.sqlite

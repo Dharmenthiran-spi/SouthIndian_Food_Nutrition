@@ -1,0 +1,16 @@
+category,total_foods,diet_breakdown,avg_serving_size_g
+Breakfast & Snacks,17,{'Vegetarian': np.int64(17)},74.5
+Dairy Products,9,{'Vegetarian': np.int64(9)},117.8
+Desserts & Sweets,11,{'Vegetarian': np.int64(11)},84.5
+Drinks & Beverages,16,{'Vegetarian': np.int64(16)},230.0
+Fast Foods & International,20,{'Vegetarian': np.int64(20)},153.5
+Fruits,22,{'Vegetarian': np.int64(22)},112.0
+Gym & Sports Nutrition,11,{'Vegetarian': np.int64(11)},40.5
+Non-Vegetarian,22,{'Non-Vegetarian': np.int64(22)},175.0
+Nuts,9,{'Vegetarian': np.int64(9)},30.0
+Salads,13,{'Vegetarian': np.int64(13)},183.1
+Seeds,10,{'Vegetarian': np.int64(10)},24.0
+South Indian,22,{'Vegetarian': np.int64(22)},177.7
+Sprouts & Legumes,12,{'Vegetarian': np.int64(12)},129.2
+Vegetables,20,{'Vegetarian': np.int64(20)},105.0
+Vegetarian Curries & Sides,15,{'Vegetarian': np.int64(15)},175.3

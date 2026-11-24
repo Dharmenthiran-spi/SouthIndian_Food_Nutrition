@@ -1,0 +1,17 @@
+name,tamil,food_state,serving_g,serving_desc,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,source_name,source_id
+Water,தண்ணீர்,Liquid,250,1 glass water (250ml),0.0,0.0,0.0,0.0,0.0,USDA FoodData Central,FDC_WATER
+Tender coconut water,இளநீர்,Liquid,250,1 coconut water serving (250ml),48.0,0.5,11.5,0.2,1.1,ICMR-NIN IFCT 2017,IFCT_COCONUT_WATER
+Milk,பால்,Liquid,200,1 cup whole milk (200ml),134.0,6.4,8.8,8.2,0.0,ICMR-NIN IFCT 2017,IFCT_E004_MILK
+Skimmed milk,கொழுப்பு நீக்கிய பால்,Liquid,200,1 cup skimmed milk (200ml),70.0,6.8,10.0,0.4,0.0,ICMR-NIN IFCT 2017,IFCT_SKIMMED_MILK
+Buttermilk,மோர்,Liquid,200,1 glass spiced buttermilk (200ml),56.0,3.0,6.4,1.6,0.0,ICMR-NIN IFCT 2017,IFCT_E003_BUTTERMILK
+Lassi,லஸ்ஸி,Liquid,250,1 glass sweet lassi (250ml),195.0,6.5,28.0,6.5,0.0,ICMR-NIN IFCT 2017,IFCT_LASSI_SWEET
+Filter coffee,பில்டர் காபி,Liquid,150,1 dabara filter coffee with milk & sugar (150ml),105.0,3.2,13.5,4.2,0.0,ICMR-NIN IFCT 2017,IFCT_FILTER_COFFEE
+Tea,டீ,Liquid,150,1 cup milk tea with sugar (150ml),90.0,2.8,12.0,3.5,0.0,ICMR-NIN IFCT 2017,IFCT_TEA_MILK
+Green tea,கிரீன் டீ,Liquid,200,1 cup brewed green tea without sugar (200ml),2.0,0.2,0.4,0.0,0.0,USDA FoodData Central,FDC_GREEN_TEA
+Lemon juice,எலுமிச்சை சாறு,Liquid,250,1 glass fresh lime juice (250ml),65.0,0.4,16.5,0.1,0.2,ICMR-NIN IFCT 2017,IFCT_LIME_JUICE
+Orange juice,ஆரஞ்சு ஜூஸ்,Liquid,250,1 glass fresh orange juice (250ml),112.0,1.7,26.0,0.5,0.5,USDA FoodData Central,FDC_ORANGE_JUICE
+Apple juice,ஆப்பிள் ஜூஸ்,Liquid,250,1 glass fresh apple juice (250ml),115.0,0.3,28.0,0.3,0.5,USDA FoodData Central,FDC_APPLE_JUICE
+Sugarcane juice,கரும்பு சாறு,Liquid,250,1 glass fresh sugarcane juice with ginger (250ml),180.0,0.5,45.0,0.2,0.8,ICMR-NIN IFCT 2017,IFCT_SUGARCANE_JUICE
+Fresh fruit juices,புதிய பழச்சாறு,Liquid,250,1 glass mixed fruit juice (250ml),125.0,1.2,30.0,0.4,0.8,USDA FoodData Central,FDC_MIXED_JUICE
+Soft drinks,குளிர்பானங்கள்,Liquid,330,1 can cola carbonated soft drink (330ml),140.0,0.0,35.0,0.0,0.0,USDA FoodData Central,FDC_COLA_SOFTDRINK
+Energy drinks,எனர்ஜி ட்ரிங்க்,Liquid,250,1 can energy drink with caffeine (250ml),115.0,0.5,27.5,0.0,0.0,USDA FoodData Central,FDC_ENERGY_DRINK

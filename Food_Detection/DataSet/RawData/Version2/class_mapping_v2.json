@@ -1,0 +1,2063 @@
+[
+  {
+    "class_id": 0,
+    "class_name": "Idli",
+    "tamil_name": "இட்லி",
+    "category": "South Indian",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 1,
+    "class_name": "Dosa",
+    "tamil_name": "தோசை",
+    "category": "South Indian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 2,
+    "class_name": "Masala dosa",
+    "tamil_name": "மசாலா தோசை",
+    "category": "South Indian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 3,
+    "class_name": "Ragi dosa",
+    "tamil_name": "கேழ்வரகு தோசை",
+    "category": "South Indian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 4,
+    "class_name": "Ragi koozh",
+    "tamil_name": "கேழ்வரகு கூழ்",
+    "category": "South Indian",
+    "food_state": "Cooked/Fermented",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 5,
+    "class_name": "Pongal",
+    "tamil_name": "வெண் பொங்கல்",
+    "category": "South Indian",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 6,
+    "class_name": "Upma",
+    "tamil_name": "உப்புமா",
+    "category": "South Indian",
+    "food_state": "Cooked/Sautéed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 7,
+    "class_name": "Appam",
+    "tamil_name": "ஆப்பம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 8,
+    "class_name": "Puttu",
+    "tamil_name": "புட்டு",
+    "category": "South Indian",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 9,
+    "class_name": "Idiyappam",
+    "tamil_name": "இடியாப்பம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 10,
+    "class_name": "Adai",
+    "tamil_name": "அடை",
+    "category": "South Indian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 11,
+    "class_name": "Chapati",
+    "tamil_name": "சப்பாத்தி",
+    "category": "South Indian",
+    "food_state": "Cooked/Tawa Roasted",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 12,
+    "class_name": "Parotta",
+    "tamil_name": "பரோட்டா",
+    "category": "South Indian",
+    "food_state": "Cooked/Layered Fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 13,
+    "class_name": "Rice",
+    "tamil_name": "வெள்ளை சாதம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 14,
+    "class_name": "Lemon rice",
+    "tamil_name": "எலுமிச்சை சாதம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Seasoned",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 15,
+    "class_name": "Curd rice",
+    "tamil_name": "தயிர் சாதம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Tempered",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 16,
+    "class_name": "Tomato rice",
+    "tamil_name": "தக்காளி சாதம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Seasoned",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 17,
+    "class_name": "Sambar rice",
+    "tamil_name": "சாம்பார் சாதம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Mixed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 18,
+    "class_name": "Rasam rice",
+    "tamil_name": "ரசம் சாதம்",
+    "category": "South Indian",
+    "food_state": "Cooked/Mixed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 19,
+    "class_name": "Biryani",
+    "tamil_name": "பிரியாணி",
+    "category": "South Indian",
+    "food_state": "Cooked/Dum Spiced",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 20,
+    "class_name": "Pulao",
+    "tamil_name": "புலாவ்",
+    "category": "South Indian",
+    "food_state": "Cooked/Spiced Rice",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 21,
+    "class_name": "Kichadi",
+    "tamil_name": "கிச்சடி",
+    "category": "South Indian",
+    "food_state": "Cooked/Porridge",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 22,
+    "class_name": "Sambar",
+    "tamil_name": "சாம்பார்",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 23,
+    "class_name": "Rasam",
+    "tamil_name": "ரசம்",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 24,
+    "class_name": "Dal",
+    "tamil_name": "பருப்பு",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 25,
+    "class_name": "Kootu",
+    "tamil_name": "கூட்டு",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 26,
+    "class_name": "Poriyal",
+    "tamil_name": "பொரியல்",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 27,
+    "class_name": "Avial",
+    "tamil_name": "அவியல்",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 28,
+    "class_name": "Kurma",
+    "tamil_name": "குருமா",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 29,
+    "class_name": "Paneer butter masala",
+    "tamil_name": "பன்னீர் பட்டர் மசாலா",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 30,
+    "class_name": "Palak paneer",
+    "tamil_name": "பாலக் பன்னீர்",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 31,
+    "class_name": "Chana masala",
+    "tamil_name": "சென்னா மசாலா",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 32,
+    "class_name": "Rajma",
+    "tamil_name": "ராஜ்மா",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 33,
+    "class_name": "Vegetable curry",
+    "tamil_name": "காய்கறி குழம்பு",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 34,
+    "class_name": "Mushroom curry",
+    "tamil_name": "காளான் குழம்பு",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 35,
+    "class_name": "Vegetable pulao",
+    "tamil_name": "காய்கறி புலாவ்",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 36,
+    "class_name": "Vegetable fried rice",
+    "tamil_name": "காய்கறி வறுத்த சாதம்",
+    "category": "Vegetarian Curries & Sides",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 37,
+    "class_name": "Chicken curry",
+    "tamil_name": "கோழி குழம்பு",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 38,
+    "class_name": "Chicken gravy",
+    "tamil_name": "சிக்கன் கிரேவி",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 39,
+    "class_name": "Chicken 65",
+    "tamil_name": "சிக்கன் 65",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Fried",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 40,
+    "class_name": "Chicken fry",
+    "tamil_name": "சிக்கன் வறுவல்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 41,
+    "class_name": "Chicken biryani",
+    "tamil_name": "சிக்கன் பிரியாணி",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Dum",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 42,
+    "class_name": "Chicken tandoori",
+    "tamil_name": "தந்தூரி சிக்கன்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Clay Oven",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 43,
+    "class_name": "Tandoori chicken",
+    "tamil_name": "தந்தூரி சிக்கன்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Clay Oven",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 44,
+    "class_name": "Chicken tikka",
+    "tamil_name": "சிக்கன் டிக்கா",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Grilled",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 45,
+    "class_name": "Grilled chicken",
+    "tamil_name": "கிரில் சிக்கன்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Grilled",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 46,
+    "class_name": "Chicken kebab",
+    "tamil_name": "சிக்கன் கபாப்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Grilled",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 47,
+    "class_name": "Mutton curry",
+    "tamil_name": "ஆட்டுக்கறி குழம்பு",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 48,
+    "class_name": "Mutton biryani",
+    "tamil_name": "மட்டன் பிரியாணி",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Dum",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 49,
+    "class_name": "Fish curry",
+    "tamil_name": "மீன் குழம்பு",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 50,
+    "class_name": "Fish fry",
+    "tamil_name": "மீன் வறுவல்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 51,
+    "class_name": "Grilled fish",
+    "tamil_name": "கிரில் மீன்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Grilled",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 52,
+    "class_name": "Prawn masala",
+    "tamil_name": "இறால் மசாலா",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 53,
+    "class_name": "Prawn fry",
+    "tamil_name": "இறால் வறுவல்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 54,
+    "class_name": "Crab curry",
+    "tamil_name": "நண்டு குழம்பு",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 55,
+    "class_name": "Egg boiled",
+    "tamil_name": "அவித்த முட்டை",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 56,
+    "class_name": "Egg omelette",
+    "tamil_name": "ஆம்லெட்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 57,
+    "class_name": "Egg bhurji",
+    "tamil_name": "முட்டை பொரியல்",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Scrambled",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 58,
+    "class_name": "Egg dosa",
+    "tamil_name": "முட்டை தோசை",
+    "category": "Non-Vegetarian",
+    "food_state": "Cooked/Pan-fried",
+    "diet_type": "Non-Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 59,
+    "class_name": "Burger",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 60,
+    "class_name": "Chicken burger",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 61,
+    "class_name": "Veg burger",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 62,
+    "class_name": "Cheese burger",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 63,
+    "class_name": "Pizza",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 64,
+    "class_name": "Chicken pizza",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 65,
+    "class_name": "Veg pizza",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 66,
+    "class_name": "Cheese pizza",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 67,
+    "class_name": "Sandwich",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 68,
+    "class_name": "Grilled sandwich",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Toasted",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 69,
+    "class_name": "Wraps",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Rolled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 70,
+    "class_name": "Shawarma",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Rotisserie",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 71,
+    "class_name": "Tacos",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 72,
+    "class_name": "Pasta",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 73,
+    "class_name": "Macaroni",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 74,
+    "class_name": "Noodles",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Wok Tossed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 75,
+    "class_name": "Fried rice",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Wok Tossed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 76,
+    "class_name": "French fries",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Deep-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 77,
+    "class_name": "Nachos",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked/Crisp",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 78,
+    "class_name": "Hot dogs",
+    "tamil_name": "",
+    "category": "Fast Foods & International",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 79,
+    "class_name": "Apple",
+    "tamil_name": "ஆப்பிள்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 80,
+    "class_name": "Banana",
+    "tamil_name": "வாழைப்பழம்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 81,
+    "class_name": "Mango",
+    "tamil_name": "மாம்பழம்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 82,
+    "class_name": "Orange",
+    "tamil_name": "ஆரஞ்சு",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 83,
+    "class_name": "Papaya",
+    "tamil_name": "பப்பாளி",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 84,
+    "class_name": "Pineapple",
+    "tamil_name": "அன்னாசி",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 85,
+    "class_name": "Watermelon",
+    "tamil_name": "தர்பூசணி",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 86,
+    "class_name": "Muskmelon",
+    "tamil_name": "முலாம் பழம்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 87,
+    "class_name": "Guava",
+    "tamil_name": "கொய்யா",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 88,
+    "class_name": "Grapes",
+    "tamil_name": "திராட்சை",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 89,
+    "class_name": "Pomegranate",
+    "tamil_name": "மாதுளை",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 90,
+    "class_name": "Kiwi",
+    "tamil_name": "கிவி",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 91,
+    "class_name": "Dragon fruit",
+    "tamil_name": "டிராகன் பழம்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 92,
+    "class_name": "Strawberry",
+    "tamil_name": "ஸ்ட்ராபெர்ரி",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 93,
+    "class_name": "Blueberry",
+    "tamil_name": "புளூபெர்ரி",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 94,
+    "class_name": "Avocado",
+    "tamil_name": "வெண்ணெய் பழம்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 95,
+    "class_name": "Jackfruit",
+    "tamil_name": "பலாப்பழம்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 96,
+    "class_name": "Dates",
+    "tamil_name": "பேரீச்சம்பழம்",
+    "category": "Fruits",
+    "food_state": "Dried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 97,
+    "class_name": "Fig",
+    "tamil_name": "அத்திப்பழம்",
+    "category": "Fruits",
+    "food_state": "Fresh/Dried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 98,
+    "class_name": "Sapota",
+    "tamil_name": "சப்போட்டா",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 99,
+    "class_name": "Custard apple",
+    "tamil_name": "சீத்தாப்பழம்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 100,
+    "class_name": "Coconut",
+    "tamil_name": "தேங்காய்",
+    "category": "Fruits",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 101,
+    "class_name": "Carrot",
+    "tamil_name": "கேரட்",
+    "category": "Vegetables",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 102,
+    "class_name": "Beetroot",
+    "tamil_name": "பீட்ரூட்",
+    "category": "Vegetables",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 103,
+    "class_name": "Cucumber",
+    "tamil_name": "வெள்ளரிக்காய்",
+    "category": "Vegetables",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 104,
+    "class_name": "Tomato",
+    "tamil_name": "தக்காளி",
+    "category": "Vegetables",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 105,
+    "class_name": "Onion",
+    "tamil_name": "வெங்காயம்",
+    "category": "Vegetables",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 106,
+    "class_name": "Potato",
+    "tamil_name": "உருளைக்கிழங்கு",
+    "category": "Vegetables",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 107,
+    "class_name": "Sweet potato",
+    "tamil_name": "சர்க்கரைவள்ளிக்கிழங்கு",
+    "category": "Vegetables",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 108,
+    "class_name": "Broccoli",
+    "tamil_name": "ப்ரோக்கோலி",
+    "category": "Vegetables",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 109,
+    "class_name": "Cauliflower",
+    "tamil_name": "காலிஃபிளவர்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 110,
+    "class_name": "Spinach",
+    "tamil_name": "பசலைக்கீரை",
+    "category": "Vegetables",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 111,
+    "class_name": "Amaranth leaves",
+    "tamil_name": "முளைக்கீரை",
+    "category": "Vegetables",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 112,
+    "class_name": "Cabbage",
+    "tamil_name": "முட்டைக்கோஸ்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Sautéed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 113,
+    "class_name": "Beans",
+    "tamil_name": "பீன்ஸ்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Steamed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 114,
+    "class_name": "Capsicum",
+    "tamil_name": "குடைமிளகாய்",
+    "category": "Vegetables",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 115,
+    "class_name": "Pumpkin",
+    "tamil_name": "பூசணிக்காய்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 116,
+    "class_name": "Bottle gourd",
+    "tamil_name": "சுரைக்காய்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 117,
+    "class_name": "Bitter gourd",
+    "tamil_name": "பாகற்காய்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 118,
+    "class_name": "Drumstick",
+    "tamil_name": "முருங்கைக்காய்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 119,
+    "class_name": "Brinjal",
+    "tamil_name": "கத்தரிக்காய்",
+    "category": "Vegetables",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 120,
+    "class_name": "Mushroom",
+    "tamil_name": "காளான்",
+    "category": "Vegetables",
+    "food_state": "Cooked/Sautéed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 121,
+    "class_name": "Almonds",
+    "tamil_name": "பாதாம்",
+    "category": "Nuts",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 122,
+    "class_name": "Cashews",
+    "tamil_name": "முந்திரி",
+    "category": "Nuts",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 123,
+    "class_name": "Walnuts",
+    "tamil_name": "வாதுமை கொட்டை",
+    "category": "Nuts",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 124,
+    "class_name": "Pistachios",
+    "tamil_name": "பிஸ்தா",
+    "category": "Nuts",
+    "food_state": "Raw/Roasted",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 125,
+    "class_name": "Peanuts",
+    "tamil_name": "வேர்க்கடலை",
+    "category": "Nuts",
+    "food_state": "Raw/Roasted",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 126,
+    "class_name": "Hazelnuts",
+    "tamil_name": "ஹேசல்நட்",
+    "category": "Nuts",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 127,
+    "class_name": "Brazil nuts",
+    "tamil_name": "பிரேசில் நட்",
+    "category": "Nuts",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 128,
+    "class_name": "Macadamia nuts",
+    "tamil_name": "மக்கடேமியா நட்",
+    "category": "Nuts",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 129,
+    "class_name": "Pecans",
+    "tamil_name": "பீக்கன் நட்",
+    "category": "Nuts",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 130,
+    "class_name": "Chia seeds",
+    "tamil_name": "சியா விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 131,
+    "class_name": "Flax seeds",
+    "tamil_name": "ஆளி விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw/Ground",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 132,
+    "class_name": "Pumpkin seeds",
+    "tamil_name": "பூசணி விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw/Roasted",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 133,
+    "class_name": "Sunflower seeds",
+    "tamil_name": "சூரியகாந்தி விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw/Roasted",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 134,
+    "class_name": "Sesame seeds",
+    "tamil_name": "எள்",
+    "category": "Seeds",
+    "food_state": "Raw/Roasted",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 135,
+    "class_name": "Watermelon seeds",
+    "tamil_name": "தர்பூசணி விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw/Dried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 136,
+    "class_name": "Melon seeds",
+    "tamil_name": "வெள்ளரி விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw/Dried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 137,
+    "class_name": "Hemp seeds",
+    "tamil_name": "ஹெம்ப் விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw/Hulled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 138,
+    "class_name": "Basil seeds",
+    "tamil_name": "சப்ஜா விதைகள்",
+    "category": "Seeds",
+    "food_state": "Raw/Soaked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 139,
+    "class_name": "Poppy seeds",
+    "tamil_name": "கசகசா",
+    "category": "Seeds",
+    "food_state": "Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 140,
+    "class_name": "Green gram sprouts",
+    "tamil_name": "பாசிப்பயறு முளைகட்டியது",
+    "category": "Sprouts & Legumes",
+    "food_state": "Sprouted/Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 141,
+    "class_name": "Black gram sprouts",
+    "tamil_name": "உளுந்து முளைகட்டியது",
+    "category": "Sprouts & Legumes",
+    "food_state": "Sprouted/Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 142,
+    "class_name": "Chickpea sprouts",
+    "tamil_name": "கொண்டைக்கடலை முளை",
+    "category": "Sprouts & Legumes",
+    "food_state": "Sprouted/Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 143,
+    "class_name": "Black chana",
+    "tamil_name": "கருப்பு கொண்டைக்கடலை",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 144,
+    "class_name": "Horse gram",
+    "tamil_name": "கொள்ளu",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 145,
+    "class_name": "Mixed sprouts",
+    "tamil_name": "முளைகட்டிய தானிய கலவை",
+    "category": "Sprouts & Legumes",
+    "food_state": "Sprouted/Raw",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 146,
+    "class_name": "Boiled chickpeas",
+    "tamil_name": "வேகவைத்த சுண்டல்",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 147,
+    "class_name": "Kidney beans",
+    "tamil_name": "ராஜ்மா பயறு",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 148,
+    "class_name": "Lentils",
+    "tamil_name": "பருப்பு வகைகள்",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 149,
+    "class_name": "Soybeans",
+    "tamil_name": "சோயாபீன்",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 150,
+    "class_name": "Green peas",
+    "tamil_name": "பச்சை பட்டாணி",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 151,
+    "class_name": "Sundal varieties",
+    "tamil_name": "சுண்டல் வகைகள்",
+    "category": "Sprouts & Legumes",
+    "food_state": "Cooked/Tempered",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 152,
+    "class_name": "Cucumber salad",
+    "tamil_name": "வெள்ளரி சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 153,
+    "class_name": "Carrot salad",
+    "tamil_name": "கேரட் சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 154,
+    "class_name": "Beetroot salad",
+    "tamil_name": "பீட்ரூட் சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 155,
+    "class_name": "Onion tomato salad",
+    "tamil_name": "வெங்காயம் தக்காளி சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 156,
+    "class_name": "Mixed vegetable salad",
+    "tamil_name": "கலவை காய்கறி சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 157,
+    "class_name": "Sprouts salad",
+    "tamil_name": "முளைகட்டிய பயறு சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 158,
+    "class_name": "Chickpea salad",
+    "tamil_name": "கொண்டைக்கடலை சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 159,
+    "class_name": "Protein salad",
+    "tamil_name": "புரோட்டீன் சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 160,
+    "class_name": "Mixed fruit salad",
+    "tamil_name": "பழ கலவை சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 161,
+    "class_name": "Apple fruit salad",
+    "tamil_name": "ஆப்பிள் சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 162,
+    "class_name": "Mango fruit salad",
+    "tamil_name": "மாம்பழ சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 163,
+    "class_name": "Watermelon fruit salad",
+    "tamil_name": "தர்பூசணி சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 164,
+    "class_name": "Seasonal fruit salad",
+    "tamil_name": "பருவகால பழ சாலட்",
+    "category": "Salads",
+    "food_state": "Fresh/Assembled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 165,
+    "class_name": "Water",
+    "tamil_name": "தண்ணீர்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 166,
+    "class_name": "Tender coconut water",
+    "tamil_name": "இளநீர்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 167,
+    "class_name": "Milk",
+    "tamil_name": "பால்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 168,
+    "class_name": "Skimmed milk",
+    "tamil_name": "கொழுப்பு நீக்கிய பால்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 169,
+    "class_name": "Buttermilk",
+    "tamil_name": "மோர்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 170,
+    "class_name": "Lassi",
+    "tamil_name": "லஸ்ஸி",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 171,
+    "class_name": "Filter coffee",
+    "tamil_name": "பில்டர் காபி",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 172,
+    "class_name": "Tea",
+    "tamil_name": "டீ",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 173,
+    "class_name": "Green tea",
+    "tamil_name": "கிரீன் டீ",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 174,
+    "class_name": "Lemon juice",
+    "tamil_name": "எலுமிச்சை சாறு",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 175,
+    "class_name": "Orange juice",
+    "tamil_name": "ஆரஞ்சு ஜூஸ்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 176,
+    "class_name": "Apple juice",
+    "tamil_name": "ஆப்பிள் ஜூஸ்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 177,
+    "class_name": "Sugarcane juice",
+    "tamil_name": "கரும்பு சாறு",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 178,
+    "class_name": "Fresh fruit juices",
+    "tamil_name": "புதிய பழச்சாறு",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 179,
+    "class_name": "Soft drinks",
+    "tamil_name": "குளிர்பானங்கள்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 180,
+    "class_name": "Energy drinks",
+    "tamil_name": "எனர்ஜி ட்ரிங்க்",
+    "category": "Drinks & Beverages",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 181,
+    "class_name": "Oats",
+    "tamil_name": "ஓட்ஸ்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Raw Flakes",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 182,
+    "class_name": "Overnight oats",
+    "tamil_name": "ஊறவைத்த ஓட்ஸ்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Soaked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 183,
+    "class_name": "Oatmeal",
+    "tamil_name": "ஓட்ஸ் கஞ்சி",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 184,
+    "class_name": "Cornflakes",
+    "tamil_name": "கார்ன்ஃபிளக்ஸ்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Ready to Eat",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 185,
+    "class_name": "Muesli",
+    "tamil_name": "மியூஸ்லி",
+    "category": "Breakfast & Snacks",
+    "food_state": "Ready to Eat",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 186,
+    "class_name": "Granola",
+    "tamil_name": "கிரனோலா",
+    "category": "Breakfast & Snacks",
+    "food_state": "Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 187,
+    "class_name": "Peanut butter",
+    "tamil_name": "வேர்க்கடலை வெண்ணெய்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Paste",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 188,
+    "class_name": "Boiled corn",
+    "tamil_name": "வேகவைத்த சோளம்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Boiled",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 189,
+    "class_name": "Popcorn",
+    "tamil_name": "பாப்கார்ன்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Puffed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 190,
+    "class_name": "Samosa",
+    "tamil_name": "சமோசா",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Deep-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 191,
+    "class_name": "Vada",
+    "tamil_name": "மெது வடை",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Deep-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 192,
+    "class_name": "Bajji",
+    "tamil_name": "பஜ்ஜி",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Deep-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 193,
+    "class_name": "Bonda",
+    "tamil_name": "போண்டா",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Deep-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 194,
+    "class_name": "Sundal",
+    "tamil_name": "சுண்டல்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Tempered",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 195,
+    "class_name": "Murukku",
+    "tamil_name": "முறுக்கு",
+    "category": "Breakfast & Snacks",
+    "food_state": "Cooked/Deep-fried",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 196,
+    "class_name": "Biscuits",
+    "tamil_name": "பிஸ்கட்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 197,
+    "class_name": "Protein bars",
+    "tamil_name": "புரோட்டீன் பார்",
+    "category": "Breakfast & Snacks",
+    "food_state": "Processed Bar",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 198,
+    "class_name": "Whole milk",
+    "tamil_name": "முழு கொழுப்பு பால்",
+    "category": "Dairy Products",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 199,
+    "class_name": "Toned milk",
+    "tamil_name": "டோன்ட் பால்",
+    "category": "Dairy Products",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 200,
+    "class_name": "Curd",
+    "tamil_name": "தயிர்",
+    "category": "Dairy Products",
+    "food_state": "Fermented",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 201,
+    "class_name": "Greek yogurt",
+    "tamil_name": "கிரேக்க தயிர்",
+    "category": "Dairy Products",
+    "food_state": "Strained",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 202,
+    "class_name": "Paneer",
+    "tamil_name": "பன்னீர்",
+    "category": "Dairy Products",
+    "food_state": "Solid Cheese",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 203,
+    "class_name": "Cheese",
+    "tamil_name": "சீஸ்",
+    "category": "Dairy Products",
+    "food_state": "Cured/Solid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 204,
+    "class_name": "Butter",
+    "tamil_name": "வெண்ணெய்",
+    "category": "Dairy Products",
+    "food_state": "Solid Fat",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 205,
+    "class_name": "Ghee",
+    "tamil_name": "நெய்",
+    "category": "Dairy Products",
+    "food_state": "Clarified Fat",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 206,
+    "class_name": "Whey",
+    "tamil_name": "வே திரவம்",
+    "category": "Dairy Products",
+    "food_state": "Liquid",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 207,
+    "class_name": "Payasam",
+    "tamil_name": "பாயாசம்",
+    "category": "Desserts & Sweets",
+    "food_state": "Cooked/Sweet Milk",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 208,
+    "class_name": "Halwa",
+    "tamil_name": "அல்வா",
+    "category": "Desserts & Sweets",
+    "food_state": "Cooked/Ghee Dense",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 209,
+    "class_name": "Laddu",
+    "tamil_name": "லட்டு",
+    "category": "Desserts & Sweets",
+    "food_state": "Cooked/Formed",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 210,
+    "class_name": "Gulab jamun",
+    "tamil_name": "குலாப் ஜாமூன்",
+    "category": "Desserts & Sweets",
+    "food_state": "Fried/Syrup Soaked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 211,
+    "class_name": "Rasgulla",
+    "tamil_name": "ரசகுல்லா",
+    "category": "Desserts & Sweets",
+    "food_state": "Chhena in Light Syrup",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 212,
+    "class_name": "Kheer",
+    "tamil_name": "கீர்",
+    "category": "Desserts & Sweets",
+    "food_state": "Cooked/Sweet Milk",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 213,
+    "class_name": "Ice cream",
+    "tamil_name": "ஐஸ்கிரீம்",
+    "category": "Desserts & Sweets",
+    "food_state": "Frozen",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 214,
+    "class_name": "Cake",
+    "tamil_name": "கேக்",
+    "category": "Desserts & Sweets",
+    "food_state": "Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 215,
+    "class_name": "Brownies",
+    "tamil_name": "பிரவுனி",
+    "category": "Desserts & Sweets",
+    "food_state": "Baked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 216,
+    "class_name": "Dark chocolate",
+    "tamil_name": "டார்க் சாக்லேட்",
+    "category": "Desserts & Sweets",
+    "food_state": "Confection",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 217,
+    "class_name": "Dates-based sweets",
+    "tamil_name": "பேரீச்சம்பழ இனிப்பு",
+    "category": "Desserts & Sweets",
+    "food_state": "Unrefined",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Solid Food"
+  },
+  {
+    "class_id": 218,
+    "class_name": "Whey protein",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Protein Powder)"
+  },
+  {
+    "class_id": 219,
+    "class_name": "Whey isolate",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Protein Powder)"
+  },
+  {
+    "class_id": 220,
+    "class_name": "Casein protein",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Slow-Release Protein)"
+  },
+  {
+    "class_id": 221,
+    "class_name": "Plant protein",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Vegan Protein)"
+  },
+  {
+    "class_id": 222,
+    "class_name": "Soy protein",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Vegan Protein)"
+  },
+  {
+    "class_id": 223,
+    "class_name": "Creatine",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Ergogenic Strength Acid)"
+  },
+  {
+    "class_id": 224,
+    "class_name": "Protein bars",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Protein Bar)"
+  },
+  {
+    "class_id": 225,
+    "class_name": "Mass gainers",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (High Calorie Gainer)"
+  },
+  {
+    "class_id": 226,
+    "class_name": "Electrolyte drinks",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Hydration / Electrolytes)"
+  },
+  {
+    "class_id": 227,
+    "class_name": "Pre-workout drinks",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Ergogenic Energy)"
+  },
+  {
+    "class_id": 228,
+    "class_name": "Recovery shakes",
+    "tamil_name": "",
+    "category": "Gym & Sports Nutrition",
+    "food_state": "Cooked",
+    "diet_type": "Vegetarian",
+    "fitness_role": "Sports Supplement (Post-Workout Carbohydrate-Protein Matrix)"
+  }
+]

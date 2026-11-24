@@ -1,0 +1,235 @@
+path: Food_Detection/DataSet/Version2 Used Data
+train: images/train
+val: images/val
+test: images/test
+nc: 229
+names:
+  0: Idli
+  1: Dosa
+  2: Masala dosa
+  3: Ragi dosa
+  4: Ragi koozh
+  5: Pongal
+  6: Upma
+  7: Appam
+  8: Puttu
+  9: Idiyappam
+  10: Adai
+  11: Chapati
+  12: Parotta
+  13: Rice
+  14: Lemon rice
+  15: Curd rice
+  16: Tomato rice
+  17: Sambar rice
+  18: Rasam rice
+  19: Biryani
+  20: Pulao
+  21: Kichadi
+  22: Sambar
+  23: Rasam
+  24: Dal
+  25: Kootu
+  26: Poriyal
+  27: Avial
+  28: Kurma
+  29: Paneer butter masala
+  30: Palak paneer
+  31: Chana masala
+  32: Rajma
+  33: Vegetable curry
+  34: Mushroom curry
+  35: Vegetable pulao
+  36: Vegetable fried rice
+  37: Chicken curry
+  38: Chicken gravy
+  39: Chicken 65
+  40: Chicken fry
+  41: Chicken biryani
+  42: Chicken tandoori
+  43: Tandoori chicken
+  44: Chicken tikka
+  45: Grilled chicken
+  46: Chicken kebab
+  47: Mutton curry
+  48: Mutton biryani
+  49: Fish curry
+  50: Fish fry
+  51: Grilled fish
+  52: Prawn masala
+  53: Prawn fry
+  54: Crab curry
+  55: Egg boiled
+  56: Egg omelette
+  57: Egg bhurji
+  58: Egg dosa
+  59: Burger
+  60: Chicken burger
+  61: Veg burger
+  62: Cheese burger
+  63: Pizza
+  64: Chicken pizza
+  65: Veg pizza
+  66: Cheese pizza
+  67: Sandwich
+  68: Grilled sandwich
+  69: Wraps
+  70: Shawarma
+  71: Tacos
+  72: Pasta
+  73: Macaroni
+  74: Noodles
+  75: Fried rice
+  76: French fries
+  77: Nachos
+  78: Hot dogs
+  79: Apple
+  80: Banana
+  81: Mango
+  82: Orange
+  83: Papaya
+  84: Pineapple
+  85: Watermelon
+  86: Muskmelon
+  87: Guava
+  88: Grapes
+  89: Pomegranate
+  90: Kiwi
+  91: Dragon fruit
+  92: Strawberry
+  93: Blueberry
+  94: Avocado
+  95: Jackfruit
+  96: Dates
+  97: Fig
+  98: Sapota
+  99: Custard apple
+  100: Coconut
+  101: Carrot
+  102: Beetroot
+  103: Cucumber
+  104: Tomato
+  105: Onion
+  106: Potato
+  107: Sweet potato
+  108: Broccoli
+  109: Cauliflower
+  110: Spinach
+  111: Amaranth leaves
+  112: Cabbage
+  113: Beans
+  114: Capsicum
+  115: Pumpkin
+  116: Bottle gourd
+  117: Bitter gourd
+  118: Drumstick
+  119: Brinjal
+  120: Mushroom
+  121: Almonds
+  122: Cashews
+  123: Walnuts
+  124: Pistachios
+  125: Peanuts
+  126: Hazelnuts
+  127: Brazil nuts
+  128: Macadamia nuts
+  129: Pecans
+  130: Chia seeds
+  131: Flax seeds
+  132: Pumpkin seeds
+  133: Sunflower seeds
+  134: Sesame seeds
+  135: Watermelon seeds
+  136: Melon seeds
+  137: Hemp seeds
+  138: Basil seeds
+  139: Poppy seeds
+  140: Green gram sprouts
+  141: Black gram sprouts
+  142: Chickpea sprouts
+  143: Black chana
+  144: Horse gram
+  145: Mixed sprouts
+  146: Boiled chickpeas
+  147: Kidney beans
+  148: Lentils
+  149: Soybeans
+  150: Green peas
+  151: Sundal varieties
+  152: Cucumber salad
+  153: Carrot salad
+  154: Beetroot salad
+  155: Onion tomato salad
+  156: Mixed vegetable salad
+  157: Sprouts salad
+  158: Chickpea salad
+  159: Protein salad
+  160: Mixed fruit salad
+  161: Apple fruit salad
+  162: Mango fruit salad
+  163: Watermelon fruit salad
+  164: Seasonal fruit salad
+  165: Water
+  166: Tender coconut water
+  167: Milk
+  168: Skimmed milk
+  169: Buttermilk
+  170: Lassi
+  171: Filter coffee
+  172: Tea
+  173: Green tea
+  174: Lemon juice
+  175: Orange juice
+  176: Apple juice
+  177: Sugarcane juice
+  178: Fresh fruit juices
+  179: Soft drinks
+  180: Energy drinks
+  181: Oats
+  182: Overnight oats
+  183: Oatmeal
+  184: Cornflakes
+  185: Muesli
+  186: Granola
+  187: Peanut butter
+  188: Boiled corn
+  189: Popcorn
+  190: Samosa
+  191: Vada
+  192: Bajji
+  193: Bonda
+  194: Sundal
+  195: Murukku
+  196: Biscuits
+  197: Protein bars
+  198: Whole milk
+  199: Toned milk
+  200: Curd
+  201: Greek yogurt
+  202: Paneer
+  203: Cheese
+  204: Butter
+  205: Ghee
+  206: Whey
+  207: Payasam
+  208: Halwa
+  209: Laddu
+  210: Gulab jamun
+  211: Rasgulla
+  212: Kheer
+  213: Ice cream
+  214: Cake
+  215: Brownies
+  216: Dark chocolate
+  217: Dates-based sweets
+  218: Whey protein
+  219: Whey isolate
+  220: Casein protein
+  221: Plant protein
+  222: Soy protein
+  223: Creatine
+  224: Protein bars
+  225: Mass gainers
+  226: Electrolyte drinks
+  227: Pre-workout drinks
+  228: Recovery shakes

@@ -1,0 +1,3336 @@
+[
+  {
+    "recipe_id": "RECIPE_00001",
+    "recipe_name": "Banana smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 320g)",
+    "number_of_servings": 1,
+    "total_weight_g": 320,
+    "total_calories_kcal": 229.0,
+    "total_protein_g": 7.7,
+    "total_carbohydrates_g": 37.0,
+    "total_fat_g": 6.4,
+    "total_fiber_g": 3.1,
+    "nutrition_per_serving": {
+      "calories_kcal": 229.0,
+      "protein_g": 7.7,
+      "carbohydrates_g": 37.0,
+      "fat_g": 6.4,
+      "fiber_g": 3.1
+    },
+    "ingredients": [
+      {
+        "ingredient": "Ripe Banana",
+        "weight_g": 120,
+        "calories": 107.0,
+        "protein": 1.3,
+        "carbs": 27.4,
+        "fat": 0.4,
+        "fiber": 3.1
+      },
+      {
+        "ingredient": "Toned Cow Milk",
+        "weight_g": 200,
+        "calories": 122.0,
+        "protein": 6.4,
+        "carbs": 9.6,
+        "fat": 6.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Blend sliced bananas with cold milk until smooth and frothy.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00002",
+    "recipe_name": "Strawberry smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 320g)",
+    "number_of_servings": 1,
+    "total_weight_g": 285,
+    "total_calories_kcal": 175.5,
+    "total_protein_g": 5.4,
+    "total_carbohydrates_g": 28.1,
+    "total_fat_g": 5.5,
+    "total_fiber_g": 2.4,
+    "nutrition_per_serving": {
+      "calories_kcal": 175.5,
+      "protein_g": 5.4,
+      "carbohydrates_g": 28.1,
+      "fat_g": 5.5,
+      "fiber_g": 2.4
+    },
+    "ingredients": [
+      {
+        "ingredient": "Fresh Strawberries",
+        "weight_g": 120,
+        "calories": 38.4,
+        "protein": 0.8,
+        "carbs": 9.2,
+        "fat": 0.4,
+        "fiber": 2.4
+      },
+      {
+        "ingredient": "Curd / Plain Yogurt",
+        "weight_g": 150,
+        "calories": 91.5,
+        "protein": 4.6,
+        "carbs": 6.6,
+        "fat": 5.1,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Honey",
+        "weight_g": 15,
+        "calories": 45.6,
+        "protein": 0.0,
+        "carbs": 12.3,
+        "fat": 0.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Blend fresh hulled strawberries with curd and honey with ice cubes.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00003",
+    "recipe_name": "Mango smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 330g)",
+    "number_of_servings": 1,
+    "total_weight_g": 330,
+    "total_calories_kcal": 199.8,
+    "total_protein_g": 7.0,
+    "total_carbohydrates_g": 31.1,
+    "total_fat_g": 6.0,
+    "total_fiber_g": 2.4,
+    "nutrition_per_serving": {
+      "calories_kcal": 199.8,
+      "protein_g": 7.0,
+      "carbohydrates_g": 31.1,
+      "fat_g": 6.0,
+      "fiber_g": 2.4
+    },
+    "ingredients": [
+      {
+        "ingredient": "Ripe Alphonso Mango Pulp",
+        "weight_g": 150,
+        "calories": 90.0,
+        "protein": 1.2,
+        "carbs": 22.5,
+        "fat": 0.6,
+        "fiber": 2.4
+      },
+      {
+        "ingredient": "Toned Milk",
+        "weight_g": 180,
+        "calories": 109.8,
+        "protein": 5.8,
+        "carbs": 8.6,
+        "fat": 5.4,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Blend pure mango chunks with cold milk until rich and creamy.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00004",
+    "recipe_name": "Avocado smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (320ml / 300g)",
+    "number_of_servings": 1,
+    "total_weight_g": 295,
+    "total_calories_kcal": 326.2,
+    "total_protein_g": 7.8,
+    "total_carbohydrates_g": 28.8,
+    "total_fat_g": 22.1,
+    "total_fiber_g": 6.7,
+    "nutrition_per_serving": {
+      "calories_kcal": 326.2,
+      "protein_g": 7.8,
+      "carbohydrates_g": 28.8,
+      "fat_g": 22.1,
+      "fiber_g": 6.7
+    },
+    "ingredients": [
+      {
+        "ingredient": "Ripe Avocado Flesh",
+        "weight_g": 100,
+        "calories": 160.0,
+        "protein": 2.0,
+        "carbs": 8.5,
+        "fat": 14.7,
+        "fiber": 6.7
+      },
+      {
+        "ingredient": "Whole Milk",
+        "weight_g": 180,
+        "calories": 120.6,
+        "protein": 5.8,
+        "carbs": 8.0,
+        "fat": 7.4,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Honey",
+        "weight_g": 15,
+        "calories": 45.6,
+        "protein": 0.0,
+        "carbs": 12.3,
+        "fat": 0.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Scoop ripe avocado, blend with chilled milk and natural honey.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00005",
+    "recipe_name": "Peanut butter smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 tall glass (400ml / 370g)",
+    "number_of_servings": 1,
+    "total_weight_g": 372,
+    "total_calories_kcal": 439.8,
+    "total_protein_g": 16.8,
+    "total_carbohydrates_g": 39.4,
+    "total_fat_g": 26.1,
+    "total_fiber_g": 4.6,
+    "nutrition_per_serving": {
+      "calories_kcal": 439.8,
+      "protein_g": 16.8,
+      "carbohydrates_g": 39.4,
+      "fat_g": 26.1,
+      "fiber_g": 4.6
+    },
+    "ingredients": [
+      {
+        "ingredient": "Natural Peanut Butter",
+        "weight_g": 32,
+        "calories": 190.0,
+        "protein": 8.0,
+        "carbs": 6.0,
+        "fat": 16.0,
+        "fiber": 2.0
+      },
+      {
+        "ingredient": "Ripe Banana",
+        "weight_g": 100,
+        "calories": 89.0,
+        "protein": 1.1,
+        "carbs": 22.8,
+        "fat": 0.3,
+        "fiber": 2.6
+      },
+      {
+        "ingredient": "Whole Milk",
+        "weight_g": 240,
+        "calories": 160.8,
+        "protein": 7.7,
+        "carbs": 10.6,
+        "fat": 9.8,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Blend pure peanut butter, banana, and whole milk for high-calorie bulking.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00006",
+    "recipe_name": "Chocolate protein smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 shaker (420ml / 380g)",
+    "number_of_servings": 1,
+    "total_weight_g": 315,
+    "total_calories_kcal": 335.6,
+    "total_protein_g": 37.6,
+    "total_carbohydrates_g": 38.2,
+    "total_fat_g": 4.8,
+    "total_fiber_g": 5.9,
+    "nutrition_per_serving": {
+      "calories_kcal": 335.6,
+      "protein_g": 37.6,
+      "carbohydrates_g": 38.2,
+      "fat_g": 4.8,
+      "fiber_g": 5.9
+    },
+    "ingredients": [
+      {
+        "ingredient": "Chocolate Whey Protein Powder",
+        "weight_g": 30,
+        "calories": 120.0,
+        "protein": 24.0,
+        "carbs": 3.0,
+        "fat": 1.5,
+        "fiber": 1.0
+      },
+      {
+        "ingredient": "Rolled Oats",
+        "weight_g": 30,
+        "calories": 116.7,
+        "protein": 4.1,
+        "carbs": 20.0,
+        "fat": 2.1,
+        "fiber": 3.2
+      },
+      {
+        "ingredient": "Skimmed Milk",
+        "weight_g": 250,
+        "calories": 87.5,
+        "protein": 8.5,
+        "carbs": 12.5,
+        "fat": 0.5,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Unsweetened Cocoa",
+        "weight_g": 5,
+        "calories": 11.4,
+        "protein": 1.0,
+        "carbs": 2.7,
+        "fat": 0.7,
+        "fiber": 1.7
+      }
+    ],
+    "preparation_method": "Blend whey protein, fine rolled oats, cocoa and skimmed milk for rapid post-workout recovery.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00007",
+    "recipe_name": "Oats smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 330g)",
+    "number_of_servings": 1,
+    "total_weight_g": 330,
+    "total_calories_kcal": 357.7,
+    "total_protein_g": 12.8,
+    "total_carbohydrates_g": 56.7,
+    "total_fat_g": 9.1,
+    "total_fiber_g": 6.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 357.7,
+      "protein_g": 12.8,
+      "carbohydrates_g": 56.7,
+      "fat_g": 9.1,
+      "fiber_g": 6.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "Rolled Oats",
+        "weight_g": 40,
+        "calories": 155.6,
+        "protein": 5.4,
+        "carbs": 26.6,
+        "fat": 2.8,
+        "fiber": 4.2
+      },
+      {
+        "ingredient": "Banana",
+        "weight_g": 90,
+        "calories": 80.1,
+        "protein": 1.0,
+        "carbs": 20.5,
+        "fat": 0.3,
+        "fiber": 2.3
+      },
+      {
+        "ingredient": "Toned Milk",
+        "weight_g": 200,
+        "calories": 122.0,
+        "protein": 6.4,
+        "carbs": 9.6,
+        "fat": 6.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Soak oats for 10 minutes, blend with banana and chilled milk.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00008",
+    "recipe_name": "Dates smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (320ml / 300g)",
+    "number_of_servings": 1,
+    "total_weight_g": 272,
+    "total_calories_kcal": 292.1,
+    "total_protein_g": 8.4,
+    "total_carbohydrates_g": 48.6,
+    "total_fat_g": 9.3,
+    "total_fiber_g": 4.6,
+    "nutrition_per_serving": {
+      "calories_kcal": 292.1,
+      "protein_g": 8.4,
+      "carbohydrates_g": 48.6,
+      "fat_g": 9.3,
+      "fiber_g": 4.6
+    },
+    "ingredients": [
+      {
+        "ingredient": "Pitted Medjool / Lion Dates",
+        "weight_g": 50,
+        "calories": 138.5,
+        "protein": 1.2,
+        "carbs": 37.5,
+        "fat": 0.2,
+        "fiber": 4.0
+      },
+      {
+        "ingredient": "Warm Milk",
+        "weight_g": 220,
+        "calories": 147.4,
+        "protein": 7.0,
+        "carbs": 9.7,
+        "fat": 9.0,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Cardamom Powder",
+        "weight_g": 2,
+        "calories": 6.2,
+        "protein": 0.2,
+        "carbs": 1.4,
+        "fat": 0.1,
+        "fiber": 0.6
+      }
+    ],
+    "preparation_method": "Soak dates in warm milk for 15 mins, blend to a smooth iron-rich nectar.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00009",
+    "recipe_name": "Dry fruit smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 340g)",
+    "number_of_servings": 1,
+    "total_weight_g": 280,
+    "total_calories_kcal": 400.2,
+    "total_protein_g": 13.6,
+    "total_carbohydrates_g": 39.9,
+    "total_fat_g": 23.1,
+    "total_fiber_g": 4.7,
+    "nutrition_per_serving": {
+      "calories_kcal": 400.2,
+      "protein_g": 13.6,
+      "carbohydrates_g": 39.9,
+      "fat_g": 23.1,
+      "fiber_g": 4.7
+    },
+    "ingredients": [
+      {
+        "ingredient": "Almonds (Soaked)",
+        "weight_g": 15,
+        "calories": 86.8,
+        "protein": 3.2,
+        "carbs": 3.2,
+        "fat": 7.4,
+        "fiber": 1.8
+      },
+      {
+        "ingredient": "Cashews",
+        "weight_g": 15,
+        "calories": 82.9,
+        "protein": 2.7,
+        "carbs": 4.5,
+        "fat": 6.6,
+        "fiber": 0.5
+      },
+      {
+        "ingredient": "Dates",
+        "weight_g": 30,
+        "calories": 83.1,
+        "protein": 0.7,
+        "carbs": 22.5,
+        "fat": 0.1,
+        "fiber": 2.4
+      },
+      {
+        "ingredient": "Whole Milk",
+        "weight_g": 220,
+        "calories": 147.4,
+        "protein": 7.0,
+        "carbs": 9.7,
+        "fat": 9.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Blend soaked almonds, cashews, dates and rich milk for ultimate vitality.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00010",
+    "recipe_name": "Banana milkshake",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 330g)",
+    "number_of_servings": 1,
+    "total_weight_g": 330,
+    "total_calories_kcal": 279.7,
+    "total_protein_g": 7.7,
+    "total_carbohydrates_g": 46.2,
+    "total_fat_g": 8.6,
+    "total_fiber_g": 3.1,
+    "nutrition_per_serving": {
+      "calories_kcal": 279.7,
+      "protein_g": 7.7,
+      "carbohydrates_g": 46.2,
+      "fat_g": 8.6,
+      "fiber_g": 3.1
+    },
+    "ingredients": [
+      {
+        "ingredient": "Ripe Banana",
+        "weight_g": 120,
+        "calories": 107.0,
+        "protein": 1.3,
+        "carbs": 27.4,
+        "fat": 0.4,
+        "fiber": 3.1
+      },
+      {
+        "ingredient": "Full Cream Milk",
+        "weight_g": 200,
+        "calories": 134.0,
+        "protein": 6.4,
+        "carbs": 8.8,
+        "fat": 8.2,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Sugar",
+        "weight_g": 10,
+        "calories": 38.7,
+        "protein": 0.0,
+        "carbs": 10.0,
+        "fat": 0.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Classic sweet blended banana shake with whole milk.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00011",
+    "recipe_name": "Protein shake",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 shaker (350ml / 330g)",
+    "number_of_servings": 1,
+    "total_weight_g": 330,
+    "total_calories_kcal": 122.0,
+    "total_protein_g": 24.2,
+    "total_carbohydrates_g": 2.2,
+    "total_fat_g": 1.8,
+    "total_fiber_g": 0.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 122.0,
+      "protein_g": 24.2,
+      "carbohydrates_g": 2.2,
+      "fat_g": 1.8,
+      "fiber_g": 0.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "Whey Protein Concentrate (80%)",
+        "weight_g": 30,
+        "calories": 122.0,
+        "protein": 24.2,
+        "carbs": 2.2,
+        "fat": 1.8,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Water",
+        "weight_g": 300,
+        "calories": 0.0,
+        "protein": 0.0,
+        "carbs": 0.0,
+        "fat": 0.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Shake whey isolate/concentrate with 300ml cold water in shaker bottle.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00012",
+    "recipe_name": "Whey protein shake",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 shaker (380ml / 350g)",
+    "number_of_servings": 1,
+    "total_weight_g": 280,
+    "total_calories_kcal": 197.5,
+    "total_protein_g": 35.5,
+    "total_carbohydrates_g": 13.0,
+    "total_fat_g": 0.7,
+    "total_fiber_g": 0.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 197.5,
+      "protein_g": 35.5,
+      "carbohydrates_g": 13.0,
+      "fat_g": 0.7,
+      "fiber_g": 0.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "Whey Protein Isolate (90%)",
+        "weight_g": 30,
+        "calories": 110.0,
+        "protein": 27.0,
+        "carbs": 0.5,
+        "fat": 0.2,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Skimmed Milk",
+        "weight_g": 250,
+        "calories": 87.5,
+        "protein": 8.5,
+        "carbs": 12.5,
+        "fat": 0.5,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Vigorously shake pure whey isolate with skimmed milk for 35.5g bioavailable protein.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00013",
+    "recipe_name": "Mass gainer shake",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 giant shaker (650ml / 600g)",
+    "number_of_servings": 1,
+    "total_weight_g": 630,
+    "total_calories_kcal": 915.0,
+    "total_protein_g": 46.4,
+    "total_carbohydrates_g": 111.0,
+    "total_fat_g": 34.2,
+    "total_fiber_g": 7.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 915.0,
+      "protein_g": 46.4,
+      "carbohydrates_g": 111.0,
+      "fat_g": 34.2,
+      "fiber_g": 7.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "Mass Gainer Powder",
+        "weight_g": 100,
+        "calories": 380.0,
+        "protein": 25.0,
+        "carbs": 65.0,
+        "fat": 2.5,
+        "fiber": 3.0
+      },
+      {
+        "ingredient": "Whole Milk",
+        "weight_g": 400,
+        "calories": 268.0,
+        "protein": 12.8,
+        "carbs": 17.6,
+        "fat": 16.4,
+        "fiber": 0.0
+      },
+      {
+        "ingredient": "Peanut Butter",
+        "weight_g": 30,
+        "calories": 178.0,
+        "protein": 7.5,
+        "carbs": 5.6,
+        "fat": 15.0,
+        "fiber": 1.9
+      },
+      {
+        "ingredient": "Banana",
+        "weight_g": 100,
+        "calories": 89.0,
+        "protein": 1.1,
+        "carbs": 22.8,
+        "fat": 0.3,
+        "fiber": 2.6
+      }
+    ],
+    "preparation_method": "Heavy blend of gainer powder, whole milk, peanut butter, and bananas for 900+ kcal surplus.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00014",
+    "recipe_name": "Green smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 320g)",
+    "number_of_servings": 1,
+    "total_weight_g": 390,
+    "total_calories_kcal": 152.6,
+    "total_protein_g": 4.2,
+    "total_carbohydrates_g": 28.3,
+    "total_fat_g": 3.9,
+    "total_fiber_g": 8.4,
+    "nutrition_per_serving": {
+      "calories_kcal": 152.6,
+      "protein_g": 4.2,
+      "carbohydrates_g": 28.3,
+      "fat_g": 3.9,
+      "fiber_g": 8.4
+    },
+    "ingredients": [
+      {
+        "ingredient": "Baby Spinach Leaves",
+        "weight_g": 50,
+        "calories": 11.5,
+        "protein": 1.4,
+        "carbs": 1.8,
+        "fat": 0.2,
+        "fiber": 1.1
+      },
+      {
+        "ingredient": "Green Apple",
+        "weight_g": 100,
+        "calories": 52.0,
+        "protein": 0.3,
+        "carbs": 13.8,
+        "fat": 0.2,
+        "fiber": 2.4
+      },
+      {
+        "ingredient": "Cucumber",
+        "weight_g": 80,
+        "calories": 12.0,
+        "protein": 0.5,
+        "carbs": 2.9,
+        "fat": 0.1,
+        "fiber": 0.4
+      },
+      {
+        "ingredient": "Chia Seeds",
+        "weight_g": 10,
+        "calories": 48.6,
+        "protein": 1.7,
+        "carbs": 4.2,
+        "fat": 3.1,
+        "fiber": 3.4
+      },
+      {
+        "ingredient": "Water / Coconut Water",
+        "weight_g": 150,
+        "calories": 28.5,
+        "protein": 0.3,
+        "carbs": 5.6,
+        "fat": 0.3,
+        "fiber": 1.1
+      }
+    ],
+    "preparation_method": "Blend fresh raw spinach, crisp green apple, cucumber and chia seeds with coconut water.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00015",
+    "recipe_name": "Vegetable smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (320ml / 300g)",
+    "number_of_servings": 1,
+    "total_weight_g": 310,
+    "total_calories_kcal": 61.4,
+    "total_protein_g": 1.9,
+    "total_carbohydrates_g": 14.1,
+    "total_fat_g": 0.3,
+    "total_fiber_g": 4.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 61.4,
+      "protein_g": 1.9,
+      "carbohydrates_g": 14.1,
+      "fat_g": 0.3,
+      "fiber_g": 4.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "Carrot",
+        "weight_g": 70,
+        "calories": 28.7,
+        "protein": 0.6,
+        "carbs": 6.7,
+        "fat": 0.1,
+        "fiber": 2.0
+      },
+      {
+        "ingredient": "Tomato",
+        "weight_g": 70,
+        "calories": 12.6,
+        "protein": 0.6,
+        "carbs": 2.7,
+        "fat": 0.1,
+        "fiber": 0.8
+      },
+      {
+        "ingredient": "Beetroot",
+        "weight_g": 40,
+        "calories": 17.2,
+        "protein": 0.6,
+        "carbs": 3.8,
+        "fat": 0.1,
+        "fiber": 1.1
+      },
+      {
+        "ingredient": "Lemon Juice",
+        "weight_g": 10,
+        "calories": 2.9,
+        "protein": 0.1,
+        "carbs": 0.9,
+        "fat": 0.0,
+        "fiber": 0.1
+      },
+      {
+        "ingredient": "Chilled Water",
+        "weight_g": 120,
+        "calories": 0.0,
+        "protein": 0.0,
+        "carbs": 0.0,
+        "fat": 0.0,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Blend fresh chopped carrot, tomato, beetroot with squeeze of lemon juice.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00016",
+    "recipe_name": "Mixed fruit smoothie",
+    "category": "Smoothies & Fitness Drinks",
+    "cuisine": "Fitness / International",
+    "serving_description": "1 glass (350ml / 320g)",
+    "number_of_servings": 1,
+    "total_weight_g": 290,
+    "total_calories_kcal": 177.0,
+    "total_protein_g": 6.4,
+    "total_carbohydrates_g": 36.6,
+    "total_fat_g": 1.9,
+    "total_fiber_g": 4.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 177.0,
+      "protein_g": 6.4,
+      "carbohydrates_g": 36.6,
+      "fat_g": 1.9,
+      "fiber_g": 4.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "Banana",
+        "weight_g": 60,
+        "calories": 53.4,
+        "protein": 0.7,
+        "carbs": 13.7,
+        "fat": 0.2,
+        "fiber": 1.6
+      },
+      {
+        "ingredient": "Papaya Chunks",
+        "weight_g": 70,
+        "calories": 29.4,
+        "protein": 0.3,
+        "carbs": 7.6,
+        "fat": 0.1,
+        "fiber": 1.2
+      },
+      {
+        "ingredient": "Apple",
+        "weight_g": 60,
+        "calories": 31.2,
+        "protein": 0.2,
+        "carbs": 8.3,
+        "fat": 0.1,
+        "fiber": 1.4
+      },
+      {
+        "ingredient": "Low-fat Yogurt",
+        "weight_g": 100,
+        "calories": 63.0,
+        "protein": 5.2,
+        "carbs": 7.0,
+        "fat": 1.5,
+        "fiber": 0.0
+      }
+    ],
+    "preparation_method": "Blend medley of banana, papaya, apple and yogurt for multi-vitamin breakfast.",
+    "source": "Empirical Fitness Formulation (ICMR / USDA Ingredients Basis)"
+  },
+  {
+    "recipe_id": "RECIPE_00017",
+    "recipe_name": "Appam (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 pieces (~140g)",
+    "number_of_servings": 1,
+    "total_weight_g": 140,
+    "total_calories_kcal": 210,
+    "total_protein_g": 3.8,
+    "total_carbohydrates_g": 44.0,
+    "total_fat_g": 2.2,
+    "total_fiber_g": 1.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 210,
+      "protein_g": 3.8,
+      "carbs_g": 44.0,
+      "fat_g": 2.2,
+      "fiber_g": 1.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "raw_rice_flour",
+        "weight_g": 70
+      },
+      {
+        "ingredient": "coconut_milk",
+        "weight_g": 40
+      },
+      {
+        "ingredient": "sugar",
+        "weight_g": 5
+      },
+      {
+        "ingredient": "oil_minimal",
+        "weight_g": 2
+      }
+    ],
+    "preparation_method": "Prepared at home with light coconut milk and minimal oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00018",
+    "recipe_name": "Appam (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 pieces (~170g) + Sweet Coconut Milk cup",
+    "number_of_servings": 1,
+    "total_weight_g": 170,
+    "total_calories_kcal": 310,
+    "total_protein_g": 4.5,
+    "total_carbohydrates_g": 54.0,
+    "total_fat_g": 8.5,
+    "total_fiber_g": 1.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 310,
+      "protein_g": 4.5,
+      "carbs_g": 54.0,
+      "fat_g": 8.5,
+      "fiber_g": 1.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "raw_rice_flour",
+        "weight_g": 85
+      },
+      {
+        "ingredient": "thick_coconut_milk",
+        "weight_g": 65
+      },
+      {
+        "ingredient": "sugar",
+        "weight_g": 14
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 6
+      }
+    ],
+    "preparation_method": "Restaurant style uses extra thick coconut milk and higher sugar content.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00019",
+    "recipe_name": "Beetroot poriyal (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~130g)",
+    "number_of_servings": 1,
+    "total_weight_g": 130,
+    "total_calories_kcal": 90,
+    "total_protein_g": 2.2,
+    "total_carbohydrates_g": 14.0,
+    "total_fat_g": 2.8,
+    "total_fiber_g": 4.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 90,
+      "protein_g": 2.2,
+      "carbs_g": 14.0,
+      "fat_g": 2.8,
+      "fiber_g": 4.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "beetroot",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 12
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 4
+      },
+      {
+        "ingredient": "urad_dal_tadka",
+        "weight_g": 4
+      }
+    ],
+    "preparation_method": "Home cooked with low oil and fresh grated coconut.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00020",
+    "recipe_name": "Beetroot poriyal (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~150g meals kootu/poriyal)",
+    "number_of_servings": 1,
+    "total_weight_g": 150,
+    "total_calories_kcal": 145,
+    "total_protein_g": 2.9,
+    "total_carbohydrates_g": 17.0,
+    "total_fat_g": 7.2,
+    "total_fiber_g": 4.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 145,
+      "protein_g": 2.9,
+      "carbs_g": 17.0,
+      "fat_g": 7.2,
+      "fiber_g": 4.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "beetroot",
+        "weight_g": 115
+      },
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "urad_dal_tadka",
+        "weight_g": 5
+      }
+    ],
+    "preparation_method": "Hotel meals preparation uses generous oil tempering and extra coconut.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00021",
+    "recipe_name": "Boiled Egg (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 large egg (50g)",
+    "number_of_servings": 1,
+    "total_weight_g": 50,
+    "total_calories_kcal": 78,
+    "total_protein_g": 6.3,
+    "total_carbohydrates_g": 0.6,
+    "total_fat_g": 5.3,
+    "total_fiber_g": 0.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 78,
+      "protein_g": 6.3,
+      "carbs_g": 0.6,
+      "fat_g": 5.3,
+      "fiber_g": 0.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "whole_egg",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "black_pepper",
+        "weight_g": 1
+      }
+    ],
+    "preparation_method": "Plain hard boiled with pinch of black pepper.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00022",
+    "recipe_name": "Boiled Egg (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 egg with pepper fry/shallow roast (60g)",
+    "number_of_servings": 1,
+    "total_weight_g": 60,
+    "total_calories_kcal": 135,
+    "total_protein_g": 6.5,
+    "total_carbohydrates_g": 1.2,
+    "total_fat_g": 11.5,
+    "total_fiber_g": 0.1,
+    "nutrition_per_serving": {
+      "calories_kcal": 135,
+      "protein_g": 6.5,
+      "carbs_g": 1.2,
+      "fat_g": 11.5,
+      "fiber_g": 0.1
+    },
+    "ingredients": [
+      {
+        "ingredient": "whole_egg",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "oil_fry",
+        "weight_g": 8
+      },
+      {
+        "ingredient": "masala_spices",
+        "weight_g": 2
+      }
+    ],
+    "preparation_method": "Hotel muttai roast lightly tossed in spiced oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00023",
+    "recipe_name": "Carrot poriyal (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~130g)",
+    "number_of_servings": 1,
+    "total_weight_g": 130,
+    "total_calories_kcal": 85,
+    "total_protein_g": 1.8,
+    "total_carbohydrates_g": 12.5,
+    "total_fat_g": 2.5,
+    "total_fiber_g": 3.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 85,
+      "protein_g": 1.8,
+      "carbs_g": 12.5,
+      "fat_g": 2.5,
+      "fiber_g": 3.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "carrot",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 4
+      },
+      {
+        "ingredient": "urad_dal_tadka",
+        "weight_g": 4
+      }
+    ],
+    "preparation_method": "Steamed carrot tossed with light mustard-curry leaf tempering.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00024",
+    "recipe_name": "Carrot poriyal (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~150g)",
+    "number_of_servings": 1,
+    "total_weight_g": 150,
+    "total_calories_kcal": 135,
+    "total_protein_g": 2.3,
+    "total_carbohydrates_g": 15.0,
+    "total_fat_g": 7.0,
+    "total_fiber_g": 4.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 135,
+      "protein_g": 2.3,
+      "carbs_g": 15.0,
+      "fat_g": 7.0,
+      "fiber_g": 4.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "carrot",
+        "weight_g": 115
+      },
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 18
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "urad_dal_tadka",
+        "weight_g": 5
+      }
+    ],
+    "preparation_method": "Restaurant meals side dish with heavier oil and coconut.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00025",
+    "recipe_name": "Chicken 65 (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 serving (~130g pan/air fried)",
+    "number_of_servings": 1,
+    "total_weight_g": 130,
+    "total_calories_kcal": 240,
+    "total_protein_g": 26.5,
+    "total_carbohydrates_g": 5.0,
+    "total_fat_g": 12.0,
+    "total_fiber_g": 0.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 240,
+      "protein_g": 26.5,
+      "carbs_g": 5.0,
+      "fat_g": 12.0,
+      "fiber_g": 0.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "boneless_chicken",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "curd",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "corn_flour",
+        "weight_g": 5
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 8
+      }
+    ],
+    "preparation_method": "Home shallow/air-fried using 1 teaspoon oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00026",
+    "recipe_name": "Chicken 65 (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~170g deep fried)",
+    "number_of_servings": 1,
+    "total_weight_g": 170,
+    "total_calories_kcal": 385,
+    "total_protein_g": 29.0,
+    "total_carbohydrates_g": 12.5,
+    "total_fat_g": 24.5,
+    "total_fiber_g": 1.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 385,
+      "protein_g": 29.0,
+      "carbs_g": 12.5,
+      "fat_g": 24.5,
+      "fiber_g": 1.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "boneless_chicken",
+        "weight_g": 130
+      },
+      {
+        "ingredient": "curd",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "corn_flour",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "deep_fry_oil",
+        "weight_g": 25
+      }
+    ],
+    "preparation_method": "Commercial deep-fried with crispy batter absorbing higher cooking oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00027",
+    "recipe_name": "Chicken briyani (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~280g)",
+    "number_of_servings": 1,
+    "total_weight_g": 280,
+    "total_calories_kcal": 460,
+    "total_protein_g": 28.0,
+    "total_carbohydrates_g": 58.0,
+    "total_fat_g": 12.5,
+    "total_fiber_g": 2.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 460,
+      "protein_g": 28.0,
+      "carbs_g": 58.0,
+      "fat_g": 12.5,
+      "fiber_g": 2.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "seeraga_samba_rice",
+        "weight_g": 120
+      },
+      {
+        "ingredient": "chicken_pieces",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 12
+      }
+    ],
+    "preparation_method": "Home dum biryani prepared with controlled ghee and lean cuts.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00028",
+    "recipe_name": "Chicken briyani (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 full plate (~380g Dindigul/Ambur style)",
+    "number_of_servings": 1,
+    "total_weight_g": 380,
+    "total_calories_kcal": 680,
+    "total_protein_g": 34.5,
+    "total_carbohydrates_g": 76.0,
+    "total_fat_g": 26.0,
+    "total_fiber_g": 3.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 680,
+      "protein_g": 34.5,
+      "carbs_g": 76.0,
+      "fat_g": 26.0,
+      "fiber_g": 3.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "seeraga_samba_rice",
+        "weight_g": 160
+      },
+      {
+        "ingredient": "chicken_pieces",
+        "weight_g": 140
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 28
+      }
+    ],
+    "preparation_method": "Hotel biryani with rich dalcha/gravy seasoning and generous ghee.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00029",
+    "recipe_name": "Dosa (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 plain dosas (~140g)",
+    "number_of_servings": 1,
+    "total_weight_g": 140,
+    "total_calories_kcal": 220,
+    "total_protein_g": 5.8,
+    "total_carbohydrates_g": 41.0,
+    "total_fat_g": 4.2,
+    "total_fiber_g": 2.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 220,
+      "protein_g": 5.8,
+      "carbs_g": 41.0,
+      "fat_g": 4.2,
+      "fiber_g": 2.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_batter",
+        "weight_g": 90
+      },
+      {
+        "ingredient": "urad_dal_batter",
+        "weight_g": 30
+      },
+      {
+        "ingredient": "oil_tossed",
+        "weight_g": 6
+      }
+    ],
+    "preparation_method": "Cooked on iron tawa with 1 tsp sesame/groundnut oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00030",
+    "recipe_name": "Dosa (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 restaurant Ghee Roast (~150g crispy)",
+    "number_of_servings": 1,
+    "total_weight_g": 150,
+    "total_calories_kcal": 360,
+    "total_protein_g": 6.2,
+    "total_carbohydrates_g": 45.0,
+    "total_fat_g": 17.5,
+    "total_fiber_g": 2.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 360,
+      "protein_g": 6.2,
+      "carbs_g": 45.0,
+      "fat_g": 17.5,
+      "fiber_g": 2.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_batter",
+        "weight_g": 100
+      },
+      {
+        "ingredient": "urad_dal_batter",
+        "weight_g": 30
+      },
+      {
+        "ingredient": "hotel_ghee_butter",
+        "weight_g": 22
+      }
+    ],
+    "preparation_method": "Hotel crispy roast basted generously with pure cow ghee.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00031",
+    "recipe_name": "Idly (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 pieces (~120g)",
+    "number_of_servings": 1,
+    "total_weight_g": 120,
+    "total_calories_kcal": 130,
+    "total_protein_g": 4.2,
+    "total_carbohydrates_g": 26.5,
+    "total_fat_g": 0.4,
+    "total_fiber_g": 1.6,
+    "nutrition_per_serving": {
+      "calories_kcal": 130,
+      "protein_g": 4.2,
+      "carbs_g": 26.5,
+      "fat_g": 0.4,
+      "fiber_g": 1.6
+    },
+    "ingredients": [
+      {
+        "ingredient": "idli_rice_cooked",
+        "weight_g": 85
+      },
+      {
+        "ingredient": "urad_dal_cooked",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 0
+      }
+    ],
+    "preparation_method": "Pure steam cooked in idli pot with zero added oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00032",
+    "recipe_name": "Idly (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 pieces with Ghee Podi / Sambar Dip (~160g)",
+    "number_of_servings": 1,
+    "total_weight_g": 160,
+    "total_calories_kcal": 245,
+    "total_protein_g": 5.5,
+    "total_carbohydrates_g": 31.0,
+    "total_fat_g": 11.0,
+    "total_fiber_g": 2.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 245,
+      "protein_g": 5.5,
+      "carbs_g": 31.0,
+      "fat_g": 11.0,
+      "fiber_g": 2.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "idli_rice_cooked",
+        "weight_g": 95
+      },
+      {
+        "ingredient": "urad_dal_cooked",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "ghee_drizzle",
+        "weight_g": 12
+      },
+      {
+        "ingredient": "podi",
+        "weight_g": 6
+      }
+    ],
+    "preparation_method": "Restaurant Ghee Podi Idli or Sambar Idli soaked in rich broth.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00033",
+    "recipe_name": "Kaara chutney (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "3 tbsp (~45g)",
+    "number_of_servings": 1,
+    "total_weight_g": 45,
+    "total_calories_kcal": 55,
+    "total_protein_g": 1.1,
+    "total_carbohydrates_g": 6.5,
+    "total_fat_g": 3.0,
+    "total_fiber_g": 1.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 55,
+      "protein_g": 1.1,
+      "carbs_g": 6.5,
+      "fat_g": 3.0,
+      "fiber_g": 1.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "onion",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "red_chilli_garlic",
+        "weight_g": 3
+      },
+      {
+        "ingredient": "sesame_oil",
+        "weight_g": 4
+      }
+    ],
+    "preparation_method": "Tangy spicy chutney tempered with 1 tsp gingelly oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00034",
+    "recipe_name": "Kaara chutney (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup serving (~70g)",
+    "number_of_servings": 1,
+    "total_weight_g": 70,
+    "total_calories_kcal": 105,
+    "total_protein_g": 1.6,
+    "total_carbohydrates_g": 9.5,
+    "total_fat_g": 7.0,
+    "total_fiber_g": 1.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 105,
+      "protein_g": 1.6,
+      "carbs_g": 9.5,
+      "fat_g": 7.0,
+      "fiber_g": 1.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "onion",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "red_chilli_garlic",
+        "weight_g": 5
+      },
+      {
+        "ingredient": "sesame_oil",
+        "weight_g": 10
+      }
+    ],
+    "preparation_method": "Hotel spicy red chutney with rich oil surface sheen.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00035",
+    "recipe_name": "Kali (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~140g)",
+    "number_of_servings": 1,
+    "total_weight_g": 140,
+    "total_calories_kcal": 310,
+    "total_protein_g": 8.5,
+    "total_carbohydrates_g": 56.0,
+    "total_fat_g": 6.8,
+    "total_fiber_g": 5.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 310,
+      "protein_g": 8.5,
+      "carbs_g": 56.0,
+      "fat_g": 6.8,
+      "fiber_g": 5.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "black_urad_dal",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "rice",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "jaggery",
+        "weight_g": 45
+      },
+      {
+        "ingredient": "sesame_oil",
+        "weight_g": 10
+      }
+    ],
+    "preparation_method": "Traditional home postpartum/bone strength health recipe.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00036",
+    "recipe_name": "Kali (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 sweet portion (~160g)",
+    "number_of_servings": 1,
+    "total_weight_g": 160,
+    "total_calories_kcal": 415,
+    "total_protein_g": 9.2,
+    "total_carbohydrates_g": 68.0,
+    "total_fat_g": 12.5,
+    "total_fiber_g": 6.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 415,
+      "protein_g": 9.2,
+      "carbs_g": 68.0,
+      "fat_g": 12.5,
+      "fiber_g": 6.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "black_urad_dal",
+        "weight_g": 55
+      },
+      {
+        "ingredient": "rice",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "jaggery",
+        "weight_g": 55
+      },
+      {
+        "ingredient": "sesame_oil",
+        "weight_g": 18
+      }
+    ],
+    "preparation_method": "Sweet stall style with higher jaggery and gingelly oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00037",
+    "recipe_name": "Koozh (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 large glass (~250ml)",
+    "number_of_servings": 1,
+    "total_weight_g": 250,
+    "total_calories_kcal": 170,
+    "total_protein_g": 5.2,
+    "total_carbohydrates_g": 32.0,
+    "total_fat_g": 2.2,
+    "total_fiber_g": 4.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 170,
+      "protein_g": 5.2,
+      "carbs_g": 32.0,
+      "fat_g": 2.2,
+      "fiber_g": 4.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "ragi_flour",
+        "weight_g": 45
+      },
+      {
+        "ingredient": "broken_rice",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "buttermilk",
+        "weight_g": 140
+      },
+      {
+        "ingredient": "shallots",
+        "weight_g": 15
+      }
+    ],
+    "preparation_method": "Fermented overnight at home with fresh churned sour buttermilk.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00038",
+    "recipe_name": "Koozh (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 earthen pot serving (~320ml with side sides)",
+    "number_of_servings": 1,
+    "total_weight_g": 320,
+    "total_calories_kcal": 245,
+    "total_protein_g": 6.8,
+    "total_carbohydrates_g": 44.0,
+    "total_fat_g": 4.5,
+    "total_fiber_g": 5.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 245,
+      "protein_g": 6.8,
+      "carbs_g": 44.0,
+      "fat_g": 4.5,
+      "fiber_g": 5.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "ragi_flour",
+        "weight_g": 60
+      },
+      {
+        "ingredient": "broken_rice",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "buttermilk",
+        "weight_g": 180
+      },
+      {
+        "ingredient": "shallots",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "oil_pickle",
+        "weight_g": 8
+      }
+    ],
+    "preparation_method": "Roadside/hotel traditional mud pot koozh served with spicy pickle & dried fish.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00039",
+    "recipe_name": "Lemon Rice (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~180g)",
+    "number_of_servings": 1,
+    "total_weight_g": 180,
+    "total_calories_kcal": 275,
+    "total_protein_g": 5.6,
+    "total_carbohydrates_g": 48.0,
+    "total_fat_g": 6.8,
+    "total_fiber_g": 2.4,
+    "nutrition_per_serving": {
+      "calories_kcal": 275,
+      "protein_g": 5.6,
+      "carbs_g": 48.0,
+      "fat_g": 6.8,
+      "fiber_g": 2.4
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 140
+      },
+      {
+        "ingredient": "lemon_juice",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "peanuts",
+        "weight_g": 12
+      },
+      {
+        "ingredient": "oil_tempering",
+        "weight_g": 6
+      }
+    ],
+    "preparation_method": "Home lunchbox rice tossed with fresh lemon juice and roasted peanuts.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00040",
+    "recipe_name": "Lemon Rice (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~240g hotel variety meal)",
+    "number_of_servings": 1,
+    "total_weight_g": 240,
+    "total_calories_kcal": 380,
+    "total_protein_g": 7.5,
+    "total_carbohydrates_g": 62.0,
+    "total_fat_g": 12.5,
+    "total_fiber_g": 3.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 380,
+      "protein_g": 7.5,
+      "carbs_g": 62.0,
+      "fat_g": 12.5,
+      "fiber_g": 3.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 180
+      },
+      {
+        "ingredient": "lemon_juice",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "peanuts",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "oil_tempering",
+        "weight_g": 15
+      }
+    ],
+    "preparation_method": "Hotel lunch special with extra oil seasoning for shine and shelf life.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00041",
+    "recipe_name": "Mushroom briyani (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~260g)",
+    "number_of_servings": 1,
+    "total_weight_g": 260,
+    "total_calories_kcal": 370,
+    "total_protein_g": 9.5,
+    "total_carbohydrates_g": 60.0,
+    "total_fat_g": 9.2,
+    "total_fiber_g": 4.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 370,
+      "protein_g": 9.5,
+      "carbs_g": 60.0,
+      "fat_g": 9.2,
+      "fiber_g": 4.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "seeraga_samba_rice",
+        "weight_g": 120
+      },
+      {
+        "ingredient": "mushrooms",
+        "weight_g": 90
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 10
+      }
+    ],
+    "preparation_method": "Home pressure cooker mushroom biryani with low fat.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00042",
+    "recipe_name": "Mushroom briyani (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~350g)",
+    "number_of_servings": 1,
+    "total_weight_g": 350,
+    "total_calories_kcal": 510,
+    "total_protein_g": 12.8,
+    "total_carbohydrates_g": 75.0,
+    "total_fat_g": 17.5,
+    "total_fiber_g": 5.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 510,
+      "protein_g": 12.8,
+      "carbs_g": 75.0,
+      "fat_g": 17.5,
+      "fiber_g": 5.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "seeraga_samba_rice",
+        "weight_g": 160
+      },
+      {
+        "ingredient": "mushrooms",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 22
+      }
+    ],
+    "preparation_method": "Restaurant biryani enriched with fried onions and ghee.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00043",
+    "recipe_name": "Mutton Briyani (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~290g)",
+    "number_of_servings": 1,
+    "total_weight_g": 290,
+    "total_calories_kcal": 520,
+    "total_protein_g": 31.0,
+    "total_carbohydrates_g": 56.0,
+    "total_fat_g": 17.5,
+    "total_fiber_g": 2.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 520,
+      "protein_g": 31.0,
+      "carbs_g": 56.0,
+      "fat_g": 17.5,
+      "fiber_g": 2.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "seeraga_samba_rice",
+        "weight_g": 120
+      },
+      {
+        "ingredient": "mutton_meat",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 14
+      }
+    ],
+    "preparation_method": "Home Sunday mutton biryani cooked with bone-in tender goat meat.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00044",
+    "recipe_name": "Mutton Briyani (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 full plate (~400g Thalappakatti/Seeraga style)",
+    "number_of_servings": 1,
+    "total_weight_g": 400,
+    "total_calories_kcal": 760,
+    "total_protein_g": 39.5,
+    "total_carbohydrates_g": 72.0,
+    "total_fat_g": 34.0,
+    "total_fiber_g": 3.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 760,
+      "protein_g": 39.5,
+      "carbs_g": 72.0,
+      "fat_g": 34.0,
+      "fiber_g": 3.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "seeraga_samba_rice",
+        "weight_g": 170
+      },
+      {
+        "ingredient": "mutton_meat",
+        "weight_g": 140
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 32
+      }
+    ],
+    "preparation_method": "Famous restaurant style with rich mutton fat infusion and double ghee.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00045",
+    "recipe_name": "Nandu masala (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~180g)",
+    "number_of_servings": 1,
+    "total_weight_g": 180,
+    "total_calories_kcal": 210,
+    "total_protein_g": 24.5,
+    "total_carbohydrates_g": 7.5,
+    "total_fat_g": 8.8,
+    "total_fiber_g": 1.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 210,
+      "protein_g": 24.5,
+      "carbs_g": 7.5,
+      "fat_g": 8.8,
+      "fiber_g": 1.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "crab_meat",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "shallots_tomato",
+        "weight_g": 45
+      },
+      {
+        "ingredient": "black_pepper_spices",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 8
+      }
+    ],
+    "preparation_method": "Chettinad home cold-cure recipe heavy on crushed black pepper.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00046",
+    "recipe_name": "Nandu masala (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~240g)",
+    "number_of_servings": 1,
+    "total_weight_g": 240,
+    "total_calories_kcal": 310,
+    "total_protein_g": 28.0,
+    "total_carbohydrates_g": 12.0,
+    "total_fat_g": 16.5,
+    "total_fiber_g": 2.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 310,
+      "protein_g": 28.0,
+      "carbs_g": 12.0,
+      "fat_g": 16.5,
+      "fiber_g": 2.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "crab_meat",
+        "weight_g": 130
+      },
+      {
+        "ingredient": "shallots_tomato",
+        "weight_g": 65
+      },
+      {
+        "ingredient": "coconut_paste",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 16
+      }
+    ],
+    "preparation_method": "Hotel seafood thalavazhi gravy with coconut paste and oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00047",
+    "recipe_name": "Nei satham (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~170g)",
+    "number_of_servings": 1,
+    "total_weight_g": 170,
+    "total_calories_kcal": 310,
+    "total_protein_g": 4.8,
+    "total_carbohydrates_g": 46.0,
+    "total_fat_g": 11.5,
+    "total_fiber_g": 1.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 310,
+      "protein_g": 4.8,
+      "carbs_g": 46.0,
+      "fat_g": 11.5,
+      "fiber_g": 1.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 135
+      },
+      {
+        "ingredient": "cow_ghee",
+        "weight_g": 12
+      },
+      {
+        "ingredient": "cashews",
+        "weight_g": 8
+      },
+      {
+        "ingredient": "spices",
+        "weight_g": 3
+      }
+    ],
+    "preparation_method": "Made at home with pure cow ghee and fragrant Jeera samba rice.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00048",
+    "recipe_name": "Nei satham (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~230g Kuska/Ghee rice)",
+    "number_of_servings": 1,
+    "total_weight_g": 230,
+    "total_calories_kcal": 470,
+    "total_protein_g": 6.8,
+    "total_carbohydrates_g": 59.0,
+    "total_fat_g": 22.0,
+    "total_fiber_g": 1.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 470,
+      "protein_g": 6.8,
+      "carbs_g": 59.0,
+      "fat_g": 22.0,
+      "fiber_g": 1.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 170
+      },
+      {
+        "ingredient": "commercial_ghee",
+        "weight_g": 24
+      },
+      {
+        "ingredient": "cashews",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "fried_onions",
+        "weight_g": 15
+      }
+    ],
+    "preparation_method": "Wedding / hotel banquet style topped with deep fried onions & fried cashews.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00049",
+    "recipe_name": "Paal kolukattai (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 bowl (~150g)",
+    "number_of_servings": 1,
+    "total_weight_g": 150,
+    "total_calories_kcal": 240,
+    "total_protein_g": 4.2,
+    "total_carbohydrates_g": 46.0,
+    "total_fat_g": 4.5,
+    "total_fiber_g": 1.6,
+    "nutrition_per_serving": {
+      "calories_kcal": 240,
+      "protein_g": 4.2,
+      "carbs_g": 46.0,
+      "fat_g": 4.5,
+      "fiber_g": 1.6
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_flour_dumplings",
+        "weight_g": 70
+      },
+      {
+        "ingredient": "milk_coconut_milk",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "jaggery",
+        "weight_g": 25
+      }
+    ],
+    "preparation_method": "Home sweet dish sweetened with unrefined jaggery.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00050",
+    "recipe_name": "Paal kolukattai (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 bowl (~190g)",
+    "number_of_servings": 1,
+    "total_weight_g": 190,
+    "total_calories_kcal": 340,
+    "total_protein_g": 5.2,
+    "total_carbohydrates_g": 58.0,
+    "total_fat_g": 10.5,
+    "total_fiber_g": 2.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 340,
+      "protein_g": 5.2,
+      "carbs_g": 58.0,
+      "fat_g": 10.5,
+      "fiber_g": 2.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_flour_dumplings",
+        "weight_g": 80
+      },
+      {
+        "ingredient": "thick_coconut_cream",
+        "weight_g": 70
+      },
+      {
+        "ingredient": "sugar_jaggery",
+        "weight_g": 38
+      }
+    ],
+    "preparation_method": "Restaurant dessert enriched with thick coconut cream.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00051",
+    "recipe_name": "Paneer briyani (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~270g)",
+    "number_of_servings": 1,
+    "total_weight_g": 270,
+    "total_calories_kcal": 420,
+    "total_protein_g": 16.5,
+    "total_carbohydrates_g": 56.0,
+    "total_fat_g": 14.5,
+    "total_fiber_g": 3.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 420,
+      "protein_g": 16.5,
+      "carbs_g": 56.0,
+      "fat_g": 14.5,
+      "fiber_g": 3.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 120
+      },
+      {
+        "ingredient": "paneer_cubes",
+        "weight_g": 70
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 40
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 10
+      }
+    ],
+    "preparation_method": "Home vegetarian protein biryani with fresh paneer.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00052",
+    "recipe_name": "Paneer briyani (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~360g)",
+    "number_of_servings": 1,
+    "total_weight_g": 360,
+    "total_calories_kcal": 610,
+    "total_protein_g": 21.0,
+    "total_carbohydrates_g": 72.0,
+    "total_fat_g": 26.5,
+    "total_fiber_g": 4.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 610,
+      "protein_g": 21.0,
+      "carbs_g": 72.0,
+      "fat_g": 26.5,
+      "fiber_g": 4.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 160
+      },
+      {
+        "ingredient": "fried_paneer",
+        "weight_g": 100
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 24
+      }
+    ],
+    "preparation_method": "Restaurant style with deep-fried paneer cubes and extra butter.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00053",
+    "recipe_name": "Panner masala (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~180g)",
+    "number_of_servings": 1,
+    "total_weight_g": 180,
+    "total_calories_kcal": 280,
+    "total_protein_g": 14.2,
+    "total_carbohydrates_g": 11.5,
+    "total_fat_g": 19.5,
+    "total_fiber_g": 2.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 280,
+      "protein_g": 14.2,
+      "carbs_g": 11.5,
+      "fat_g": 19.5,
+      "fiber_g": 2.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "paneer_cubes",
+        "weight_g": 90
+      },
+      {
+        "ingredient": "onion_tomato_gravy",
+        "weight_g": 70
+      },
+      {
+        "ingredient": "butter_oil",
+        "weight_g": 8
+      },
+      {
+        "ingredient": "cashews",
+        "weight_g": 8
+      }
+    ],
+    "preparation_method": "Light home curry cooked with milk rather than heavy cream.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00054",
+    "recipe_name": "Panner masala (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 bowl (~240g Paneer Butter Masala)",
+    "number_of_servings": 1,
+    "total_weight_g": 240,
+    "total_calories_kcal": 450,
+    "total_protein_g": 17.5,
+    "total_carbohydrates_g": 16.0,
+    "total_fat_g": 34.0,
+    "total_fiber_g": 3.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 450,
+      "protein_g": 17.5,
+      "carbs_g": 16.0,
+      "fat_g": 34.0,
+      "fiber_g": 3.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "paneer_cubes",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "rich_makhani_gravy",
+        "weight_g": 80
+      },
+      {
+        "ingredient": "butter",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "fresh_cream",
+        "weight_g": 20
+      }
+    ],
+    "preparation_method": "Restaurant Paneer Butter Masala laden with butter, cream, and cashew paste.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00055",
+    "recipe_name": "Parupu vada (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 pieces (~70g)",
+    "number_of_servings": 1,
+    "total_weight_g": 70,
+    "total_calories_kcal": 175,
+    "total_protein_g": 6.8,
+    "total_carbohydrates_g": 22.0,
+    "total_fat_g": 7.2,
+    "total_fiber_g": 4.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 175,
+      "protein_g": 6.8,
+      "carbs_g": 22.0,
+      "fat_g": 7.2,
+      "fiber_g": 4.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "chana_dal_coarse",
+        "weight_g": 45
+      },
+      {
+        "ingredient": "onion_chillies",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "oil_absorbed",
+        "weight_g": 7
+      }
+    ],
+    "preparation_method": "Home tea-time snack fried in fresh single-use oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00056",
+    "recipe_name": "Parupu vada (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 larger pieces (~90g)",
+    "number_of_servings": 1,
+    "total_weight_g": 90,
+    "total_calories_kcal": 240,
+    "total_protein_g": 7.8,
+    "total_carbohydrates_g": 26.5,
+    "total_fat_g": 12.5,
+    "total_fiber_g": 4.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 240,
+      "protein_g": 7.8,
+      "carbs_g": 26.5,
+      "fat_g": 12.5,
+      "fiber_g": 4.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "chana_dal_coarse",
+        "weight_g": 55
+      },
+      {
+        "ingredient": "onion_chillies",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "oil_absorbed",
+        "weight_g": 13
+      }
+    ],
+    "preparation_method": "Tea shop style crunchy exterior with higher oil absorption.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00057",
+    "recipe_name": "Pidi kolukattai (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "3 dumplings (~110g)",
+    "number_of_servings": 1,
+    "total_weight_g": 110,
+    "total_calories_kcal": 210,
+    "total_protein_g": 3.0,
+    "total_carbohydrates_g": 44.0,
+    "total_fat_g": 2.2,
+    "total_fiber_g": 2.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 210,
+      "protein_g": 3.0,
+      "carbs_g": 44.0,
+      "fat_g": 2.2,
+      "fiber_g": 2.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_flour",
+        "weight_g": 65
+      },
+      {
+        "ingredient": "jaggery",
+        "weight_g": 30
+      },
+      {
+        "ingredient": "coconut",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "ghee",
+        "weight_g": 2
+      }
+    ],
+    "preparation_method": "Pure steamed dumplings with unrefined country jaggery.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00058",
+    "recipe_name": "Pidi kolukattai (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "3 pieces (~130g sweet box item)",
+    "number_of_servings": 1,
+    "total_weight_g": 130,
+    "total_calories_kcal": 280,
+    "total_protein_g": 3.6,
+    "total_carbohydrates_g": 52.0,
+    "total_fat_g": 6.5,
+    "total_fiber_g": 2.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 280,
+      "protein_g": 3.6,
+      "carbs_g": 52.0,
+      "fat_g": 6.5,
+      "fiber_g": 2.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_flour",
+        "weight_g": 75
+      },
+      {
+        "ingredient": "jaggery",
+        "weight_g": 40
+      },
+      {
+        "ingredient": "coconut",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "ghee",
+        "weight_g": 6
+      }
+    ],
+    "preparation_method": "Festival sweet stall style with richer ghee flavor.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00059",
+    "recipe_name": "Poorna kolukattai (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 pieces (~90g)",
+    "number_of_servings": 1,
+    "total_weight_g": 90,
+    "total_calories_kcal": 195,
+    "total_protein_g": 2.8,
+    "total_carbohydrates_g": 39.0,
+    "total_fat_g": 3.5,
+    "total_fiber_g": 2.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 195,
+      "protein_g": 2.8,
+      "carbs_g": 39.0,
+      "fat_g": 3.5,
+      "fiber_g": 2.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_flour_dough",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "coconut_jaggery_poornam",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "ghee",
+        "weight_g": 2
+      }
+    ],
+    "preparation_method": "Traditional Vinayagar Chaturthi steamed sweet modak.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00060",
+    "recipe_name": "Poorna kolukattai (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 large pieces (~120g)",
+    "number_of_servings": 1,
+    "total_weight_g": 120,
+    "total_calories_kcal": 270,
+    "total_protein_g": 3.5,
+    "total_carbohydrates_g": 51.0,
+    "total_fat_g": 6.0,
+    "total_fiber_g": 2.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 270,
+      "protein_g": 3.5,
+      "carbs_g": 51.0,
+      "fat_g": 6.0,
+      "fiber_g": 2.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "rice_flour_dough",
+        "weight_g": 60
+      },
+      {
+        "ingredient": "coconut_jaggery_poornam",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "ghee",
+        "weight_g": 6
+      }
+    ],
+    "preparation_method": "Commercial sweet stall preparation with sweet jaggery syrup.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00061",
+    "recipe_name": "Prawn thokku (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~160g)",
+    "number_of_servings": 1,
+    "total_weight_g": 160,
+    "total_calories_kcal": 190,
+    "total_protein_g": 22.0,
+    "total_carbohydrates_g": 6.8,
+    "total_fat_g": 8.5,
+    "total_fiber_g": 1.6,
+    "nutrition_per_serving": {
+      "calories_kcal": 190,
+      "protein_g": 22.0,
+      "carbs_g": 6.8,
+      "fat_g": 8.5,
+      "fiber_g": 1.6
+    },
+    "ingredients": [
+      {
+        "ingredient": "cleaned_prawns",
+        "weight_g": 100
+      },
+      {
+        "ingredient": "shallots_tomato",
+        "weight_g": 45
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 8
+      },
+      {
+        "ingredient": "masala",
+        "weight_g": 5
+      }
+    ],
+    "preparation_method": "Home seafood fry cooked in cold-pressed sesame oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00062",
+    "recipe_name": "Prawn thokku (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~210g)",
+    "number_of_servings": 1,
+    "total_weight_g": 210,
+    "total_calories_kcal": 285,
+    "total_protein_g": 26.5,
+    "total_carbohydrates_g": 10.0,
+    "total_fat_g": 16.0,
+    "total_fiber_g": 2.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 285,
+      "protein_g": 26.5,
+      "carbs_g": 10.0,
+      "fat_g": 16.0,
+      "fiber_g": 2.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "cleaned_prawns",
+        "weight_g": 120
+      },
+      {
+        "ingredient": "shallots_tomato",
+        "weight_g": 65
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 18
+      },
+      {
+        "ingredient": "masala",
+        "weight_g": 8
+      }
+    ],
+    "preparation_method": "Chettinad restaurant thokku with high oil content.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00063",
+    "recipe_name": "Puthina Chutney (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "3 tbsp (~45g)",
+    "number_of_servings": 1,
+    "total_weight_g": 45,
+    "total_calories_kcal": 45,
+    "total_protein_g": 1.2,
+    "total_carbohydrates_g": 4.2,
+    "total_fat_g": 2.5,
+    "total_fiber_g": 1.6,
+    "nutrition_per_serving": {
+      "calories_kcal": 45,
+      "protein_g": 1.2,
+      "carbs_g": 4.2,
+      "fat_g": 2.5,
+      "fiber_g": 1.6
+    },
+    "ingredients": [
+      {
+        "ingredient": "mint_coriander",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "urad_dal_roasted",
+        "weight_g": 5
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 3
+      }
+    ],
+    "preparation_method": "Fresh herb dominant home digestive chutney.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00064",
+    "recipe_name": "Puthina Chutney (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup serving (~65g)",
+    "number_of_servings": 1,
+    "total_weight_g": 65,
+    "total_calories_kcal": 95,
+    "total_protein_g": 1.9,
+    "total_carbohydrates_g": 6.5,
+    "total_fat_g": 6.8,
+    "total_fiber_g": 2.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 95,
+      "protein_g": 1.9,
+      "carbs_g": 6.5,
+      "fat_g": 6.8,
+      "fiber_g": 2.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "mint_coriander",
+        "weight_g": 20
+      },
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "urad_dal_roasted",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 7
+      }
+    ],
+    "preparation_method": "Hotel tiffin chutney with higher coconut for volume.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00065",
+    "recipe_name": "Sambar (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~180ml)",
+    "number_of_servings": 1,
+    "total_weight_g": 180,
+    "total_calories_kcal": 115,
+    "total_protein_g": 5.8,
+    "total_carbohydrates_g": 18.0,
+    "total_fat_g": 2.4,
+    "total_fiber_g": 4.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 115,
+      "protein_g": 5.8,
+      "carbs_g": 18.0,
+      "fat_g": 2.4,
+      "fiber_g": 4.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "toor_dal_cooked",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "vegetables_drumstick_carrot",
+        "weight_g": 70
+      },
+      {
+        "ingredient": "tamarind_pulp",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "oil_tempering",
+        "weight_g": 3
+      }
+    ],
+    "preparation_method": "Vegetable-loaded home stew with fresh hand-pounded sambar powder.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00066",
+    "recipe_name": "Sambar (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 bowl (~220ml hotel tiffin sambar)",
+    "number_of_servings": 1,
+    "total_weight_g": 220,
+    "total_calories_kcal": 175,
+    "total_protein_g": 6.8,
+    "total_carbohydrates_g": 25.0,
+    "total_fat_g": 6.0,
+    "total_fiber_g": 5.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 175,
+      "protein_g": 6.8,
+      "carbs_g": 25.0,
+      "fat_g": 6.0,
+      "fiber_g": 5.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "toor_dal_cooked",
+        "weight_g": 40
+      },
+      {
+        "ingredient": "shallots_potato",
+        "weight_g": 60
+      },
+      {
+        "ingredient": "jaggery_sugar",
+        "weight_g": 5
+      },
+      {
+        "ingredient": "oil_ghee_tadka",
+        "weight_g": 10
+      }
+    ],
+    "preparation_method": "Saravana Bhavan style hotel sambar, slightly sweet and thickened with dal paste.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00067",
+    "recipe_name": "Sambar satham (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~240g)",
+    "number_of_servings": 1,
+    "total_weight_g": 240,
+    "total_calories_kcal": 310,
+    "total_protein_g": 8.8,
+    "total_carbohydrates_g": 54.0,
+    "total_fat_g": 5.5,
+    "total_fiber_g": 5.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 310,
+      "protein_g": 8.8,
+      "carbs_g": 54.0,
+      "fat_g": 5.5,
+      "fiber_g": 5.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 120
+      },
+      {
+        "ingredient": "toor_dal",
+        "weight_g": 45
+      },
+      {
+        "ingredient": "vegetables",
+        "weight_g": 55
+      },
+      {
+        "ingredient": "ghee",
+        "weight_g": 6
+      }
+    ],
+    "preparation_method": "Comforting one-pot home meal with generous vegetables.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00068",
+    "recipe_name": "Sambar satham (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~320g Bisi Bele Bath / Sambar Rice)",
+    "number_of_servings": 1,
+    "total_weight_g": 320,
+    "total_calories_kcal": 450,
+    "total_protein_g": 11.5,
+    "total_carbohydrates_g": 68.0,
+    "total_fat_g": 15.0,
+    "total_fiber_g": 7.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 450,
+      "protein_g": 11.5,
+      "carbs_g": 68.0,
+      "fat_g": 15.0,
+      "fiber_g": 7.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 160
+      },
+      {
+        "ingredient": "toor_dal",
+        "weight_g": 55
+      },
+      {
+        "ingredient": "vegetables",
+        "weight_g": 60
+      },
+      {
+        "ingredient": "pure_ghee",
+        "weight_g": 18
+      }
+    ],
+    "preparation_method": "Restaurant specialty served piping hot with dripping melted ghee.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00069",
+    "recipe_name": "Satham (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup (~140g cooked)",
+    "number_of_servings": 1,
+    "total_weight_g": 140,
+    "total_calories_kcal": 180,
+    "total_protein_g": 3.8,
+    "total_carbohydrates_g": 41.0,
+    "total_fat_g": 0.3,
+    "total_fiber_g": 0.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 180,
+      "protein_g": 3.8,
+      "carbs_g": 41.0,
+      "fat_g": 0.3,
+      "fiber_g": 0.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 140
+      }
+    ],
+    "preparation_method": "Home boiled Ponni rice drained of excess starch.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00070",
+    "recipe_name": "Satham (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 bowl (~190g unlimited meals scoop)",
+    "number_of_servings": 1,
+    "total_weight_g": 190,
+    "total_calories_kcal": 245,
+    "total_protein_g": 5.0,
+    "total_carbohydrates_g": 55.0,
+    "total_fat_g": 0.5,
+    "total_fiber_g": 1.1,
+    "nutrition_per_serving": {
+      "calories_kcal": 245,
+      "protein_g": 5.0,
+      "carbs_g": 55.0,
+      "fat_g": 0.5,
+      "fiber_g": 1.1
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 190
+      }
+    ],
+    "preparation_method": "Hotel meals cooked in commercial rice steamers.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00071",
+    "recipe_name": "Thengai chutney (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "3 tbsp (~45g)",
+    "number_of_servings": 1,
+    "total_weight_g": 45,
+    "total_calories_kcal": 80,
+    "total_protein_g": 1.8,
+    "total_carbohydrates_g": 3.8,
+    "total_fat_g": 6.8,
+    "total_fiber_g": 2.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 80,
+      "protein_g": 1.8,
+      "carbs_g": 3.8,
+      "fat_g": 6.8,
+      "fiber_g": 2.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "roasted_gram",
+        "weight_g": 10
+      },
+      {
+        "ingredient": "chilli_ginger",
+        "weight_g": 4
+      },
+      {
+        "ingredient": "oil",
+        "weight_g": 3
+      }
+    ],
+    "preparation_method": "Home ground fresh with minimal oil tadka.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00072",
+    "recipe_name": "Thengai chutney (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 cup serving (~65g)",
+    "number_of_servings": 1,
+    "total_weight_g": 65,
+    "total_calories_kcal": 135,
+    "total_protein_g": 2.4,
+    "total_carbohydrates_g": 5.5,
+    "total_fat_g": 11.8,
+    "total_fiber_g": 2.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 135,
+      "protein_g": 2.4,
+      "carbs_g": 5.5,
+      "fat_g": 11.8,
+      "fiber_g": 2.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "fresh_coconut",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "roasted_gram",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "chilli_ginger",
+        "weight_g": 5
+      },
+      {
+        "ingredient": "coconut_oil",
+        "weight_g": 8
+      }
+    ],
+    "preparation_method": "Rich creamy hotel white chutney.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00073",
+    "recipe_name": "Uzhuntha vadai (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 pieces (~80g)",
+    "number_of_servings": 1,
+    "total_weight_g": 80,
+    "total_calories_kcal": 210,
+    "total_protein_g": 7.2,
+    "total_carbohydrates_g": 23.0,
+    "total_fat_g": 10.0,
+    "total_fiber_g": 3.8,
+    "nutrition_per_serving": {
+      "calories_kcal": 210,
+      "protein_g": 7.2,
+      "carbs_g": 23.0,
+      "fat_g": 10.0,
+      "fiber_g": 3.8
+    },
+    "ingredients": [
+      {
+        "ingredient": "urad_dal_batter",
+        "weight_g": 55
+      },
+      {
+        "ingredient": "onion_pepper",
+        "weight_g": 12
+      },
+      {
+        "ingredient": "oil_absorbed",
+        "weight_g": 9
+      }
+    ],
+    "preparation_method": "Fried at home in fresh sunflower/groundnut oil.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00074",
+    "recipe_name": "Uzhuntha vadai (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "2 large hotel vadas (~110g)",
+    "number_of_servings": 1,
+    "total_weight_g": 110,
+    "total_calories_kcal": 310,
+    "total_protein_g": 8.8,
+    "total_carbohydrates_g": 29.0,
+    "total_fat_g": 18.0,
+    "total_fiber_g": 4.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 310,
+      "protein_g": 8.8,
+      "carbs_g": 29.0,
+      "fat_g": 18.0,
+      "fiber_g": 4.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "urad_dal_batter",
+        "weight_g": 75
+      },
+      {
+        "ingredient": "onion_pepper",
+        "weight_g": 15
+      },
+      {
+        "ingredient": "oil_absorbed",
+        "weight_g": 18
+      }
+    ],
+    "preparation_method": "Deep fried crispy hotel medu vada with higher oil absorption.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00075",
+    "recipe_name": "Veg briyani (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~260g)",
+    "number_of_servings": 1,
+    "total_weight_g": 260,
+    "total_calories_kcal": 350,
+    "total_protein_g": 7.5,
+    "total_carbohydrates_g": 58.0,
+    "total_fat_g": 9.8,
+    "total_fiber_g": 5.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 350,
+      "protein_g": 7.5,
+      "carbs_g": 58.0,
+      "fat_g": 9.8,
+      "fiber_g": 5.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 120
+      },
+      {
+        "ingredient": "mixed_veggies_peas",
+        "weight_g": 80
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 35
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 10
+      }
+    ],
+    "preparation_method": "Loaded with carrots, beans and peas with controlled ghee.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00076",
+    "recipe_name": "Veg briyani (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~350g)",
+    "number_of_servings": 1,
+    "total_weight_g": 350,
+    "total_calories_kcal": 490,
+    "total_protein_g": 9.5,
+    "total_carbohydrates_g": 74.0,
+    "total_fat_g": 18.5,
+    "total_fiber_g": 6.5,
+    "nutrition_per_serving": {
+      "calories_kcal": 490,
+      "protein_g": 9.5,
+      "carbs_g": 74.0,
+      "fat_g": 18.5,
+      "fiber_g": 6.5
+    },
+    "ingredients": [
+      {
+        "ingredient": "cooked_rice",
+        "weight_g": 160
+      },
+      {
+        "ingredient": "mixed_veggies_peas",
+        "weight_g": 90
+      },
+      {
+        "ingredient": "onion_tomato",
+        "weight_g": 50
+      },
+      {
+        "ingredient": "ghee_oil",
+        "weight_g": 24
+      }
+    ],
+    "preparation_method": "Hotel vegetable dum biryani served with raita and kurma.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00077",
+    "recipe_name": "Ven Pongal (Home Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~180g)",
+    "number_of_servings": 1,
+    "total_weight_g": 180,
+    "total_calories_kcal": 305,
+    "total_protein_g": 7.8,
+    "total_carbohydrates_g": 44.0,
+    "total_fat_g": 11.2,
+    "total_fiber_g": 3.2,
+    "nutrition_per_serving": {
+      "calories_kcal": 305,
+      "protein_g": 7.8,
+      "carbs_g": 44.0,
+      "fat_g": 11.2,
+      "fiber_g": 3.2
+    },
+    "ingredients": [
+      {
+        "ingredient": "raw_rice",
+        "weight_g": 85
+      },
+      {
+        "ingredient": "yellow_moong_dal",
+        "weight_g": 45
+      },
+      {
+        "ingredient": "cow_ghee",
+        "weight_g": 12
+      },
+      {
+        "ingredient": "cashews_pepper",
+        "weight_g": 10
+      }
+    ],
+    "preparation_method": "Home comfort breakfast cooked with balanced cow ghee.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  },
+  {
+    "recipe_id": "RECIPE_00078",
+    "recipe_name": "Ven Pongal (Hotel Style)",
+    "category": "South Indian Traditional Recipes",
+    "cuisine": "South Indian",
+    "serving_description": "1 plate (~240g hotel breakfast scoop)",
+    "number_of_servings": 1,
+    "total_weight_g": 240,
+    "total_calories_kcal": 445,
+    "total_protein_g": 9.8,
+    "total_carbohydrates_g": 56.0,
+    "total_fat_g": 20.5,
+    "total_fiber_g": 4.0,
+    "nutrition_per_serving": {
+      "calories_kcal": 445,
+      "protein_g": 9.8,
+      "carbs_g": 56.0,
+      "fat_g": 20.5,
+      "fiber_g": 4.0
+    },
+    "ingredients": [
+      {
+        "ingredient": "raw_rice",
+        "weight_g": 110
+      },
+      {
+        "ingredient": "yellow_moong_dal",
+        "weight_g": 55
+      },
+      {
+        "ingredient": "pure_ghee",
+        "weight_g": 25
+      },
+      {
+        "ingredient": "cashews_pepper",
+        "weight_g": 16
+      }
+    ],
+    "preparation_method": "Classic hotel tiffin pongal drenched in rich melted ghee and fried cashews.",
+    "source": "ICMR-NIN IFCT 2017 & Culinary Benchmark Recipe Database"
+  }
+]

@@ -1,0 +1,21 @@
+name,food_state,serving_g,serving_desc,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,source_name,source_id
+Burger,Cooked,160,1 standard burger (160g),380.0,16.0,40.0,18.0,2.2,USDA FoodData Central,FDC_BURGER_STD
+Chicken burger,Cooked,180,1 chicken fillet burger (180g),420.0,24.5,42.0,18.5,2.0,USDA FoodData Central,FDC_CHICKEN_BURGER
+Veg burger,Cooked,170,1 crispy veg patty burger (170g),350.0,9.5,48.0,14.0,3.8,USDA FoodData Central,FDC_VEG_BURGER
+Cheese burger,Cooked,190,1 double cheese burger (190g),490.0,22.0,41.0,27.0,2.0,USDA FoodData Central,FDC_CHEESEBURGER
+Pizza,Cooked/Baked,100,1 medium slice (100g),266.0,11.0,33.0,10.0,2.3,USDA FoodData Central,FDC_PIZZA_BASE
+Chicken pizza,Cooked/Baked,120,1 slice chicken BBQ pizza (120g),290.0,15.5,32.0,11.5,2.1,USDA FoodData Central,FDC_CHICKEN_PIZZA
+Veg pizza,Cooked/Baked,115,1 slice veg supreme pizza (115g),255.0,9.5,35.0,8.8,2.5,USDA FoodData Central,FDC_VEG_PIZZA
+Cheese pizza,Cooked/Baked,110,1 slice margherita cheese pizza (110g),280.0,12.5,32.0,12.0,2.0,USDA FoodData Central,FDC_CHEESE_PIZZA
+Sandwich,Fresh/Assembled,150,1 club sandwich (150g),310.0,12.0,38.0,12.0,3.0,USDA FoodData Central,FDC_SANDWICH_BASE
+Grilled sandwich,Cooked/Toasted,160,1 grilled cheese veg sandwich (160g),360.0,13.5,41.0,16.0,3.2,USDA FoodData Central,FDC_GRILLED_SANDWICH
+Wraps,Cooked/Rolled,180,1 paneer/chicken wrap (180g),380.0,18.0,44.0,14.5,3.5,USDA FoodData Central,FDC_WRAPS_BASE
+Shawarma,Cooked/Rotisserie,200,1 chicken shawarma roll (200g),440.0,26.0,38.0,20.0,2.5,USDA FoodData Central,FDC_SHAWARMA_CHICKEN
+Tacos,Cooked/Assembled,130,2 crispy tacos (130g),290.0,13.0,28.0,14.0,3.2,USDA FoodData Central,FDC_TACOS_BASE
+Pasta,Cooked/Boiled,200,1 plate tomato penne pasta (200g),280.0,9.2,52.0,4.0,3.5,USDA FoodData Central,FDC_PASTA_TOMATO
+Macaroni,Cooked/Boiled,180,1 bowl desi macaroni (180g),270.0,8.0,48.0,5.5,2.8,USDA FoodData Central,FDC_MACARONI_BASE
+Noodles,Cooked/Wok Tossed,200,1 plate hakka noodles (200g),310.0,7.5,54.0,7.5,2.5,USDA FoodData Central,FDC_NOODLES_HAKKA
+Fried rice,Cooked/Wok Tossed,220,1 plate egg/veg fried rice (220g),340.0,8.5,56.0,9.5,2.2,USDA FoodData Central,FDC_FRIED_RICE_BASE
+French fries,Cooked/Deep-fried,100,1 medium portion fries (100g),312.0,3.4,41.4,15.0,3.8,USDA FoodData Central,FDC_FRENCH_FRIES
+Nachos,Cooked/Crisp,85,1 portion nachos with cheese dip (85g),340.0,5.0,44.0,16.5,3.0,USDA FoodData Central,FDC_NACHOS_CHEESE
+Hot dogs,Cooked,120,1 chicken/meat hot dog with bun (120g),290.0,11.5,24.0,16.5,1.2,USDA FoodData Central,FDC_HOT_DOG_BASE

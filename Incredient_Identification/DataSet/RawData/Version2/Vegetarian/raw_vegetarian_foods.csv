@@ -1,0 +1,16 @@
+name,tamil,food_state,serving_g,serving_desc,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,source_name,source_id
+Sambar,சாம்பார்,Cooked,150,1 katori / bowl (150g),115.0,4.8,16.5,3.5,3.8,ICMR-NIN IFCT 2017,IFCT_SAMBAR_STD
+Rasam,ரசம்,Cooked,150,1 cup rasam (150g),45.0,1.5,6.5,1.5,0.8,ICMR-NIN IFCT 2017,IFCT_RASAM_STD
+Dal,பருப்பு,Cooked,150,1 cup yellow tadka dal (150g),158.0,9.2,21.0,4.2,4.5,ICMR-NIN IFCT 2017,IFCT_B002_COOKED
+Kootu,கூட்டு,Cooked,150,1 cup dal vegetable kootu (150g),135.0,5.6,18.0,4.8,5.2,ICMR-NIN IFCT 2017,IFCT_KOOTU_STD
+Poriyal,பொரியல்,Cooked,130,1 cup beans carrot poriyal (130g),95.0,2.5,13.0,3.8,4.5,ICMR-NIN IFCT 2017,IFCT_PORIYAL_STD
+Avial,அவியல்,Cooked,150,1 cup mixed veg coconut avial (150g),165.0,3.5,16.0,9.8,4.8,ICMR-NIN IFCT 2017,IFCT_AVIAL_STD
+Kurma,குருமா,Cooked,150,1 cup vegetable kurma (150g),175.0,4.2,18.5,9.5,4.0,ICMR-NIN IFCT 2017,IFCT_KURMA_STD
+Paneer butter masala,பன்னீர் பட்டர் மசாலா,Cooked,200,1 bowl paneer butter masala (200g),380.0,14.5,14.0,30.0,2.5,USDA FoodData Central / IFCT,FDC_PANEER_MASALA
+Palak paneer,பாலக் பன்னீர்,Cooked,200,1 bowl spinach paneer (200g),280.0,15.2,10.5,20.0,4.2,USDA FoodData Central / IFCT,FDC_PALAK_PANEER
+Chana masala,சென்னா மசாலா,Cooked,200,1 bowl chickpea curry (200g),245.0,10.8,34.0,7.5,8.5,ICMR-NIN IFCT 2017,IFCT_CHANA_MASALA
+Rajma,ராஜ்மா,Cooked,200,1 bowl kidney bean curry (200g),230.0,11.5,32.5,6.2,9.0,ICMR-NIN IFCT 2017,IFCT_RAJMA_COOKED
+Vegetable curry,காய்கறி குழம்பு,Cooked,180,1 bowl mixed vegetable gravy (180g),120.0,3.2,15.0,5.5,4.2,ICMR-NIN IFCT 2017,IFCT_VEG_CURRY
+Mushroom curry,காளான் குழம்பு,Cooked,180,1 bowl mushroom gravy (180g),140.0,5.8,12.0,8.0,3.0,ICMR-NIN IFCT 2017,IFCT_G005_CURRY
+Vegetable pulao,காய்கறி புலாவ்,Cooked,220,1 plate vegetable pulao (220g),295.0,6.2,50.0,8.0,3.5,ICMR-NIN IFCT 2017,IFCT_VEG_PULAO
+Vegetable fried rice,காய்கறி வறுத்த சாதம்,Cooked,220,1 plate fried rice (220g),310.0,5.5,52.0,9.2,2.8,USDA FoodData Central,FDC_VEG_FRIED_RICE

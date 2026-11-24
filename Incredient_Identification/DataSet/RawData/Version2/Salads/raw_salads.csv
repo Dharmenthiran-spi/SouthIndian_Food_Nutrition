@@ -1,0 +1,14 @@
+name,tamil,food_state,serving_g,serving_desc,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,source_name,source_id
+Cucumber salad,வெள்ளரி சாலட்,Fresh/Assembled,150,1 bowl cucumber salad with lime (150g),25.0,1.1,5.2,0.2,1.0,USDA FoodData Central,FDC_CUCUMBER_SALAD
+Carrot salad,கேரட் சாலட்,Fresh/Assembled,150,1 bowl grated carrot salad with lemon (150g),65.0,1.4,14.5,0.4,4.2,ICMR-NIN IFCT 2017,IFCT_CARROT_SALAD
+Beetroot salad,பீட்ரூட் சாலட்,Fresh/Assembled,150,1 bowl grated beetroot salad (150g),70.0,2.4,15.0,0.3,4.2,ICMR-NIN IFCT 2017,IFCT_BEETROOT_SALAD
+Onion tomato salad,வெங்காயம் தக்காளி சாலட்,Fresh/Assembled,150,1 bowl diced onion tomato kachumber (150g),45.0,1.5,9.8,0.3,2.2,ICMR-NIN IFCT 2017,IFCT_KACHUMBER_SALAD
+Mixed vegetable salad,கலவை காய்கறி சாலட்,Fresh/Assembled,200,1 large bowl mixed garden salad (200g),60.0,2.5,12.0,0.5,4.8,USDA FoodData Central,FDC_MIXED_VEG_SALAD
+Sprouts salad,முளைகட்டிய பயறு சாலட்,Fresh/Assembled,150,1 bowl sprouted moong salad (150g),130.0,9.5,21.0,1.2,5.2,ICMR-NIN IFCT 2017,IFCT_SPROUTS_SALAD
+Chickpea salad,கொண்டைக்கடலை சாலட்,Fresh/Assembled,200,1 bowl chickpea Mediterranean salad (200g),220.0,10.5,36.0,4.5,8.0,USDA FoodData Central,FDC_CHICKPEA_SALAD
+Protein salad,புரோட்டீன் சாலட்,Fresh/Assembled,250,1 bowl grilled chicken / paneer egg salad (250g),310.0,32.0,10.0,15.0,3.5,USDA FoodData Central,FDC_PROTEIN_SALAD
+Mixed fruit salad,பழ கலவை சாலட்,Fresh/Assembled,200,1 bowl fresh cut fruits (200g),120.0,1.5,30.0,0.5,4.0,USDA FoodData Central,FDC_MIXED_FRUIT_SALAD
+Apple fruit salad,ஆப்பிள் சாலட்,Fresh/Assembled,180,1 bowl diced apple salad with walnuts (180g),140.0,1.8,28.0,3.8,4.5,USDA FoodData Central,FDC_APPLE_SALAD
+Mango fruit salad,மாம்பழ சாலட்,Fresh/Assembled,180,1 bowl fresh mango salad with mint (180g),115.0,1.4,28.5,0.6,3.0,ICMR-NIN IFCT 2017,IFCT_MANGO_SALAD
+Watermelon fruit salad,தர்பூசணி சாலட்,Fresh/Assembled,220,1 large bowl watermelon mint salad (220g),70.0,1.4,17.5,0.4,1.0,ICMR-NIN IFCT 2017,IFCT_WATERMELON_SALAD
+Seasonal fruit salad,பருவகால பழ சாலட்,Fresh/Assembled,200,1 bowl local seasonal fruits (200g),110.0,1.6,27.0,0.5,3.8,ICMR-NIN IFCT 2017,IFCT_SEASONAL_FRUITS

@@ -1,0 +1,11 @@
+name,tamil,food_state,serving_g,serving_desc,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,source_name,source_id
+Chia seeds,சியா விதைகள்,Raw,20,2 tablespoons (20g),97.0,3.4,8.4,6.1,6.8,USDA FoodData Central,FDC_CHIA_SEEDS
+Flax seeds,ஆளி விதைகள்,Raw/Ground,20,2 tablespoons ground (20g),107.0,3.7,5.8,8.4,5.5,ICMR-NIN IFCT 2017,IFCT_FLAX_SEEDS
+Pumpkin seeds,பூசணி விதைகள்,Raw/Roasted,30,1 ounce / handful (30g),168.0,9.1,4.2,13.8,1.8,ICMR-NIN IFCT 2017,IFCT_PUMPKIN_SEEDS
+Sunflower seeds,சூரியகாந்தி விதைகள்,Raw/Roasted,30,1 ounce / handful (30g),175.0,6.2,6.0,15.4,2.6,ICMR-NIN IFCT 2017,IFCT_SUNFLOWER_SEEDS
+Sesame seeds,எள்,Raw/Roasted,20,2 tablespoons (20g),113.0,3.6,4.7,9.9,2.4,ICMR-NIN IFCT 2017,IFCT_SESAME_SEEDS
+Watermelon seeds,தர்பூசணி விதைகள்,Raw/Dried,30,Handful dried (30g),167.0,8.5,4.6,14.2,1.2,ICMR-NIN IFCT 2017,IFCT_WATERMELON_SEEDS
+Melon seeds,வெள்ளரி விதைகள்,Raw/Dried,30,Handful dried (30g),165.0,8.2,4.8,14.0,1.4,ICMR-NIN IFCT 2017,IFCT_MELON_SEEDS
+Hemp seeds,ஹெம்ப் விதைகள்,Raw/Hulled,30,3 tablespoons (30g),166.0,9.5,2.6,14.6,1.2,USDA FoodData Central,FDC_HEMP_SEEDS
+Basil seeds,சப்ஜா விதைகள்,Raw/Soaked,15,1 tablespoon soaked (15g dry),45.0,2.2,6.5,1.5,4.5,ICMR-NIN IFCT 2017,IFCT_SABJA_SEEDS
+Poppy seeds,கசகசா,Raw,15,1 tablespoon (15g),79.0,2.7,4.2,6.2,2.9,ICMR-NIN IFCT 2017,IFCT_POPPY_SEEDS
