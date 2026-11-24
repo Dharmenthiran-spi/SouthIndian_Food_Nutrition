@@ -43,7 +43,6 @@ dataset_v1.zip
 !Food_Detection/DataSet/RawData/Version2/classes_v2.csv
 !Food_Detection/DataSet/RawData/Version2/classes_v2.txt
 !Incredient_Identification/DataSet/**
-!Version_2_Food_Dataset/**
 !*.pt
 !*.pth
 !*.onnx
