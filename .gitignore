@@ -27,18 +27,16 @@ desktop.ini
 *.lock
 *.metadata
 
-# Ignore raw bulk unannotated data dumps and large image datasets (avoid GitHub RPC 2GB+ limits)
+# Ignore raw bulk unannotated data dumps (Khana 131,000 raw images)
 Food_Detection/DataSet/RawData/Version1/
 Food_Detection/DataSet/RawData/Version2/downloaded_images/
-Food_Detection/DataSet/Version2 Used Data/images/
 /DataSet/
 dataset_v1.zip
 
-# Explicitly ALLOW Models and Dataset Configs for Centralized GitHub Sync
+# Explicitly ALLOW Models and Datasets for Centralized GitHub Sync
 !Food_Detection/Models/**
 !Food_Detection/DataSet/Version1 Used Data/**
-!Food_Detection/DataSet/Version2 Used Data/labels/**
-!Food_Detection/DataSet/Version2 Used Data/dataset.yaml
+!Food_Detection/DataSet/Version2 Used Data/**
 !Food_Detection/DataSet/RawData/Version2/class_mapping_v2.json
 !Food_Detection/DataSet/RawData/Version2/classes_v2.csv
 !Food_Detection/DataSet/RawData/Version2/classes_v2.txt
