@@ -17,7 +17,7 @@ from ultralytics import YOLO
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Train YOLOv8 on Food Detection Version 2 (221 Classes)")
-    parser.add_argument("--epochs", type=int, default=50, help="Number of training epochs")
+    parser.add_argument("--epochs", type=int, default=100, help="Number of training epochs")
     parser.add_argument("--batch", type=int, default=16, help="Batch size (reduce if CUDA Out of Memory)")
     parser.add_argument("--imgsz", type=int, default=640, help="Image size for training and validation")
     parser.add_argument("--model", type=str, default="yolov8s.pt", help="Base pretrained YOLOv8 model")
