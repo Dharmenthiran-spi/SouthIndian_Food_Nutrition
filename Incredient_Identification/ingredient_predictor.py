@@ -17,9 +17,18 @@ import torch.nn as nn
 import numpy as np
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-JSON_PATH = os.path.join(CURRENT_DIR, "DataSet", "Version1 Used Data", "dishes_ingredients_map.json")
-HOME_HOTEL_PATH = os.path.join(CURRENT_DIR, "DataSet", "Version1 Used Data", "home_hotel_recipes.json")
+
+# Prioritize Version 2 datasets (221 classes), fallback to Version 1 (31 classes)
+V2_JSON_PATH = os.path.join(CURRENT_DIR, "DataSet", "Version2 Used Data", "dishes_ingredients_map_v2.json")
+V1_JSON_PATH = os.path.join(CURRENT_DIR, "DataSet", "Version1 Used Data", "dishes_ingredients_map.json")
+JSON_PATH = V2_JSON_PATH if os.path.exists(V2_JSON_PATH) else V1_JSON_PATH
+
+V2_HOME_HOTEL = os.path.join(CURRENT_DIR, "DataSet", "Version2 Used Data", "home_hotel_recipes_v2.json")
+V1_HOME_HOTEL = os.path.join(CURRENT_DIR, "DataSet", "Version1 Used Data", "home_hotel_recipes.json")
+HOME_HOTEL_PATH = V2_HOME_HOTEL if os.path.exists(V2_HOME_HOTEL) else V1_HOME_HOTEL
+
 MODEL_PATHS = [
+    os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version2", "best.pt"),
     os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version1", "ingredient_identification_v1_best.pt"),
     os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version1", "best.pt")
 ]
@@ -52,7 +61,7 @@ INGREDIENT_MACRO_MAP = {
 }
 
 class SouthIndianIngredientNutritionModel(nn.Module):
-    def __init__(self, num_foods=31, num_ingredients=68, embed_dim=64):
+    def __init__(self, num_foods=31, num_ingredients=68, embed_dim=64, num_nutrition=5):
         super().__init__()
         self.food_embedding = nn.Embedding(num_foods, embed_dim)
         self.shared_trunk = nn.Sequential(
@@ -73,7 +82,7 @@ class SouthIndianIngredientNutritionModel(nn.Module):
         self.nutrition_head = nn.Sequential(
             nn.Linear(128, 64),
             nn.ReLU(),
-            nn.Linear(64, 5)
+            nn.Linear(64, num_nutrition)
         )
 
     def forward(self, food_ids):
@@ -128,17 +137,23 @@ class IngredientNutritionPredictor:
         if chosen_path:
             try:
                 ckpt = torch.load(chosen_path, map_location="cpu")
-                num_foods = len(ckpt["food2idx"])
-                num_ings = len(ckpt["ing2idx"])
-                m = SouthIndianIngredientNutritionModel(num_foods=num_foods, num_ingredients=num_ings)
+                num_foods = len(ckpt.get("food2idx", {})) or ckpt.get("num_foods", 221)
+                num_ings = len(ckpt.get("ing2idx", {})) or ckpt.get("num_ingredients", 324)
+                nut_cols = ckpt.get("nut_cols", ["calories_kcal", "protein_g", "carbs_g", "fat_g", "fiber_g"])
+                num_nut = len(nut_cols)
+                m = SouthIndianIngredientNutritionModel(num_foods=num_foods, num_ingredients=num_ings, num_nutrition=num_nut)
                 m.load_state_dict(ckpt["model_state_dict"])
                 m.eval()
                 self.model = m
                 self.checkpoint = ckpt
-                self.idx2ing = {v: k for k, v in ckpt["ing2idx"].items()}
-                self.idx2food = {v: k for k, v in ckpt["food2idx"].items()}
-                self.nut_mean = np.array(ckpt["nut_mean"])
-                self.nut_std = np.array(ckpt["nut_std"])
+                if "ing2idx" in ckpt:
+                    self.idx2ing = {v: k for k, v in ckpt["ing2idx"].items()}
+                if "food2idx" in ckpt:
+                    self.idx2food = {v: k for k, v in ckpt["food2idx"].items()}
+                if "nut_mean" in ckpt:
+                    self.nut_mean = np.array(ckpt["nut_mean"])
+                if "nut_std" in ckpt:
+                    self.nut_std = np.array(ckpt["nut_std"])
             except Exception as e:
                 print("Notice: Could not load .pt model weights:", e)
 

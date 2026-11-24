@@ -1,230 +1,222 @@
-food_id,food_name,nutrition_basis,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,per_serving_calories_kcal,per_serving_protein_g,per_serving_carbohydrates_g,per_serving_fat_g,per_serving_fiber_g,serving_size_g,source_name,source_id
-FOOD_000001,Idli,per_100g,116.0,4.1,24.2,0.4,1.2,116.0,4.1,24.2,0.4,1.2,100.0,ICMR-NIN IFCT 2017,IFCT_A004_B001
-FOOD_000002,Dosa,per_100g,175.0,4.0,26.7,6.0,1.2,210.0,4.8,32.0,7.2,1.5,120.0,ICMR-NIN IFCT 2017,IFCT_A004_C002
-FOOD_000003,Masala dosa,per_100g,180.6,3.6,25.6,7.2,2.1,325.0,6.5,46.0,13.0,3.8,180.0,ICMR-NIN IFCT 2017,IFCT_MASALA_DOSA
-FOOD_000004,Ragi dosa,per_100g,162.5,4.3,26.2,4.8,3.5,195.0,5.2,31.5,5.8,4.2,120.0,ICMR-NIN IFCT 2017,IFCT_A005_RAGI
-FOOD_000005,Ragi koozh,per_100g,66.0,1.8,12.8,0.9,1.8,165.0,4.5,32.0,2.2,4.5,250.0,ICMR-NIN IFCT 2017,IFCT_RAGI_KOOZH
-FOOD_000006,Pongal,per_100g,167.5,4.1,24.0,6.2,1.6,335.0,8.2,48.0,12.5,3.2,200.0,ICMR-NIN IFCT 2017,IFCT_PONGAL_V1
-FOOD_000007,Upma,per_100g,133.3,3.1,21.1,4.3,1.4,240.0,5.5,38.0,7.8,2.5,180.0,ICMR-NIN IFCT 2017,IFCT_RAVA_UPMA
-FOOD_000008,Appam,per_100g,150.0,2.7,31.4,1.6,1.1,210.0,3.8,44.0,2.2,1.5,140.0,ICMR-NIN IFCT 2017,IFCT_APPAM_V1
-FOOD_000009,Puttu,per_100g,173.3,3.0,34.7,2.8,1.3,260.0,4.5,52.0,4.2,2.0,150.0,ICMR-NIN IFCT 2017,IFCT_PUTTU_RICE
-FOOD_000010,Idiyappam,per_100g,120.0,2.1,26.7,0.5,0.8,180.0,3.2,40.0,0.8,1.2,150.0,ICMR-NIN IFCT 2017,IFCT_IDIYAPPAM
-FOOD_000011,Adai,per_100g,203.6,8.0,30.0,6.1,4.6,285.0,11.2,42.0,8.5,6.5,140.0,ICMR-NIN IFCT 2017,IFCT_ADAI_DAL
-FOOD_000012,Chapati,per_100g,260.0,7.8,48.0,4.4,6.5,208.0,6.2,38.4,3.5,5.2,80.0,ICMR-NIN IFCT 2017,IFCT_CHAPATI_WHEAT
-FOOD_000013,Parotta,per_100g,330.0,6.8,45.0,14.2,1.8,330.0,6.8,45.0,14.2,1.8,100.0,ICMR-NIN IFCT 2017,IFCT_PAROTTA_MAIDA
-FOOD_000014,Rice,per_100g,130.0,2.5,28.3,0.3,0.4,195.0,3.8,42.5,0.4,0.6,150.0,ICMR-NIN IFCT 2017,IFCT_A001_COOKED
-FOOD_000015,Lemon rice,per_100g,155.0,2.9,24.0,5.5,1.1,310.0,5.8,48.0,11.0,2.2,200.0,ICMR-NIN IFCT 2017,IFCT_LEMON_RICE
-FOOD_000016,Curd rice,per_100g,120.0,3.1,18.0,4.0,0.6,240.0,6.2,36.0,8.0,1.1,200.0,ICMR-NIN IFCT 2017,IFCT_CURD_RICE
-FOOD_000017,Tomato rice,per_100g,145.0,2.5,23.5,4.8,1.4,290.0,5.0,47.0,9.5,2.8,200.0,ICMR-NIN IFCT 2017,IFCT_TOMATO_RICE
-FOOD_000018,Sambar rice,per_100g,136.0,3.4,22.4,3.7,1.8,340.0,8.5,56.0,9.2,4.5,250.0,ICMR-NIN IFCT 2017,IFCT_SAMBAR_RICE
-FOOD_000019,Rasam rice,per_100g,102.0,1.9,20.4,1.4,0.7,255.0,4.8,51.0,3.5,1.8,250.0,ICMR-NIN IFCT 2017,IFCT_RASAM_RICE
-FOOD_000020,Biryani,per_100g,160.0,5.5,20.7,6.3,1.2,480.0,16.5,62.0,19.0,3.5,300.0,ICMR-NIN IFCT 2017,IFCT_BIRYANI_BASE
-FOOD_000021,Pulao,per_100g,128.0,2.7,21.6,3.6,1.5,320.0,6.8,54.0,9.0,3.8,250.0,ICMR-NIN IFCT 2017,IFCT_PULAO_BASE
-FOOD_000022,Kichadi,per_100g,130.0,3.1,20.5,4.0,1.6,260.0,6.2,41.0,8.0,3.2,200.0,ICMR-NIN IFCT 2017,IFCT_KICHADI_BASE
-FOOD_000023,Sambar,per_100g,76.7,3.2,11.0,2.3,2.5,115.0,4.8,16.5,3.5,3.8,150.0,ICMR-NIN IFCT 2017,IFCT_SAMBAR_STD
-FOOD_000024,Rasam,per_100g,30.0,1.0,4.3,1.0,0.5,45.0,1.5,6.5,1.5,0.8,150.0,ICMR-NIN IFCT 2017,IFCT_RASAM_STD
-FOOD_000025,Dal,per_100g,105.3,6.1,14.0,2.8,3.0,158.0,9.2,21.0,4.2,4.5,150.0,ICMR-NIN IFCT 2017,IFCT_B002_COOKED
-FOOD_000026,Kootu,per_100g,90.0,3.7,12.0,3.2,3.5,135.0,5.6,18.0,4.8,5.2,150.0,ICMR-NIN IFCT 2017,IFCT_KOOTU_STD
-FOOD_000027,Poriyal,per_100g,73.1,1.9,10.0,2.9,3.5,95.0,2.5,13.0,3.8,4.5,130.0,ICMR-NIN IFCT 2017,IFCT_PORIYAL_STD
-FOOD_000028,Avial,per_100g,110.0,2.3,10.7,6.5,3.2,165.0,3.5,16.0,9.8,4.8,150.0,ICMR-NIN IFCT 2017,IFCT_AVIAL_STD
-FOOD_000029,Kurma,per_100g,116.7,2.8,12.3,6.3,2.7,175.0,4.2,18.5,9.5,4.0,150.0,ICMR-NIN IFCT 2017,IFCT_KURMA_STD
-FOOD_000030,Paneer butter masala,per_100g,190.0,7.2,7.0,15.0,1.2,380.0,14.5,14.0,30.0,2.5,200.0,USDA FoodData Central / IFCT,FDC_PANEER_MASALA
-FOOD_000031,Palak paneer,per_100g,140.0,7.6,5.2,10.0,2.1,280.0,15.2,10.5,20.0,4.2,200.0,USDA FoodData Central / IFCT,FDC_PALAK_PANEER
-FOOD_000032,Chana masala,per_100g,122.5,5.4,17.0,3.8,4.2,245.0,10.8,34.0,7.5,8.5,200.0,ICMR-NIN IFCT 2017,IFCT_CHANA_MASALA
-FOOD_000033,Rajma,per_100g,115.0,5.8,16.2,3.1,4.5,230.0,11.5,32.5,6.2,9.0,200.0,ICMR-NIN IFCT 2017,IFCT_RAJMA_COOKED
-FOOD_000034,Vegetable curry,per_100g,66.7,1.8,8.3,3.1,2.3,120.0,3.2,15.0,5.5,4.2,180.0,ICMR-NIN IFCT 2017,IFCT_VEG_CURRY
-FOOD_000035,Mushroom curry,per_100g,77.8,3.2,6.7,4.4,1.7,140.0,5.8,12.0,8.0,3.0,180.0,ICMR-NIN IFCT 2017,IFCT_G005_CURRY
-FOOD_000036,Vegetable pulao,per_100g,134.1,2.8,22.7,3.6,1.6,295.0,6.2,50.0,8.0,3.5,220.0,ICMR-NIN IFCT 2017,IFCT_VEG_PULAO
-FOOD_000037,Vegetable fried rice,per_100g,140.9,2.5,23.6,4.2,1.3,310.0,5.5,52.0,9.2,2.8,220.0,USDA FoodData Central,FDC_VEG_FRIED_RICE
-FOOD_000038,Chicken curry,per_100g,130.0,13.2,3.0,7.2,0.6,260.0,26.5,6.0,14.5,1.2,200.0,ICMR-NIN IFCT 2017,IFCT_CHICKEN_CURRY
-FOOD_000039,Chicken gravy,per_100g,140.0,12.5,4.0,8.2,0.8,280.0,25.0,8.0,16.5,1.5,200.0,ICMR-NIN IFCT 2017,IFCT_CHICKEN_GRAVY
-FOOD_000040,Chicken 65,per_100g,243.3,18.7,8.0,15.0,0.3,365.0,28.0,12.0,22.5,0.5,150.0,ICMR-NIN IFCT 2017,IFCT_CHICKEN_65
-FOOD_000041,Chicken fry,per_100g,213.3,19.7,3.3,13.3,0.5,320.0,29.5,5.0,20.0,0.8,150.0,ICMR-NIN IFCT 2017,IFCT_CHICKEN_FRY
-FOOD_000042,Chicken biryani,per_100g,157.1,9.1,18.3,5.3,0.9,550.0,32.0,64.0,18.5,3.0,350.0,ICMR-NIN IFCT 2017,IFCT_CHICKEN_BIRYANI
-FOOD_000043,Chicken tandoori,per_100g,147.5,18.0,2.2,7.2,0.2,295.0,36.0,4.5,14.5,0.5,200.0,USDA FoodData Central,FDC_TANDOORI_CHICKEN
-FOOD_000044,Tandoori chicken,per_100g,147.5,18.0,2.2,7.2,0.2,295.0,36.0,4.5,14.5,0.5,200.0,USDA FoodData Central,FDC_TANDOORI_CHICKEN_ALT
-FOOD_000045,Chicken tikka,per_100g,146.7,22.7,2.3,5.2,0.3,220.0,34.0,3.5,7.8,0.4,150.0,USDA FoodData Central,FDC_CHICKEN_TIKKA
-FOOD_000046,Grilled chicken,per_100g,163.3,30.0,0.0,4.1,0.0,245.0,45.0,0.0,6.2,0.0,150.0,USDA FoodData Central,FDC_GRILLED_CHICKEN
-FOOD_000047,Chicken kebab,per_100g,173.3,20.3,3.7,8.5,0.7,260.0,30.5,5.5,12.8,1.0,150.0,USDA FoodData Central,FDC_CHICKEN_KEBAB
-FOOD_000048,Mutton curry,per_100g,170.0,12.2,3.0,12.0,0.5,340.0,24.5,6.0,24.0,1.0,200.0,ICMR-NIN IFCT 2017,IFCT_MUTTON_CURRY
-FOOD_000049,Mutton biryani,per_100g,177.1,8.6,18.9,7.4,0.9,620.0,30.0,66.0,26.0,3.0,350.0,ICMR-NIN IFCT 2017,IFCT_MUTTON_BIRYANI
-FOOD_000050,Fish curry,per_100g,105.0,11.0,2.5,5.8,0.4,210.0,22.0,5.0,11.5,0.8,200.0,ICMR-NIN IFCT 2017,IFCT_FISH_CURRY
-FOOD_000051,Fish fry,per_100g,191.7,20.0,3.8,10.7,0.3,230.0,24.0,4.5,12.8,0.4,120.0,ICMR-NIN IFCT 2017,IFCT_FISH_FRY
-FOOD_000052,Grilled fish,per_100g,123.3,21.3,0.3,3.9,0.0,185.0,32.0,0.5,5.8,0.0,150.0,USDA FoodData Central,FDC_GRILLED_FISH
-FOOD_000053,Prawn masala,per_100g,122.2,13.9,3.9,5.6,0.7,220.0,25.0,7.0,10.0,1.2,180.0,ICMR-NIN IFCT 2017,IFCT_PRAWN_MASALA
-FOOD_000054,Prawn fry,per_100g,175.0,21.7,3.3,8.2,0.4,210.0,26.0,4.0,9.8,0.5,120.0,ICMR-NIN IFCT 2017,IFCT_PRAWN_FRY
-FOOD_000055,Crab curry,per_100g,95.0,11.2,2.8,4.4,0.4,190.0,22.5,5.5,8.8,0.8,200.0,ICMR-NIN IFCT 2017,IFCT_CRAB_CURRY
-FOOD_000056,Egg boiled,per_100g,156.0,12.6,1.2,10.6,0.0,78.0,6.3,0.6,5.3,0.0,50.0,USDA FoodData Central / IFCT,IFCT_D003_EGG
-FOOD_000057,Egg omelette,per_100g,185.0,12.5,2.8,13.8,0.4,185.0,12.5,2.8,13.8,0.4,100.0,ICMR-NIN IFCT 2017,IFCT_OMELETTE_STD
-FOOD_000058,Egg bhurji,per_100g,162.5,10.8,2.9,11.8,0.5,195.0,13.0,3.5,14.2,0.6,120.0,ICMR-NIN IFCT 2017,IFCT_EGG_BHURJI
-FOOD_000059,Egg dosa,per_100g,178.1,7.0,20.3,7.5,0.9,285.0,11.2,32.5,12.0,1.5,160.0,ICMR-NIN IFCT 2017,IFCT_EGG_DOSA
-FOOD_000060,Burger,per_100g,237.5,10.0,25.0,11.2,1.4,380.0,16.0,40.0,18.0,2.2,160.0,USDA FoodData Central,FDC_BURGER_STD
-FOOD_000061,Chicken burger,per_100g,233.3,13.6,23.3,10.3,1.1,420.0,24.5,42.0,18.5,2.0,180.0,USDA FoodData Central,FDC_CHICKEN_BURGER
-FOOD_000062,Veg burger,per_100g,205.9,5.6,28.2,8.2,2.2,350.0,9.5,48.0,14.0,3.8,170.0,USDA FoodData Central,FDC_VEG_BURGER
-FOOD_000063,Cheese burger,per_100g,257.9,11.6,21.6,14.2,1.1,490.0,22.0,41.0,27.0,2.0,190.0,USDA FoodData Central,FDC_CHEESEBURGER
-FOOD_000064,Pizza,per_100g,266.0,11.0,33.0,10.0,2.3,266.0,11.0,33.0,10.0,2.3,100.0,USDA FoodData Central,FDC_PIZZA_BASE
-FOOD_000065,Chicken pizza,per_100g,241.7,12.9,26.7,9.6,1.8,290.0,15.5,32.0,11.5,2.1,120.0,USDA FoodData Central,FDC_CHICKEN_PIZZA
-FOOD_000066,Veg pizza,per_100g,221.7,8.3,30.4,7.7,2.2,255.0,9.5,35.0,8.8,2.5,115.0,USDA FoodData Central,FDC_VEG_PIZZA
-FOOD_000067,Cheese pizza,per_100g,254.5,11.4,29.1,10.9,1.8,280.0,12.5,32.0,12.0,2.0,110.0,USDA FoodData Central,FDC_CHEESE_PIZZA
-FOOD_000068,Sandwich,per_100g,206.7,8.0,25.3,8.0,2.0,310.0,12.0,38.0,12.0,3.0,150.0,USDA FoodData Central,FDC_SANDWICH_BASE
-FOOD_000069,Grilled sandwich,per_100g,225.0,8.4,25.6,10.0,2.0,360.0,13.5,41.0,16.0,3.2,160.0,USDA FoodData Central,FDC_GRILLED_SANDWICH
-FOOD_000070,Wraps,per_100g,211.1,10.0,24.4,8.1,1.9,380.0,18.0,44.0,14.5,3.5,180.0,USDA FoodData Central,FDC_WRAPS_BASE
-FOOD_000071,Shawarma,per_100g,220.0,13.0,19.0,10.0,1.2,440.0,26.0,38.0,20.0,2.5,200.0,USDA FoodData Central,FDC_SHAWARMA_CHICKEN
-FOOD_000072,Tacos,per_100g,223.1,10.0,21.5,10.8,2.5,290.0,13.0,28.0,14.0,3.2,130.0,USDA FoodData Central,FDC_TACOS_BASE
-FOOD_000073,Pasta,per_100g,140.0,4.6,26.0,2.0,1.8,280.0,9.2,52.0,4.0,3.5,200.0,USDA FoodData Central,FDC_PASTA_TOMATO
-FOOD_000074,Macaroni,per_100g,150.0,4.4,26.7,3.1,1.6,270.0,8.0,48.0,5.5,2.8,180.0,USDA FoodData Central,FDC_MACARONI_BASE
-FOOD_000075,Noodles,per_100g,155.0,3.8,27.0,3.8,1.2,310.0,7.5,54.0,7.5,2.5,200.0,USDA FoodData Central,FDC_NOODLES_HAKKA
-FOOD_000076,Fried rice,per_100g,154.5,3.9,25.5,4.3,1.0,340.0,8.5,56.0,9.5,2.2,220.0,USDA FoodData Central,FDC_FRIED_RICE_BASE
-FOOD_000077,French fries,per_100g,312.0,3.4,41.4,15.0,3.8,312.0,3.4,41.4,15.0,3.8,100.0,USDA FoodData Central,FDC_FRENCH_FRIES
-FOOD_000078,Nachos,per_100g,400.0,5.9,51.8,19.4,3.5,340.0,5.0,44.0,16.5,3.0,85.0,USDA FoodData Central,FDC_NACHOS_CHEESE
-FOOD_000079,Hot dogs,per_100g,241.7,9.6,20.0,13.8,1.0,290.0,11.5,24.0,16.5,1.2,120.0,USDA FoodData Central,FDC_HOT_DOG_BASE
-FOOD_000080,Apple,per_100g,52.0,0.3,13.8,0.2,2.4,78.0,0.4,20.7,0.3,3.6,150.0,USDA FoodData Central,FDC_APPLE_RAW
-FOOD_000081,Banana,per_100g,89.2,1.1,22.8,0.3,2.6,107.0,1.3,27.4,0.4,3.1,120.0,ICMR-NIN IFCT 2017,IFCT_BANANA_ROBUSTA
-FOOD_000082,Mango,per_100g,60.0,0.8,15.0,0.4,1.6,90.0,1.2,22.5,0.6,2.4,150.0,ICMR-NIN IFCT 2017,IFCT_MANGO_RIPE
-FOOD_000083,Orange,per_100g,47.7,0.9,11.8,0.2,2.4,62.0,1.2,15.4,0.2,3.1,130.0,ICMR-NIN IFCT 2017,IFCT_ORANGE_SWEET
-FOOD_000084,Papaya,per_100g,42.0,0.5,10.8,0.3,1.7,63.0,0.7,16.2,0.4,2.6,150.0,ICMR-NIN IFCT 2017,IFCT_PAPAYA_RIPE
-FOOD_000085,Pineapple,per_100g,50.0,0.5,13.0,0.1,1.4,75.0,0.8,19.5,0.2,2.1,150.0,ICMR-NIN IFCT 2017,IFCT_PINEAPPLE_RAW
-FOOD_000086,Watermelon,per_100g,30.0,0.6,7.5,0.1,0.4,60.0,1.2,15.0,0.3,0.8,200.0,ICMR-NIN IFCT 2017,IFCT_WATERMELON_RAW
-FOOD_000087,Muskmelon,per_100g,34.0,0.8,8.2,0.2,0.9,68.0,1.6,16.4,0.4,1.8,200.0,ICMR-NIN IFCT 2017,IFCT_MUSKMELON_RAW
-FOOD_000088,Guava,per_100g,68.0,2.6,14.3,1.0,5.4,68.0,2.6,14.3,1.0,5.4,100.0,ICMR-NIN IFCT 2017,IFCT_GUAVA_WHITE
-FOOD_000089,Grapes,per_100g,69.0,0.7,18.1,0.2,0.9,69.0,0.7,18.1,0.2,0.9,100.0,ICMR-NIN IFCT 2017,IFCT_GRAPES_PANEER
-FOOD_000090,Pomegranate,per_100g,83.0,1.7,18.7,1.2,4.0,83.0,1.7,18.7,1.2,4.0,100.0,ICMR-NIN IFCT 2017,IFCT_POMEGRANATE
-FOOD_000091,Kiwi,per_100g,61.3,1.1,14.8,0.5,3.1,46.0,0.8,11.1,0.4,2.3,75.0,USDA FoodData Central,FDC_KIWI_RAW
-FOOD_000092,Dragon fruit,per_100g,60.0,1.2,13.0,0.0,2.9,60.0,1.2,13.0,0.0,2.9,100.0,USDA FoodData Central,FDC_DRAGON_FRUIT
-FOOD_000093,Strawberry,per_100g,32.0,0.7,7.7,0.3,2.0,32.0,0.7,7.7,0.3,2.0,100.0,USDA FoodData Central,FDC_STRAWBERRY_RAW
-FOOD_000094,Blueberry,per_100g,57.0,0.7,14.5,0.3,2.4,57.0,0.7,14.5,0.3,2.4,100.0,USDA FoodData Central,FDC_BLUEBERRY_RAW
-FOOD_000095,Avocado,per_100g,160.0,2.0,8.5,14.7,6.7,160.0,2.0,8.5,14.7,6.7,100.0,USDA FoodData Central,FDC_AVOCADO_RAW
-FOOD_000096,Jackfruit,per_100g,95.0,1.7,23.2,0.6,1.5,95.0,1.7,23.2,0.6,1.5,100.0,ICMR-NIN IFCT 2017,IFCT_JACKFRUIT_RIPE
-FOOD_000097,Dates,per_100g,277.5,2.5,75.0,0.5,8.0,111.0,1.0,30.0,0.2,3.2,40.0,ICMR-NIN IFCT 2017,IFCT_DATES_DRIED
-FOOD_000098,Fig,per_100g,250.0,3.2,64.0,1.0,9.8,125.0,1.6,32.0,0.5,4.9,50.0,ICMR-NIN IFCT 2017,IFCT_FIGS_DRIED
-FOOD_000099,Sapota,per_100g,83.0,0.4,20.0,1.1,5.3,83.0,0.4,20.0,1.1,5.3,100.0,ICMR-NIN IFCT 2017,IFCT_SAPOTA_RAW
-FOOD_000100,Custard apple,per_100g,94.0,2.1,23.6,0.3,4.4,94.0,2.1,23.6,0.3,4.4,100.0,ICMR-NIN IFCT 2017,IFCT_CUSTARD_APPLE
-FOOD_000101,Coconut,per_100g,354.0,3.4,15.2,33.6,9.0,177.0,1.7,7.6,16.8,4.5,50.0,ICMR-NIN IFCT 2017,IFCT_F001_COCONUT
-FOOD_000102,Carrot,per_100g,41.0,0.9,9.6,0.2,2.8,41.0,0.9,9.6,0.2,2.8,100.0,ICMR-NIN IFCT 2017,IFCT_G004_CARROT
-FOOD_000103,Beetroot,per_100g,43.0,1.6,9.6,0.2,2.8,43.0,1.6,9.6,0.2,2.8,100.0,ICMR-NIN IFCT 2017,IFCT_G003_BEETROOT
-FOOD_000104,Cucumber,per_100g,15.0,0.7,3.6,0.1,0.5,15.0,0.7,3.6,0.1,0.5,100.0,ICMR-NIN IFCT 2017,IFCT_CUCUMBER_RAW
-FOOD_000105,Tomato,per_100g,18.0,0.9,3.9,0.2,1.2,18.0,0.9,3.9,0.2,1.2,100.0,ICMR-NIN IFCT 2017,IFCT_G002_TOMATO
-FOOD_000106,Onion,per_100g,40.0,1.1,9.3,0.1,1.7,40.0,1.1,9.3,0.1,1.7,100.0,ICMR-NIN IFCT 2017,IFCT_G001_ONION
-FOOD_000107,Potato,per_100g,86.7,2.0,19.7,0.1,1.8,130.0,3.0,29.5,0.2,2.7,150.0,ICMR-NIN IFCT 2017,IFCT_POTATO_BOILED
-FOOD_000108,Sweet potato,per_100g,90.0,1.6,21.0,0.1,2.5,135.0,2.4,31.5,0.2,3.8,150.0,ICMR-NIN IFCT 2017,IFCT_SWEET_POTATO
-FOOD_000109,Broccoli,per_100g,35.0,2.4,7.2,0.4,2.6,35.0,2.4,7.2,0.4,2.6,100.0,USDA FoodData Central,FDC_BROCCOLI_STEAMED
-FOOD_000110,Cauliflower,per_100g,25.0,1.9,5.0,0.3,2.0,25.0,1.9,5.0,0.3,2.0,100.0,ICMR-NIN IFCT 2017,IFCT_CAULIFLOWER_RAW
-FOOD_000111,Spinach,per_100g,23.0,3.0,3.6,0.4,2.2,23.0,3.0,3.6,0.4,2.2,100.0,ICMR-NIN IFCT 2017,IFCT_SPINACH_PALAK
-FOOD_000112,Amaranth leaves,per_100g,23.0,2.5,4.0,0.3,2.1,23.0,2.5,4.0,0.3,2.1,100.0,ICMR-NIN IFCT 2017,IFCT_AMARANTH_LEAVES
-FOOD_000113,Cabbage,per_100g,25.0,1.3,5.8,0.1,2.5,25.0,1.3,5.8,0.1,2.5,100.0,ICMR-NIN IFCT 2017,IFCT_CABBAGE_RAW
-FOOD_000114,Beans,per_100g,31.0,1.8,7.0,0.2,2.7,31.0,1.8,7.0,0.2,2.7,100.0,ICMR-NIN IFCT 2017,IFCT_FRENCH_BEANS
-FOOD_000115,Capsicum,per_100g,20.0,0.9,4.6,0.2,1.7,20.0,0.9,4.6,0.2,1.7,100.0,ICMR-NIN IFCT 2017,IFCT_CAPSICUM_GREEN
-FOOD_000116,Pumpkin,per_100g,26.0,1.0,6.5,0.1,0.5,26.0,1.0,6.5,0.1,0.5,100.0,ICMR-NIN IFCT 2017,IFCT_PUMPKIN_YELLOW
-FOOD_000117,Bottle gourd,per_100g,14.0,0.6,3.4,0.1,0.6,14.0,0.6,3.4,0.1,0.6,100.0,ICMR-NIN IFCT 2017,IFCT_BOTTLE_GOURD
-FOOD_000118,Bitter gourd,per_100g,17.0,1.0,3.7,0.2,2.8,17.0,1.0,3.7,0.2,2.8,100.0,ICMR-NIN IFCT 2017,IFCT_BITTER_GOURD
-FOOD_000119,Drumstick,per_100g,37.0,2.5,6.8,0.2,4.8,37.0,2.5,6.8,0.2,4.8,100.0,ICMR-NIN IFCT 2017,IFCT_G006_DRUMSTICK
-FOOD_000120,Brinjal,per_100g,25.0,1.0,5.8,0.2,3.0,25.0,1.0,5.8,0.2,3.0,100.0,ICMR-NIN IFCT 2017,IFCT_BRINJAL_RAW
-FOOD_000121,Mushroom,per_100g,22.0,3.1,3.3,0.3,1.0,22.0,3.1,3.3,0.3,1.0,100.0,ICMR-NIN IFCT 2017,IFCT_G005_MUSHROOM
-FOOD_000122,Almonds,per_100g,576.7,21.3,21.7,50.0,12.3,173.0,6.4,6.5,15.0,3.7,30.0,ICMR-NIN IFCT 2017,IFCT_ALMONDS_RAW
-FOOD_000123,Cashews,per_100g,553.3,18.3,30.3,43.7,3.3,166.0,5.5,9.1,13.1,1.0,30.0,ICMR-NIN IFCT 2017,IFCT_F002_CASHEW
-FOOD_000124,Walnuts,per_100g,653.3,15.3,13.7,65.0,6.7,196.0,4.6,4.1,19.5,2.0,30.0,ICMR-NIN IFCT 2017,IFCT_WALNUTS_RAW
-FOOD_000125,Pistachios,per_100g,560.0,20.3,27.7,45.0,10.3,168.0,6.1,8.3,13.5,3.1,30.0,ICMR-NIN IFCT 2017,IFCT_PISTACHIO_RAW
-FOOD_000126,Peanuts,per_100g,566.7,25.7,16.0,49.3,8.7,170.0,7.7,4.8,14.8,2.6,30.0,ICMR-NIN IFCT 2017,IFCT_F003_PEANUTS
-FOOD_000127,Hazelnuts,per_100g,626.7,15.0,16.7,60.7,9.7,188.0,4.5,5.0,18.2,2.9,30.0,USDA FoodData Central,FDC_HAZELNUTS_RAW
-FOOD_000128,Brazil nuts,per_100g,656.7,14.3,12.0,66.7,7.7,197.0,4.3,3.6,20.0,2.3,30.0,USDA FoodData Central,FDC_BRAZIL_NUTS
-FOOD_000129,Macadamia nuts,per_100g,716.7,8.0,13.7,75.7,8.7,215.0,2.4,4.1,22.7,2.6,30.0,USDA FoodData Central,FDC_MACADAMIA_NUTS
-FOOD_000130,Pecans,per_100g,690.0,9.3,14.0,72.0,9.7,207.0,2.8,4.2,21.6,2.9,30.0,USDA FoodData Central,FDC_PECANS_RAW
-FOOD_000131,Chia seeds,per_100g,485.0,17.0,42.0,30.5,34.0,97.0,3.4,8.4,6.1,6.8,20.0,USDA FoodData Central,FDC_CHIA_SEEDS
-FOOD_000132,Flax seeds,per_100g,535.0,18.5,29.0,42.0,27.5,107.0,3.7,5.8,8.4,5.5,20.0,ICMR-NIN IFCT 2017,IFCT_FLAX_SEEDS
-FOOD_000133,Pumpkin seeds,per_100g,560.0,30.3,14.0,46.0,6.0,168.0,9.1,4.2,13.8,1.8,30.0,ICMR-NIN IFCT 2017,IFCT_PUMPKIN_SEEDS
-FOOD_000134,Sunflower seeds,per_100g,583.3,20.7,20.0,51.3,8.7,175.0,6.2,6.0,15.4,2.6,30.0,ICMR-NIN IFCT 2017,IFCT_SUNFLOWER_SEEDS
-FOOD_000135,Sesame seeds,per_100g,565.0,18.0,23.5,49.5,12.0,113.0,3.6,4.7,9.9,2.4,20.0,ICMR-NIN IFCT 2017,IFCT_SESAME_SEEDS
-FOOD_000136,Watermelon seeds,per_100g,556.7,28.3,15.3,47.3,4.0,167.0,8.5,4.6,14.2,1.2,30.0,ICMR-NIN IFCT 2017,IFCT_WATERMELON_SEEDS
-FOOD_000137,Melon seeds,per_100g,550.0,27.3,16.0,46.7,4.7,165.0,8.2,4.8,14.0,1.4,30.0,ICMR-NIN IFCT 2017,IFCT_MELON_SEEDS
-FOOD_000138,Hemp seeds,per_100g,553.3,31.7,8.7,48.7,4.0,166.0,9.5,2.6,14.6,1.2,30.0,USDA FoodData Central,FDC_HEMP_SEEDS
-FOOD_000139,Basil seeds,per_100g,300.0,14.7,43.3,10.0,30.0,45.0,2.2,6.5,1.5,4.5,15.0,ICMR-NIN IFCT 2017,IFCT_SABJA_SEEDS
-FOOD_000140,Poppy seeds,per_100g,526.7,18.0,28.0,41.3,19.3,79.0,2.7,4.2,6.2,2.9,15.0,ICMR-NIN IFCT 2017,IFCT_POPPY_SEEDS
-FOOD_000141,Green gram sprouts,per_100g,105.0,8.0,17.5,0.6,4.2,105.0,8.0,17.5,0.6,4.2,100.0,ICMR-NIN IFCT 2017,IFCT_MOONG_SPROUTS
-FOOD_000142,Black gram sprouts,per_100g,112.0,8.5,18.0,0.8,4.8,112.0,8.5,18.0,0.8,4.8,100.0,ICMR-NIN IFCT 2017,IFCT_URAD_SPROUTS
-FOOD_000143,Chickpea sprouts,per_100g,128.0,7.8,21.0,1.8,5.5,128.0,7.8,21.0,1.8,5.5,100.0,ICMR-NIN IFCT 2017,IFCT_CHANA_SPROUTS
-FOOD_000144,Black chana,per_100g,140.0,7.5,22.7,2.0,5.5,210.0,11.2,34.0,3.0,8.2,150.0,ICMR-NIN IFCT 2017,IFCT_BLACK_CHANA_BOILED
-FOOD_000145,Horse gram,per_100g,145.3,9.0,24.0,0.8,5.2,218.0,13.5,36.0,1.2,7.8,150.0,ICMR-NIN IFCT 2017,IFCT_HORSE_GRAM_BOILED
-FOOD_000146,Mixed sprouts,per_100g,115.0,8.2,18.5,1.0,5.0,115.0,8.2,18.5,1.0,5.0,100.0,ICMR-NIN IFCT 2017,IFCT_MIXED_SPROUTS
-FOOD_000147,Boiled chickpeas,per_100g,164.0,8.9,27.3,2.5,6.5,246.0,13.3,41.0,3.8,9.8,150.0,ICMR-NIN IFCT 2017,IFCT_B004_BOILED
-FOOD_000148,Kidney beans,per_100g,126.7,8.7,22.8,0.5,6.4,190.0,13.0,34.2,0.8,9.6,150.0,ICMR-NIN IFCT 2017,IFCT_KIDNEY_BEANS_BOILED
-FOOD_000149,Lentils,per_100g,116.0,9.0,19.9,0.4,5.9,174.0,13.5,29.8,0.6,8.9,150.0,ICMR-NIN IFCT 2017,IFCT_LENTILS_BOILED
-FOOD_000150,Soybeans,per_100g,172.0,16.6,9.9,9.0,5.3,258.0,24.9,14.8,13.5,8.0,150.0,ICMR-NIN IFCT 2017,IFCT_SOYBEANS_BOILED
-FOOD_000151,Green peas,per_100g,84.0,5.4,15.6,0.4,5.5,84.0,5.4,15.6,0.4,5.5,100.0,ICMR-NIN IFCT 2017,IFCT_GREEN_PEAS_BOILED
-FOOD_000152,Sundal varieties,per_100g,153.3,7.0,21.3,4.5,5.0,230.0,10.5,32.0,6.8,7.5,150.0,ICMR-NIN IFCT 2017,IFCT_SUNDAL_TEMPERED
-FOOD_000153,Cucumber salad,per_100g,16.7,0.7,3.5,0.1,0.7,25.0,1.1,5.2,0.2,1.0,150.0,USDA FoodData Central,FDC_CUCUMBER_SALAD
-FOOD_000154,Carrot salad,per_100g,43.3,0.9,9.7,0.3,2.8,65.0,1.4,14.5,0.4,4.2,150.0,ICMR-NIN IFCT 2017,IFCT_CARROT_SALAD
-FOOD_000155,Beetroot salad,per_100g,46.7,1.6,10.0,0.2,2.8,70.0,2.4,15.0,0.3,4.2,150.0,ICMR-NIN IFCT 2017,IFCT_BEETROOT_SALAD
-FOOD_000156,Onion tomato salad,per_100g,30.0,1.0,6.5,0.2,1.5,45.0,1.5,9.8,0.3,2.2,150.0,ICMR-NIN IFCT 2017,IFCT_KACHUMBER_SALAD
-FOOD_000157,Mixed vegetable salad,per_100g,30.0,1.2,6.0,0.2,2.4,60.0,2.5,12.0,0.5,4.8,200.0,USDA FoodData Central,FDC_MIXED_VEG_SALAD
-FOOD_000158,Sprouts salad,per_100g,86.7,6.3,14.0,0.8,3.5,130.0,9.5,21.0,1.2,5.2,150.0,ICMR-NIN IFCT 2017,IFCT_SPROUTS_SALAD
-FOOD_000159,Chickpea salad,per_100g,110.0,5.2,18.0,2.2,4.0,220.0,10.5,36.0,4.5,8.0,200.0,USDA FoodData Central,FDC_CHICKPEA_SALAD
-FOOD_000160,Protein salad,per_100g,124.0,12.8,4.0,6.0,1.4,310.0,32.0,10.0,15.0,3.5,250.0,USDA FoodData Central,FDC_PROTEIN_SALAD
-FOOD_000161,Mixed fruit salad,per_100g,60.0,0.8,15.0,0.2,2.0,120.0,1.5,30.0,0.5,4.0,200.0,USDA FoodData Central,FDC_MIXED_FRUIT_SALAD
-FOOD_000162,Apple fruit salad,per_100g,77.8,1.0,15.6,2.1,2.5,140.0,1.8,28.0,3.8,4.5,180.0,USDA FoodData Central,FDC_APPLE_SALAD
-FOOD_000163,Mango fruit salad,per_100g,63.9,0.8,15.8,0.3,1.7,115.0,1.4,28.5,0.6,3.0,180.0,ICMR-NIN IFCT 2017,IFCT_MANGO_SALAD
-FOOD_000164,Watermelon fruit salad,per_100g,31.8,0.6,8.0,0.2,0.5,70.0,1.4,17.5,0.4,1.0,220.0,ICMR-NIN IFCT 2017,IFCT_WATERMELON_SALAD
-FOOD_000165,Seasonal fruit salad,per_100g,55.0,0.8,13.5,0.2,1.9,110.0,1.6,27.0,0.5,3.8,200.0,ICMR-NIN IFCT 2017,IFCT_SEASONAL_FRUITS
-FOOD_000166,Water,per_100g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,250.0,USDA FoodData Central,FDC_WATER
-FOOD_000167,Tender coconut water,per_100g,19.2,0.2,4.6,0.1,0.4,48.0,0.5,11.5,0.2,1.1,250.0,ICMR-NIN IFCT 2017,IFCT_COCONUT_WATER
-FOOD_000168,Milk,per_100g,67.0,3.2,4.4,4.1,0.0,134.0,6.4,8.8,8.2,0.0,200.0,ICMR-NIN IFCT 2017,IFCT_E004_MILK
-FOOD_000169,Skimmed milk,per_100g,35.0,3.4,5.0,0.2,0.0,70.0,6.8,10.0,0.4,0.0,200.0,ICMR-NIN IFCT 2017,IFCT_SKIMMED_MILK
-FOOD_000170,Buttermilk,per_100g,28.0,1.5,3.2,0.8,0.0,56.0,3.0,6.4,1.6,0.0,200.0,ICMR-NIN IFCT 2017,IFCT_E003_BUTTERMILK
-FOOD_000171,Lassi,per_100g,78.0,2.6,11.2,2.6,0.0,195.0,6.5,28.0,6.5,0.0,250.0,ICMR-NIN IFCT 2017,IFCT_LASSI_SWEET
-FOOD_000172,Filter coffee,per_100g,70.0,2.1,9.0,2.8,0.0,105.0,3.2,13.5,4.2,0.0,150.0,ICMR-NIN IFCT 2017,IFCT_FILTER_COFFEE
-FOOD_000173,Tea,per_100g,60.0,1.9,8.0,2.3,0.0,90.0,2.8,12.0,3.5,0.0,150.0,ICMR-NIN IFCT 2017,IFCT_TEA_MILK
-FOOD_000174,Green tea,per_100g,1.0,0.1,0.2,0.0,0.0,2.0,0.2,0.4,0.0,0.0,200.0,USDA FoodData Central,FDC_GREEN_TEA
-FOOD_000175,Lemon juice,per_100g,26.0,0.2,6.6,0.0,0.1,65.0,0.4,16.5,0.1,0.2,250.0,ICMR-NIN IFCT 2017,IFCT_LIME_JUICE
-FOOD_000176,Orange juice,per_100g,44.8,0.7,10.4,0.2,0.2,112.0,1.7,26.0,0.5,0.5,250.0,USDA FoodData Central,FDC_ORANGE_JUICE
-FOOD_000177,Apple juice,per_100g,46.0,0.1,11.2,0.1,0.2,115.0,0.3,28.0,0.3,0.5,250.0,USDA FoodData Central,FDC_APPLE_JUICE
-FOOD_000178,Sugarcane juice,per_100g,72.0,0.2,18.0,0.1,0.3,180.0,0.5,45.0,0.2,0.8,250.0,ICMR-NIN IFCT 2017,IFCT_SUGARCANE_JUICE
-FOOD_000179,Fresh fruit juices,per_100g,50.0,0.5,12.0,0.2,0.3,125.0,1.2,30.0,0.4,0.8,250.0,USDA FoodData Central,FDC_MIXED_JUICE
-FOOD_000180,Soft drinks,per_100g,42.4,0.0,10.6,0.0,0.0,140.0,0.0,35.0,0.0,0.0,330.0,USDA FoodData Central,FDC_COLA_SOFTDRINK
-FOOD_000181,Energy drinks,per_100g,46.0,0.2,11.0,0.0,0.0,115.0,0.5,27.5,0.0,0.0,250.0,USDA FoodData Central,FDC_ENERGY_DRINK
-FOOD_000182,Oats,per_100g,387.5,13.5,67.0,7.0,10.5,155.0,5.4,26.8,2.8,4.2,40.0,USDA FoodData Central,FDC_OATS_RAW
-FOOD_000183,Overnight oats,per_100g,140.0,6.0,21.0,3.8,3.2,280.0,12.0,42.0,7.5,6.5,200.0,USDA FoodData Central,FDC_OVERNIGHT_OATS
-FOOD_000184,Oatmeal,per_100g,66.7,2.3,11.7,1.2,1.7,160.0,5.5,28.0,3.0,4.0,240.0,USDA FoodData Central,FDC_OATMEAL_COOKED
-FOOD_000185,Cornflakes,per_100g,366.7,7.3,85.0,1.0,3.3,110.0,2.2,25.5,0.3,1.0,30.0,USDA FoodData Central,FDC_CORNFLAKES
-FOOD_000186,Muesli,per_100g,375.0,10.0,67.5,8.0,8.8,150.0,4.0,27.0,3.2,3.5,40.0,Open Food Facts,OFF_MUESLI_FRUIT_NUT
-FOOD_000187,Granola,per_100g,466.7,11.1,64.4,20.0,6.7,210.0,5.0,29.0,9.0,3.0,45.0,USDA FoodData Central,FDC_GRANOLA
-FOOD_000188,Peanut butter,per_100g,593.8,25.0,18.8,50.0,6.2,190.0,8.0,6.0,16.0,2.0,32.0,USDA FoodData Central,FDC_PEANUT_BUTTER
-FOOD_000189,Boiled corn,per_100g,96.0,3.4,21.0,1.5,2.4,96.0,3.4,21.0,1.5,2.4,100.0,ICMR-NIN IFCT 2017,IFCT_SWEET_CORN
-FOOD_000190,Popcorn,per_100g,383.3,11.7,73.3,4.3,14.0,115.0,3.5,22.0,1.3,4.2,30.0,USDA FoodData Central,FDC_POPCORN_AIR
-FOOD_000191,Samosa,per_100g,312.5,5.2,35.0,17.5,2.6,250.0,4.2,28.0,14.0,2.1,80.0,ICMR-NIN IFCT 2017,IFCT_SAMOSA_ALOO
-FOOD_000192,Vada,per_100g,325.0,9.7,30.0,19.2,4.2,195.0,5.8,18.0,11.5,2.5,60.0,ICMR-NIN IFCT 2017,IFCT_MEDU_VADA
-FOOD_000193,Bajji,per_100g,266.7,5.3,31.7,13.7,2.5,160.0,3.2,19.0,8.2,1.5,60.0,ICMR-NIN IFCT 2017,IFCT_BAJJI_STD
-FOOD_000194,Bonda,per_100g,257.1,5.0,31.4,12.9,2.6,180.0,3.5,22.0,9.0,1.8,70.0,ICMR-NIN IFCT 2017,IFCT_ALOO_BONDA
-FOOD_000195,Sundal,per_100g,165.0,7.5,24.0,4.5,5.8,165.0,7.5,24.0,4.5,5.8,100.0,ICMR-NIN IFCT 2017,IFCT_SUNDAL_PORTION
-FOOD_000196,Murukku,per_100g,520.0,8.0,64.0,26.0,2.4,260.0,4.0,32.0,13.0,1.2,50.0,ICMR-NIN IFCT 2017,IFCT_MURUKKU_STD
-FOOD_000197,Biscuits,per_100g,450.0,7.3,70.0,16.0,3.3,135.0,2.2,21.0,4.8,1.0,30.0,Open Food Facts,OFF_BISCUITS_MARIE
-FOOD_000198,Protein bars,per_100g,366.7,33.3,36.7,10.8,13.3,220.0,20.0,22.0,6.5,8.0,60.0,Open Food Facts / Brand Label,OFF_PROTEIN_BAR_20G
-FOOD_000199,Whole milk,per_100g,67.0,3.2,4.4,4.1,0.0,134.0,6.4,8.8,8.2,0.0,200.0,ICMR-NIN IFCT 2017,IFCT_WHOLE_MILK
-FOOD_000200,Toned milk,per_100g,61.0,3.2,4.8,3.0,0.0,122.0,6.4,9.6,6.0,0.0,200.0,ICMR-NIN IFCT 2017,IFCT_TONED_MILK
-FOOD_000201,Curd,per_100g,61.0,3.1,4.4,3.4,0.0,91.5,4.6,6.6,5.1,0.0,150.0,ICMR-NIN IFCT 2017,IFCT_E002_CURD
-FOOD_000202,Greek yogurt,per_100g,96.7,10.0,4.0,4.5,0.0,145.0,15.0,6.0,6.8,0.0,150.0,USDA FoodData Central,FDC_GREEK_YOGURT
-FOOD_000203,Paneer,per_100g,296.0,18.3,4.5,22.0,0.0,296.0,18.3,4.5,22.0,0.0,100.0,ICMR-NIN IFCT 2017,IFCT_E001_PANEER
-FOOD_000204,Cheese,per_100g,400.0,24.0,1.3,33.3,0.0,120.0,7.2,0.4,10.0,0.0,30.0,USDA FoodData Central,FDC_CHEDDAR_CHEESE
-FOOD_000205,Butter,per_100g,720.0,0.7,0.0,81.3,0.0,108.0,0.1,0.0,12.2,0.0,15.0,ICMR-NIN IFCT 2017,IFCT_C004_BUTTER
-FOOD_000206,Ghee,per_100g,893.3,0.0,0.0,99.3,0.0,134.0,0.0,0.0,14.9,0.0,15.0,ICMR-NIN IFCT 2017,IFCT_C001_GHEE
-FOOD_000207,Whey,per_100g,27.0,0.9,5.1,0.3,0.0,54.0,1.8,10.2,0.6,0.0,200.0,USDA FoodData Central,FDC_LIQUID_WHEY
-FOOD_000208,Payasam,per_100g,160.0,3.0,25.3,5.3,0.5,240.0,4.5,38.0,8.0,0.8,150.0,ICMR-NIN IFCT 2017,IFCT_PAYASAM_STD
-FOOD_000209,Halwa,per_100g,410.0,2.5,58.0,19.0,0.5,410.0,2.5,58.0,19.0,0.5,100.0,ICMR-NIN IFCT 2017,IFCT_HALWA_WHEAT
-FOOD_000210,Laddu,per_100g,420.0,7.6,56.0,19.0,2.4,210.0,3.8,28.0,9.5,1.2,50.0,ICMR-NIN IFCT 2017,IFCT_BOONDI_LADDU
-FOOD_000211,Gulab jamun,per_100g,325.0,5.0,52.5,11.2,0.6,260.0,4.0,42.0,9.0,0.5,80.0,ICMR-NIN IFCT 2017,IFCT_GULAB_JAMUN
-FOOD_000212,Rasgulla,per_100g,225.0,5.6,45.0,2.8,0.0,180.0,4.5,36.0,2.2,0.0,80.0,ICMR-NIN IFCT 2017,IFCT_RASGULLA_CHHENA
-FOOD_000213,Kheer,per_100g,153.3,3.3,24.0,5.0,0.3,230.0,5.0,36.0,7.5,0.5,150.0,ICMR-NIN IFCT 2017,IFCT_RICE_KHEER
-FOOD_000214,Ice cream,per_100g,207.0,3.5,24.0,11.0,0.7,207.0,3.5,24.0,11.0,0.7,100.0,USDA FoodData Central,FDC_ICE_CREAM_VANILLA
-FOOD_000215,Cake,per_100g,350.0,5.6,55.0,12.5,1.0,280.0,4.5,44.0,10.0,0.8,80.0,USDA FoodData Central,FDC_SPONGE_CAKE
-FOOD_000216,Brownies,per_100g,408.3,5.3,56.7,19.2,2.5,245.0,3.2,34.0,11.5,1.5,60.0,USDA FoodData Central,FDC_FUDGE_BROWNIE
-FOOD_000217,Dark chocolate,per_100g,566.7,7.3,45.0,40.0,10.3,170.0,2.2,13.5,12.0,3.1,30.0,USDA FoodData Central,FDC_DARK_CHOCOLATE_70
-FOOD_000218,Dates-based sweets,per_100g,390.0,7.0,66.0,13.0,7.6,195.0,3.5,33.0,6.5,3.8,50.0,ICMR-NIN IFCT 2017,IFCT_DATES_NUT_SWEET
-FOOD_000219,Whey protein,per_100g,394.7,78.9,9.9,4.9,0.0,120.0,24.0,3.0,1.5,0.0,30.4,Manufacturer Verified Label (Optimum Nutrition),SUPP_ON_GOLD_WHEY
-FOOD_000220,Whey isolate,per_100g,366.7,83.3,3.3,1.7,0.0,110.0,25.0,1.0,0.5,0.0,30.0,Manufacturer Verified Label (Dymatize),SUPP_DYMATIZE_ISO100
-FOOD_000221,Casein protein,per_100g,363.6,72.7,9.1,3.0,3.0,120.0,24.0,3.0,1.0,1.0,33.0,Manufacturer Verified Label (Optimum Nutrition),SUPP_ON_MICELLAR_CASEIN
-FOOD_000222,Plant protein,per_100g,388.2,73.5,12.4,6.2,7.4,132.0,25.0,4.2,2.1,2.5,34.0,Manufacturer Verified Label (Fast&Up),SUPP_PLANT_PROTEIN_PEA
-FOOD_000223,Soy protein,per_100g,380.0,90.0,1.7,1.7,1.7,114.0,27.0,0.5,0.5,0.5,30.0,Open Food Facts,SUPP_SOY_ISOLATE
-FOOD_000224,Creatine,per_100g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,Manufacturer Verified Label (Creapure),SUPP_CREATINE_MONO
-FOOD_000225,Protein bars,per_100g,390.0,20.0,44.0,15.0,10.0,195.0,10.0,22.0,7.5,5.0,50.0,Manufacturer Verified Label (RiteBite),SUPP_RITEBITE_MAX_BAR
-FOOD_000226,Mass gainers,per_100g,374.3,15.0,75.4,1.5,1.2,625.0,25.0,126.0,2.5,2.0,167.0,Manufacturer Verified Label (Optimum Nutrition),SUPP_ON_SERIOUS_MASS
-FOOD_000227,Electrolyte drinks,per_100g,180.0,0.0,45.0,0.0,0.0,18.0,0.0,4.5,0.0,0.0,10.0,Manufacturer Verified Label (Fast&Up),SUPP_FASTUP_RELOAD
-FOOD_000228,Pre-workout drinks,per_100g,76.9,0.0,15.4,0.0,0.0,5.0,0.0,1.0,0.0,0.0,6.5,Manufacturer Verified Label (Cellucor),SUPP_CELLUCOR_C4
-FOOD_000229,Recovery shakes,per_100g,368.0,40.0,46.0,2.6,1.0,184.0,20.0,23.0,1.3,0.5,50.0,Manufacturer Verified Label (SIS / Endura),SUPP_REGO_RECOVERY
+food_id,food_name,category,group_category,diet_type,fitness_goal,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,sugar_g,net_carbs_g,saturated_fat_g,monounsaturated_fat_g,polyunsaturated_fat_g,trans_fat_g,cholesterol_mg,sodium_mg,potassium_mg,calcium_mg,iron_mg,magnesium_mg,zinc_mg,phosphorus_mg,vitamin_a_mcg,vitamin_c_mg,vitamin_d_mcg,vitamin_e_mg,vitamin_b1_thiamine_mg,vitamin_b6_mg,vitamin_b9_folate_mcg,vitamin_b12_mcg,water_moisture_g,ingredients
+0,Idli,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,130,4.0,28.0,0.4,1.2,1.2,26.8,0.12,0.18,0.1,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"parboiled_rice, urad_dal, fenugreek_seeds, salt"
+1,Dosa,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,168,3.9,29.0,3.7,1.1,1.2,27.9,1.11,1.67,0.93,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"raw_rice, urad_dal, oil, salt"
+2,Masala dosa,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,220,4.8,34.0,7.2,2.4,1.2,31.6,2.16,3.24,1.8,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"dosa_batter, potato, onion, mustard_seeds, green_chilli, turmeric, oil"
+3,Ragi dosa,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,155,4.2,30.0,2.1,3.8,1.2,26.2,0.63,0.95,0.53,0.0,0.0,240.0,140.0,344.0,3.9,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"finger_millet_flour, rice_flour, curd, cumin, green_chilli, oil"
+4,Ragi koozh,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,110,2.8,22.0,1.0,3.2,1.2,18.8,0.3,0.45,0.25,0.0,0.0,240.0,140.0,344.0,3.9,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"ragi_flour, broken_raw_rice, buttermilk, shallots, salt"
+5,Pongal,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,195,5.2,31.0,5.8,1.8,1.2,29.2,1.74,2.61,1.45,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"raw_rice, yellow_moong_dal, ghee, black_pepper, cumin, ginger, cashews, curry_leaves"
+6,Upma,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,170,4.1,28.0,4.5,2.0,1.2,26.0,1.35,2.02,1.12,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"roasted_semolina, mustard_seeds, urad_dal, ginger, green_chilli, curry_leaves, vegetables, oil"
+7,Appam,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,160,2.8,32.0,2.3,1.2,1.2,30.8,0.69,1.03,0.57,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"raw_rice, coconut_milk, sugar, yeast, salt"
+8,Puttu,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,180,3.6,38.0,1.5,2.5,1.2,35.5,0.45,0.68,0.38,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"coarse_rice_flour, fresh_grated_coconut, water, salt"
+9,Idiyappam,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,2.5,31.0,0.5,1.0,1.2,30.0,0.15,0.23,0.12,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"roasted_rice_flour, water, salt, grated_coconut"
+10,Adai,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,210,8.5,34.0,4.5,4.5,1.2,29.5,1.35,2.02,1.12,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"raw_rice, toor_dal, chana_dal, urad_dal, dry_red_chilli, asafoetida, oil"
+11,Chapati,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,260,8.2,52.0,2.0,7.0,1.2,45.0,0.6,0.9,0.5,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"whole_wheat_flour, water, salt, oil"
+12,Parotta,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,325,6.8,48.0,12.0,1.8,1.2,46.2,3.6,5.4,3.0,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"maida_refined_flour, oil, sugar, salt, water"
+13,Rice,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,130,2.7,28.0,0.3,0.4,1.2,27.6,0.09,0.14,0.07,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"boiled_white_rice, water"
+14,Lemon rice,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,185,3.2,32.0,5.0,1.2,1.2,30.8,1.5,2.25,1.25,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"cooked_rice, fresh_lemon_juice, peanuts, mustard_seeds, turmeric, curry_leaves, oil"
+15,Curd rice,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,165,4.5,24.0,5.5,0.8,21.6,23.2,3.3,2.48,1.38,0.0,12.0,50.0,160.0,150.0,1.0,20.0,0.8,105.0,45.0,2.0,0.0,0.5,0.08,0.12,15.0,0.45,88.0,"cooked_rice, fresh_curd, milk, mustard_seeds, green_chilli, ginger, pomegranate, oil"
+16,Tomato rice,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,175,3.4,30.0,4.8,1.6,1.2,28.4,1.44,2.16,1.2,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"cooked_rice, ripe_tomatoes, onion, garlic, sambar_powder, spices, oil"
+17,Sambar rice,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,160,4.8,29.0,3.2,2.8,2.5,26.2,0.58,1.12,1.34,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,"cooked_rice, toor_dal, mixed_vegetables, tamarind, sambar_powder, ghee"
+18,Rasam rice,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,3.2,27.0,2.0,1.4,1.2,25.6,0.6,0.9,0.5,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"cooked_rice, tomato_rasam, black_pepper, cumin, garlic, ghee"
+19,Pulao,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,190,4.2,33.0,5.0,2.2,1.2,30.8,1.5,2.25,1.25,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"basmati_rice, mixed_vegetables, onion, whole_spices, ghee, mint"
+20,Kichadi,South Indian,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,26.0,2.8,2.0,1.2,24.0,0.84,1.26,0.7,0.0,0.0,240.0,140.0,30.0,1.6,32.0,0.8,70.0,10.0,2.0,0.0,0.5,0.14,0.12,28.0,0.0,58.0,"rice, moong_dal, cumin, black_pepper, ginger, ghee"
+21,Sambar,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,95,3.8,14.5,2.5,3.2,5.1,11.3,0.05,1.12,0.62,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"toor_dal, shallots, drumstick, tomato, tamarind, sambar_powder, oil"
+22,Rasam,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,45,1.2,7.0,1.2,0.8,2.4,6.2,0.05,0.54,0.3,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"tomato, tamarind_water, crushed_black_pepper, cumin, garlic, coriander, ghee"
+23,Dal,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,120,6.5,17.0,3.0,3.5,5.9,13.5,0.05,1.35,0.75,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"yellow_lentils, tomato, onion, garlic, turmeric, cumin, ghee"
+24,Kootu,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,105,4.5,15.0,3.0,3.8,5.2,11.2,0.05,1.35,0.75,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"chana_dal, cabbage, chow_chow, coconut_paste, cumin, curry_leaves"
+25,Poriyal,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,85,2.4,12.0,3.0,3.5,4.2,8.5,0.05,1.35,0.75,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"beans, carrot, grated_coconut, mustard_seeds, urad_dal, curry_leaves, oil"
+26,Avial,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,115,2.8,14.0,5.2,3.8,4.9,10.2,0.05,2.34,1.3,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"raw_banana, carrot, drumstick, yam, coconut_curd_paste, coconut_oil, curry_leaves"
+27,Kurma,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,3.5,16.0,7.0,3.2,5.6,12.8,0.05,3.15,1.75,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"mixed_vegetables, coconut_cashew_paste, poppy_seeds, onion, garlic, spices, oil"
+28,Paneer butter masala,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,240,9.5,12.0,17.5,1.8,0.5,10.2,11.38,4.9,0.7,0.0,215.0,570.0,150.0,5.0,1.0,20.0,0.8,70.0,680.0,2.0,1.5,0.5,0.08,0.12,15.0,0.0,16.0,"paneer_cottage_cheese, butter, cream, tomato_puree, cashew_paste, kasuri_methi, spices"
+29,Palak paneer,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,185,9.0,8.0,13.0,2.8,0.5,5.2,8.06,5.85,3.25,0.0,75.0,280.0,150.0,480.0,1.0,20.0,0.8,360.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.9,52.0,"fresh_spinach, paneer, garlic, onion, green_chilli, cream, ghee"
+30,Chana masala,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,160,7.2,22.0,4.8,5.5,7.7,16.5,0.05,2.16,1.2,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"boiled_chickpeas, onion, tomato_puree, ginger_garlic, chana_masala_spice, oil"
+31,Rajma,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,155,7.5,23.0,3.8,6.0,8.0,17.0,0.05,1.71,0.95,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"red_kidney_beans, onion_tomato_gravy, ginger_garlic, coriander, spices, oil"
+32,Vegetable curry,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,110,3.0,15.0,4.5,3.0,5.2,12.0,0.05,2.02,1.12,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"mixed_vegetables, onion, tomato, curry_powder, coriander, oil"
+33,Mushroom curry,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,95,3.8,9.0,5.0,2.0,3.1,7.0,0.05,2.25,1.25,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"button_mushrooms, onion, tomato, garlic, coconut_milk, spices, oil"
+34,Vegetable pulao,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,185,3.8,32.0,4.8,2.2,11.2,29.8,0.05,2.16,1.2,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"basmati_rice, carrot, peas, french_beans, whole_garam_masala, ghee"
+35,Vegetable fried rice,Vegetarian Curries & Sides,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,190,3.5,34.0,4.5,1.8,11.9,32.2,0.05,2.02,1.12,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,"cooked_rice, cabbage, carrot, spring_onion, soy_sauce, pepper, oil"
+36,Cucumber salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,cucumber salad
+37,Carrot salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,carrot salad
+38,Beetroot salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,beetroot salad
+39,Onion tomato salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,onion tomato salad
+40,Mixed vegetable salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,mixed vegetable salad
+41,Sprouts salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,sprouts salad
+42,Chickpea salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,chickpea salad
+43,Protein salad,Salads,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,protein salad
+44,Green gram sprouts,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_green gram sprouts
+45,Black gram sprouts,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_black gram sprouts
+46,Chickpea sprouts,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_chickpea sprouts
+47,Black chana,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_black chana
+48,Horse gram,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_horse gram
+49,Mixed sprouts,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_mixed sprouts
+50,Boiled chickpeas,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_boiled chickpeas
+51,Kidney beans,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_kidney beans
+52,Lentils,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_lentils
+53,Soybeans,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_soybeans
+54,Green peas,Sprouts & Legumes,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,140,9.5,22.0,1.2,6.5,2.5,15.5,0.22,0.42,0.5,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,boiled_green peas
+55,Sundal,Breakfast & Snacks,Full Vegetarian Foods,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,2.5,39.0,1.98,3.85,4.62,0.0,0.0,180.0,380.0,55.0,3.2,58.0,1.6,165.0,10.0,2.0,0.0,0.5,0.08,0.12,110.0,0.0,65.0,"gram_flour_or_cereal, spices, oil"
+56,Chicken curry,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,175,16.5,5.0,10.0,1.2,0.5,3.8,3.2,4.2,2.0,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"chicken_pieces, onion, tomato, ginger_garlic, curry_powder, coriander, oil"
+57,Chicken 65,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,260,22.0,9.0,15.0,0.8,0.5,8.2,4.8,6.3,3.0,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"boneless_chicken, curd, kashmiri_chilli, corn_flour, ginger_garlic, curry_leaves, oil"
+58,Chicken fry,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,250,21.0,6.0,16.0,0.5,0.5,5.5,5.12,6.72,3.2,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"chicken, shallots, black_pepper, garlic, curry_leaves, oil"
+59,Chicken biryani,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,215,14.5,24.0,6.8,1.2,0.5,22.8,2.18,2.86,1.36,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"basmati_rice, chicken, yogurt, fried_onions, biryani_masala, mint, ghee"
+60,Tandoori chicken,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,195,24.0,3.0,9.5,0.5,0.5,2.5,3.04,3.99,1.9,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"chicken_leg_breast, hung_curd, lemon_juice, tandoori_spices, mustard_oil"
+61,Chicken tikka,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,185,23.5,3.5,8.5,0.4,0.5,3.1,2.72,3.57,1.7,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"boneless_chicken_cubes, yogurt, garlic, kashmiri_mirch, lemon, butter"
+62,Grilled chicken,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,165,28.0,0.0,5.5,0.0,0.5,0.0,1.76,2.31,1.1,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"chicken_breast, olive_oil, black_pepper, herbs, lemon_juice, salt"
+63,Chicken kebab,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,205,22.0,5.0,11.0,0.6,0.5,4.4,3.52,4.62,2.2,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"minced_chicken, onion, egg, green_chilli, garam_masala, coriander"
+64,Chicken burger,Fast Foods & International,Full Non-Vegetarian Foods,Vegetarian,Weight Gain / Bulking Energy,250,14.0,26.0,10.5,1.5,0.5,24.5,3.36,4.41,2.1,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"burger_bun, chicken_patty, lettuce, tomato_slice, mayonnaise"
+65,Chicken pizza,Fast Foods & International,Full Non-Vegetarian Foods,Vegetarian,Weight Gain / Bulking Energy,270,13.5,30.0,11.0,1.8,0.5,28.2,3.52,4.62,2.2,0.0,85.0,220.0,280.0,25.0,1.3,20.0,2.1,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,0.35,68.0,"pizza_dough, chicken_chunks, pizza_sauce, mozzarella_cheese, capsicum"
+66,Mutton curry,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,230,18.0,4.5,15.5,1.0,0.5,3.5,4.96,6.51,3.1,0.0,95.0,220.0,280.0,25.0,2.4,20.0,4.5,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,2.5,68.0,"mutton_goat_meat, onion, tomato, ginger_garlic, spices, oil"
+67,Mutton biryani,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,245,13.5,25.0,10.5,1.1,0.5,23.9,3.36,4.41,2.1,0.0,95.0,220.0,280.0,25.0,2.4,20.0,4.5,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,2.5,68.0,"seeraga_samba_rice, tender_mutton, ghee, curd, spices, mint, coriander"
+68,Fish curry,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,140,15.0,4.0,7.0,0.8,0.5,3.2,2.24,2.94,1.4,0.0,70.0,220.0,280.0,25.0,1.2,20.0,4.5,210.0,10.0,2.0,2.5,0.5,0.08,0.45,15.0,2.8,68.0,"fresh_fish, tamarind_extract, shallots, tomato, fenugreek, curry_powder, oil"
+69,Fish fry,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,225,19.5,5.5,14.0,0.5,0.5,5.0,4.48,5.88,2.8,0.0,70.0,220.0,280.0,25.0,1.2,20.0,4.5,210.0,10.0,2.0,2.5,0.5,0.08,0.45,15.0,2.8,68.0,"fish_slice, red_chilli_paste, lemon_juice, turmeric, rice_flour, oil"
+70,Grilled fish,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,150,22.0,0.5,6.5,0.0,0.5,0.5,2.08,2.73,1.3,0.0,70.0,220.0,280.0,25.0,1.2,20.0,4.5,210.0,10.0,2.0,2.5,0.5,0.08,0.45,15.0,2.8,68.0,"fish_fillet, olive_oil, lemon, garlic, herbs, black_pepper"
+71,Prawn masala,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,155,17.5,5.0,7.5,1.0,0.5,4.0,2.4,3.15,1.5,0.0,95.0,220.0,280.0,25.0,1.2,20.0,4.5,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,2.8,68.0,"prawns, onion, tomato, ginger_garlic, curry_powder, fennel, oil"
+72,Prawn fry,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,210,20.0,6.0,12.0,0.5,0.5,5.5,3.84,5.04,2.4,0.0,95.0,220.0,280.0,25.0,1.2,20.0,4.5,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,2.8,68.0,"prawns, kashmiri_chilli, pepper, curry_leaves, coconut_oil"
+73,Crab curry,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,130,16.0,4.2,5.5,0.8,0.5,3.4,1.76,2.31,1.1,0.0,95.0,220.0,280.0,25.0,1.2,20.0,4.5,210.0,10.0,2.0,0.1,0.5,0.08,0.45,15.0,2.8,68.0,"crab, shallots, coconut_paste, fennel, garlic, curry_powder, oil"
+74,Egg boiled,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,155,12.6,1.1,10.6,0.0,0.8,1.1,3.29,4.03,1.91,0.0,370.0,140.0,138.0,56.0,1.75,12.0,1.3,198.0,160.0,0.0,2.0,1.05,0.06,0.17,44.0,1.1,75.0,"whole_hen_egg, water"
+75,Egg omelette,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,185,12.0,2.5,14.0,0.4,0.8,2.1,4.34,5.32,2.52,0.0,280.0,140.0,138.0,56.0,1.75,12.0,1.3,198.0,160.0,0.0,2.0,1.05,0.06,0.17,44.0,1.1,75.0,"eggs, onion, green_chilli, black_pepper, salt, oil"
+76,Egg bhurji,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,190,11.8,3.8,14.2,0.6,0.8,3.2,4.4,5.4,2.56,0.0,280.0,140.0,138.0,56.0,1.75,12.0,1.3,198.0,160.0,0.0,2.0,1.05,0.06,0.17,44.0,1.1,75.0,"eggs, onion, tomato, green_chilli, coriander, butter_oil"
+77,Egg dosa,Non-Vegetarian,Full Non-Vegetarian Foods,Non-Vegetarian,Muscle Building / High Protein,195,7.5,24.0,7.8,1.0,0.8,23.0,2.42,2.96,1.4,0.0,280.0,140.0,138.0,56.0,1.75,12.0,1.3,198.0,160.0,0.0,2.0,1.05,0.06,0.17,44.0,1.1,75.0,"dosa_batter, whole_egg, pepper_powder, oil"
+78,Burger,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,260,12.0,28.0,11.5,1.6,4.5,26.4,4.37,4.83,1.84,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"bun, patty, lettuce, onion, tomato, sauce"
+79,Veg burger,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,220,7.5,32.0,7.5,3.2,4.5,28.8,2.85,3.15,1.2,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"bun, veggie_potato_patty, lettuce, tomato, mayo"
+80,Cheese burger,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,290,14.5,28.0,14.0,1.5,0.5,26.5,8.68,6.3,3.5,0.0,75.0,280.0,150.0,480.0,1.0,20.0,0.8,360.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.9,52.0,"bun, patty, cheddar_cheese_slice, pickles, ketchup"
+81,Pizza,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,265,11.0,32.0,10.0,2.0,4.5,30.0,3.8,4.2,1.6,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"flour_crust, pizza_sauce, mozzarella_cheese, olive_oil, herbs"
+82,Veg pizza,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,240,9.5,33.0,8.0,2.5,4.5,30.5,3.04,3.36,1.28,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"flour_crust, tomato_sauce, cheese, capsicum, onion, olives"
+83,Cheese pizza,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,280,12.0,31.0,12.0,1.8,0.5,29.2,7.44,5.4,3.0,0.0,75.0,280.0,150.0,480.0,1.0,20.0,0.8,360.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.9,52.0,"pizza_crust, marinara_sauce, blend_of_mozzarella_cheeses"
+84,Sandwich,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,210,7.0,30.0,7.0,2.0,4.5,28.0,2.66,2.94,1.12,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"bread_slices, cucumber, tomato, butter, chutney"
+85,Grilled sandwich,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,255,8.5,31.0,11.0,2.1,4.5,28.9,4.18,4.62,1.76,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"bread, cheese, vegetable_filling, butter"
+86,Wraps,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,220,8.0,30.0,8.0,2.5,4.5,27.5,3.04,3.36,1.28,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"tortilla_flatbread, filling, sauce, greens"
+87,Shawarma,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,240,14.0,22.0,11.0,1.5,4.5,20.5,4.18,4.62,1.76,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"pita_flatbread, marinated_meat, tahini_garlic_sauce, pickles"
+88,Tacos,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,210,9.5,21.0,10.0,2.4,4.5,18.6,3.8,4.2,1.6,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"corn_tortilla, seasoned_filling, lettuce, cheese, salsa"
+89,Pasta,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,160,5.5,28.0,3.0,1.8,4.5,26.2,1.14,1.26,0.48,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"durum_wheat_pasta, tomato_sauce, garlic, herbs, olive_oil"
+90,Macaroni,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,175,6.0,29.0,4.0,1.5,4.5,27.5,1.52,1.68,0.64,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"macaroni_elbows, cheese_sauce, butter, milk"
+91,Noodles,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,180,4.5,32.0,4.0,1.5,4.5,30.5,1.52,1.68,0.64,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"wheat_noodles, shredded_veggies, soy_sauce, chilli_oil"
+92,Fried rice,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,195,4.0,34.0,5.0,1.4,4.5,32.6,1.9,2.1,0.8,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"steamed_rice, egg_or_vegetables, soy_sauce, scallions, oil"
+93,French fries,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,310,3.4,41.0,15.0,3.8,4.5,37.2,5.7,6.3,2.4,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"potato_strips, vegetable_oil, salt"
+94,Nachos,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,305,5.0,38.0,15.0,3.0,4.5,35.0,5.7,6.3,2.4,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"corn_tortilla_chips, melted_cheese, jalapenos, salsa"
+95,Hot dogs,Fast Foods & International,Fast Foods & International,Vegetarian,Weight Gain / Bulking Energy,270,10.0,24.0,15.0,1.0,4.5,23.0,5.7,6.3,2.4,0.2,35.0,480.0,210.0,85.0,1.8,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,48.0,"hot_dog_bun, frankfurter_sausage, mustard, ketchup"
+96,Carrot,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,835.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_carrot
+97,Beetroot,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_beetroot
+98,Cucumber,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_cucumber
+99,Tomato,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_tomato
+100,Onion,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_onion
+101,Potato,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_potato
+102,Sweet potato,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_sweet potato
+103,Broccoli,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,89.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_broccoli
+104,Cauliflower,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_cauliflower
+105,Spinach,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,99.0,2.71,25.0,0.8,70.0,469.0,14.0,0.0,0.5,0.08,0.12,194.0,0.0,90.0,fresh_spinach
+106,Amaranth leaves,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_amaranth leaves
+107,Cabbage,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,48.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_cabbage
+108,Beans,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_beans
+109,Capsicum,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_capsicum
+110,Pumpkin,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_pumpkin
+111,Bottle gourd,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_bottle gourd
+112,Bitter gourd,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_bitter gourd
+113,Drumstick,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_drumstick
+114,Brinjal,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_brinjal
+115,Mushroom,Vegetables,Fresh Vegetables,Vegetarian,Weight Loss / Fat Burn,35,1.8,7.0,0.2,2.8,2.4,4.2,0.05,0.09,0.05,0.0,0.0,30.0,280.0,40.0,1.2,25.0,0.8,70.0,30.0,14.0,0.0,0.5,0.08,0.12,45.0,0.0,90.0,fresh_mushroom
+116,Apple,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_apple
+117,Banana,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,358.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_banana
+118,Mango,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,120.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_mango
+119,Orange,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,53.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_orange
+120,Papaya,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,120.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_papaya
+121,Pineapple,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_pineapple
+122,Watermelon,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_watermelon
+123,Muskmelon,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_muskmelon
+124,Guava,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,228.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_guava
+125,Grapes,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_grapes
+126,Pomegranate,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_pomegranate
+127,Kiwi,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_kiwi
+128,Dragon fruit,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_dragon fruit
+129,Strawberry,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_strawberry
+130,Blueberry,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_blueberry
+131,Avocado,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_avocado
+132,Jackfruit,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_jackfruit
+133,Dates,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_dates
+134,Fig,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_fig
+135,Sapota,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_sapota
+136,Custard apple,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_custard apple
+137,Coconut,Fruits,Fresh Fruits & Salads,Vegetarian,Weight Loss / Fat Burn,52,0.6,13.5,0.2,2.4,10.5,11.1,0.05,0.03,0.05,0.0,0.0,2.0,220.0,18.0,0.4,15.0,0.8,70.0,15.0,18.0,0.0,0.5,0.08,0.12,22.0,0.0,86.0,fresh_coconut
+138,Mixed fruit salad,Salads,Fresh Fruits & Salads,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,mixed fruit salad
+139,Apple fruit salad,Salads,Fresh Fruits & Salads,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,apple fruit salad
+140,Mango fruit salad,Salads,Fresh Fruits & Salads,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,mango fruit salad
+141,Watermelon fruit salad,Salads,Fresh Fruits & Salads,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,watermelon fruit salad
+142,Seasonal fruit salad,Salads,Fresh Fruits & Salads,Vegetarian,Balanced Diet / Daily Fitness,150,5.0,22.0,4.0,2.0,0.5,20.0,1.0,1.8,1.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,66.0,seasonal fruit salad
+143,Almonds,Nuts,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,579,21.2,21.6,49.9,12.5,4.2,9.1,5.99,27.45,13.97,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,whole_almonds
+144,Cashews,Nuts,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,553,18.2,30.2,43.8,3.3,4.2,26.9,5.26,24.09,12.26,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,whole_cashews
+145,Walnuts,Nuts,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,654,15.2,13.7,65.2,6.7,4.2,7.0,7.82,35.86,18.26,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,shelled_walnuts
+146,Pistachios,Nuts,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,562,20.2,27.5,45.3,10.6,4.2,16.9,5.44,24.91,12.68,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,pistachio_nuts
+147,Peanuts,Nuts,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,567,25.8,16.1,49.2,8.5,4.2,7.6,5.9,27.06,13.78,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,roasted_peanuts
+148,Hazelnuts,Nuts,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,628,15.0,16.7,60.8,9.7,4.2,7.0,7.3,33.44,17.02,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,hazelnuts
+149,Brazil nuts,Nuts,Nuts & Seeds,Vegetarian,Weight Gain / Bulking Energy,659,14.3,12.3,67.1,7.5,4.2,4.8,8.05,36.91,18.79,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,brazil_nuts
+150,Macadamia nuts,Nuts,Nuts & Seeds,Vegetarian,Weight Gain / Bulking Energy,718,7.9,13.8,75.8,8.6,4.2,5.2,9.1,41.69,21.22,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,macadamia_nuts
+151,Pecans,Nuts,Nuts & Seeds,Vegetarian,Weight Gain / Bulking Energy,691,9.2,13.9,72.0,9.6,4.2,4.3,8.64,39.6,20.16,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,pecan_nuts
+152,Chia seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,486,16.5,42.1,30.7,34.4,4.2,7.7,3.68,16.89,8.6,0.0,0.0,5.0,680.0,631.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,whole_chia_seeds
+153,Flax seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,534,18.3,28.9,42.2,27.3,4.2,1.6,5.06,23.21,11.82,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,whole_flax_seeds
+154,Pumpkin seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,559,30.2,10.7,49.1,6.0,4.2,4.7,5.89,27.01,13.75,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,pepita_pumpkin_seeds
+155,Sunflower seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,584,20.8,20.0,51.5,8.6,4.2,11.4,6.18,28.33,14.42,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,hulled_sunflower_seeds
+156,Sesame seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,573,17.7,23.4,49.7,11.8,4.2,11.6,5.96,27.34,13.92,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,sesame_seeds
+157,Watermelon seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,557,28.3,15.3,47.4,5.0,4.2,10.3,5.69,26.07,13.27,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,dried_watermelon_seeds
+158,Melon seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,550,26.0,18.0,46.0,6.0,4.2,12.0,5.52,25.3,12.88,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,melon_seeds_magaz
+159,Hemp seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,553,31.6,8.7,48.8,4.0,4.2,4.7,5.86,26.84,13.66,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,hulled_hemp_hearts
+160,Basil seeds,Seeds,Nuts & Seeds,Vegetarian,Weight Gain / Bulking Energy,450,14.8,43.0,25.0,37.0,4.2,6.0,3.0,13.75,7.0,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,sabja_sweet_basil_seeds
+161,Poppy seeds,Seeds,Nuts & Seeds,Vegetarian,Muscle Building / High Protein,525,18.0,28.1,41.6,19.5,4.2,8.6,4.99,22.88,11.65,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,khus_khus_poppy_seeds
+162,Toned milk,Dairy Products,Dairy Products,Vegetarian,Balanced Diet / Daily Fitness,65,3.3,4.8,3.7,0.0,4.3,4.8,2.22,1.67,0.93,0.0,12.0,50.0,160.0,130.0,1.0,20.0,0.8,105.0,45.0,2.0,0.0,0.5,0.08,0.12,15.0,0.45,88.0,toned milk
+163,Curd,Dairy Products,Dairy Products,Vegetarian,Balanced Diet / Daily Fitness,60,4.0,4.5,3.2,0.0,4.0,4.5,1.92,1.44,0.8,0.0,12.0,50.0,160.0,150.0,1.0,20.0,0.8,105.0,45.0,2.0,0.0,0.5,0.08,0.12,15.0,0.45,88.0,fermented_milk_cultures
+164,Greek yogurt,Dairy Products,Dairy Products,Vegetarian,Balanced Diet / Daily Fitness,60,4.0,4.5,3.2,0.0,4.0,4.5,1.92,1.44,0.8,0.0,12.0,50.0,160.0,150.0,1.0,20.0,0.8,105.0,45.0,2.0,0.0,0.5,0.08,0.12,15.0,0.45,88.0,fermented_milk_cultures
+165,Paneer,Dairy Products,Dairy Products,Vegetarian,Muscle Building / High Protein,290,18.0,4.0,22.0,0.0,0.5,4.0,13.64,9.9,5.5,0.0,75.0,280.0,150.0,480.0,1.0,20.0,0.8,360.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.9,52.0,coagulated_milk_curd
+166,Cheese,Dairy Products,Dairy Products,Vegetarian,Muscle Building / High Protein,290,18.0,4.0,22.0,0.0,0.5,4.0,13.64,9.9,5.5,0.0,75.0,280.0,150.0,480.0,1.0,20.0,0.8,360.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.9,52.0,coagulated_milk_curd
+167,Butter,Dairy Products,Dairy Products,Vegetarian,Weight Gain / Bulking Energy,880,0.5,0.0,99.0,0.0,0.5,0.0,64.35,27.72,3.96,0.0,215.0,570.0,150.0,5.0,1.0,20.0,0.8,70.0,680.0,2.0,1.5,0.5,0.08,0.12,15.0,0.0,16.0,clarified_butterfat
+168,Ghee,Dairy Products,Dairy Products,Vegetarian,Weight Gain / Bulking Energy,880,0.5,0.0,99.0,0.0,0.5,0.0,64.35,27.72,3.96,0.0,256.0,10.0,150.0,5.0,1.0,20.0,0.8,70.0,680.0,2.0,1.5,0.5,0.08,0.12,15.0,0.0,0.5,clarified_butterfat
+169,Overnight oats,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+170,Oatmeal,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+171,Cornflakes,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+172,Muesli,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+173,Granola,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+174,Peanut butter,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,7.15,3.08,0.44,0.0,215.0,570.0,150.0,5.0,1.0,20.0,0.8,70.0,680.0,2.0,1.5,0.5,0.08,0.12,15.0,0.0,16.0,"gram_flour_or_cereal, spices, oil"
+175,Boiled corn,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+176,Popcorn,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+177,Samosa,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+178,Vada,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+179,Bajji,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+180,Bonda,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+181,Murukku,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+182,Biscuits,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Balanced Diet / Daily Fitness,280,6.0,42.0,11.0,3.0,0.5,39.0,2.75,4.95,2.75,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,37.5,"gram_flour_or_cereal, spices, oil"
+183,Payasam,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+184,Halwa,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+185,Laddu,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+186,Gulab jamun,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+187,Rasgulla,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+188,Kheer,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+189,Ice cream,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+190,Cake,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+191,Brownies,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+192,Dark chocolate,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+193,Dates-based sweets,Desserts & Sweets,Desserts & Sweets,Vegetarian,Balanced Diet / Daily Fitness,320,4.0,55.0,10.0,1.0,0.5,54.0,2.5,4.5,2.5,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,28.5,"milk_solid_or_flour, sugar, ghee, cardamom"
+194,Water,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,98.0,pure_water
+195,Tender coconut water,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,40,0.5,9.5,0.1,0.0,0.5,9.5,0.03,0.05,0.03,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,87.9,tender coconut water
+196,Milk,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,62,3.2,4.8,3.6,0.0,4.3,4.8,2.16,1.62,0.9,0.0,12.0,50.0,160.0,130.0,1.0,20.0,0.8,105.0,45.0,2.0,0.0,0.5,0.08,0.12,15.0,0.45,88.0,whole_cow_milk
+197,Skimmed milk,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,35,3.4,5.0,0.2,0.0,4.5,5.0,0.12,0.09,0.05,0.0,12.0,50.0,160.0,130.0,1.0,20.0,0.8,105.0,45.0,2.0,0.0,0.5,0.08,0.12,15.0,0.45,88.0,skimmed_cow_milk
+198,Buttermilk,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,40,0.5,9.5,0.1,0.0,0.5,9.5,0.07,0.03,0.0,0.0,215.0,570.0,150.0,5.0,1.0,20.0,0.8,70.0,680.0,2.0,1.5,0.5,0.08,0.12,15.0,0.0,16.0,buttermilk
+199,Lassi,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,40,0.5,9.5,0.1,0.0,8.6,9.5,0.06,0.05,0.03,0.0,12.0,50.0,160.0,150.0,1.0,20.0,0.8,105.0,45.0,2.0,0.0,0.5,0.08,0.12,15.0,0.45,88.0,lassi
+200,Filter coffee,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,40,0.5,9.5,0.1,0.0,0.5,9.5,0.03,0.05,0.03,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,87.9,filter coffee
+201,Tea,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,2,0.2,0.3,0.0,0.0,0.5,0.3,0.0,0.0,0.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,97.5,"brewed_tea_leaves, water"
+202,Green tea,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,2,0.2,0.3,0.0,0.0,0.5,0.3,0.0,0.0,0.0,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,97.5,"brewed_tea_leaves, water"
+203,Lemon juice,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,45,0.7,10.5,0.2,0.4,0.5,10.1,0.05,0.09,0.05,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,86.4,fresh_lemon juice
+204,Orange juice,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,45,0.7,10.5,0.2,0.4,0.5,10.1,0.05,0.09,0.05,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,86.4,fresh_orange juice
+205,Apple juice,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,45,0.7,10.5,0.2,0.4,0.5,10.1,0.05,0.09,0.05,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,86.4,fresh_apple juice
+206,Sugarcane juice,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,45,0.7,10.5,0.2,0.4,0.5,10.1,0.05,0.09,0.05,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,86.4,fresh_sugarcane juice
+207,Fresh fruit juices,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,45,0.7,10.5,0.2,0.4,0.5,10.1,0.05,0.09,0.05,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,86.4,fresh_fresh fruit juices
+208,Soft drinks,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,40,0.5,9.5,0.1,0.0,0.5,9.5,0.03,0.05,0.03,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,87.9,soft drinks
+209,Energy drinks,Drinks & Beverages,All Drinks & Beverages,Vegetarian,Balanced Diet / Daily Fitness,40,0.5,9.5,0.1,0.0,0.5,9.5,0.03,0.05,0.03,0.0,0.0,120.0,150.0,25.0,1.0,20.0,0.8,70.0,10.0,2.0,0.0,0.5,0.08,0.12,15.0,0.0,87.9,energy drinks
+210,Recovery shakes,Gym & Sports Nutrition,All Drinks & Beverages,Vegetarian,Muscle Building / High Protein,160,15.0,20.0,2.5,1.5,4.2,18.5,0.3,1.38,0.7,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,"milk, whey_protein, banana, honey"
+211,Whey protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,380,78.0,6.5,4.8,0.0,4.2,6.5,0.58,2.64,1.34,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,whey_protein_concentrate_powder
+212,Whey isolate,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,370,90.0,1.5,1.0,0.0,4.2,1.5,0.12,0.55,0.28,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,whey_protein_isolate_powder
+213,Casein protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,365,76.0,7.0,3.5,0.0,4.2,7.0,0.42,1.93,0.98,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,micellar_casein_powder
+214,Plant protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,375,72.0,10.0,5.0,4.0,4.2,6.0,0.6,2.75,1.4,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,"pea_protein_isolate, brown_rice_protein"
+215,Soy protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,380,85.0,2.0,3.0,1.0,4.2,1.0,0.36,1.65,0.84,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,soy_protein_isolate
+216,Creatine,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,0,0.0,0.0,0.0,0.0,4.2,0.0,0.0,0.0,0.0,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,creatine_monohydrate_powder
+217,Protein bars,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,385,30.0,38.0,12.0,8.0,4.2,30.0,1.44,6.6,3.36,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,"protein_blend, dates_or_maltitol, oats, almonds, cocoa"
+218,Mass gainers,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,395,25.0,68.0,3.0,2.0,4.2,66.0,0.36,1.65,0.84,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,"maltodextrin_complex_carbs, whey_protein, vitamins"
+219,Electrolyte drinks,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,28,0.0,7.0,0.0,0.0,4.2,7.0,0.0,0.0,0.0,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,"water, sodium_chloride, potassium_citrate, glucose, flavour"
+220,Pre-workout drinks,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Muscle Building / High Protein,15,1.0,2.0,0.0,0.0,4.2,2.0,0.0,0.0,0.0,0.0,0.0,5.0,680.0,160.0,4.5,240.0,3.8,450.0,10.0,2.0,0.0,12.0,0.08,0.12,65.0,0.0,4.5,"caffeine_anhydrous, beta_alanine, l_citrulline_malate, electrolytes"

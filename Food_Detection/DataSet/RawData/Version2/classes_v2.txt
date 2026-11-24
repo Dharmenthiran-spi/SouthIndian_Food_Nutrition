@@ -17,7 +17,6 @@ Curd rice
 Tomato rice
 Sambar rice
 Rasam rice
-Biryani
 Pulao
 Kichadi
 Sambar
@@ -35,16 +34,36 @@ Vegetable curry
 Mushroom curry
 Vegetable pulao
 Vegetable fried rice
+Cucumber salad
+Carrot salad
+Beetroot salad
+Onion tomato salad
+Mixed vegetable salad
+Sprouts salad
+Chickpea salad
+Protein salad
+Green gram sprouts
+Black gram sprouts
+Chickpea sprouts
+Black chana
+Horse gram
+Mixed sprouts
+Boiled chickpeas
+Kidney beans
+Lentils
+Soybeans
+Green peas
+Sundal
 Chicken curry
-Chicken gravy
 Chicken 65
 Chicken fry
 Chicken biryani
-Chicken tandoori
 Tandoori chicken
 Chicken tikka
 Grilled chicken
 Chicken kebab
+Chicken burger
+Chicken pizza
 Mutton curry
 Mutton biryani
 Fish curry
@@ -58,11 +77,9 @@ Egg omelette
 Egg bhurji
 Egg dosa
 Burger
-Chicken burger
 Veg burger
 Cheese burger
 Pizza
-Chicken pizza
 Veg pizza
 Cheese pizza
 Sandwich
@@ -77,6 +94,26 @@ Fried rice
 French fries
 Nachos
 Hot dogs
+Carrot
+Beetroot
+Cucumber
+Tomato
+Onion
+Potato
+Sweet potato
+Broccoli
+Cauliflower
+Spinach
+Amaranth leaves
+Cabbage
+Beans
+Capsicum
+Pumpkin
+Bottle gourd
+Bitter gourd
+Drumstick
+Brinjal
+Mushroom
 Apple
 Banana
 Mango
@@ -99,26 +136,11 @@ Fig
 Sapota
 Custard apple
 Coconut
-Carrot
-Beetroot
-Cucumber
-Tomato
-Onion
-Potato
-Sweet potato
-Broccoli
-Cauliflower
-Spinach
-Amaranth leaves
-Cabbage
-Beans
-Capsicum
-Pumpkin
-Bottle gourd
-Bitter gourd
-Drumstick
-Brinjal
-Mushroom
+Mixed fruit salad
+Apple fruit salad
+Mango fruit salad
+Watermelon fruit salad
+Seasonal fruit salad
 Almonds
 Cashews
 Walnuts
@@ -138,31 +160,38 @@ Melon seeds
 Hemp seeds
 Basil seeds
 Poppy seeds
-Green gram sprouts
-Black gram sprouts
-Chickpea sprouts
-Black chana
-Horse gram
-Mixed sprouts
-Boiled chickpeas
-Kidney beans
-Lentils
-Soybeans
-Green peas
-Sundal varieties
-Cucumber salad
-Carrot salad
-Beetroot salad
-Onion tomato salad
-Mixed vegetable salad
-Sprouts salad
-Chickpea salad
-Protein salad
-Mixed fruit salad
-Apple fruit salad
-Mango fruit salad
-Watermelon fruit salad
-Seasonal fruit salad
+Toned milk
+Curd
+Greek yogurt
+Paneer
+Cheese
+Butter
+Ghee
+Overnight oats
+Oatmeal
+Cornflakes
+Muesli
+Granola
+Peanut butter
+Boiled corn
+Popcorn
+Samosa
+Vada
+Bajji
+Bonda
+Murukku
+Biscuits
+Payasam
+Halwa
+Laddu
+Gulab jamun
+Rasgulla
+Kheer
+Ice cream
+Cake
+Brownies
+Dark chocolate
+Dates-based sweets
 Water
 Tender coconut water
 Milk
@@ -179,43 +208,7 @@ Sugarcane juice
 Fresh fruit juices
 Soft drinks
 Energy drinks
-Oats
-Overnight oats
-Oatmeal
-Cornflakes
-Muesli
-Granola
-Peanut butter
-Boiled corn
-Popcorn
-Samosa
-Vada
-Bajji
-Bonda
-Sundal
-Murukku
-Biscuits
-Protein bars
-Whole milk
-Toned milk
-Curd
-Greek yogurt
-Paneer
-Cheese
-Butter
-Ghee
-Whey
-Payasam
-Halwa
-Laddu
-Gulab jamun
-Rasgulla
-Kheer
-Ice cream
-Cake
-Brownies
-Dark chocolate
-Dates-based sweets
+Recovery shakes
 Whey protein
 Whey isolate
 Casein protein
@@ -226,4 +219,3 @@ Protein bars
 Mass gainers
 Electrolyte drinks
 Pre-workout drinks
-Recovery shakes

@@ -187,3 +187,4 @@ with open(os.path.join(USED_V2_DIR, "README.md"), "w", encoding="utf-8") as f:
     f.write(v2_used_readme)
 
 print("Food Detection Version 2 setup completed successfully!")
+

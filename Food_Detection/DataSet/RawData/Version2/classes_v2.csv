@@ -1,230 +1,222 @@
-class_id,class_name,tamil_name,category,food_state,diet_type,fitness_role
-0,Idli,இட்லி,South Indian,Cooked/Steamed,Vegetarian,Solid Food
-1,Dosa,தோசை,South Indian,Cooked/Pan-fried,Vegetarian,Solid Food
-2,Masala dosa,மசாலா தோசை,South Indian,Cooked/Pan-fried,Vegetarian,Solid Food
-3,Ragi dosa,கேழ்வரகு தோசை,South Indian,Cooked/Pan-fried,Vegetarian,Solid Food
-4,Ragi koozh,கேழ்வரகு கூழ்,South Indian,Cooked/Fermented,Vegetarian,Solid Food
-5,Pongal,வெண் பொங்கல்,South Indian,Cooked/Boiled,Vegetarian,Solid Food
-6,Upma,உப்புமா,South Indian,Cooked/Sautéed,Vegetarian,Solid Food
-7,Appam,ஆப்பம்,South Indian,Cooked/Steamed,Vegetarian,Solid Food
-8,Puttu,புட்டு,South Indian,Cooked/Steamed,Vegetarian,Solid Food
-9,Idiyappam,இடியாப்பம்,South Indian,Cooked/Steamed,Vegetarian,Solid Food
-10,Adai,அடை,South Indian,Cooked/Pan-fried,Vegetarian,Solid Food
-11,Chapati,சப்பாத்தி,South Indian,Cooked/Tawa Roasted,Vegetarian,Solid Food
-12,Parotta,பரோட்டா,South Indian,Cooked/Layered Fried,Vegetarian,Solid Food
-13,Rice,வெள்ளை சாதம்,South Indian,Cooked/Boiled,Vegetarian,Solid Food
-14,Lemon rice,எலுமிச்சை சாதம்,South Indian,Cooked/Seasoned,Vegetarian,Solid Food
-15,Curd rice,தயிர் சாதம்,South Indian,Cooked/Tempered,Vegetarian,Solid Food
-16,Tomato rice,தக்காளி சாதம்,South Indian,Cooked/Seasoned,Vegetarian,Solid Food
-17,Sambar rice,சாம்பார் சாதம்,South Indian,Cooked/Mixed,Vegetarian,Solid Food
-18,Rasam rice,ரசம் சாதம்,South Indian,Cooked/Mixed,Vegetarian,Solid Food
-19,Biryani,பிரியாணி,South Indian,Cooked/Dum Spiced,Vegetarian,Solid Food
-20,Pulao,புலாவ்,South Indian,Cooked/Spiced Rice,Vegetarian,Solid Food
-21,Kichadi,கிச்சடி,South Indian,Cooked/Porridge,Vegetarian,Solid Food
-22,Sambar,சாம்பார்,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-23,Rasam,ரசம்,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-24,Dal,பருப்பு,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-25,Kootu,கூட்டு,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-26,Poriyal,பொரியல்,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-27,Avial,அவியல்,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-28,Kurma,குருமா,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-29,Paneer butter masala,பன்னீர் பட்டர் மசாலா,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-30,Palak paneer,பாலக் பன்னீர்,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-31,Chana masala,சென்னா மசாலா,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-32,Rajma,ராஜ்மா,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-33,Vegetable curry,காய்கறி குழம்பு,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-34,Mushroom curry,காளான் குழம்பு,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-35,Vegetable pulao,காய்கறி புலாவ்,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-36,Vegetable fried rice,காய்கறி வறுத்த சாதம்,Vegetarian Curries & Sides,Cooked,Vegetarian,Solid Food
-37,Chicken curry,கோழி குழம்பு,Non-Vegetarian,Cooked,Non-Vegetarian,Solid Food
-38,Chicken gravy,சிக்கன் கிரேவி,Non-Vegetarian,Cooked,Non-Vegetarian,Solid Food
-39,Chicken 65,சிக்கன் 65,Non-Vegetarian,Cooked/Fried,Non-Vegetarian,Solid Food
-40,Chicken fry,சிக்கன் வறுவல்,Non-Vegetarian,Cooked/Pan-fried,Non-Vegetarian,Solid Food
-41,Chicken biryani,சிக்கன் பிரியாணி,Non-Vegetarian,Cooked/Dum,Non-Vegetarian,Solid Food
-42,Chicken tandoori,தந்தூரி சிக்கன்,Non-Vegetarian,Cooked/Clay Oven,Non-Vegetarian,Solid Food
-43,Tandoori chicken,தந்தூரி சிக்கன்,Non-Vegetarian,Cooked/Clay Oven,Non-Vegetarian,Solid Food
-44,Chicken tikka,சிக்கன் டிக்கா,Non-Vegetarian,Cooked/Grilled,Non-Vegetarian,Solid Food
-45,Grilled chicken,கிரில் சிக்கன்,Non-Vegetarian,Cooked/Grilled,Non-Vegetarian,Solid Food
-46,Chicken kebab,சிக்கன் கபாப்,Non-Vegetarian,Cooked/Grilled,Non-Vegetarian,Solid Food
-47,Mutton curry,ஆட்டுக்கறி குழம்பு,Non-Vegetarian,Cooked,Non-Vegetarian,Solid Food
-48,Mutton biryani,மட்டன் பிரியாணி,Non-Vegetarian,Cooked/Dum,Non-Vegetarian,Solid Food
-49,Fish curry,மீன் குழம்பு,Non-Vegetarian,Cooked,Non-Vegetarian,Solid Food
-50,Fish fry,மீன் வறுவல்,Non-Vegetarian,Cooked/Pan-fried,Non-Vegetarian,Solid Food
-51,Grilled fish,கிரில் மீன்,Non-Vegetarian,Cooked/Grilled,Non-Vegetarian,Solid Food
-52,Prawn masala,இறால் மசாலா,Non-Vegetarian,Cooked,Non-Vegetarian,Solid Food
-53,Prawn fry,இறால் வறுவல்,Non-Vegetarian,Cooked/Pan-fried,Non-Vegetarian,Solid Food
-54,Crab curry,நண்டு குழம்பு,Non-Vegetarian,Cooked,Non-Vegetarian,Solid Food
-55,Egg boiled,அவித்த முட்டை,Non-Vegetarian,Cooked/Boiled,Non-Vegetarian,Solid Food
-56,Egg omelette,ஆம்லெட்,Non-Vegetarian,Cooked/Pan-fried,Non-Vegetarian,Solid Food
-57,Egg bhurji,முட்டை பொரியல்,Non-Vegetarian,Cooked/Scrambled,Non-Vegetarian,Solid Food
-58,Egg dosa,முட்டை தோசை,Non-Vegetarian,Cooked/Pan-fried,Non-Vegetarian,Solid Food
-59,Burger,,Fast Foods & International,Cooked,Vegetarian,Solid Food
-60,Chicken burger,,Fast Foods & International,Cooked,Vegetarian,Solid Food
-61,Veg burger,,Fast Foods & International,Cooked,Vegetarian,Solid Food
-62,Cheese burger,,Fast Foods & International,Cooked,Vegetarian,Solid Food
-63,Pizza,,Fast Foods & International,Cooked/Baked,Vegetarian,Solid Food
-64,Chicken pizza,,Fast Foods & International,Cooked/Baked,Vegetarian,Solid Food
-65,Veg pizza,,Fast Foods & International,Cooked/Baked,Vegetarian,Solid Food
-66,Cheese pizza,,Fast Foods & International,Cooked/Baked,Vegetarian,Solid Food
-67,Sandwich,,Fast Foods & International,Fresh/Assembled,Vegetarian,Solid Food
-68,Grilled sandwich,,Fast Foods & International,Cooked/Toasted,Vegetarian,Solid Food
-69,Wraps,,Fast Foods & International,Cooked/Rolled,Vegetarian,Solid Food
-70,Shawarma,,Fast Foods & International,Cooked/Rotisserie,Vegetarian,Solid Food
-71,Tacos,,Fast Foods & International,Cooked/Assembled,Vegetarian,Solid Food
-72,Pasta,,Fast Foods & International,Cooked/Boiled,Vegetarian,Solid Food
-73,Macaroni,,Fast Foods & International,Cooked/Boiled,Vegetarian,Solid Food
-74,Noodles,,Fast Foods & International,Cooked/Wok Tossed,Vegetarian,Solid Food
-75,Fried rice,,Fast Foods & International,Cooked/Wok Tossed,Vegetarian,Solid Food
-76,French fries,,Fast Foods & International,Cooked/Deep-fried,Vegetarian,Solid Food
-77,Nachos,,Fast Foods & International,Cooked/Crisp,Vegetarian,Solid Food
-78,Hot dogs,,Fast Foods & International,Cooked,Vegetarian,Solid Food
-79,Apple,ஆப்பிள்,Fruits,Raw,Vegetarian,Solid Food
-80,Banana,வாழைப்பழம்,Fruits,Raw,Vegetarian,Solid Food
-81,Mango,மாம்பழம்,Fruits,Raw,Vegetarian,Solid Food
-82,Orange,ஆரஞ்சு,Fruits,Raw,Vegetarian,Solid Food
-83,Papaya,பப்பாளி,Fruits,Raw,Vegetarian,Solid Food
-84,Pineapple,அன்னாசி,Fruits,Raw,Vegetarian,Solid Food
-85,Watermelon,தர்பூசணி,Fruits,Raw,Vegetarian,Solid Food
-86,Muskmelon,முலாம் பழம்,Fruits,Raw,Vegetarian,Solid Food
-87,Guava,கொய்யா,Fruits,Raw,Vegetarian,Solid Food
-88,Grapes,திராட்சை,Fruits,Raw,Vegetarian,Solid Food
-89,Pomegranate,மாதுளை,Fruits,Raw,Vegetarian,Solid Food
-90,Kiwi,கிவி,Fruits,Raw,Vegetarian,Solid Food
-91,Dragon fruit,டிராகன் பழம்,Fruits,Raw,Vegetarian,Solid Food
-92,Strawberry,ஸ்ட்ராபெர்ரி,Fruits,Raw,Vegetarian,Solid Food
-93,Blueberry,புளூபெர்ரி,Fruits,Raw,Vegetarian,Solid Food
-94,Avocado,வெண்ணெய் பழம்,Fruits,Raw,Vegetarian,Solid Food
-95,Jackfruit,பலாப்பழம்,Fruits,Raw,Vegetarian,Solid Food
-96,Dates,பேரீச்சம்பழம்,Fruits,Dried,Vegetarian,Solid Food
-97,Fig,அத்திப்பழம்,Fruits,Fresh/Dried,Vegetarian,Solid Food
-98,Sapota,சப்போட்டா,Fruits,Raw,Vegetarian,Solid Food
-99,Custard apple,சீத்தாப்பழம்,Fruits,Raw,Vegetarian,Solid Food
-100,Coconut,தேங்காய்,Fruits,Raw,Vegetarian,Solid Food
-101,Carrot,கேரட்,Vegetables,Raw,Vegetarian,Solid Food
-102,Beetroot,பீட்ரூட்,Vegetables,Raw,Vegetarian,Solid Food
-103,Cucumber,வெள்ளரிக்காய்,Vegetables,Raw,Vegetarian,Solid Food
-104,Tomato,தக்காளி,Vegetables,Raw,Vegetarian,Solid Food
-105,Onion,வெங்காயம்,Vegetables,Raw,Vegetarian,Solid Food
-106,Potato,உருளைக்கிழங்கு,Vegetables,Cooked/Boiled,Vegetarian,Solid Food
-107,Sweet potato,சர்க்கரைவள்ளிக்கிழங்கு,Vegetables,Cooked/Boiled,Vegetarian,Solid Food
-108,Broccoli,ப்ரோக்கோலி,Vegetables,Cooked/Steamed,Vegetarian,Solid Food
-109,Cauliflower,காலிஃபிளவர்,Vegetables,Cooked/Steamed,Vegetarian,Solid Food
-110,Spinach,பசலைக்கீரை,Vegetables,Cooked/Steamed,Vegetarian,Solid Food
-111,Amaranth leaves,முளைக்கீரை,Vegetables,Cooked/Steamed,Vegetarian,Solid Food
-112,Cabbage,முட்டைக்கோஸ்,Vegetables,Cooked/Sautéed,Vegetarian,Solid Food
-113,Beans,பீன்ஸ்,Vegetables,Cooked/Steamed,Vegetarian,Solid Food
-114,Capsicum,குடைமிளகாய்,Vegetables,Raw,Vegetarian,Solid Food
-115,Pumpkin,பூசணிக்காய்,Vegetables,Cooked/Boiled,Vegetarian,Solid Food
-116,Bottle gourd,சுரைக்காய்,Vegetables,Cooked/Boiled,Vegetarian,Solid Food
-117,Bitter gourd,பாகற்காய்,Vegetables,Cooked/Boiled,Vegetarian,Solid Food
-118,Drumstick,முருங்கைக்காய்,Vegetables,Cooked/Boiled,Vegetarian,Solid Food
-119,Brinjal,கத்தரிக்காய்,Vegetables,Cooked,Vegetarian,Solid Food
-120,Mushroom,காளான்,Vegetables,Cooked/Sautéed,Vegetarian,Solid Food
-121,Almonds,பாதாம்,Nuts,Raw,Vegetarian,Solid Food
-122,Cashews,முந்திரி,Nuts,Raw,Vegetarian,Solid Food
-123,Walnuts,வாதுமை கொட்டை,Nuts,Raw,Vegetarian,Solid Food
-124,Pistachios,பிஸ்தா,Nuts,Raw/Roasted,Vegetarian,Solid Food
-125,Peanuts,வேர்க்கடலை,Nuts,Raw/Roasted,Vegetarian,Solid Food
-126,Hazelnuts,ஹேசல்நட்,Nuts,Raw,Vegetarian,Solid Food
-127,Brazil nuts,பிரேசில் நட்,Nuts,Raw,Vegetarian,Solid Food
-128,Macadamia nuts,மக்கடேமியா நட்,Nuts,Raw,Vegetarian,Solid Food
-129,Pecans,பீக்கன் நட்,Nuts,Raw,Vegetarian,Solid Food
-130,Chia seeds,சியா விதைகள்,Seeds,Raw,Vegetarian,Solid Food
-131,Flax seeds,ஆளி விதைகள்,Seeds,Raw/Ground,Vegetarian,Solid Food
-132,Pumpkin seeds,பூசணி விதைகள்,Seeds,Raw/Roasted,Vegetarian,Solid Food
-133,Sunflower seeds,சூரியகாந்தி விதைகள்,Seeds,Raw/Roasted,Vegetarian,Solid Food
-134,Sesame seeds,எள்,Seeds,Raw/Roasted,Vegetarian,Solid Food
-135,Watermelon seeds,தர்பூசணி விதைகள்,Seeds,Raw/Dried,Vegetarian,Solid Food
-136,Melon seeds,வெள்ளரி விதைகள்,Seeds,Raw/Dried,Vegetarian,Solid Food
-137,Hemp seeds,ஹெம்ப் விதைகள்,Seeds,Raw/Hulled,Vegetarian,Solid Food
-138,Basil seeds,சப்ஜா விதைகள்,Seeds,Raw/Soaked,Vegetarian,Solid Food
-139,Poppy seeds,கசகசா,Seeds,Raw,Vegetarian,Solid Food
-140,Green gram sprouts,பாசிப்பயறு முளைகட்டியது,Sprouts & Legumes,Sprouted/Raw,Vegetarian,Solid Food
-141,Black gram sprouts,உளுந்து முளைகட்டியது,Sprouts & Legumes,Sprouted/Raw,Vegetarian,Solid Food
-142,Chickpea sprouts,கொண்டைக்கடலை முளை,Sprouts & Legumes,Sprouted/Raw,Vegetarian,Solid Food
-143,Black chana,கருப்பு கொண்டைக்கடலை,Sprouts & Legumes,Cooked/Boiled,Vegetarian,Solid Food
-144,Horse gram,கொள்ளu,Sprouts & Legumes,Cooked/Boiled,Vegetarian,Solid Food
-145,Mixed sprouts,முளைகட்டிய தானிய கலவை,Sprouts & Legumes,Sprouted/Raw,Vegetarian,Solid Food
-146,Boiled chickpeas,வேகவைத்த சுண்டல்,Sprouts & Legumes,Cooked/Boiled,Vegetarian,Solid Food
-147,Kidney beans,ராஜ்மா பயறு,Sprouts & Legumes,Cooked/Boiled,Vegetarian,Solid Food
-148,Lentils,பருப்பு வகைகள்,Sprouts & Legumes,Cooked/Boiled,Vegetarian,Solid Food
-149,Soybeans,சோயாபீன்,Sprouts & Legumes,Cooked/Boiled,Vegetarian,Solid Food
-150,Green peas,பச்சை பட்டாணி,Sprouts & Legumes,Cooked/Boiled,Vegetarian,Solid Food
-151,Sundal varieties,சுண்டல் வகைகள்,Sprouts & Legumes,Cooked/Tempered,Vegetarian,Solid Food
-152,Cucumber salad,வெள்ளரி சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-153,Carrot salad,கேரட் சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-154,Beetroot salad,பீட்ரூட் சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-155,Onion tomato salad,வெங்காயம் தக்காளி சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-156,Mixed vegetable salad,கலவை காய்கறி சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-157,Sprouts salad,முளைகட்டிய பயறு சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-158,Chickpea salad,கொண்டைக்கடலை சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-159,Protein salad,புரோட்டீன் சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-160,Mixed fruit salad,பழ கலவை சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-161,Apple fruit salad,ஆப்பிள் சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-162,Mango fruit salad,மாம்பழ சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-163,Watermelon fruit salad,தர்பூசணி சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-164,Seasonal fruit salad,பருவகால பழ சாலட்,Salads,Fresh/Assembled,Vegetarian,Solid Food
-165,Water,தண்ணீர்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-166,Tender coconut water,இளநீர்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-167,Milk,பால்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-168,Skimmed milk,கொழுப்பு நீக்கிய பால்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-169,Buttermilk,மோர்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-170,Lassi,லஸ்ஸி,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-171,Filter coffee,பில்டர் காபி,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-172,Tea,டீ,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-173,Green tea,கிரீன் டீ,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-174,Lemon juice,எலுமிச்சை சாறு,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-175,Orange juice,ஆரஞ்சு ஜூஸ்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-176,Apple juice,ஆப்பிள் ஜூஸ்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-177,Sugarcane juice,கரும்பு சாறு,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-178,Fresh fruit juices,புதிய பழச்சாறு,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-179,Soft drinks,குளிர்பானங்கள்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-180,Energy drinks,எனர்ஜி ட்ரிங்க்,Drinks & Beverages,Liquid,Vegetarian,Solid Food
-181,Oats,ஓட்ஸ்,Breakfast & Snacks,Raw Flakes,Vegetarian,Solid Food
-182,Overnight oats,ஊறவைத்த ஓட்ஸ்,Breakfast & Snacks,Soaked,Vegetarian,Solid Food
-183,Oatmeal,ஓட்ஸ் கஞ்சி,Breakfast & Snacks,Cooked/Boiled,Vegetarian,Solid Food
-184,Cornflakes,கார்ன்ஃபிளக்ஸ்,Breakfast & Snacks,Ready to Eat,Vegetarian,Solid Food
-185,Muesli,மியூஸ்லி,Breakfast & Snacks,Ready to Eat,Vegetarian,Solid Food
-186,Granola,கிரனோலா,Breakfast & Snacks,Baked,Vegetarian,Solid Food
-187,Peanut butter,வேர்க்கடலை வெண்ணெய்,Breakfast & Snacks,Paste,Vegetarian,Solid Food
-188,Boiled corn,வேகவைத்த சோளம்,Breakfast & Snacks,Cooked/Boiled,Vegetarian,Solid Food
-189,Popcorn,பாப்கார்ன்,Breakfast & Snacks,Puffed,Vegetarian,Solid Food
-190,Samosa,சமோசா,Breakfast & Snacks,Cooked/Deep-fried,Vegetarian,Solid Food
-191,Vada,மெது வடை,Breakfast & Snacks,Cooked/Deep-fried,Vegetarian,Solid Food
-192,Bajji,பஜ்ஜி,Breakfast & Snacks,Cooked/Deep-fried,Vegetarian,Solid Food
-193,Bonda,போண்டா,Breakfast & Snacks,Cooked/Deep-fried,Vegetarian,Solid Food
-194,Sundal,சுண்டல்,Breakfast & Snacks,Cooked/Tempered,Vegetarian,Solid Food
-195,Murukku,முறுக்கு,Breakfast & Snacks,Cooked/Deep-fried,Vegetarian,Solid Food
-196,Biscuits,பிஸ்கட்,Breakfast & Snacks,Baked,Vegetarian,Solid Food
-197,Protein bars,புரோட்டீன் பார்,Breakfast & Snacks,Processed Bar,Vegetarian,Solid Food
-198,Whole milk,முழு கொழுப்பு பால்,Dairy Products,Liquid,Vegetarian,Solid Food
-199,Toned milk,டோன்ட் பால்,Dairy Products,Liquid,Vegetarian,Solid Food
-200,Curd,தயிர்,Dairy Products,Fermented,Vegetarian,Solid Food
-201,Greek yogurt,கிரேக்க தயிர்,Dairy Products,Strained,Vegetarian,Solid Food
-202,Paneer,பன்னீர்,Dairy Products,Solid Cheese,Vegetarian,Solid Food
-203,Cheese,சீஸ்,Dairy Products,Cured/Solid,Vegetarian,Solid Food
-204,Butter,வெண்ணெய்,Dairy Products,Solid Fat,Vegetarian,Solid Food
-205,Ghee,நெய்,Dairy Products,Clarified Fat,Vegetarian,Solid Food
-206,Whey,வே திரவம்,Dairy Products,Liquid,Vegetarian,Solid Food
-207,Payasam,பாயாசம்,Desserts & Sweets,Cooked/Sweet Milk,Vegetarian,Solid Food
-208,Halwa,அல்வா,Desserts & Sweets,Cooked/Ghee Dense,Vegetarian,Solid Food
-209,Laddu,லட்டு,Desserts & Sweets,Cooked/Formed,Vegetarian,Solid Food
-210,Gulab jamun,குலாப் ஜாமூன்,Desserts & Sweets,Fried/Syrup Soaked,Vegetarian,Solid Food
-211,Rasgulla,ரசகுல்லா,Desserts & Sweets,Chhena in Light Syrup,Vegetarian,Solid Food
-212,Kheer,கீர்,Desserts & Sweets,Cooked/Sweet Milk,Vegetarian,Solid Food
-213,Ice cream,ஐஸ்கிரீம்,Desserts & Sweets,Frozen,Vegetarian,Solid Food
-214,Cake,கேக்,Desserts & Sweets,Baked,Vegetarian,Solid Food
-215,Brownies,பிரவுனி,Desserts & Sweets,Baked,Vegetarian,Solid Food
-216,Dark chocolate,டார்க் சாக்லேட்,Desserts & Sweets,Confection,Vegetarian,Solid Food
-217,Dates-based sweets,பேரீச்சம்பழ இனிப்பு,Desserts & Sweets,Unrefined,Vegetarian,Solid Food
-218,Whey protein,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Protein Powder)
-219,Whey isolate,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Protein Powder)
-220,Casein protein,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Slow-Release Protein)
-221,Plant protein,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Vegan Protein)
-222,Soy protein,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Vegan Protein)
-223,Creatine,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Ergogenic Strength Acid)
-224,Protein bars,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Protein Bar)
-225,Mass gainers,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (High Calorie Gainer)
-226,Electrolyte drinks,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Hydration / Electrolytes)
-227,Pre-workout drinks,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Ergogenic Energy)
-228,Recovery shakes,,Gym & Sports Nutrition,Cooked,Vegetarian,Sports Supplement (Post-Workout Carbohydrate-Protein Matrix)
+class_name,group_category,original_category,diet_type,fitness_role,preparation_method,food_state,class_id
+Idli,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Steamed,0
+Dosa,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Pan-fried,1
+Masala dosa,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Pan-fried,2
+Ragi dosa,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Pan-fried,3
+Ragi koozh,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Fermented,4
+Pongal,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Boiled,5
+Upma,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Sautéed,6
+Appam,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Steamed,7
+Puttu,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Steamed,8
+Idiyappam,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Steamed,9
+Adai,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Pan-fried,10
+Chapati,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Tawa Roasted,11
+Parotta,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Layered Fried,12
+Rice,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Boiled,13
+Lemon rice,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Seasoned,14
+Curd rice,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Tempered,15
+Tomato rice,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Seasoned,16
+Sambar rice,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Mixed,17
+Rasam rice,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Mixed,18
+Pulao,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Spiced Rice,19
+Kichadi,Full Vegetarian Foods,South Indian,Vegetarian,Solid Food,,Cooked/Porridge,20
+Sambar,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,21
+Rasam,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,22
+Dal,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,23
+Kootu,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,24
+Poriyal,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,25
+Avial,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,26
+Kurma,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,27
+Paneer butter masala,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,28
+Palak paneer,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,29
+Chana masala,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,30
+Rajma,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,31
+Vegetable curry,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,32
+Mushroom curry,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,33
+Vegetable pulao,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,34
+Vegetable fried rice,Full Vegetarian Foods,Vegetarian Curries & Sides,Vegetarian,Solid Food,,Cooked,35
+Cucumber salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,36
+Carrot salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,37
+Beetroot salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,38
+Onion tomato salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,39
+Mixed vegetable salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,40
+Sprouts salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,41
+Chickpea salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,42
+Protein salad,Full Vegetarian Foods,Salads,Vegetarian,Solid Food,,Fresh/Assembled,43
+Green gram sprouts,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Sprouted/Raw,44
+Black gram sprouts,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Sprouted/Raw,45
+Chickpea sprouts,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Sprouted/Raw,46
+Black chana,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Cooked/Boiled,47
+Horse gram,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Cooked/Boiled,48
+Mixed sprouts,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Sprouted/Raw,49
+Boiled chickpeas,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Cooked/Boiled,50
+Kidney beans,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Cooked/Boiled,51
+Lentils,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Cooked/Boiled,52
+Soybeans,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Cooked/Boiled,53
+Green peas,Full Vegetarian Foods,Sprouts & Legumes,Vegetarian,Solid Food,,Cooked/Boiled,54
+Sundal,Full Vegetarian Foods,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Tempered,55
+Chicken curry,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked,56
+Chicken 65,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Fried,57
+Chicken fry,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Pan-fried,58
+Chicken biryani,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Dum,59
+Tandoori chicken,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Clay Oven,60
+Chicken tikka,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Grilled,61
+Grilled chicken,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Grilled,62
+Chicken kebab,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Grilled,63
+Chicken burger,Full Non-Vegetarian Foods,Fast Foods & International,Vegetarian,Solid Food,,Cooked,64
+Chicken pizza,Full Non-Vegetarian Foods,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Baked,65
+Mutton curry,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked,66
+Mutton biryani,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Dum,67
+Fish curry,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked,68
+Fish fry,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Pan-fried,69
+Grilled fish,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Grilled,70
+Prawn masala,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked,71
+Prawn fry,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Pan-fried,72
+Crab curry,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked,73
+Egg boiled,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Boiled,74
+Egg omelette,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Pan-fried,75
+Egg bhurji,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Scrambled,76
+Egg dosa,Full Non-Vegetarian Foods,Non-Vegetarian,Non-Vegetarian,Solid Food,,Cooked/Pan-fried,77
+Burger,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked,78
+Veg burger,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked,79
+Cheese burger,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked,80
+Pizza,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Baked,81
+Veg pizza,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Baked,82
+Cheese pizza,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Baked,83
+Sandwich,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Fresh/Assembled,84
+Grilled sandwich,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Toasted,85
+Wraps,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Rolled,86
+Shawarma,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Rotisserie,87
+Tacos,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Assembled,88
+Pasta,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Boiled,89
+Macaroni,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Boiled,90
+Noodles,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Wok Tossed,91
+Fried rice,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Wok Tossed,92
+French fries,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Deep-fried,93
+Nachos,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked/Crisp,94
+Hot dogs,Fast Foods & International,Fast Foods & International,Vegetarian,Solid Food,,Cooked,95
+Carrot,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Raw,96
+Beetroot,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Raw,97
+Cucumber,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Raw,98
+Tomato,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Raw,99
+Onion,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Raw,100
+Potato,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Boiled,101
+Sweet potato,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Boiled,102
+Broccoli,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Steamed,103
+Cauliflower,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Steamed,104
+Spinach,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Steamed,105
+Amaranth leaves,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Steamed,106
+Cabbage,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Sautéed,107
+Beans,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Steamed,108
+Capsicum,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Raw,109
+Pumpkin,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Boiled,110
+Bottle gourd,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Boiled,111
+Bitter gourd,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Boiled,112
+Drumstick,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Boiled,113
+Brinjal,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked,114
+Mushroom,Fresh Vegetables,Vegetables,Vegetarian,Solid Food,,Cooked/Sautéed,115
+Apple,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,116
+Banana,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,117
+Mango,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,118
+Orange,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,119
+Papaya,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,120
+Pineapple,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,121
+Watermelon,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,122
+Muskmelon,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,123
+Guava,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,124
+Grapes,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,125
+Pomegranate,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,126
+Kiwi,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,127
+Dragon fruit,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,128
+Strawberry,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,129
+Blueberry,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,130
+Avocado,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,131
+Jackfruit,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,132
+Dates,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Dried,133
+Fig,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Fresh/Dried,134
+Sapota,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,135
+Custard apple,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,136
+Coconut,Fresh Fruits & Salads,Fruits,Vegetarian,Solid Food,,Raw,137
+Mixed fruit salad,Fresh Fruits & Salads,Salads,Vegetarian,Solid Food,,Fresh/Assembled,138
+Apple fruit salad,Fresh Fruits & Salads,Salads,Vegetarian,Solid Food,,Fresh/Assembled,139
+Mango fruit salad,Fresh Fruits & Salads,Salads,Vegetarian,Solid Food,,Fresh/Assembled,140
+Watermelon fruit salad,Fresh Fruits & Salads,Salads,Vegetarian,Solid Food,,Fresh/Assembled,141
+Seasonal fruit salad,Fresh Fruits & Salads,Salads,Vegetarian,Solid Food,,Fresh/Assembled,142
+Almonds,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw,143
+Cashews,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw,144
+Walnuts,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw,145
+Pistachios,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw/Roasted,146
+Peanuts,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw/Roasted,147
+Hazelnuts,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw,148
+Brazil nuts,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw,149
+Macadamia nuts,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw,150
+Pecans,Nuts & Seeds,Nuts,Vegetarian,Solid Food,,Raw,151
+Chia seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw,152
+Flax seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Ground,153
+Pumpkin seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Roasted,154
+Sunflower seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Roasted,155
+Sesame seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Roasted,156
+Watermelon seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Dried,157
+Melon seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Dried,158
+Hemp seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Hulled,159
+Basil seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw/Soaked,160
+Poppy seeds,Nuts & Seeds,Seeds,Vegetarian,Solid Food,,Raw,161
+Toned milk,Dairy Products,Dairy Products,Vegetarian,Solid Food,,Liquid,162
+Curd,Dairy Products,Dairy Products,Vegetarian,Solid Food,,Fermented,163
+Greek yogurt,Dairy Products,Dairy Products,Vegetarian,Solid Food,,Strained,164
+Paneer,Dairy Products,Dairy Products,Vegetarian,Solid Food,,Solid Cheese,165
+Cheese,Dairy Products,Dairy Products,Vegetarian,Solid Food,,Cured/Solid,166
+Butter,Dairy Products,Dairy Products,Vegetarian,Solid Food,,Solid Fat,167
+Ghee,Dairy Products,Dairy Products,Vegetarian,Solid Food,,Clarified Fat,168
+Overnight oats,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Soaked,169
+Oatmeal,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Boiled,170
+Cornflakes,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Ready to Eat,171
+Muesli,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Ready to Eat,172
+Granola,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Baked,173
+Peanut butter,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Paste,174
+Boiled corn,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Boiled,175
+Popcorn,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Puffed,176
+Samosa,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Deep-fried,177
+Vada,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Deep-fried,178
+Bajji,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Deep-fried,179
+Bonda,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Deep-fried,180
+Murukku,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Cooked/Deep-fried,181
+Biscuits,Breakfast & Snacks,Breakfast & Snacks,Vegetarian,Solid Food,,Baked,182
+Payasam,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Cooked/Sweet Milk,183
+Halwa,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Cooked/Ghee Dense,184
+Laddu,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Cooked/Formed,185
+Gulab jamun,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Fried/Syrup Soaked,186
+Rasgulla,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Chhena in Light Syrup,187
+Kheer,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Cooked/Sweet Milk,188
+Ice cream,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Frozen,189
+Cake,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Baked,190
+Brownies,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Baked,191
+Dark chocolate,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Confection,192
+Dates-based sweets,Desserts & Sweets,Desserts & Sweets,Vegetarian,Solid Food,,Unrefined,193
+Water,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,194
+Tender coconut water,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,195
+Milk,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,196
+Skimmed milk,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,197
+Buttermilk,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,198
+Lassi,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,199
+Filter coffee,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,200
+Tea,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,201
+Green tea,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,202
+Lemon juice,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,203
+Orange juice,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,204
+Apple juice,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,205
+Sugarcane juice,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,206
+Fresh fruit juices,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,207
+Soft drinks,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,208
+Energy drinks,All Drinks & Beverages,Drinks & Beverages,Vegetarian,Solid Food,,Liquid,209
+Recovery shakes,All Drinks & Beverages,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Post-Workout Carbohydrate-Protein Matrix),,Cooked,210
+Whey protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Protein Powder),,Cooked,211
+Whey isolate,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Protein Powder),,Cooked,212
+Casein protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Slow-Release Protein),,Cooked,213
+Plant protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Vegan Protein),,Cooked,214
+Soy protein,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Vegan Protein),,Cooked,215
+Creatine,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Ergogenic Strength Acid),,Cooked,216
+Protein bars,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Protein Bar),,Cooked,217
+Mass gainers,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (High Calorie Gainer),,Cooked,218
+Electrolyte drinks,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Hydration / Electrolytes),,Cooked,219
+Pre-workout drinks,Gym & Sports Nutrition,Gym & Sports Nutrition,Vegetarian,Sports Supplement (Ergogenic Energy),,Cooked,220
