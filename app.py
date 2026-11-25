@@ -493,7 +493,9 @@ with tab_image:
                 pred_res = predict_with_model(food)
                 if pred_res:
                     weight_badge = pred_res.get('weight_range_desc', f"~{pred_res.get('estimated_weight_g', 200)}g")
-                    with st.expander(f"🍲 **{food}** — {pred_res['regional_name']} | ⚖️ Standard Portion Weight: {weight_badge}", expanded=True):
+                    reg_disp = pred_res.get('regional_name')
+                    reg_title = f" — {reg_disp}" if reg_disp and reg_disp != food else ""
+                    with st.expander(f"🍲 **{food}**{reg_title} | ⚖️ Standard Portion Weight: {weight_badge}", expanded=True):
                         
                         # Typeable Portion Weight Control
                         base_std_wt = float(pred_res.get('estimated_weight_g', 200))
@@ -605,20 +607,22 @@ with tab_text:
                     result = {
                         "source": "Ground Truth Database",
                         "food_name": target_food,
-                        "regional_name": raw_info["regional_name"],
-                        "category": raw_info["category"],
-                        "portion_size": raw_info["portion_size"],
-                        "predicted_ingredients": [(ing.replace('_', ' ').title(), 1.0) for ing in raw_info["main_ingredients"]],
-                        "nutrition": raw_info["nutrition"],
-                        "health_benefits": raw_info["health_benefits"],
-                        "cooking_method": raw_info["cooking_method"]
+                        "regional_name": raw_info.get("regional_name", target_food),
+                        "category": raw_info.get("category", "South Indian"),
+                        "portion_size": raw_info.get("portion_size", "~150g"),
+                        "predicted_ingredients": [(ing.replace('_', ' ').title(), 1.0) for ing in raw_info.get("main_ingredients", [])],
+                        "nutrition": raw_info.get("nutrition", {}),
+                        "health_benefits": raw_info.get("health_benefits", f"{raw_info.get('diet_type', '')} | {raw_info.get('fitness_goal', '')}"),
+                        "cooking_method": raw_info.get("cooking_method", raw_info.get("food_state", "Traditional Preparation"))
                     }
                 else:
                     result = None
 
         if result:
             weight_badge = result.get('weight_range_desc', result.get('portion_size', ''))
-            st.success(f"**Identified Dish:** {result['food_name']} — *{result['regional_name']}* ({result['category']})")
+            reg_disp = result.get('regional_name')
+            reg_text = f" — *{reg_disp}*" if reg_disp and reg_disp != result['food_name'] else ""
+            st.success(f"**Identified Dish:** {result['food_name']}{reg_text} ({result.get('category', 'Food')})")
             st.caption(f"Engine: `{result['source']}` | ⚖️ Standard Serving Weight: `{weight_badge}`")
 
             # Typeable Portion Weight Control

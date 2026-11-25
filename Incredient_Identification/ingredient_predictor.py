@@ -98,13 +98,14 @@ class IngredientNutritionPredictor:
         with open(path, "r", encoding="utf-8") as f:
             self.database = json.load(f)
         
-        # Build normalized index
+        # Build normalized index with bidirectional aliases
         self.normalized_index = {}
         for key, val in self.database.items():
             norm_key = self._normalize(key)
             self.normalized_index[norm_key] = val
-            alias = norm_key.replace("briyani", "biryani").replace("idly", "idli").replace("satham", "rice")
-            self.normalized_index[alias] = val
+            for a, b in [("briyani", "biryani"), ("biryani", "briyani"), ("idly", "idli"), ("idli", "idly"), ("satham", "rice"), ("rice", "satham"), ("vadai", "vada"), ("vada", "vadai")]:
+                if a in norm_key:
+                    self.normalized_index[norm_key.replace(a, b)] = val
 
         # Lazy load PyTorch Model 2
         self.model = None
@@ -120,8 +121,9 @@ class IngredientNutritionPredictor:
             for k, v in self.home_hotel_db.items():
                 nk = self._normalize(k)
                 self.home_hotel_index[nk] = v
-                alias = nk.replace("briyani", "biryani").replace("idly", "idli").replace("satham", "rice")
-                self.home_hotel_index[alias] = v
+                for a, b in [("briyani", "biryani"), ("biryani", "briyani"), ("idly", "idli"), ("idli", "idly"), ("satham", "rice"), ("rice", "satham"), ("vadai", "vada"), ("vada", "vadai")]:
+                    if a in nk:
+                        self.home_hotel_index[nk.replace(a, b)] = v
 
     def _normalize(self, text):
         t = text.lower()
@@ -203,7 +205,9 @@ class IngredientNutritionPredictor:
         if not info:
             return None
 
-        canonical_name = [k for k, v in self.database.items() if v["food_id"] == info["food_id"]][0]
+        canonical_candidates = [k for k, v in self.database.items() if v.get("food_id") == info.get("food_id")]
+        canonical_name = canonical_candidates[0] if canonical_candidates else info.get("food_name", food_name)
+
         recipe = self.get_home_hotel_recipe(canonical_name)
         home_recipe = recipe.get("home", {}) if recipe else {}
         hotel_recipe = recipe.get("hotel", {}) if recipe else {}
@@ -211,20 +215,25 @@ class IngredientNutritionPredictor:
         est_total_weight = home_recipe.get("total_weight_g", 150)
         hotel_total_weight = hotel_recipe.get("total_weight_g", 200)
 
+        reg_name = info.get("regional_name", info.get("food_name", canonical_name))
+        health_ben = info.get("health_benefits", f"{info.get('diet_type', 'Healthy Food')} | {info.get('fitness_goal', 'Balanced Nutrition')}")
+        cook_meth = info.get("cooking_method", info.get("food_state", "Traditional Preparation"))
+        portion_sz = info.get("portion_size", f"1 serving (~{est_total_weight}g)")
+
         if self.model is None or canonical_name not in self.checkpoint["food2idx"]:
             # Fallback to database if model not yet trained
             return {
                 "source": "Knowledge Database",
                 "food_name": canonical_name,
-                "regional_name": info["regional_name"],
-                "category": info["category"],
-                "portion_size": info["portion_size"],
+                "regional_name": reg_name,
+                "category": info.get("category", "South Indian"),
+                "portion_size": portion_sz,
                 "estimated_weight_g": est_total_weight,
                 "weight_range_desc": f"~{est_total_weight}g (Home) to ~{hotel_total_weight}g (Hotel)",
-                "predicted_ingredients": [(ing.replace('_', ' ').title(), 1.0, self._estimate_ingredient_weight(ing, recipe_ings)) for ing in info["main_ingredients"]],
-                "nutrition": info["nutrition"],
-                "health_benefits": info["health_benefits"],
-                "cooking_method": info["cooking_method"]
+                "predicted_ingredients": [(ing.replace('_', ' ').title(), 1.0, self._estimate_ingredient_weight(ing, recipe_ings)) for ing in info.get("main_ingredients", [])],
+                "nutrition": info.get("nutrition", {}),
+                "health_benefits": health_ben,
+                "cooking_method": cook_meth
             }
 
         food_idx = self.checkpoint["food2idx"][canonical_name]
@@ -251,28 +260,31 @@ class IngredientNutritionPredictor:
         if len(ing_tuples) < 2:
             ing_tuples = [
                 (ing.replace('_', ' ').title(), 1.0, self._estimate_ingredient_weight(ing, recipe_ings))
-                for ing in info["main_ingredients"]
+                for ing in info.get("main_ingredients", [])
             ]
 
+        merged_nut = dict(info.get("nutrition", {}))
+        merged_nut.update({
+            "calories_kcal": round(float(pred_nut[0]), 1),
+            "protein_g": round(float(pred_nut[1]), 1),
+            "carbs_g": round(float(pred_nut[2]), 1),
+            "fat_g": round(float(pred_nut[3]), 1),
+            "fiber_g": round(float(pred_nut[4]), 1)
+        })
+
         return {
-            "source": "Neural Network (ingredient_identification_v1_best.pt)",
+            "source": "Neural Network (ingredient_identification_v2_best.pt)",
             "food_name": canonical_name,
-            "regional_name": info["regional_name"],
-            "category": info["category"],
-            "portion_size": info["portion_size"],
+            "regional_name": reg_name,
+            "category": info.get("category", "South Indian"),
+            "portion_size": portion_sz,
             "estimated_weight_g": est_total_weight,
             "weight_range_desc": f"~{est_total_weight}g (Home) to ~{hotel_total_weight}g (Hotel)",
             "predicted_ingredients": ing_tuples,
-            "nutrition": {
-                "calories_kcal": round(float(pred_nut[0]), 1),
-                "protein_g": round(float(pred_nut[1]), 1),
-                "carbs_g": round(float(pred_nut[2]), 1),
-                "fat_g": round(float(pred_nut[3]), 1),
-                "fiber_g": round(float(pred_nut[4]), 1)
-            },
-            "ground_truth_nutrition": info["nutrition"],
-            "health_benefits": info["health_benefits"],
-            "cooking_method": info["cooking_method"]
+            "nutrition": merged_nut,
+            "ground_truth_nutrition": info.get("nutrition", {}),
+            "health_benefits": health_ben,
+            "cooking_method": cook_meth
         }
 
     def predict(self, food_name, threshold=0.35):
