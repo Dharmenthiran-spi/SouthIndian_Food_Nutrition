@@ -458,10 +458,10 @@ with tab_image:
         col1, col2 = st.columns([1, 1])
         with col1:
             st.subheader("📷 Original Image")
-            st.image(image_to_process, use_container_width=True)
+            st.image(image_to_process, width="stretch")
         with col2:
             st.subheader("🎯 Detected Food Items")
-            st.image(annotated_rgb, use_container_width=True)
+            st.image(annotated_rgb, width="stretch")
 
         st.markdown("---")
         st.subheader("🍽️ Detection Results")
@@ -586,7 +586,7 @@ with tab_text:
 
     col_btn, col_mode = st.columns([1, 2])
     with col_btn:
-        run_prediction = st.button("🔍 Predict Ingredients & Nutrition", type="primary", use_container_width=True)
+        run_prediction = st.button("🔍 Predict Ingredients & Nutrition", type="primary", width="stretch")
 
     with col_mode:
         model_mode = st.radio(
