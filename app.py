@@ -265,11 +265,11 @@ def render_home_hotel_section(food_name, key_prefix="text"):
         st.markdown(f"#### 📊 Hotel Nutritional Breakdown ({int(hotel_calc['total_weight_g'])}g)")
         h_nut = hotel_calc["nutrition"]
         c1, c2, c3, c4, c5 = st.columns(5)
-        c1.metric("🔥 Calories", f"{h_nut['calories_kcal']} kcal")
-        c2.metric("🍗 Protein", f"{h_nut['protein_g']} g")
-        c3.metric("🍚 Carbs", f"{h_nut['carbs_g']} g")
-        c4.metric("🥑 Total Fat", f"{h_nut['fat_g']} g")
-        c5.metric("🌾 Fiber", f"{h_nut['fiber_g']} g")
+        c1.metric("🔥 Calories", f"{h_nut.get('calories_kcal', 0)} kcal")
+        c2.metric("🍗 Protein", f"{h_nut.get('protein_g', 0)} g")
+        c3.metric("🍚 Carbs", f"{h_nut.get('carbs_g', h_nut.get('carbohydrates_g', 0))} g")
+        c4.metric("🥑 Total Fat", f"{h_nut.get('fat_g', 0)} g")
+        c5.metric("🌾 Fiber", f"{h_nut.get('fiber_g', 0)} g")
         
     else:
         home = recipe["home"]
@@ -338,18 +338,32 @@ def render_home_hotel_section(food_name, key_prefix="text"):
             st.write(f"⚖️ **Calculated Overall Cooked Weight:** <span style='background:#C8E6C9; padding:4px 12px; border-radius:12px; font-weight:bold; color:#1B5E20;'>{custom_res['total_weight_g']} g</span> *(Baseline was {home['total_weight_g']} g)*", unsafe_allow_html=True)
             
             c_nut = custom_res["nutrition"]
+            h_nut_home = home["nutrition"]
             c1, c2, c3, c4, c5 = st.columns(5)
-            cal_delta = round(c_nut['calories_kcal'] - home['nutrition']['calories_kcal'], 1)
-            prot_delta = round(c_nut['protein_g'] - home['nutrition']['protein_g'], 1)
-            carb_delta = round(c_nut['carbs_g'] - home['nutrition']['carbs_g'], 1)
-            fat_delta = round(c_nut['fat_g'] - home['nutrition']['fat_g'], 1)
-            fib_delta = round(c_nut['fiber_g'] - home['nutrition']['fiber_g'], 1)
             
-            c1.metric("🔥 Calories", f"{c_nut['calories_kcal']} kcal", delta=f"{cal_delta:+g} kcal" if cal_delta != 0 else None)
-            c2.metric("🍗 Protein", f"{c_nut['protein_g']} g", delta=f"{prot_delta:+g} g" if prot_delta != 0 else None)
-            c3.metric("🍚 Carbs", f"{c_nut['carbs_g']} g", delta=f"{carb_delta:+g} g" if carb_delta != 0 else None)
-            c4.metric("🥑 Total Fat", f"{c_nut['fat_g']} g", delta=f"{fat_delta:+g} g" if fat_delta != 0 else None)
-            c5.metric("🌾 Fiber", f"{c_nut['fiber_g']} g", delta=f"{fib_delta:+g} g" if fib_delta != 0 else None)
+            c_cal = c_nut.get('calories_kcal', 0.0)
+            c_prot = c_nut.get('protein_g', 0.0)
+            c_carb = c_nut.get('carbs_g', c_nut.get('carbohydrates_g', 0.0))
+            c_fat = c_nut.get('fat_g', 0.0)
+            c_fib = c_nut.get('fiber_g', 0.0)
+
+            h_cal = h_nut_home.get('calories_kcal', 0.0)
+            h_prot = h_nut_home.get('protein_g', 0.0)
+            h_carb = h_nut_home.get('carbs_g', h_nut_home.get('carbohydrates_g', 0.0))
+            h_fat = h_nut_home.get('fat_g', 0.0)
+            h_fib = h_nut_home.get('fiber_g', 0.0)
+
+            cal_delta = round(c_cal - h_cal, 1)
+            prot_delta = round(c_prot - h_prot, 1)
+            carb_delta = round(c_carb - h_carb, 1)
+            fat_delta = round(c_fat - h_fat, 1)
+            fib_delta = round(c_fib - h_fib, 1)
+            
+            c1.metric("🔥 Calories", f"{c_cal} kcal", delta=f"{cal_delta:+g} kcal" if cal_delta != 0 else None)
+            c2.metric("🍗 Protein", f"{c_prot} g", delta=f"{prot_delta:+g} g" if prot_delta != 0 else None)
+            c3.metric("🍚 Carbs", f"{c_carb} g", delta=f"{carb_delta:+g} g" if carb_delta != 0 else None)
+            c4.metric("🥑 Total Fat", f"{c_fat} g", delta=f"{fat_delta:+g} g" if fat_delta != 0 else None)
+            c5.metric("🌾 Fiber", f"{c_fib} g", delta=f"{fib_delta:+g} g" if fib_delta != 0 else None)
 
 # ==========================================
 # MAIN INTERFACE (TABS)
@@ -525,18 +539,24 @@ with tab_image:
 
                         # Scaled Nutrition
                         nut = pred_res["nutrition"]
-                        scaled_cal = round(nut['calories_kcal'] * scale_factor, 1)
-                        scaled_prot = round(nut['protein_g'] * scale_factor, 1)
-                        scaled_carb = round(nut['carbs_g'] * scale_factor, 1)
-                        scaled_fat = round(nut['fat_g'] * scale_factor, 1)
-                        scaled_fib = round(nut['fiber_g'] * scale_factor, 1)
+                        b_cal = nut.get('calories_kcal', 0.0)
+                        b_prot = nut.get('protein_g', 0.0)
+                        b_carb = nut.get('carbs_g', nut.get('carbohydrates_g', 0.0))
+                        b_fat = nut.get('fat_g', 0.0)
+                        b_fib = nut.get('fiber_g', 0.0)
+
+                        scaled_cal = round(b_cal * scale_factor, 1)
+                        scaled_prot = round(b_prot * scale_factor, 1)
+                        scaled_carb = round(b_carb * scale_factor, 1)
+                        scaled_fat = round(b_fat * scale_factor, 1)
+                        scaled_fib = round(b_fib * scale_factor, 1)
 
                         c1, c2, c3, c4, c5 = st.columns(5)
-                        cal_diff = round(scaled_cal - nut['calories_kcal'], 1)
-                        prot_diff = round(scaled_prot - nut['protein_g'], 1)
-                        carb_diff = round(scaled_carb - nut['carbs_g'], 1)
-                        fat_diff = round(scaled_fat - nut['fat_g'], 1)
-                        fib_diff = round(scaled_fib - nut['fiber_g'], 1)
+                        cal_diff = round(scaled_cal - b_cal, 1)
+                        prot_diff = round(scaled_prot - b_prot, 1)
+                        carb_diff = round(scaled_carb - b_carb, 1)
+                        fat_diff = round(scaled_fat - b_fat, 1)
+                        fib_diff = round(scaled_fib - b_fib, 1)
 
                         with c1:
                             st.metric("🔥 Calories", f"{scaled_cal} kcal", delta=f"{cal_diff:+g} kcal" if cal_diff != 0 else None)
@@ -656,17 +676,23 @@ with tab_text:
             st.markdown("---")
             st.subheader(f"📊 Nutritional Profile ({int(typed_std_wt)}g serving)")
             nut = result["nutrition"]
-            scaled_cal = round(nut['calories_kcal'] * scale_factor, 1)
-            scaled_prot = round(nut['protein_g'] * scale_factor, 1)
-            scaled_carb = round(nut['carbs_g'] * scale_factor, 1)
-            scaled_fat = round(nut['fat_g'] * scale_factor, 1)
-            scaled_fib = round(nut['fiber_g'] * scale_factor, 1)
+            b_cal = nut.get('calories_kcal', 0.0)
+            b_prot = nut.get('protein_g', 0.0)
+            b_carb = nut.get('carbs_g', nut.get('carbohydrates_g', 0.0))
+            b_fat = nut.get('fat_g', 0.0)
+            b_fib = nut.get('fiber_g', 0.0)
 
-            cal_diff = round(scaled_cal - nut['calories_kcal'], 1)
-            prot_diff = round(scaled_prot - nut['protein_g'], 1)
-            carb_diff = round(scaled_carb - nut['carbs_g'], 1)
-            fat_diff = round(scaled_fat - nut['fat_g'], 1)
-            fib_diff = round(scaled_fib - nut['fiber_g'], 1)
+            scaled_cal = round(b_cal * scale_factor, 1)
+            scaled_prot = round(b_prot * scale_factor, 1)
+            scaled_carb = round(b_carb * scale_factor, 1)
+            scaled_fat = round(b_fat * scale_factor, 1)
+            scaled_fib = round(b_fib * scale_factor, 1)
+
+            cal_diff = round(scaled_cal - b_cal, 1)
+            prot_diff = round(scaled_prot - b_prot, 1)
+            carb_diff = round(scaled_carb - b_carb, 1)
+            fat_diff = round(scaled_fat - b_fat, 1)
+            fib_diff = round(scaled_fib - b_fib, 1)
 
             n1, n2, n3, n4, n5 = st.columns(5)
             with n1:

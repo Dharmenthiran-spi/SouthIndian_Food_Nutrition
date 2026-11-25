@@ -338,12 +338,14 @@ class IngredientNutritionPredictor:
             split_ingredients[ing] = round(orig_g * scale, 1)
             
         h_nut = hotel["nutrition"]
+        h_carbs = float(h_nut.get("carbs_g", h_nut.get("carbohydrates_g", 0.0)))
         scaled_nut = {
-            "calories_kcal": round(h_nut["calories_kcal"] * scale, 1),
-            "protein_g": round(h_nut["protein_g"] * scale, 1),
-            "carbs_g": round(h_nut["carbs_g"] * scale, 1),
-            "fat_g": round(h_nut["fat_g"] * scale, 1),
-            "fiber_g": round(h_nut["fiber_g"] * scale, 1)
+            "calories_kcal": round(float(h_nut.get("calories_kcal", 0.0)) * scale, 1),
+            "protein_g": round(float(h_nut.get("protein_g", 0.0)) * scale, 1),
+            "carbs_g": round(h_carbs * scale, 1),
+            "carbohydrates_g": round(h_carbs * scale, 1),
+            "fat_g": round(float(h_nut.get("fat_g", 0.0)) * scale, 1),
+            "fiber_g": round(float(h_nut.get("fiber_g", 0.0)) * scale, 1)
         }
         
         return {
@@ -402,10 +404,15 @@ class IngredientNutritionPredictor:
                     delta_f += (eg * macro["f"]) / 100.0
                     delta_fib += (eg * macro["fib"]) / 100.0
 
-        new_protein = max(0.0, round(base_nut["protein_g"] + delta_p, 1))
-        new_carbs = max(0.0, round(base_nut["carbs_g"] + delta_c, 1))
-        new_fat = max(0.0, round(base_nut["fat_g"] + delta_f, 1))
-        new_fiber = max(0.0, round(base_nut["fiber_g"] + delta_fib, 1))
+        base_p = float(base_nut.get("protein_g", 0.0))
+        base_c = float(base_nut.get("carbs_g", base_nut.get("carbohydrates_g", 0.0)))
+        base_f = float(base_nut.get("fat_g", 0.0))
+        base_fib = float(base_nut.get("fiber_g", 0.0))
+
+        new_protein = max(0.0, round(base_p + delta_p, 1))
+        new_carbs = max(0.0, round(base_c + delta_c, 1))
+        new_fat = max(0.0, round(base_f + delta_f, 1))
+        new_fiber = max(0.0, round(base_fib + delta_fib, 1))
         new_calories = max(0.0, round(4.0 * new_carbs + 4.0 * new_protein + 9.0 * new_fat, 1))
         new_weight = max(10.0, round(base_weight + weight_delta, 1))
 
@@ -419,6 +426,7 @@ class IngredientNutritionPredictor:
                 "calories_kcal": new_calories,
                 "protein_g": new_protein,
                 "carbs_g": new_carbs,
+                "carbohydrates_g": new_carbs,
                 "fat_g": new_fat,
                 "fiber_g": new_fiber
             }
