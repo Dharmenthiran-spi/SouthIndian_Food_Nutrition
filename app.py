@@ -100,12 +100,13 @@ st.markdown("""
 # ==========================================
 st.sidebar.title("⚙️ AI Model Settings")
 
-# Model paths to search
+# Model paths to search (prioritize Version 2 - 221 classes)
 candidate_models = [
+    "Food_Detection/Models/Food Detection/Version2/food_detection_v2_best.pt",
+    "Food_Detection/Models/food_detection_v2_best.pt",
     "Food_Detection/Models/Food Detection/Version1/food_detection_v1_best.pt",
     "Food_Detection/Models/Food Detection/Version1/best.pt",
     "Food_Detection/Models/Food Detection/Version1/food_detection_v1_last.pt",
-    "Food_Detection/Models/Food Detection/Version1/last.pt",
     "runs/detect/Food_Detection_V1/yolov8s_31classes/weights/best.pt",
     "yolov8s.pt",
     "yolov8n.pt"
@@ -128,9 +129,15 @@ IOU_THRESHOLD = 0.45
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 🥗 Model 2 Checkpoint Status")
-m2_path = "Incredient_Identification/Models/Ingredient Identification/Version1/ingredient_identification_v1_best.pt"
-if os.path.exists(m2_path):
-    st.sidebar.success(f"✅ Model 2 Loaded:\n`ingredient_identification_v1_best.pt`")
+candidate_m2 = [
+    "Incredient_Identification/Models/Ingredient Identification/Version2/best.pt",
+    "Incredient_Identification/Models/Ingredient Identification/Version2/ingredient_identification_v2_best.pt",
+    "Incredient_Identification/Models/Ingredient Identification/Version1/ingredient_identification_v1_best.pt"
+]
+loaded_m2 = next((p for p in candidate_m2 if os.path.exists(p)), None)
+if loaded_m2:
+    v_tag = "Version 2 (221 classes)" if "Version2" in loaded_m2 else "Version 1 (31 classes)"
+    st.sidebar.success(f"✅ Model 2 Loaded:\n`{os.path.basename(loaded_m2)}` ({v_tag})")
 else:
     st.sidebar.info("ℹ️ Model 2 using Knowledge Base lookup.")
 
@@ -162,6 +169,42 @@ COMMON_EXTRA_INGREDIENTS = [
     "Milk",
     "Fried Onion"
 ]
+
+def render_micronutrients_section(nut, scale_factor=1.0):
+    if not nut:
+        return
+    micro_keys = ['calcium_mg', 'iron_mg', 'vitamin_c_mg', 'sodium_mg', 'potassium_mg', 'vitamin_a_mcg']
+    if any(k in nut for k in micro_keys):
+        with st.expander("🔬 View Detailed Micronutrients, Vitamins & Minerals (28 Parameters)", expanded=False):
+            m1, m2, m3 = st.columns(3)
+            with m1:
+                st.markdown("##### 🪨 Essential Minerals")
+                st.write(f"• **Calcium:** `{round(nut.get('calcium_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Iron:** `{round(nut.get('iron_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Potassium:** `{round(nut.get('potassium_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Sodium:** `{round(nut.get('sodium_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Magnesium:** `{round(nut.get('magnesium_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Zinc:** `{round(nut.get('zinc_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Phosphorus:** `{round(nut.get('phosphorus_mg', 0) * scale_factor, 1)} mg`")
+            with m2:
+                st.markdown("##### 🍊 Vital Vitamins")
+                st.write(f"• **Vitamin A:** `{round(nut.get('vitamin_a_mcg', 0) * scale_factor, 1)} mcg`")
+                st.write(f"• **Vitamin C:** `{round(nut.get('vitamin_c_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Vitamin D:** `{round(nut.get('vitamin_d_mcg', 0) * scale_factor, 1)} mcg`")
+                st.write(f"• **Vitamin E:** `{round(nut.get('vitamin_e_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Vitamin B1 (Thiamine):** `{round(nut.get('vitamin_b1_thiamine_mg', 0) * scale_factor, 2)} mg`")
+                st.write(f"• **Vitamin B6:** `{round(nut.get('vitamin_b6_mg', 0) * scale_factor, 2)} mg`")
+                st.write(f"• **Vitamin B9 (Folate):** `{round(nut.get('vitamin_b9_folate_mcg', 0) * scale_factor, 1)} mcg`")
+                st.write(f"• **Vitamin B12:** `{round(nut.get('vitamin_b12_mcg', 0) * scale_factor, 2)} mcg`")
+            with m3:
+                st.markdown("##### 💧 Fats, Sugars & Moisture")
+                st.write(f"• **Saturated Fat:** `{round(nut.get('saturated_fat_g', 0) * scale_factor, 1)} g`")
+                st.write(f"• **Monounsaturated:** `{round(nut.get('monounsaturated_fat_g', 0) * scale_factor, 1)} g`")
+                st.write(f"• **Polyunsaturated:** `{round(nut.get('polyunsaturated_fat_g', 0) * scale_factor, 1)} g`")
+                st.write(f"• **Trans Fat:** `{round(nut.get('trans_fat_g', 0) * scale_factor, 2)} g`")
+                st.write(f"• **Cholesterol:** `{round(nut.get('cholesterol_mg', 0) * scale_factor, 1)} mg`")
+                st.write(f"• **Free Sugar:** `{round(nut.get('sugar_g', 0) * scale_factor, 1)} g`")
+                st.write(f"• **Moisture / Water:** `{round(nut.get('water_moisture_g', 0) * scale_factor, 1)} g`")
 
 def render_home_hotel_section(food_name, key_prefix="text"):
     recipe = get_home_hotel_recipe(food_name)
@@ -330,6 +373,19 @@ POPULAR_DISHES = [
     "Poorna kolukattai", "Pidi kolukattai", "Satham"
 ]
 
+# Dynamic Dishes List: Prioritize all 221 classes from Version 2
+v2_dish_map = "Incredient_Identification/DataSet/Version2 Used Data/dishes_ingredients_map_v2.json"
+if os.path.exists(v2_dish_map):
+    try:
+        import json
+        with open(v2_dish_map, "r", encoding="utf-8") as f:
+            v2_dict = json.load(f)
+        ALL_DISHES = sorted(list(v2_dict.keys()))
+    except Exception:
+        ALL_DISHES = POPULAR_DISHES
+else:
+    ALL_DISHES = POPULAR_DISHES
+
 # ==========================================
 # TAB 1: END-TO-END IMAGE DETECTION
 # ==========================================
@@ -348,16 +404,27 @@ with tab_image:
         st.error(f"Error loading YOLO model: {e}")
         yolo_model = None
 
-    # Sample Images Selector
-    sample_dir = "Food_Detection/DataSet/Version1 Used Data/images/test"
-    sample_files = glob.glob(os.path.join(sample_dir, "*.jpg"))[:8] if os.path.exists(sample_dir) else []
+    # Sample Images Selector (Supports Version 2 with 1,105 test images and Version 1)
+    sample_dirs = [
+        "Food_Detection/DataSet/Version2 Used Data/images/test",
+        "Food_Detection/DataSet/Version1 Used Data/images/test"
+    ]
+    sample_files = []
+    active_sample_dir = None
+    for sd in sample_dirs:
+        if os.path.exists(sd):
+            f_list = glob.glob(os.path.join(sd, "*.jpg"))
+            if f_list:
+                sample_files = f_list[:25]
+                active_sample_dir = sd
+                break
 
     selected_sample = None
     if sample_files:
         sample_names = ["-- Or choose a sample image --"] + [os.path.basename(f) for f in sample_files]
-        choice = st.selectbox("Quick test with sample dataset images:", sample_names, index=0)
+        choice = st.selectbox(f"Quick test with sample dataset images ({os.path.basename(os.path.dirname(os.path.dirname(active_sample_dir)))}):", sample_names, index=0)
         if choice != "-- Or choose a sample image --":
-            selected_sample = os.path.join(sample_dir, choice)
+            selected_sample = os.path.join(active_sample_dir, choice)
 
     # Main File Uploader
     uploaded_file = st.file_uploader(
@@ -482,6 +549,9 @@ with tab_image:
 
                         st.info(f"💡 **Dietary Profile:** {pred_res['health_benefits']}")
 
+                        # Extended Micronutrient & Vitamin Breakdown
+                        render_micronutrients_section(nut, scale_factor=scale_factor)
+
                         # Home vs Hotel Analysis with typed weights & extra ingredients
                         render_home_hotel_section(food, key_prefix=f"tab_img_{food}")
         else:
@@ -499,13 +569,13 @@ with tab_text:
         typed_food = st.text_input(
             "⌨️ Enter Food Name:",
             value="",
-            placeholder="e.g. Idly, Dosa, Ven Pongal, Chicken briyani, Sambar...",
-            help="Type any food name from the 31 South Indian categories."
+            placeholder="e.g. Masala dosa, Idli, Chicken briyani, Appam, Paneer butter masala...",
+            help="Type any food name from the 221 food categories."
         )
     with col_input2:
         selected_dish = st.selectbox(
-            "📋 Or Choose from 31 Dishes:",
-            options=["-- Select a dish --"] + POPULAR_DISHES,
+            f"📋 Or Choose from {len(ALL_DISHES)} Dishes:",
+            options=["-- Select a dish --"] + ALL_DISHES,
             index=0
         )
 
@@ -614,7 +684,10 @@ with tab_text:
             with col_h2:
                 st.info(f"🍳 **Cooking Method:**\n\n{result['cooking_method']}")
 
+            # Extended Micronutrient & Vitamin Breakdown
+            render_micronutrients_section(nut, scale_factor=scale_factor)
+
             # 4. Home vs Hotel Analysis & Dynamic Customization
             render_home_hotel_section(result["food_name"], key_prefix="tab_txt")
         else:
-            st.error(f"❌ Could not find ingredient profile for '{target_food}'. Please check spelling or select from the 31 dishes.")
+            st.error(f"❌ Could not find ingredient profile for '{target_food}'. Please check spelling or select from the dishes dropdown.")
