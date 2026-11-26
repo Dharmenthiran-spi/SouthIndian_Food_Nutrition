@@ -1,5 +1,9 @@
 import os
 import glob
+import cv2
+import numpy as np
+import torch
+import torchvision
 from PIL import Image
 import streamlit as st
 from ultralytics import YOLO
@@ -123,9 +127,30 @@ selected_model_path = st.sidebar.selectbox(
     help="Select the trained Food Detection model."
 )
 
-# Standard internal detection parameters (fixed for optimal food recognition)
-CONF_THRESHOLD = 0.25
-IOU_THRESHOLD = 0.45
+# Interactive detection parameters for single & multi-food plates
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 🍽️ Multi-Food & Detection Tuning")
+multi_food_mode = st.sidebar.checkbox(
+    "Multi-Food Plate Scan (Thali / Combo)",
+    value=True,
+    help="Scans overlapping zoomed regions of the plate so smaller side dishes, bowls, and chutneys are also detected."
+)
+CONF_THRESHOLD = st.sidebar.slider(
+    "Confidence Threshold:",
+    min_value=0.05,
+    max_value=0.80,
+    value=0.22,
+    step=0.03,
+    help="Lower this (e.g. 0.12 - 0.20) to catch smaller or partially hidden dishes on a multi-food plate."
+)
+IOU_THRESHOLD = st.sidebar.slider(
+    "Overlap Suppression (IoU):",
+    min_value=0.20,
+    max_value=0.85,
+    value=0.45,
+    step=0.05,
+    help="Controls how strictly overlapping bounding boxes are merged."
+)
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 🥗 Model 2 Checkpoint Status")
@@ -366,6 +391,100 @@ def render_home_hotel_section(food_name, key_prefix="text"):
             c5.metric("🌾 Fiber", f"{c_fib} g", delta=f"{fib_delta:+g} g" if fib_delta != 0 else None)
 
 # ==========================================
+# MULTI-FOOD PLATE DETECTION HELPER
+# ==========================================
+def run_food_detection(yolo_model, pil_img, conf_thresh, iou_thresh, multi_food=True):
+    """
+    Runs YOLO on full image and (optionally) 5 overlapping zoomed plate regions
+    so smaller bowls, side dishes, and combo items on a multi-food plate are detected.
+    """
+    w, h = pil_img.size
+    all_boxes = []
+    all_scores = []
+    all_clses = []
+    names = yolo_model.names
+
+    # 1. Full image pass
+    full_res = yolo_model.predict(source=pil_img, conf=conf_thresh, iou=iou_thresh, verbose=False)[0]
+    if len(full_res.boxes) > 0:
+        for b in full_res.boxes:
+            all_boxes.append(b.xyxy[0].cpu())
+            all_scores.append(float(b.conf[0].cpu()))
+            all_clses.append(int(b.cls[0].cpu()))
+
+    # 2. Overlapping quadrant + center tiles for Multi-Food Plates
+    if multi_food and w >= 120 and h >= 120:
+        crop_specs = [
+            (0, 0, int(w * 0.60), int(h * 0.60)),                  # Top-Left
+            (int(w * 0.40), 0, w, int(h * 0.60)),                  # Top-Right
+            (0, int(h * 0.40), int(w * 0.60), h),                  # Bottom-Left
+            (int(w * 0.40), int(h * 0.40), w, h),                  # Bottom-Right
+            (int(w * 0.20), int(h * 0.20), int(w * 0.80), int(h * 0.80)),  # Center
+        ]
+        crops = [pil_img.crop(box) for box in crop_specs]
+        tile_results = yolo_model.predict(source=crops, conf=conf_thresh, iou=iou_thresh, verbose=False)
+        for res, (ox, oy, _, _) in zip(tile_results, crop_specs):
+            if len(res.boxes) > 0:
+                for b in res.boxes:
+                    xyxy = b.xyxy[0].cpu().clone()
+                    xyxy[0] += ox
+                    xyxy[1] += oy
+                    xyxy[2] += ox
+                    xyxy[3] += oy
+                    all_boxes.append(xyxy)
+                    all_scores.append(float(b.conf[0].cpu()))
+                    all_clses.append(int(b.cls[0].cpu()))
+
+    img_bgr = cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR)
+    if not all_boxes:
+        return cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB), []
+
+    boxes_t = torch.stack(all_boxes)
+    scores_t = torch.tensor(all_scores, dtype=torch.float32)
+    cls_t = torch.tensor(all_clses, dtype=torch.int64)
+
+    # Deduplicate same-class overlapping detections
+    keep_idx = torchvision.ops.batched_nms(boxes_t, scores_t, cls_t, iou_threshold=iou_thresh)
+    boxes_t = boxes_t[keep_idx]
+    scores_t = scores_t[keep_idx]
+    cls_t = cls_t[keep_idx]
+
+    # High-IoU cross-class NMS so the exact same bowl isn't labeled twice with two dishes
+    keep_cross = torchvision.ops.nms(boxes_t, scores_t, iou_threshold=0.72)
+    boxes_t = boxes_t[keep_cross]
+    scores_t = scores_t[keep_cross]
+    cls_t = cls_t[keep_cross]
+
+    # Draw crisp bounding boxes
+    palette = [
+        (255, 87, 34), (46, 125, 50), (30, 136, 229), (156, 39, 176),
+        (245, 124, 0), (0, 150, 136), (194, 24, 91), (93, 64, 55)
+    ]
+    detected_items = []
+    thickness = max(2, int(min(w, h) / 250))
+    font_scale = max(0.5, min(w, h) / 900.0)
+
+    for box, score, cid in zip(boxes_t, scores_t, cls_t):
+        x1, y1, x2, y2 = [int(v) for v in box.tolist()]
+        cid_int = int(cid.item())
+        conf_pct = float(score.item()) * 100.0
+        food_name = names.get(cid_int, f"Class {cid_int}")
+        detected_items.append((food_name, conf_pct))
+
+        rgb_col = palette[cid_int % len(palette)]
+        bgr_col = (rgb_col[2], rgb_col[1], rgb_col[0])
+        cv2.rectangle(img_bgr, (x1, y1), (x2, y2), bgr_col, thickness)
+
+        label = f"{food_name} {conf_pct:.0f}%"
+        (tw, th), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, font_scale, 2)
+        ty1 = max(y1 - th - 8, 0)
+        cv2.rectangle(img_bgr, (x1, ty1), (x1 + tw + 8, ty1 + th + 8), bgr_col, -1)
+        cv2.putText(img_bgr, label, (x1 + 4, ty1 + th + 3), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), 2)
+
+    annotated_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
+    return annotated_rgb, detected_items
+
+# ==========================================
 # MAIN INTERFACE (TABS)
 # ==========================================
 st.markdown('<div class="main-title">🍛 South Indian Food & Nutrition AI</div>', unsafe_allow_html=True)
@@ -454,20 +573,14 @@ with tab_image:
 
     if image_to_process is not None and yolo_model is not None:
         st.markdown("---")
-        with st.spinner("🔍 Analyzing image and detecting food items..."):
-            results = yolo_model.predict(
-                source=image_to_process,
-                conf=CONF_THRESHOLD,
-                iou=IOU_THRESHOLD,
-                verbose=False
+        with st.spinner("🔍 Scanning plate for single & multiple food items..."):
+            annotated_rgb, detected_items = run_food_detection(
+                yolo_model,
+                image_to_process,
+                CONF_THRESHOLD,
+                IOU_THRESHOLD,
+                multi_food=multi_food_mode
             )
-        
-        first_res = results[0]
-        boxes = first_res.boxes
-        names = first_res.names
-
-        annotated_bgr = first_res.plot()
-        annotated_rgb = annotated_bgr[..., ::-1]
 
         col1, col2 = st.columns([1, 1])
         with col1:
@@ -478,18 +591,18 @@ with tab_image:
             st.image(annotated_rgb, width="stretch")
 
         st.markdown("---")
-        st.subheader("🍽️ Detection Results")
+        st.subheader("🍽️ Detection Results & Plate Adjustment")
 
-        if len(boxes) > 0:
-            detected_items = []
-            for box in boxes:
-                cls_id = int(box.cls[0])
-                conf_val = float(box.conf[0]) * 100
-                food_name = names.get(cls_id, f"Class {cls_id}")
-                detected_items.append((food_name, conf_val))
+        detected_unique = []
+        if len(detected_items) > 0:
+            # Keep highest confidence per dish for clean ordering
+            best_conf = {}
+            for food_name, conf_val in detected_items:
+                if food_name not in best_conf or conf_val > best_conf[food_name]:
+                    best_conf[food_name] = conf_val
+            detected_unique = sorted(best_conf.keys(), key=lambda k: -best_conf[k])
 
-            unique_foods = sorted(list(set([item[0] for item in detected_items])))
-            st.success(f"**Identified {len(detected_items)} food item(s):** {', '.join(unique_foods)}")
+            st.success(f"**Detected {len(detected_items)} food region(s) ({len(detected_unique)} unique dish(es)):** {', '.join(detected_unique)}")
 
             cols = st.columns(min(3, len(detected_items)))
             for idx, (food, conf) in enumerate(detected_items):
@@ -499,6 +612,40 @@ with tab_image:
                         f'<div class="food-card">🍽️ {food}<span class="badge">{conf:.1f}%</span></div>',
                         unsafe_allow_html=True
                     )
+        else:
+            st.warning("⚠️ No food items detected automatically. Try lowering the Confidence Threshold in the left sidebar, or select dishes manually below.")
+
+        # Allow user to add missed side dishes or remove false detections on multi-food plates
+        selectable_options = sorted(list(set(ALL_DISHES) | set(detected_unique)))
+        unique_foods = st.multiselect(
+            "➕ Adjust Plate Items (add any missed side dishes or remove extras):",
+            options=selectable_options,
+            default=detected_unique,
+            help="If a multi-food plate has a small chutney, sambar, or side dish that was missed, add it here to include it in the total plate nutrition."
+        )
+
+        if unique_foods:
+            # Total Plate Nutrition Summary when 2+ dishes are present
+            if len(unique_foods) > 1:
+                tot_cal = tot_prot = tot_carb = tot_fat = tot_fib = 0.0
+                for f_item in unique_foods:
+                    p_item = predict_with_model(f_item)
+                    if p_item and p_item.get("nutrition"):
+                        n_item = p_item["nutrition"]
+                        tot_cal += float(n_item.get("calories_kcal", 0.0))
+                        tot_prot += float(n_item.get("protein_g", 0.0))
+                        tot_carb += float(n_item.get("carbs_g", n_item.get("carbohydrates_g", 0.0)))
+                        tot_fat += float(n_item.get("fat_g", 0.0))
+                        tot_fib += float(n_item.get("fiber_g", 0.0))
+
+                st.markdown("---")
+                st.subheader(f"🍱 Total Plate Nutrition Summary ({len(unique_foods)} Dishes Combined)")
+                tc1, tc2, tc3, tc4, tc5 = st.columns(5)
+                tc1.metric("🔥 Total Calories", f"{round(tot_cal, 1)} kcal")
+                tc2.metric("🍗 Total Protein", f"{round(tot_prot, 1)} g")
+                tc3.metric("🍚 Total Carbs", f"{round(tot_carb, 1)} g")
+                tc4.metric("🥑 Total Fat", f"{round(tot_fat, 1)} g")
+                tc5.metric("🌾 Total Fiber", f"{round(tot_fib, 1)} g")
 
             # Ingredient & Nutrition breakdown for detected items
             st.markdown("---")
@@ -576,8 +723,6 @@ with tab_image:
 
                         # Home vs Hotel Analysis with typed weights & extra ingredients
                         render_home_hotel_section(food, key_prefix=f"tab_img_{food}")
-        else:
-            st.warning("⚠️ No food items detected in the image. Please try a clearer or better-lit food plate photo.")
 
 # ==========================================
 # TAB 2: MODEL 2 TEXT TEST
