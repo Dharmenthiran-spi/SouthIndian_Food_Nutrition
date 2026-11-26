@@ -104,8 +104,9 @@ st.markdown("""
 # ==========================================
 st.sidebar.title("⚙️ AI Model Settings")
 
-# Model paths to search (prioritize Version 2 - 221 classes)
+# Model paths to search (prioritize Version 3, then Version 2 - 221 classes)
 candidate_models = [
+    "Food_Detection/Models/Food Detection/Version3/food_detection_v3_best.pt",
     "Food_Detection/Models/Food Detection/Version2/food_detection_v2_best.pt",
     "Food_Detection/Models/food_detection_v2_best.pt",
     "Food_Detection/Models/Food Detection/Version1/food_detection_v1_best.pt",
