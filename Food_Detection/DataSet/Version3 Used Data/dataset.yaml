@@ -2,7 +2,7 @@ path: D:/Yolo_Food_Inspection/Food_Detection/DataSet/Version3 Used Data
 train: images/train
 val: images/val
 test: images/test
-nc: 221
+nc: 231
 names:
   0: Idli
   1: Dosa
@@ -225,3 +225,13 @@ names:
   218: Mass gainers
   219: Electrolyte drinks
   220: Pre-workout drinks
+  221: Poori
+  222: Chutney
+  223: Momos
+  224: Pani puri
+  225: Jalebi
+  226: Vada pav
+  227: Pav
+  228: Naan
+  229: Cutlet
+  230: Poha
