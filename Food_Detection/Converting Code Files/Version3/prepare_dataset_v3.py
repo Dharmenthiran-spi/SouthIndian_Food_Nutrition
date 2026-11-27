@@ -1,12 +1,13 @@
 """
-Food Detection Version 3 - Dataset Preparation & Multi-Dish Integration Script
-Combines:
+Food Detection Version 3 - Clean Dataset Preparation Script
+Uses:
 1. All Version 2 single-dish images & labels (11,050 images across 221 classes).
-2. All 500 downloaded real multi-dish images (Thali, Banana Leaf, Combo Plates),
-   auto-annotated with multi-object YOLO bounding boxes using Version 2 model
-   with 5-region overlapping tile scanning + NMS.
-3. Synthetic multi-dish combo plates (600 stitched 2x2 / 3-dish / 4-dish plates)
-   generated from Version 2 dishes with 100% exact multi-object bounding boxes.
+2. Poori (Class 221) & Chutney (Class 222) -> 223 total classes.
+3. 500 curated real multi-dish images from Khana_DataSet/assorted_meal_platter
+   (400 train, 50 val, 50 test), auto-annotated with multi-object YOLO bounding boxes
+   using Version 2 model + 5-region overlapping tile scanning + NMS.
+4. 600 synthetic 4-dish combo plates generated from Version 2 + Poori + Chutney
+   with 100% exact ground-truth multi-object bounding boxes.
 
 Output: Food_Detection/DataSet/Version3 Used Data/ (images, labels, dataset.yaml)
 """
@@ -23,16 +24,22 @@ from ultralytics import YOLO
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 V2_USED_DIR = BASE_DIR / "DataSet" / "Version2 Used Data"
-RAW_V3_DIR = BASE_DIR / "DataSet" / "RawData" / "Version3" / "multi_dish_images"
+KHANA_TRAIN_PLATTER = BASE_DIR / "DataSet" / "RawData" / "Version1" / "Khana_DataSet" / "train" / "assorted_meal_platter"
+KHANA_VAL_PLATTER = BASE_DIR / "DataSet" / "RawData" / "Version1" / "Khana_DataSet" / "val" / "assorted_meal_platter"
+
+RAW_V3_DIR = BASE_DIR / "DataSet" / "RawData" / "Version3"
+RAW_V3_OLD_MULTI = RAW_V3_DIR / "multi_dish_images"
+RAW_V3_PLATTER = RAW_V3_DIR / "assorted_meal_platter"
+RAW_NEW_CLASSES = RAW_V3_DIR / "new_classes"
+
 V3_USED_DIR = BASE_DIR / "DataSet" / "Version3 Used Data"
 V2_MODEL_PATH = BASE_DIR / "Models" / "Food Detection" / "Version2" / "food_detection_v2_best.pt"
 
 
-def auto_annotate_multidish(model, img_path: Path, conf_thresh=0.20, iou_thresh=0.45):
+def auto_annotate_multidish(model, img_path: Path, conf_thresh=0.25, iou_thresh=0.45):
     """
     Uses trained Version 2 YOLO model + 5 overlapping plate tiles + NMS
-    to generate multi-object YOLO bounding box annotations for real multi-dish images.
-    Returns list of strings: "cls_id xc yc w h"
+    to generate multi-object YOLO bounding box annotations for assorted_meal_platter images.
     """
     with Image.open(img_path) as im:
         pil_img = im.convert("RGB")
@@ -42,14 +49,12 @@ def auto_annotate_multidish(model, img_path: Path, conf_thresh=0.20, iou_thresh=
     all_scores = []
     all_clses = []
 
-    # Full-image pass
     full_res = model.predict(source=pil_img, conf=conf_thresh, iou=iou_thresh, verbose=False)[0]
     for b in full_res.boxes:
         all_boxes.append(b.xyxy[0].cpu())
         all_scores.append(float(b.conf[0].cpu()))
         all_clses.append(int(b.cls[0].cpu()))
 
-    # 5 overlapping tiles for bowls & side dishes
     if w >= 160 and h >= 160:
         crop_specs = [
             (0, 0, int(w * 0.60), int(h * 0.60)),
@@ -101,20 +106,16 @@ def auto_annotate_multidish(model, img_path: Path, conf_thresh=0.20, iou_thresh=
 
 
 def generate_synthetic_plates(v2_split_imgs, v2_split_lbls, out_img_dir, out_lbl_dir, split_name, num_plates):
-    """
-    Stitches 4 random Version 2 dish crops onto a 640x640 plate/banana-leaf style
-    canvas with exact ground-truth multi-object YOLO bounding boxes.
-    """
     if len(v2_split_imgs) < 4:
         return 0
 
     created = 0
     canvas_size = 640
     bg_colors = [
-        (34, 85, 34),    # Banana leaf dark green
-        (46, 105, 42),   # Banana leaf medium green
-        (225, 220, 210), # Ceramic plate off-white
-        (205, 195, 180), # Steel/stone plate neutral
+        (34, 85, 34),
+        (46, 105, 42),
+        (225, 220, 210),
+        (205, 195, 180),
     ]
 
     for i in range(num_plates):
@@ -123,7 +124,6 @@ def generate_synthetic_plates(v2_split_imgs, v2_split_lbls, out_img_dir, out_lbl
         canvas = Image.new("RGB", (canvas_size, canvas_size), bg)
         labels = []
 
-        # 2x2 quadrants with slight padding & random jitter so boxes don't overlap
         quads = [
             (12, 12, 308, 308),
             (332, 12, 628, 308),
@@ -146,11 +146,9 @@ def generate_synthetic_plates(v2_split_imgs, v2_split_lbls, out_img_dir, out_lbl
             except Exception:
                 continue
 
-            qw = qx2 - qx1
-            qh = qy2 - qy1
+            qw, qh = qx2 - qx1, qy2 - qy1
             scale = random.uniform(0.82, 0.98)
-            tw = int(qw * scale)
-            th = int(qh * scale)
+            tw, th = int(qw * scale), int(qh * scale)
             dish_resized = dish_rgb.resize((tw, th), Image.Resampling.BILINEAR)
 
             ox = qx1 + random.randint(0, max(0, qw - tw))
@@ -159,8 +157,7 @@ def generate_synthetic_plates(v2_split_imgs, v2_split_lbls, out_img_dir, out_lbl
 
             xc = (ox + tw / 2.0) / canvas_size
             yc = (oy + th / 2.0) / canvas_size
-            bw = tw / canvas_size
-            bh = th / canvas_size
+            bw, bh = tw / canvas_size, th / canvas_size
             labels.append(f"{cls_id} {xc:.6f} {yc:.6f} {bw:.6f} {bh:.6f}")
 
         if len(labels) >= 2:
@@ -175,20 +172,32 @@ def generate_synthetic_plates(v2_split_imgs, v2_split_lbls, out_img_dir, out_lbl
 def prepare_v3_dataset():
     random.seed(42)
 
-    if not V2_USED_DIR.exists():
-        raise FileNotFoundError(f"Version 2 dataset not found at {V2_USED_DIR}")
-    if not RAW_V3_DIR.exists():
-        raise FileNotFoundError(f"Version 3 raw multi-dish images not found at {RAW_V3_DIR}")
+    print("=" * 65)
+    print("🧹 CLEANING NOISY BING FILES & BUILDING PROPER VERSION 3 DATASET")
+    print("=" * 65)
 
-    print("=" * 65)
-    print("🚀 PREPARING FOOD DETECTION VERSION 3 DATASET")
-    print("=" * 65)
+    # 1. Remove old noisy Bing multi_dish_images folder
+    if RAW_V3_OLD_MULTI.exists():
+        shutil.rmtree(RAW_V3_OLD_MULTI, ignore_errors=True)
+        print(f"🗑️ Removed noisy Bing folder: {RAW_V3_OLD_MULTI}")
+
+    # Remove old v3_multidish_* from Version3 Used Data
+    removed_old = 0
+    for split in ["train", "val", "test"]:
+        for sub in ["images", "labels"]:
+            d = V3_USED_DIR / sub / split
+            if d.exists():
+                for f in d.glob("v3_multidish_*"):
+                    f.unlink(missing_ok=True)
+                    removed_old += 1
+    if removed_old:
+        print(f"🗑️ Removed {removed_old} old noisy v3_multidish files from Version3 Used Data")
 
     for split in ["train", "val", "test"]:
         (V3_USED_DIR / "images" / split).mkdir(parents=True, exist_ok=True)
         (V3_USED_DIR / "labels" / split).mkdir(parents=True, exist_ok=True)
 
-    # 1. Copy / link Version 2 dataset (11,050 images across 221 classes)
+    # 2. Ensure Version 2 base splits exist in Version3 Used Data
     v2_counts = {}
     for split in ["train", "val", "test"]:
         src_img_dir = V2_USED_DIR / "images" / split
@@ -207,82 +216,85 @@ def prepare_v3_dataset():
                 if not dst_lbl.exists():
                     shutil.copy2(lbl, dst_lbl)
         v2_counts[split] = len(imgs)
-    print(f"✅ Copied Version 2 base splits: {v2_counts} (Total: {sum(v2_counts.values())})")
+    print(f"✅ Version 2 base splits verified: {v2_counts}")
 
-    # 2. Auto-annotate 500 real multi-dish images using Version 2 model
-    raw_imgs = sorted(RAW_V3_DIR.glob("*.jpg"))
-    random.shuffle(raw_imgs)
-    n_raw = len(raw_imgs)
-    n_tr = int(n_raw * 0.80)
-    n_va = int(n_raw * 0.10)
-    raw_splits = {
-        "train": raw_imgs[:n_tr],
-        "val": raw_imgs[n_tr:n_tr + n_va],
-        "test": raw_imgs[n_tr + n_va:],
-    }
+    # 3. Copy 500 curated assorted_meal_platter images from Khana_DataSet into RawData/Version3/assorted_meal_platter
+    RAW_V3_PLATTER.mkdir(parents=True, exist_ok=True)
+    # Clear any prior files in platter dir to keep exact 500
+    for old_f in RAW_V3_PLATTER.glob("*"):
+        old_f.unlink(missing_ok=True)
 
-    if V2_MODEL_PATH.exists():
-        print(f"🔍 Auto-annotating {n_raw} real multi-dish images with {V2_MODEL_PATH.name}...")
-        v2_model = YOLO(str(V2_MODEL_PATH))
-    else:
-        print("⚠️ Version 2 weights not found locally; skipping auto-annotation.")
-        v2_model = None
+    train_platters = sorted([p for p in KHANA_TRAIN_PLATTER.glob("*") if p.suffix.lower() in (".jpg", ".jpeg", ".png")])
+    val_platters = sorted([p for p in KHANA_VAL_PLATTER.glob("*") if p.suffix.lower() in (".jpg", ".jpeg", ".png")])
 
-    real_multi_counts = {"train": 0, "val": 0, "test": 0}
-    annotated_boxes_total = 0
-    for split, files in raw_splits.items():
+    random.shuffle(train_platters)
+    random.shuffle(val_platters)
+
+    selected_train = train_platters[:400]
+    selected_val = val_platters[:50]
+    selected_test = val_platters[50:100]
+
+    platter_splits = {"train": [], "val": [], "test": []}
+    idx_counter = 0
+    for split, src_list in [("train", selected_train), ("val", selected_val), ("test", selected_test)]:
+        for src_p in src_list:
+            idx_counter += 1
+            out_p = RAW_V3_PLATTER / f"v3_platter_{idx_counter:04d}.jpg"
+            try:
+                with Image.open(src_p) as im:
+                    im.convert("RGB").save(out_p, "JPEG", quality=92)
+                platter_splits[split].append(out_p)
+            except Exception:
+                idx_counter -= 1
+
+    print(f"✅ Copied {idx_counter} clean assorted_meal_platter images to {RAW_V3_PLATTER}")
+
+    # 4. Auto-annotate the 500 assorted_meal_platter images using Version 2 model
+    v2_model = YOLO(str(V2_MODEL_PATH)) if V2_MODEL_PATH.exists() else None
+    platter_counts = {"train": 0, "val": 0, "test": 0}
+    total_boxes = 0
+
+    for split, files in platter_splits.items():
         dst_img_dir = V3_USED_DIR / "images" / split
         dst_lbl_dir = V3_USED_DIR / "labels" / split
         for img_p in files:
-            lines = auto_annotate_multidish(v2_model, img_p) if v2_model else []
+            lines = auto_annotate_multidish(v2_model, img_p, conf_thresh=0.25) if v2_model else []
             if not lines:
-                # Skip unannotated images or save empty background label
                 continue
-            dst_im = dst_img_dir / img_p.name
-            if not dst_im.exists():
-                shutil.copy2(img_p, dst_im)
+            shutil.copy2(img_p, dst_img_dir / img_p.name)
             (dst_lbl_dir / f"{img_p.stem}.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
-            real_multi_counts[split] += 1
-            annotated_boxes_total += len(lines)
+            platter_counts[split] += 1
+            total_boxes += len(lines)
 
-    print(f"✅ Added auto-annotated real multi-dish images: {real_multi_counts} (Total boxes: {annotated_boxes_total})")
+    print(f"✅ Added auto-annotated assorted_meal_platter images: {platter_counts} (Total boxes: {total_boxes})")
 
-    # 3. Generate synthetic multi-dish combo plates (480 train / 60 val / 60 test = 600 plates)
-    synth_targets = {"train": 480, "val": 60, "test": 60}
-    synth_counts = {}
-    for split, target_n in synth_targets.items():
-        v2_imgs = list((V2_USED_DIR / "images" / split).glob("*.jpg"))
-        v2_lbls = V2_USED_DIR / "labels" / split
-        dst_img_dir = V3_USED_DIR / "images" / split
-        dst_lbl_dir = V3_USED_DIR / "labels" / split
-        synth_counts[split] = generate_synthetic_plates(v2_imgs, v2_lbls, dst_img_dir, dst_lbl_dir, split, target_n)
-    print(f"✅ Generated synthetic multi-dish plates: {synth_counts} (Total: {sum(synth_counts.values())})")
-
-    # 4. Generate Version 3 dataset.yaml
+    # 5. Ensure dataset.yaml has 223 classes (including Poori & Chutney)
+    yaml_path = V3_USED_DIR / "dataset.yaml"
     v2_yaml = yaml.safe_load((V2_USED_DIR / "dataset.yaml").read_text(encoding="utf-8"))
+    names = dict(v2_yaml["names"])
+    names[221] = "Poori"
+    names[222] = "Chutney"
+
     v3_yaml_data = {
         "path": str(V3_USED_DIR).replace("\\", "/"),
         "train": "images/train",
         "val": "images/val",
         "test": "images/test",
-        "nc": v2_yaml["nc"],
-        "names": v2_yaml["names"],
+        "nc": len(names),
+        "names": names,
     }
-    yaml_path = V3_USED_DIR / "dataset.yaml"
     yaml_path.write_text(yaml.dump(v3_yaml_data, sort_keys=False), encoding="utf-8")
 
     # Summary
     total_counts = {s: len(list((V3_USED_DIR / "images" / s).glob("*.jpg"))) for s in ["train", "val", "test"]}
     print("\n" + "=" * 65)
-    print("🎉 VERSION 3 DATASET READY!")
+    print("🎉 PROPER VERSION 3 DATASET READY!")
     print(f"   Train : {total_counts['train']} images")
     print(f"   Val   : {total_counts['val']} images")
     print(f"   Test  : {total_counts['test']} images")
-    print(f"   Total : {sum(total_counts.values())} images (221 classes)")
-    print(f"   YAML  : {yaml_path}")
+    print(f"   Total : {sum(total_counts.values())} images ({len(names)} classes)")
     print("=" * 65)
 
 
 if __name__ == "__main__":
     prepare_v3_dataset()
-

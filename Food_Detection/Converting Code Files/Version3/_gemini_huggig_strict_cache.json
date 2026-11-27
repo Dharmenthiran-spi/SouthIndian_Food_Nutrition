@@ -1,0 +1,1354 @@
+{
+  "v3_huggig_0302": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Bitter gourd curry"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Pakora"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 11
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0300": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Vegetable curry"
+    }
+  },
+  "v3_huggig_0301": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 32
+    }
+  },
+  "v3_huggig_0299": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    }
+  },
+  "v3_huggig_0303": {
+    "0": {
+      "status": "existing",
+      "class_id": 24
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Bitter gourd fry"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 11
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0304": {
+    "0": {
+      "status": "existing",
+      "class_id": 112
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Pakora"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 11
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0306": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Paratha"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Raita"
+    }
+  },
+  "v3_huggig_0305": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Paratha"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Raita"
+    }
+  },
+  "v3_huggig_0308": {
+    "0": {
+      "status": "existing",
+      "class_id": 89
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 85
+    }
+  },
+  "v3_huggig_0307": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Paratha"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Raita"
+    }
+  },
+  "v3_huggig_0309": {
+    "0": {
+      "status": "existing",
+      "class_id": 89
+    },
+    "1": {
+      "status": "unknown"
+    }
+  },
+  "v3_huggig_0310": {
+    "0": {
+      "status": "existing",
+      "class_id": 89
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 85
+    }
+  },
+  "v3_huggig_0312": {
+    "0": {
+      "status": "existing",
+      "class_id": 100
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Misal pav"
+    }
+  },
+  "v3_huggig_0313": {
+    "0": {
+      "status": "existing",
+      "class_id": 100
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Misal pav"
+    }
+  },
+  "v3_huggig_0311": {
+    "0": {
+      "status": "existing",
+      "class_id": 39
+    }
+  },
+  "v3_huggig_0314": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Naan"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 91
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 19
+    },
+    "3": {
+      "status": "new_class",
+      "new_name": "Papad"
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "6": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "7": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "8": {
+      "status": "existing",
+      "class_id": 28
+    },
+    "9": {
+      "status": "new_class",
+      "new_name": "Green chutney"
+    },
+    "10": {
+      "status": "new_class",
+      "new_name": "Paneer curry"
+    },
+    "11": {
+      "status": "new_class",
+      "new_name": "Mushroom curry"
+    },
+    "12": {
+      "status": "new_class",
+      "new_name": "Paneer curry"
+    },
+    "13": {
+      "status": "existing",
+      "class_id": 19
+    },
+    "14": {
+      "status": "new_class",
+      "new_name": "Kofta curry"
+    },
+    "15": {
+      "status": "existing",
+      "class_id": 32
+    },
+    "16": {
+      "status": "existing",
+      "class_id": 57
+    },
+    "17": {
+      "status": "existing",
+      "class_id": 56
+    },
+    "18": {
+      "status": "new_class",
+      "new_name": "Raita"
+    },
+    "19": {
+      "status": "new_class",
+      "new_name": "Onion salad"
+    }
+  },
+  "v3_huggig_0317": {
+    "0": {
+      "status": "existing",
+      "class_id": 177
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 68
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 69
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 14
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 69
+    }
+  },
+  "v3_huggig_0315": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Naan"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 91
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 59
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "6": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "7": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "8": {
+      "status": "existing",
+      "class_id": 28
+    },
+    "9": {
+      "status": "existing",
+      "class_id": 56
+    },
+    "10": {
+      "status": "existing",
+      "class_id": 29
+    },
+    "11": {
+      "status": "existing",
+      "class_id": 31
+    },
+    "12": {
+      "status": "existing",
+      "class_id": 56
+    },
+    "13": {
+      "status": "existing",
+      "class_id": 66
+    },
+    "14": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "15": {
+      "status": "existing",
+      "class_id": 32
+    },
+    "16": {
+      "status": "existing",
+      "class_id": 32
+    },
+    "17": {
+      "status": "new_class",
+      "new_name": "Raita"
+    },
+    "18": {
+      "status": "existing",
+      "class_id": 39
+    },
+    "19": {
+      "status": "new_class",
+      "new_name": "Papad"
+    }
+  },
+  "v3_huggig_0316": {
+    "0": {
+      "status": "existing",
+      "class_id": 91
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 35
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 34
+    },
+    "3": {
+      "status": "new_class",
+      "new_name": "Naan"
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 56
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "6": {
+      "status": "new_class",
+      "new_name": "Raita"
+    },
+    "7": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "8": {
+      "status": "existing",
+      "class_id": 186
+    },
+    "9": {
+      "status": "existing",
+      "class_id": 28
+    },
+    "10": {
+      "status": "existing",
+      "class_id": 76
+    },
+    "11": {
+      "status": "existing",
+      "class_id": 222
+    },
+    "12": {
+      "status": "existing",
+      "class_id": 31
+    },
+    "13": {
+      "status": "existing",
+      "class_id": 66
+    },
+    "14": {
+      "status": "existing",
+      "class_id": 32
+    },
+    "15": {
+      "status": "existing",
+      "class_id": 56
+    },
+    "16": {
+      "status": "existing",
+      "class_id": 32
+    },
+    "17": {
+      "status": "existing",
+      "class_id": 32
+    },
+    "18": {
+      "status": "existing",
+      "class_id": 58
+    },
+    "19": {
+      "status": "existing",
+      "class_id": 23
+    },
+    "20": {
+      "status": "new_class",
+      "new_name": "Pickle"
+    },
+    "21": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "22": {
+      "status": "existing",
+      "class_id": 39
+    }
+  },
+  "v3_huggig_0318": {
+    "0": {
+      "status": "existing",
+      "class_id": 177
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 68
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 68
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 69
+    },
+    "4": {
+      "status": "new_class",
+      "new_name": "Raw mango slice"
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 14
+    },
+    "6": {
+      "status": "existing",
+      "class_id": 69
+    }
+  },
+  "v3_huggig_0320": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0321": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0319": {
+    "0": {
+      "status": "existing",
+      "class_id": 177
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 32
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 117
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 69
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 122
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 14
+    },
+    "6": {
+      "status": "existing",
+      "class_id": 69
+    }
+  },
+  "v3_huggig_0322": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 21
+    }
+  },
+  "v3_huggig_0323": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Poha"
+    }
+  },
+  "v3_huggig_0324": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Poha"
+    }
+  },
+  "v3_huggig_0325": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Poha"
+    }
+  },
+  "v3_huggig_0326": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Aloo masala"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Pickle"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 10
+    }
+  },
+  "v3_huggig_0328": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Aloo masala"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Fried red chilli"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 10
+    }
+  },
+  "v3_huggig_0327": {
+    "0": {
+      "status": "existing",
+      "class_id": 101
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Pickle"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 221
+    }
+  },
+  "v3_huggig_0329": {
+    "0": {
+      "status": "existing",
+      "class_id": 89
+    }
+  },
+  "v3_huggig_0330": {
+    "0": {
+      "status": "existing",
+      "class_id": 89
+    }
+  },
+  "v3_huggig_0331": {
+    "0": {
+      "status": "existing",
+      "class_id": 89
+    }
+  },
+  "v3_huggig_0333": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 58
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 39
+    }
+  },
+  "v3_huggig_0332": {
+    "0": {
+      "status": "existing",
+      "class_id": 56
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 100
+    }
+  },
+  "v3_huggig_0334": {
+    "0": {
+      "status": "existing",
+      "class_id": 66
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "2": {
+      "status": "unknown"
+    }
+  },
+  "v3_huggig_0335": {
+    "0": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0336": {
+    "0": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0337": {
+    "0": {
+      "status": "existing",
+      "class_id": 23
+    }
+  },
+  "v3_huggig_0338": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Tomato ketchup"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 82
+    }
+  },
+  "v3_huggig_0340": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Tomato sauce"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 82
+    }
+  },
+  "v3_huggig_0339": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Tomato ketchup"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 82
+    }
+  },
+  "v3_huggig_0341": {
+    "0": {
+      "status": "existing",
+      "class_id": 11
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 11
+    }
+  },
+  "v3_huggig_0342": {
+    "0": {
+      "status": "existing",
+      "class_id": 56
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 11
+    }
+  },
+  "v3_huggig_0343": {
+    "0": {
+      "status": "existing",
+      "class_id": 11
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 56
+    }
+  },
+  "v3_huggig_0344": {
+    "0": {
+      "status": "existing",
+      "class_id": 91
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 91
+    }
+  },
+  "v3_huggig_0345": {
+    "0": {
+      "status": "existing",
+      "class_id": 91
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 91
+    }
+  },
+  "v3_huggig_0347": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Vada Pav"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Vada Pav"
+    }
+  },
+  "v3_huggig_0346": {
+    "0": {
+      "status": "existing",
+      "class_id": 91
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 91
+    }
+  },
+  "v3_huggig_0349": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Vada pav"
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Vada pav"
+    }
+  },
+  "v3_huggig_0350": {
+    "0": {
+      "status": "existing",
+      "class_id": 14
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 25
+    }
+  },
+  "v3_huggig_0351": {
+    "0": {
+      "status": "existing",
+      "class_id": 14
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 25
+    }
+  },
+  "v3_huggig_0352": {
+    "0": {
+      "status": "existing",
+      "class_id": 14
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Cabbage poriyal"
+    }
+  },
+  "v3_huggig_0353": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 31
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 39
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 222
+    }
+  },
+  "v3_huggig_0355": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 31
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 39
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 222
+    }
+  },
+  "v3_huggig_0354": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 31
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 39
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 222
+    }
+  },
+  "v3_huggig_0356": {
+    "0": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Paratha"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 30
+    }
+  },
+  "v3_huggig_0357": {
+    "0": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Paratha"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "3": {
+      "status": "unknown"
+    },
+    "4": {
+      "status": "new_class",
+      "new_name": "Paratha"
+    }
+  },
+  "v3_huggig_0358": {
+    "0": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Paratha"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 100
+    },
+    "4": {
+      "status": "new_class",
+      "new_name": "Naan"
+    }
+  },
+  "v3_huggig_0359": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Bhindi fry"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 49
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 11
+    }
+  },
+  "v3_huggig_0361": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Bhindi fry"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 49
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 11
+    }
+  },
+  "v3_huggig_0362": {
+    "0": {
+      "status": "existing",
+      "class_id": 59
+    }
+  },
+  "v3_huggig_0363": {
+    "0": {
+      "status": "existing",
+      "class_id": 59
+    }
+  },
+  "v3_huggig_0348": {
+    "0": {
+      "status": "unknown"
+    },
+    "1": {
+      "status": "unknown"
+    }
+  },
+  "v3_huggig_0364": {
+    "0": {
+      "status": "existing",
+      "class_id": 59
+    }
+  },
+  "v3_huggig_0366": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 26
+    },
+    "2": {
+      "status": "new_class",
+      "new_name": "Boondi"
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 68
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 69
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 183
+    }
+  },
+  "v3_huggig_0365": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 26
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 55
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 68
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 69
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 183
+    }
+  },
+  "v3_huggig_0367": {
+    "0": {
+      "status": "existing",
+      "class_id": 13
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 26
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 55
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 68
+    },
+    "4": {
+      "status": "existing",
+      "class_id": 69
+    },
+    "5": {
+      "status": "existing",
+      "class_id": 183
+    }
+  },
+  "v3_huggig_0368": {
+    "0": {
+      "status": "existing",
+      "class_id": 10
+    },
+    "1": {
+      "status": "unknown"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 163
+    }
+  },
+  "v3_huggig_0369": {
+    "0": {
+      "status": "existing",
+      "class_id": 10
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 222
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 163
+    }
+  },
+  "v3_huggig_0370": {
+    "0": {
+      "status": "existing",
+      "class_id": 10
+    },
+    "1": {
+      "status": "unknown"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 163
+    }
+  },
+  "v3_huggig_0371": {
+    "0": {
+      "status": "existing",
+      "class_id": 179
+    }
+  },
+  "v3_huggig_0373": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Mirchi bajji"
+    }
+  },
+  "v3_huggig_0372": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Mirchi bajji"
+    }
+  },
+  "v3_huggig_0375": {
+    "0": {
+      "status": "existing",
+      "class_id": 11
+    }
+  },
+  "v3_huggig_0374": {
+    "0": {
+      "status": "existing",
+      "class_id": 11
+    }
+  },
+  "v3_huggig_0376": {
+    "0": {
+      "status": "existing",
+      "class_id": 11
+    }
+  },
+  "v3_huggig_0001": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Kulcha"
+    },
+    "1": {
+      "status": "unknown"
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 39
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 222
+    }
+  },
+  "v3_huggig_0000": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Naan"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 39
+    },
+    "3": {
+      "status": "new_class",
+      "new_name": "Pickle"
+    }
+  },
+  "v3_huggig_0002": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Naan"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 30
+    },
+    "2": {
+      "status": "existing",
+      "class_id": 39
+    },
+    "3": {
+      "status": "existing",
+      "class_id": 222
+    }
+  },
+  "v3_huggig_0003": {
+    "0": {
+      "status": "existing",
+      "class_id": 196
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 138
+    },
+    "2": {
+      "status": "new_class",
+      "new_name": "Makhana"
+    }
+  },
+  "v3_huggig_0004": {
+    "0": {
+      "status": "existing",
+      "class_id": 196
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 40
+    },
+    "2": {
+      "status": "new_class",
+      "new_name": "Makhana"
+    }
+  },
+  "v3_huggig_0006": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Cocktail"
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 222
+    },
+    "2": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "3": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "4": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "5": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "6": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "7": {
+      "status": "existing",
+      "class_id": 39
+    }
+  },
+  "v3_huggig_0008": {
+    "0": {
+      "status": "existing",
+      "class_id": 222
+    },
+    "1": {
+      "status": "new_class",
+      "new_name": "Cocktail"
+    },
+    "2": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "3": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "4": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "5": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "6": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "7": {
+      "status": "existing",
+      "class_id": 39
+    }
+  },
+  "v3_huggig_0007": {
+    "0": {
+      "status": "existing",
+      "class_id": 208
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 222
+    },
+    "2": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "3": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "4": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "5": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "6": {
+      "status": "new_class",
+      "new_name": "Cutlet"
+    },
+    "7": {
+      "status": "existing",
+      "class_id": 39
+    }
+  },
+  "v3_huggig_0011": {
+    "0": {
+      "status": "existing",
+      "class_id": 32
+    }
+  },
+  "v3_huggig_0005": {
+    "0": {
+      "status": "existing",
+      "class_id": 196
+    },
+    "1": {
+      "status": "existing",
+      "class_id": 142
+    },
+    "2": {
+      "status": "new_class",
+      "new_name": "Fox nut"
+    }
+  },
+  "v3_huggig_0009": {
+    "0": {
+      "status": "existing",
+      "class_id": 29
+    }
+  },
+  "v3_huggig_0014": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Vada pav"
+    }
+  },
+  "v3_huggig_0012": {
+    "0": {
+      "status": "new_class",
+      "new_name": "Dabeli"
+    }
+  }
+}

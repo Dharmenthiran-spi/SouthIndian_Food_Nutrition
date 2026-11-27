@@ -557,7 +557,7 @@
     ],
     "ingredient_display": "Roasted Semolina, Mustard Seeds, Urad Dal, Ginger, Green Chilli, Curry Leaves, Vegetables, Oil",
     "cooking_method": "Standard Preparation",
-    "food_state": "Cooked/Saut\u00e9ed"
+    "food_state": "Cooked/Sautéed"
   },
   "Appam": {
     "food_id": 7,
@@ -8452,7 +8452,7 @@
     ],
     "ingredient_display": "Fresh Cabbage",
     "cooking_method": "Standard Preparation",
-    "food_state": "Cooked/Saut\u00e9ed"
+    "food_state": "Cooked/Sautéed"
   },
   "Beans": {
     "food_id": 108,
@@ -9052,7 +9052,7 @@
     ],
     "ingredient_display": "Fresh Mushroom",
     "cooking_method": "Standard Preparation",
-    "food_state": "Cooked/Saut\u00e9ed"
+    "food_state": "Cooked/Sautéed"
   },
   "Apple": {
     "food_id": 116,
@@ -17008,5 +17008,104 @@
     "ingredient_display": "Caffeine Anhydrous, Beta Alanine, L Citrulline Malate, Electrolytes",
     "cooking_method": "Standard Preparation",
     "food_state": "Cooked"
+  },
+  "Poori": {
+    "food_id": 221,
+    "food_name": "Poori",
+    "category": "South Indian",
+    "group_category": "Full Vegetarian Foods",
+    "diet_type": "Vegetarian",
+    "fitness_goal": "Energy & Balanced Diet",
+    "portion_size": "2 pieces (~120g)",
+    "nutrition": {
+      "calories_kcal": 310,
+      "protein_g": 6.5,
+      "carbohydrates_g": 38.0,
+      "fat_g": 14.5,
+      "fiber_g": 2.8,
+      "sugar_g": 1.0,
+      "net_carbs_g": 35.2,
+      "saturated_fat_g": 2.4,
+      "monounsaturated_fat_g": 7.5,
+      "polyunsaturated_fat_g": 4.2,
+      "trans_fat_g": 0.0,
+      "cholesterol_mg": 0.0,
+      "sodium_mg": 210.0,
+      "potassium_mg": 145.0,
+      "calcium_mg": 22.0,
+      "iron_mg": 1.9,
+      "magnesium_mg": 38.0,
+      "zinc_mg": 0.9,
+      "phosphorus_mg": 95.0,
+      "vitamin_a_mcg": 5.0,
+      "vitamin_c_mg": 0.0,
+      "vitamin_d_mcg": 0.0,
+      "vitamin_e_mg": 1.8,
+      "vitamin_b1_thiamine_mg": 0.18,
+      "vitamin_b6_mg": 0.14,
+      "vitamin_b9_folate_mcg": 24.0,
+      "vitamin_b12_mcg": 0.0,
+      "water_moisture_g": 42.0
+    },
+    "main_ingredients": [
+      "whole_wheat_flour",
+      "cooking_oil",
+      "semolina",
+      "salt",
+      "water"
+    ],
+    "ingredient_display": "Whole Wheat Flour (Atta), Cooking Oil, Semolina (Rava), Salt",
+    "cooking_method": "Deep Fried",
+    "food_state": "Cooked/Fried"
+  },
+  "Chutney": {
+    "food_id": 222,
+    "food_name": "Chutney",
+    "category": "South Indian",
+    "group_category": "Accompaniments & Sides",
+    "diet_type": "Vegetarian",
+    "fitness_goal": "Balanced Diet / Daily Fitness",
+    "portion_size": "1 small bowl (~80g)",
+    "nutrition": {
+      "calories_kcal": 115,
+      "protein_g": 2.4,
+      "carbohydrates_g": 6.5,
+      "fat_g": 9.2,
+      "fiber_g": 2.6,
+      "sugar_g": 1.5,
+      "net_carbs_g": 3.9,
+      "saturated_fat_g": 6.8,
+      "monounsaturated_fat_g": 1.2,
+      "polyunsaturated_fat_g": 0.6,
+      "trans_fat_g": 0.0,
+      "cholesterol_mg": 0.0,
+      "sodium_mg": 190.0,
+      "potassium_mg": 160.0,
+      "calcium_mg": 18.0,
+      "iron_mg": 1.1,
+      "magnesium_mg": 24.0,
+      "zinc_mg": 0.5,
+      "phosphorus_mg": 45.0,
+      "vitamin_a_mcg": 12.0,
+      "vitamin_c_mg": 4.5,
+      "vitamin_d_mcg": 0.0,
+      "vitamin_e_mg": 0.3,
+      "vitamin_b1_thiamine_mg": 0.06,
+      "vitamin_b6_mg": 0.08,
+      "vitamin_b9_folate_mcg": 16.0,
+      "vitamin_b12_mcg": 0.0,
+      "water_moisture_g": 58.0
+    },
+    "main_ingredients": [
+      "fresh_coconut",
+      "roasted_chana_dal",
+      "green_chili",
+      "curry_leaves",
+      "mustard_seeds",
+      "cooking_oil"
+    ],
+    "ingredient_display": "Fresh Coconut, Roasted Chana Dal, Green Chili, Curry Leaves, Mustard Seeds",
+    "cooking_method": "Ground & Tempered",
+    "food_state": "Fresh/Tempered"
   }
 }

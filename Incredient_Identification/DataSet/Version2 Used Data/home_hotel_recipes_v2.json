@@ -19734,5 +19734,81 @@
       "l_citrulline_malate",
       "electrolytes"
     ]
+  },
+  "Poori": {
+    "home": {
+      "portion_desc": "2 home-made whole wheat pooris (~110g)",
+      "total_weight_g": 110,
+      "ingredients": {
+        "whole_wheat_flour": 65,
+        "cooking_oil": 12,
+        "semolina": 5,
+        "salt": 1
+      },
+      "nutrition": {
+        "calories_kcal": 290,
+        "protein_g": 6.2,
+        "carbohydrates_g": 37.0,
+        "fat_g": 12.8,
+        "fiber_g": 2.9
+      },
+      "note": "Home preparation drains excess oil well on paper towels."
+    },
+    "hotel": {
+      "portion_desc": "2-3 restaurant pooris (~140g)",
+      "total_weight_g": 140,
+      "ingredients": {
+        "whole_wheat_flour": 70,
+        "maida": 15,
+        "cooking_oil": 22,
+        "salt": 2
+      },
+      "nutrition": {
+        "calories_kcal": 395,
+        "protein_g": 7.0,
+        "carbohydrates_g": 46.0,
+        "fat_g": 20.5,
+        "fiber_g": 2.1
+      },
+      "note": "Hotel pooris often mix maida for puffiness and retain higher frying oil."
+    }
+  },
+  "Chutney": {
+    "home": {
+      "portion_desc": "1 home bowl coconut/tomato chutney (~80g)",
+      "total_weight_g": 80,
+      "ingredients": {
+        "fresh_coconut": 35,
+        "roasted_chana_dal": 12,
+        "green_chili": 3,
+        "cooking_oil": 3
+      },
+      "nutrition": {
+        "calories_kcal": 115,
+        "protein_g": 2.4,
+        "carbohydrates_g": 6.5,
+        "fat_g": 9.2,
+        "fiber_g": 2.6
+      },
+      "note": "Freshly ground coconut with minimal tempering oil."
+    },
+    "hotel": {
+      "portion_desc": "1 restaurant chutney cup (~90g)",
+      "total_weight_g": 90,
+      "ingredients": {
+        "fresh_coconut": 30,
+        "roasted_chana_dal": 18,
+        "cooking_oil": 7,
+        "water": 35
+      },
+      "nutrition": {
+        "calories_kcal": 145,
+        "protein_g": 2.8,
+        "carbohydrates_g": 8.2,
+        "fat_g": 11.4,
+        "fiber_g": 2.2
+      },
+      "note": "Hotel chutney uses higher chana dal and tempering oil."
+    }
   }
 }

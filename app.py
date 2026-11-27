@@ -6,7 +6,7 @@ import torch
 import torchvision
 from PIL import Image
 import streamlit as st
-from ultralytics import YOLO
+from ultralytics import YOLO, SAM
 
 # Import Ingredient & Nutrition Module
 try:
@@ -135,6 +135,11 @@ multi_food_mode = st.sidebar.checkbox(
     "Multi-Food Plate Scan (Thali / Combo)",
     value=True,
     help="Scans overlapping zoomed regions of the plate so smaller side dishes, bowls, and chutneys are also detected."
+)
+shape_seg_mode = st.sidebar.checkbox(
+    "🎨 Dish Shape Segmentation (Round / Contour)",
+    value=True,
+    help="Highlights each dish by its exact round/food shape instead of a square rectangle."
 )
 CONF_THRESHOLD = st.sidebar.slider(
     "Confidence Threshold:",
@@ -394,7 +399,11 @@ def render_home_hotel_section(food_name, key_prefix="text"):
 # ==========================================
 # MULTI-FOOD PLATE DETECTION HELPER
 # ==========================================
-def run_food_detection(yolo_model, pil_img, conf_thresh, iou_thresh, multi_food=True):
+@st.cache_resource
+def load_sam_model():
+    return SAM("mobile_sam.pt")
+
+def run_food_detection(yolo_model, pil_img, conf_thresh, iou_thresh, multi_food=True, shape_seg=True):
     """
     Runs YOLO on full image and (optionally) 5 overlapping zoomed plate regions
     so smaller bowls, side dishes, and combo items on a multi-food plate are detected.
@@ -456,7 +465,7 @@ def run_food_detection(yolo_model, pil_img, conf_thresh, iou_thresh, multi_food=
     scores_t = scores_t[keep_cross]
     cls_t = cls_t[keep_cross]
 
-    # Draw crisp bounding boxes
+    # Draw shape-based segmentation masks (MobileSAM) or fallback to boxes
     palette = [
         (255, 87, 34), (46, 125, 50), (30, 136, 229), (156, 39, 176),
         (245, 124, 0), (0, 150, 136), (194, 24, 91), (93, 64, 55)
@@ -465,7 +474,18 @@ def run_food_detection(yolo_model, pil_img, conf_thresh, iou_thresh, multi_food=
     thickness = max(2, int(min(w, h) / 250))
     font_scale = max(0.5, min(w, h) / 900.0)
 
-    for box, score, cid in zip(boxes_t, scores_t, cls_t):
+    sam_polys = None
+    if shape_seg:
+        try:
+            sam_model = load_sam_model()
+            sam_res = sam_model.predict(source=img_bgr, bboxes=boxes_t.tolist(), verbose=False)[0]
+            if sam_res.masks is not None and len(sam_res.masks.xyn) == len(boxes_t):
+                sam_polys = sam_res.masks.xyn
+        except Exception:
+            sam_polys = None
+
+    overlay = img_bgr.copy()
+    for idx, (box, score, cid) in enumerate(zip(boxes_t, scores_t, cls_t)):
         x1, y1, x2, y2 = [int(v) for v in box.tolist()]
         cid_int = int(cid.item())
         conf_pct = float(score.item()) * 100.0
@@ -474,13 +494,28 @@ def run_food_detection(yolo_model, pil_img, conf_thresh, iou_thresh, multi_food=
 
         rgb_col = palette[cid_int % len(palette)]
         bgr_col = (rgb_col[2], rgb_col[1], rgb_col[0])
-        cv2.rectangle(img_bgr, (x1, y1), (x2, y2), bgr_col, thickness)
-
         label = f"{food_name} {conf_pct:.0f}%"
-        (tw, th), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, font_scale, 2)
-        ty1 = max(y1 - th - 8, 0)
-        cv2.rectangle(img_bgr, (x1, ty1), (x1 + tw + 8, ty1 + th + 8), bgr_col, -1)
-        cv2.putText(img_bgr, label, (x1 + 4, ty1 + th + 3), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), 2)
+
+        if sam_polys is not None and len(sam_polys[idx]) >= 3:
+            pts = np.round(sam_polys[idx] * np.array([w, h])).astype(np.int32)
+            cv2.fillPoly(overlay, [pts], bgr_col)
+            cv2.polylines(img_bgr, [pts], True, bgr_col, thickness)
+            cx = int(np.mean(pts[:, 0]))
+            cy = int(np.mean(pts[:, 1]))
+            (tw, th), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, font_scale, 2)
+            lx = max(0, min(w - tw - 8, cx - tw // 2))
+            ly = max(th + 8, min(h - 4, cy))
+            cv2.rectangle(img_bgr, (lx, ly - th - 6), (lx + tw + 8, ly + 4), bgr_col, -1)
+            cv2.putText(img_bgr, label, (lx + 4, ly - 2), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), 2)
+        else:
+            cv2.rectangle(img_bgr, (x1, y1), (x2, y2), bgr_col, thickness)
+            (tw, th), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, font_scale, 2)
+            ty1 = max(y1 - th - 8, 0)
+            cv2.rectangle(img_bgr, (x1, ty1), (x1 + tw + 8, ty1 + th + 8), bgr_col, -1)
+            cv2.putText(img_bgr, label, (x1 + 4, ty1 + th + 3), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), 2)
+
+    if sam_polys is not None:
+        img_bgr = cv2.addWeighted(overlay, 0.30, img_bgr, 0.70, 0)
 
     annotated_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
     return annotated_rgb, detected_items
@@ -580,7 +615,8 @@ with tab_image:
                 image_to_process,
                 CONF_THRESHOLD,
                 IOU_THRESHOLD,
-                multi_food=multi_food_mode
+                multi_food=multi_food_mode,
+                shape_seg=shape_seg_mode
             )
 
         col1, col2 = st.columns([1, 1])

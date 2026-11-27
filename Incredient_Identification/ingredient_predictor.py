@@ -98,12 +98,22 @@ class IngredientNutritionPredictor:
         with open(path, "r", encoding="utf-8") as f:
             self.database = json.load(f)
         
+        alias_pairs = [
+            ("briyani", "biryani"), ("biryani", "briyani"),
+            ("idly", "idli"), ("idli", "idly"),
+            ("satham", "rice"), ("rice", "satham"),
+            ("vadai", "vada"), ("vada", "vadai"),
+            ("venpongal", "pongal"), ("pongal", "venpongal"),
+            ("chappathi", "chapati"), ("chapati", "chappathi"),
+            ("puri", "poori"), ("poori", "puri"),
+        ]
+
         # Build normalized index with bidirectional aliases
         self.normalized_index = {}
         for key, val in self.database.items():
             norm_key = self._normalize(key)
             self.normalized_index[norm_key] = val
-            for a, b in [("briyani", "biryani"), ("biryani", "briyani"), ("idly", "idli"), ("idli", "idly"), ("satham", "rice"), ("rice", "satham"), ("vadai", "vada"), ("vada", "vadai")]:
+            for a, b in alias_pairs:
                 if a in norm_key:
                     self.normalized_index[norm_key.replace(a, b)] = val
 
@@ -121,7 +131,7 @@ class IngredientNutritionPredictor:
             for k, v in self.home_hotel_db.items():
                 nk = self._normalize(k)
                 self.home_hotel_index[nk] = v
-                for a, b in [("briyani", "biryani"), ("biryani", "briyani"), ("idly", "idli"), ("idli", "idly"), ("satham", "rice"), ("rice", "satham"), ("vadai", "vada"), ("vada", "vadai")]:
+                for a, b in alias_pairs:
                     if a in nk:
                         self.home_hotel_index[nk.replace(a, b)] = v
 
