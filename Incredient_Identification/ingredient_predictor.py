@@ -18,16 +18,21 @@ import numpy as np
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Prioritize Version 2 datasets (221 classes), fallback to Version 1 (31 classes)
+# Prioritize Version 3 datasets (231 classes), fallback to Version 2 (221) and Version 1 (31)
+V3_JSON_PATH = os.path.join(CURRENT_DIR, "DataSet", "Version3 Used Data", "dishes_ingredients_map_v3.json")
 V2_JSON_PATH = os.path.join(CURRENT_DIR, "DataSet", "Version2 Used Data", "dishes_ingredients_map_v2.json")
 V1_JSON_PATH = os.path.join(CURRENT_DIR, "DataSet", "Version1 Used Data", "dishes_ingredients_map.json")
-JSON_PATH = V2_JSON_PATH if os.path.exists(V2_JSON_PATH) else V1_JSON_PATH
+JSON_PATH = next((p for p in (V3_JSON_PATH, V2_JSON_PATH, V1_JSON_PATH) if os.path.exists(p)), V1_JSON_PATH)
 
+V3_HOME_HOTEL = os.path.join(CURRENT_DIR, "DataSet", "Version3 Used Data", "home_hotel_recipes_v3.json")
 V2_HOME_HOTEL = os.path.join(CURRENT_DIR, "DataSet", "Version2 Used Data", "home_hotel_recipes_v2.json")
 V1_HOME_HOTEL = os.path.join(CURRENT_DIR, "DataSet", "Version1 Used Data", "home_hotel_recipes.json")
-HOME_HOTEL_PATH = V2_HOME_HOTEL if os.path.exists(V2_HOME_HOTEL) else V1_HOME_HOTEL
+HOME_HOTEL_PATH = next((p for p in (V3_HOME_HOTEL, V2_HOME_HOTEL, V1_HOME_HOTEL) if os.path.exists(p)), V1_HOME_HOTEL)
 
 MODEL_PATHS = [
+    os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version3", "ingredient_identification_v3_best.pt"),
+    os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version3", "best.pt"),
+    os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version2", "ingredient_identification_v2_best.pt"),
     os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version2", "best.pt"),
     os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version1", "ingredient_identification_v1_best.pt"),
     os.path.join(CURRENT_DIR, "Models", "Ingredient Identification", "Version1", "best.pt")

@@ -1,0 +1,329 @@
+ingredient_id,ingredient_key,display_name
+0,almonds,Almonds
+1,apple_fruit_salad,Apple Fruit Salad
+2,asafoetida,Asafoetida
+3,banana,Banana
+4,basmati_rice,Basmati Rice
+5,beans,Beans
+6,beetroot_salad,Beetroot Salad
+7,beta_alanine,Beta Alanine
+8,biryani_masala,Biryani Masala
+9,black_pepper,Black Pepper
+10,blend_of_mozzarella_cheeses,Blend Of Mozzarella Cheeses
+11,boiled_black_chana,Boiled Black Chana
+12,boiled_black_gram_sprouts,Boiled Black Gram Sprouts
+13,boiled_boiled_chickpeas,Boiled Boiled Chickpeas
+14,boiled_chickpea_sprouts,Boiled Chickpea Sprouts
+15,boiled_chickpeas,Boiled Chickpeas
+16,boiled_green_gram_sprouts,Boiled Green Gram Sprouts
+17,boiled_green_peas,Boiled Green Peas
+18,boiled_horse_gram,Boiled Horse Gram
+19,boiled_kidney_beans,Boiled Kidney Beans
+20,boiled_lentils,Boiled Lentils
+21,boiled_mixed_sprouts,Boiled Mixed Sprouts
+22,boiled_soybeans,Boiled Soybeans
+23,boiled_white_rice,Boiled White Rice
+24,boneless_chicken,Boneless Chicken
+25,boneless_chicken_cubes,Boneless Chicken Cubes
+26,brazil_nuts,Brazil Nuts
+27,bread,Bread
+28,bread_crumbs,Bread Crumbs
+29,bread_slices,Bread Slices
+30,brewed_tea_leaves,Brewed Tea Leaves
+31,broken_raw_rice,Broken Raw Rice
+32,brown_rice_protein,Brown Rice Protein
+33,bun,Bun
+34,burger_bun,Burger Bun
+35,butter,Butter
+36,butter_oil,Butter Oil
+37,buttermilk,Buttermilk
+38,button_mushrooms,Button Mushrooms
+39,cabbage,Cabbage
+40,caffeine_anhydrous,Caffeine Anhydrous
+41,capsicum,Capsicum
+42,cardamom,Cardamom
+43,carrot,Carrot
+44,carrot_salad,Carrot Salad
+45,cashew_paste,Cashew Paste
+46,cashews,Cashews
+47,chana_dal,Chana Dal
+48,chana_masala_spice,Chana Masala Spice
+49,cheddar_cheese_slice,Cheddar Cheese Slice
+50,cheese,Cheese
+51,cheese_sauce,Cheese Sauce
+52,chicken,Chicken
+53,chicken_breast,Chicken Breast
+54,chicken_chunks,Chicken Chunks
+55,chicken_leg_breast,Chicken Leg Breast
+56,chicken_patty,Chicken Patty
+57,chicken_pieces,Chicken Pieces
+58,chickpea_salad,Chickpea Salad
+59,chilli_oil,Chilli Oil
+60,chow_chow,Chow Chow
+61,chutney,Chutney
+62,clarified_butterfat,Clarified Butterfat
+63,coagulated_milk_curd,Coagulated Milk Curd
+64,coarse_rice_flour,Coarse Rice Flour
+65,cocoa,Cocoa
+66,coconut_cashew_paste,Coconut Cashew Paste
+67,coconut_curd_paste,Coconut Curd Paste
+68,coconut_milk,Coconut Milk
+69,coconut_oil,Coconut Oil
+70,coconut_paste,Coconut Paste
+71,cooked_rice,Cooked Rice
+72,coriander,Coriander
+73,corn_flour,Corn Flour
+74,corn_tortilla,Corn Tortilla
+75,corn_tortilla_chips,Corn Tortilla Chips
+76,crab,Crab
+77,cream,Cream
+78,creatine_monohydrate_powder,Creatine Monohydrate Powder
+79,crushed_black_pepper,Crushed Black Pepper
+80,cucumber,Cucumber
+81,cucumber_salad,Cucumber Salad
+82,cumin,Cumin
+83,curd,Curd
+84,curry_leaves,Curry Leaves
+85,curry_powder,Curry Powder
+86,dates_or_maltitol,Dates Or Maltitol
+87,dosa_batter,Dosa Batter
+88,dried_watermelon_seeds,Dried Watermelon Seeds
+89,drumstick,Drumstick
+90,dry_red_chilli,Dry Red Chilli
+91,durum_wheat_pasta,Durum Wheat Pasta
+92,egg,Egg
+93,egg_or_vegetables,Egg Or Vegetables
+94,eggs,Eggs
+95,electrolytes,Electrolytes
+96,energy_drinks,Energy Drinks
+97,fennel,Fennel
+98,fenugreek,Fenugreek
+99,fenugreek_seeds,Fenugreek Seeds
+100,fermented_milk_cultures,Fermented Milk Cultures
+101,filling,Filling
+102,filter_coffee,Filter Coffee
+103,finger_millet_flour,Finger Millet Flour
+104,fish_fillet,Fish Fillet
+105,fish_slice,Fish Slice
+106,flattened_rice_poha,Flattened Rice Poha
+107,flavour,Flavour
+108,flour_crust,Flour Crust
+109,frankfurter_sausage,Frankfurter Sausage
+110,french_beans,French Beans
+111,fresh_amaranth_leaves,Fresh Amaranth Leaves
+112,fresh_apple,Fresh Apple
+113,fresh_apple_juice,Fresh Apple Juice
+114,fresh_avocado,Fresh Avocado
+115,fresh_banana,Fresh Banana
+116,fresh_beans,Fresh Beans
+117,fresh_beetroot,Fresh Beetroot
+118,fresh_bitter_gourd,Fresh Bitter Gourd
+119,fresh_blueberry,Fresh Blueberry
+120,fresh_bottle_gourd,Fresh Bottle Gourd
+121,fresh_brinjal,Fresh Brinjal
+122,fresh_broccoli,Fresh Broccoli
+123,fresh_cabbage,Fresh Cabbage
+124,fresh_capsicum,Fresh Capsicum
+125,fresh_carrot,Fresh Carrot
+126,fresh_cauliflower,Fresh Cauliflower
+127,fresh_coconut,Fresh Coconut
+128,fresh_cucumber,Fresh Cucumber
+129,fresh_curd,Fresh Curd
+130,fresh_custard_apple,Fresh Custard Apple
+131,fresh_dates,Fresh Dates
+132,fresh_dragon_fruit,Fresh Dragon Fruit
+133,fresh_drumstick,Fresh Drumstick
+134,fresh_fig,Fresh Fig
+135,fresh_fish,Fresh Fish
+136,fresh_fresh_fruit_juices,Fresh Fresh Fruit Juices
+137,fresh_grapes,Fresh Grapes
+138,fresh_grated_coconut,Fresh Grated Coconut
+139,fresh_guava,Fresh Guava
+140,fresh_jackfruit,Fresh Jackfruit
+141,fresh_kiwi,Fresh Kiwi
+142,fresh_lemon_juice,Fresh Lemon Juice
+143,fresh_mango,Fresh Mango
+144,fresh_mushroom,Fresh Mushroom
+145,fresh_muskmelon,Fresh Muskmelon
+146,fresh_onion,Fresh Onion
+147,fresh_orange,Fresh Orange
+148,fresh_orange_juice,Fresh Orange Juice
+149,fresh_papaya,Fresh Papaya
+150,fresh_pineapple,Fresh Pineapple
+151,fresh_pomegranate,Fresh Pomegranate
+152,fresh_potato,Fresh Potato
+153,fresh_pumpkin,Fresh Pumpkin
+154,fresh_sapota,Fresh Sapota
+155,fresh_spinach,Fresh Spinach
+156,fresh_strawberry,Fresh Strawberry
+157,fresh_sugarcane_juice,Fresh Sugarcane Juice
+158,fresh_sweet_potato,Fresh Sweet Potato
+159,fresh_tomato,Fresh Tomato
+160,fresh_watermelon,Fresh Watermelon
+161,fried_onions,Fried Onions
+162,garam_masala,Garam Masala
+163,garlic,Garlic
+164,ghee,Ghee
+165,ginger,Ginger
+166,ginger_garlic,Ginger Garlic
+167,glucose,Glucose
+168,gram_flour_besan,Gram Flour Besan
+169,gram_flour_or_cereal,Gram Flour Or Cereal
+170,grated_coconut,Grated Coconut
+171,green_chilli,Green Chilli
+172,green_peas,Green Peas
+173,greens,Greens
+174,hazelnuts,Hazelnuts
+175,herbs,Herbs
+176,honey,Honey
+177,hot_dog_bun,Hot Dog Bun
+178,hulled_hemp_hearts,Hulled Hemp Hearts
+179,hulled_sunflower_seeds,Hulled Sunflower Seeds
+180,hung_curd,Hung Curd
+181,jalapenos,Jalapenos
+182,kashmiri_chilli,Kashmiri Chilli
+183,kashmiri_mirch,Kashmiri Mirch
+184,kasuri_methi,Kasuri Methi
+185,ketchup,Ketchup
+186,khus_khus_poppy_seeds,Khus Khus Poppy Seeds
+187,l_citrulline_malate,L Citrulline Malate
+188,lassi,Lassi
+189,lemon,Lemon
+190,lemon_juice,Lemon Juice
+191,lettuce,Lettuce
+192,macadamia_nuts,Macadamia Nuts
+193,macaroni_elbows,Macaroni Elbows
+194,maida_refined_flour,Maida Refined Flour
+195,maltodextrin_complex_carbs,Maltodextrin Complex Carbs
+196,mango_fruit_salad,Mango Fruit Salad
+197,marinara_sauce,Marinara Sauce
+198,marinated_meat,Marinated Meat
+199,mayo,Mayo
+200,mayonnaise,Mayonnaise
+201,melon_seeds_magaz,Melon Seeds Magaz
+202,melted_cheese,Melted Cheese
+203,micellar_casein_powder,Micellar Casein Powder
+204,milk,Milk
+205,milk_solid_or_flour,Milk Solid Or Flour
+206,minced_chicken,Minced Chicken
+207,mint,Mint
+208,mixed_fruit_salad,Mixed Fruit Salad
+209,mixed_vegetable_salad,Mixed Vegetable Salad
+210,mixed_vegetables,Mixed Vegetables
+211,moong_dal,Moong Dal
+212,mozzarella_cheese,Mozzarella Cheese
+213,mustard,Mustard
+214,mustard_oil,Mustard Oil
+215,mustard_seeds,Mustard Seeds
+216,mutton_goat_meat,Mutton Goat Meat
+217,oats,Oats
+218,oil,Oil
+219,olive_oil,Olive Oil
+220,olives,Olives
+221,onion,Onion
+222,onion_tomato_gravy,Onion Tomato Gravy
+223,onion_tomato_salad,Onion Tomato Salad
+224,paneer,Paneer
+225,paneer_cottage_cheese,Paneer Cottage Cheese
+226,parboiled_rice,Parboiled Rice
+227,patty,Patty
+228,pea_protein_isolate,Pea Protein Isolate
+229,peanuts,Peanuts
+230,peas,Peas
+231,pecan_nuts,Pecan Nuts
+232,pepita_pumpkin_seeds,Pepita Pumpkin Seeds
+233,pepper,Pepper
+234,pepper_powder,Pepper Powder
+235,pickles,Pickles
+236,pistachio_nuts,Pistachio Nuts
+237,pita_flatbread,Pita Flatbread
+238,pizza_crust,Pizza Crust
+239,pizza_dough,Pizza Dough
+240,pizza_sauce,Pizza Sauce
+241,pomegranate,Pomegranate
+242,poppy_seeds,Poppy Seeds
+243,potassium_citrate,Potassium Citrate
+244,potato,Potato
+245,potato_strips,Potato Strips
+246,prawns,Prawns
+247,protein_blend,Protein Blend
+248,protein_salad,Protein Salad
+249,pure_water,Pure Water
+250,ragi_flour,Ragi Flour
+251,raw_banana,Raw Banana
+252,raw_rice,Raw Rice
+253,red_chilli_paste,Red Chilli Paste
+254,red_kidney_beans,Red Kidney Beans
+255,rice,Rice
+256,rice_flour,Rice Flour
+257,ripe_tomatoes,Ripe Tomatoes
+258,roasted_peanuts,Roasted Peanuts
+259,roasted_rice_flour,Roasted Rice Flour
+260,roasted_semolina,Roasted Semolina
+261,sabja_sweet_basil_seeds,Sabja Sweet Basil Seeds
+262,saffron,Saffron
+263,salsa,Salsa
+264,salt,Salt
+265,sambar_powder,Sambar Powder
+266,sauce,Sauce
+267,scallions,Scallions
+268,seasonal_fruit_salad,Seasonal Fruit Salad
+269,seasoned_filling,Seasoned Filling
+270,seeraga_samba_rice,Seeraga Samba Rice
+271,sesame_seeds,Sesame Seeds
+272,shallots,Shallots
+273,shelled_walnuts,Shelled Walnuts
+274,shredded_veggies,Shredded Veggies
+275,skimmed_cow_milk,Skimmed Cow Milk
+276,sodium_chloride,Sodium Chloride
+277,soft_drinks,Soft Drinks
+278,soy_protein_isolate,Soy Protein Isolate
+279,soy_sauce,Soy Sauce
+280,spices,Spices
+281,spring_onion,Spring Onion
+282,sprouts_salad,Sprouts Salad
+283,steamed_rice,Steamed Rice
+284,sugar,Sugar
+285,tahini_garlic_sauce,Tahini Garlic Sauce
+286,tamarind,Tamarind
+287,tamarind_extract,Tamarind Extract
+288,tamarind_water,Tamarind Water
+289,tandoori_spices,Tandoori Spices
+290,tender_coconut_water,Tender Coconut Water
+291,tender_mutton,Tender Mutton
+292,tomato,Tomato
+293,tomato_puree,Tomato Puree
+294,tomato_rasam,Tomato Rasam
+295,tomato_sauce,Tomato Sauce
+296,tomato_slice,Tomato Slice
+297,toned_milk,Toned Milk
+298,toor_dal,Toor Dal
+299,tortilla_flatbread,Tortilla Flatbread
+300,turmeric,Turmeric
+301,urad_dal,Urad Dal
+302,vegetable_filling,Vegetable Filling
+303,vegetable_oil,Vegetable Oil
+304,vegetables,Vegetables
+305,veggie_potato_patty,Veggie Potato Patty
+306,vitamins,Vitamins
+307,water,Water
+308,watermelon_fruit_salad,Watermelon Fruit Salad
+309,wheat_noodles,Wheat Noodles
+310,whey_protein,Whey Protein
+311,whey_protein_concentrate_powder,Whey Protein Concentrate Powder
+312,whey_protein_isolate_powder,Whey Protein Isolate Powder
+313,whole_almonds,Whole Almonds
+314,whole_cashews,Whole Cashews
+315,whole_chia_seeds,Whole Chia Seeds
+316,whole_cow_milk,Whole Cow Milk
+317,whole_egg,Whole Egg
+318,whole_flax_seeds,Whole Flax Seeds
+319,whole_garam_masala,Whole Garam Masala
+320,whole_hen_egg,Whole Hen Egg
+321,whole_spices,Whole Spices
+322,whole_wheat_flour,Whole Wheat Flour
+323,yam,Yam
+324,yeast,Yeast
+325,yellow_lentils,Yellow Lentils
+326,yellow_moong_dal,Yellow Moong Dal
+327,yogurt,Yogurt

@@ -1,0 +1,463 @@
+food_id,food_name,category,recipe_type,ingredients_tokens,ingredients_display,calories_kcal,protein_g,carbohydrates_g,fat_g,fiber_g,sugar_g,sodium_mg,potassium_mg,calcium_mg,iron_mg,vitamin_c_mg
+0,Idli,South Indian,hotel_style,parboiled_rice;urad_dal;fenugreek_seeds;salt,"Parboiled Rice, Urad Dal, Fenugreek Seeds, Salt",153.4,4.0,29.4,0.5,1.2,1.2,240.0,140.0,30.0,1.6,2.0
+0,Idli,South Indian,home_style,parboiled_rice;urad_dal;fenugreek_seeds;salt,"Parboiled Rice, Urad Dal, Fenugreek Seeds, Salt",123.5,4.0,28.0,0.3,1.2,1.2,240.0,140.0,30.0,1.6,2.0
+1,Dosa,South Indian,healthy_choice,raw_rice;urad_dal;oil;salt,"Raw Rice, Urad Dal, Oil, Salt",137.8,4.5,24.6,2.4,1.4,0.6,168.0,140.0,30.0,1.6,2.0
+1,Dosa,South Indian,hotel_style,raw_rice;urad_dal;oil;salt,"Raw Rice, Urad Dal, Oil, Salt",198.2,3.9,30.5,5.0,1.1,1.2,240.0,140.0,30.0,1.6,2.0
+2,Masala dosa,South Indian,home_style,dosa_batter;potato;onion;mustard_seeds;green_chilli;turmeric;oil,"Dosa Batter, Potato, Onion, Mustard Seeds, Green Chilli, Turmeric, Oil",209.0,4.8,34.0,6.1,2.4,1.2,240.0,140.0,30.0,1.6,2.0
+2,Masala dosa,South Indian,healthy_choice,dosa_batter;potato;onion;mustard_seeds;green_chilli;turmeric;oil,"Dosa Batter, Potato, Onion, Mustard Seeds, Green Chilli, Turmeric, Oil",180.4,5.5,28.9,4.7,3.0,0.6,168.0,140.0,30.0,1.6,2.0
+3,Ragi dosa,South Indian,home_style,finger_millet_flour;rice_flour;curd;cumin;green_chilli;oil,"Finger Millet Flour, Rice Flour, Curd, Cumin, Green Chilli, Oil",147.2,4.2,30.0,1.8,3.8,1.2,240.0,140.0,344.0,3.9,2.0
+3,Ragi dosa,South Indian,hotel_style,finger_millet_flour;rice_flour;curd;cumin;green_chilli;oil,"Finger Millet Flour, Rice Flour, Curd, Cumin, Green Chilli, Oil",182.9,4.2,31.5,2.8,3.8,1.2,240.0,140.0,344.0,3.9,2.0
+4,Ragi koozh,South Indian,home_style,ragi_flour;broken_raw_rice;buttermilk;shallots;salt,"Ragi Flour, Broken Raw Rice, Buttermilk, Shallots, Salt",104.5,2.8,22.0,0.8,3.2,1.2,240.0,140.0,344.0,3.9,2.0
+4,Ragi koozh,South Indian,hotel_style,ragi_flour;broken_raw_rice;buttermilk;shallots;salt,"Ragi Flour, Broken Raw Rice, Buttermilk, Shallots, Salt",129.8,2.8,23.1,1.4,3.2,1.2,240.0,140.0,344.0,3.9,2.0
+5,Pongal,South Indian,home_style,raw_rice;yellow_moong_dal;ghee;black_pepper;cumin;ginger;cashews;curry_leaves,"Raw Rice, Yellow Moong Dal, Ghee, Black Pepper, Cumin, Ginger, Cashews, Curry Leaves",185.2,5.2,31.0,4.9,1.8,1.2,240.0,140.0,30.0,1.6,2.0
+5,Pongal,South Indian,healthy_choice,raw_rice;yellow_moong_dal;ghee;black_pepper;cumin;ginger;cashews;curry_leaves,"Raw Rice, Yellow Moong Dal, Ghee, Black Pepper, Cumin, Ginger, Cashews, Curry Leaves",159.9,6.0,26.3,3.8,2.2,0.6,168.0,140.0,30.0,1.6,2.0
+6,Upma,South Indian,hotel_style,roasted_semolina;mustard_seeds;urad_dal;ginger;green_chilli;curry_leaves;vegetables;oil,"Roasted Semolina, Mustard Seeds, Urad Dal, Ginger, Green Chilli, Curry Leaves, Vegetables, Oil",200.6,4.1,29.4,6.1,2.0,1.2,240.0,140.0,30.0,1.6,2.0
+6,Upma,South Indian,home_style,roasted_semolina;mustard_seeds;urad_dal;ginger;green_chilli;curry_leaves;vegetables;oil,"Roasted Semolina, Mustard Seeds, Urad Dal, Ginger, Green Chilli, Curry Leaves, Vegetables, Oil",161.5,4.1,28.0,3.8,2.0,1.2,240.0,140.0,30.0,1.6,2.0
+7,Appam,South Indian,home_style,raw_rice;coconut_milk;sugar;yeast;salt,"Raw Rice, Coconut Milk, Sugar, Yeast, Salt",152.0,2.8,32.0,2.0,1.2,1.2,240.0,140.0,30.0,1.6,2.0
+7,Appam,South Indian,healthy_choice,raw_rice;coconut_milk;yeast;salt,"Raw Rice, Coconut Milk, Yeast, Salt",131.2,3.2,27.2,1.5,1.5,0.6,168.0,140.0,30.0,1.6,2.0
+8,Puttu,South Indian,standard,coarse_rice_flour;fresh_grated_coconut;water;salt,"Coarse Rice Flour, Fresh Grated Coconut, Water, Salt",180.0,3.6,38.0,1.5,2.5,1.2,240.0,140.0,30.0,1.6,2.0
+8,Puttu,South Indian,hotel_style,coarse_rice_flour;fresh_grated_coconut;water;salt,"Coarse Rice Flour, Fresh Grated Coconut, Water, Salt",212.4,3.6,39.9,2.0,2.5,1.2,240.0,140.0,30.0,1.6,2.0
+9,Idiyappam,South Indian,hotel_style,roasted_rice_flour;water;salt;grated_coconut,"Roasted Rice Flour, Water, Salt, Grated Coconut",165.2,2.5,32.6,0.7,1.0,1.2,240.0,140.0,30.0,1.6,2.0
+9,Idiyappam,South Indian,healthy_choice,roasted_rice_flour;water;salt;grated_coconut,"Roasted Rice Flour, Water, Salt, Grated Coconut",114.8,2.9,26.3,0.3,1.2,0.6,168.0,140.0,30.0,1.6,2.0
+10,Adai,South Indian,hotel_style,raw_rice;toor_dal;chana_dal;urad_dal;dry_red_chilli;asafoetida;oil,"Raw Rice, Toor Dal, Chana Dal, Urad Dal, Dry Red Chilli, Asafoetida, Oil",247.8,8.5,35.7,6.1,4.5,1.2,240.0,140.0,30.0,1.6,2.0
+10,Adai,South Indian,home_style,raw_rice;toor_dal;chana_dal;urad_dal;dry_red_chilli;asafoetida;oil,"Raw Rice, Toor Dal, Chana Dal, Urad Dal, Dry Red Chilli, Asafoetida, Oil",199.5,8.5,34.0,3.8,4.5,1.2,240.0,140.0,30.0,1.6,2.0
+11,Chapati,South Indian,healthy_choice,whole_wheat_flour;water;salt;oil,"Whole Wheat Flour, Water, Salt, Oil",213.2,9.4,44.2,1.3,8.8,0.6,168.0,140.0,30.0,1.6,2.0
+11,Chapati,South Indian,hotel_style,whole_wheat_flour;water;salt;oil,"Whole Wheat Flour, Water, Salt, Oil",306.8,8.2,54.6,2.7,7.0,1.2,240.0,140.0,30.0,1.6,2.0
+12,Parotta,South Indian,healthy_choice,maida_refined_flour;oil;salt;water,"Maida Refined Flour, Oil, Salt, Water",266.5,7.8,40.8,7.8,2.2,0.6,168.0,140.0,30.0,1.6,2.0
+12,Parotta,South Indian,home_style,maida_refined_flour;oil;sugar;salt;water,"Maida Refined Flour, Oil, Sugar, Salt, Water",308.8,6.8,48.0,10.2,1.8,1.2,240.0,140.0,30.0,1.6,2.0
+13,Rice,South Indian,hotel_style,boiled_white_rice;water,"Boiled White Rice, Water",153.4,2.7,29.4,0.4,0.4,1.2,240.0,140.0,30.0,1.6,2.0
+13,Rice,South Indian,healthy_choice,boiled_white_rice;water,"Boiled White Rice, Water",106.6,3.1,23.8,0.2,0.5,0.6,168.0,140.0,30.0,1.6,2.0
+14,Lemon rice,South Indian,standard,cooked_rice;fresh_lemon_juice;peanuts;mustard_seeds;turmeric;curry_leaves;oil,"Cooked Rice, Fresh Lemon Juice, Peanuts, Mustard Seeds, Turmeric, Curry Leaves, Oil",185.0,3.2,32.0,5.0,1.2,1.2,240.0,140.0,30.0,1.6,2.0
+14,Lemon rice,South Indian,home_style,cooked_rice;fresh_lemon_juice;peanuts;mustard_seeds;turmeric;curry_leaves;oil,"Cooked Rice, Fresh Lemon Juice, Peanuts, Mustard Seeds, Turmeric, Curry Leaves, Oil",175.8,3.2,32.0,4.2,1.2,1.2,240.0,140.0,30.0,1.6,2.0
+15,Curd rice,South Indian,healthy_choice,cooked_rice;fresh_curd;milk;mustard_seeds;green_chilli;ginger;pomegranate;oil,"Cooked Rice, Fresh Curd, Milk, Mustard Seeds, Green Chilli, Ginger, Pomegranate, Oil",135.3,5.2,20.4,3.6,1.0,10.8,35.0,160.0,150.0,1.0,2.0
+15,Curd rice,South Indian,standard,cooked_rice;fresh_curd;milk;mustard_seeds;green_chilli;ginger;pomegranate;oil,"Cooked Rice, Fresh Curd, Milk, Mustard Seeds, Green Chilli, Ginger, Pomegranate, Oil",165.0,4.5,24.0,5.5,0.8,21.6,50.0,160.0,150.0,1.0,2.0
+16,Tomato rice,South Indian,home_style,cooked_rice;ripe_tomatoes;onion;garlic;sambar_powder;spices;oil,"Cooked Rice, Ripe Tomatoes, Onion, Garlic, Sambar Powder, Spices, Oil",166.2,3.4,30.0,4.1,1.6,1.2,240.0,140.0,30.0,1.6,2.0
+16,Tomato rice,South Indian,healthy_choice,cooked_rice;ripe_tomatoes;onion;garlic;sambar_powder;spices;oil,"Cooked Rice, Ripe Tomatoes, Onion, Garlic, Sambar Powder, Spices, Oil",143.5,3.9,25.5,3.1,2.0,0.6,168.0,140.0,30.0,1.6,2.0
+17,Sambar rice,South Indian,home_style,cooked_rice;toor_dal;mixed_vegetables;tamarind;sambar_powder;ghee,"Cooked Rice, Toor Dal, Mixed Vegetables, Tamarind, Sambar Powder, Ghee",152.0,4.8,29.0,2.7,2.8,2.5,180.0,380.0,55.0,3.2,2.0
+17,Sambar rice,South Indian,healthy_choice,cooked_rice;toor_dal;mixed_vegetables;tamarind;sambar_powder;ghee,"Cooked Rice, Toor Dal, Mixed Vegetables, Tamarind, Sambar Powder, Ghee",131.2,5.5,24.6,2.1,3.5,1.2,126.0,380.0,55.0,3.2,2.0
+18,Rasam rice,South Indian,healthy_choice,cooked_rice;tomato_rasam;black_pepper;cumin;garlic;ghee,"Cooked Rice, Tomato Rasam, Black Pepper, Cumin, Garlic, Ghee",114.8,3.7,22.9,1.3,1.8,0.6,168.0,140.0,30.0,1.6,2.0
+18,Rasam rice,South Indian,hotel_style,cooked_rice;tomato_rasam;black_pepper;cumin;garlic;ghee,"Cooked Rice, Tomato Rasam, Black Pepper, Cumin, Garlic, Ghee",165.2,3.2,28.4,2.7,1.4,1.2,240.0,140.0,30.0,1.6,2.0
+19,Pulao,South Indian,standard,basmati_rice;mixed_vegetables;onion;whole_spices;ghee;mint,"Basmati Rice, Mixed Vegetables, Onion, Whole Spices, Ghee, Mint",190.0,4.2,33.0,5.0,2.2,1.2,240.0,140.0,30.0,1.6,2.0
+19,Pulao,South Indian,home_style,basmati_rice;mixed_vegetables;onion;whole_spices;ghee;mint,"Basmati Rice, Mixed Vegetables, Onion, Whole Spices, Ghee, Mint",180.5,4.2,33.0,4.2,2.2,1.2,240.0,140.0,30.0,1.6,2.0
+20,Kichadi,South Indian,standard,rice;moong_dal;cumin;black_pepper;ginger;ghee,"Rice, Moong Dal, Cumin, Black Pepper, Ginger, Ghee",150.0,5.0,26.0,2.8,2.0,1.2,240.0,140.0,30.0,1.6,2.0
+20,Kichadi,South Indian,hotel_style,rice;moong_dal;cumin;black_pepper;ginger;ghee,"Rice, Moong Dal, Cumin, Black Pepper, Ginger, Ghee",177.0,5.0,27.3,3.8,2.0,1.2,240.0,140.0,30.0,1.6,2.0
+21,Sambar,Vegetarian Curries & Sides,standard,toor_dal;shallots;drumstick;tomato;tamarind;sambar_powder;oil,"Toor Dal, Shallots, Drumstick, Tomato, Tamarind, Sambar Powder, Oil",95.0,3.8,14.5,2.5,3.2,5.1,30.0,280.0,40.0,1.2,14.0
+21,Sambar,Vegetarian Curries & Sides,healthy_choice,toor_dal;shallots;drumstick;tomato;tamarind;sambar_powder;oil,"Toor Dal, Shallots, Drumstick, Tomato, Tamarind, Sambar Powder, Oil",77.9,4.4,12.3,1.6,4.0,2.5,21.0,280.0,40.0,1.2,14.0
+22,Rasam,Vegetarian Curries & Sides,home_style,tomato;tamarind_water;crushed_black_pepper;cumin;garlic;coriander;ghee,"Tomato, Tamarind Water, Crushed Black Pepper, Cumin, Garlic, Coriander, Ghee",42.8,1.2,7.0,1.0,0.8,2.4,30.0,280.0,40.0,1.2,14.0
+22,Rasam,Vegetarian Curries & Sides,healthy_choice,tomato;tamarind_water;crushed_black_pepper;cumin;garlic;coriander;ghee,"Tomato, Tamarind Water, Crushed Black Pepper, Cumin, Garlic, Coriander, Ghee",36.9,1.4,6.0,0.8,1.0,1.2,21.0,280.0,40.0,1.2,14.0
+23,Dal,Vegetarian Curries & Sides,hotel_style,yellow_lentils;tomato;onion;garlic;turmeric;cumin;ghee,"Yellow Lentils, Tomato, Onion, Garlic, Turmeric, Cumin, Ghee",141.6,6.5,17.9,4.1,3.5,6.3,30.0,280.0,40.0,1.2,14.0
+23,Dal,Vegetarian Curries & Sides,healthy_choice,yellow_lentils;tomato;onion;garlic;turmeric;cumin;ghee,"Yellow Lentils, Tomato, Onion, Garlic, Turmeric, Cumin, Ghee",98.4,7.5,14.4,2.0,4.4,3.0,21.0,280.0,40.0,1.2,14.0
+24,Kootu,Vegetarian Curries & Sides,hotel_style,chana_dal;cabbage;chow_chow;coconut_paste;cumin;curry_leaves,"Chana Dal, Cabbage, Chow Chow, Coconut Paste, Cumin, Curry Leaves",123.9,4.5,15.8,4.1,3.8,5.5,30.0,280.0,40.0,1.2,14.0
+24,Kootu,Vegetarian Curries & Sides,standard,chana_dal;cabbage;chow_chow;coconut_paste;cumin;curry_leaves,"Chana Dal, Cabbage, Chow Chow, Coconut Paste, Cumin, Curry Leaves",105.0,4.5,15.0,3.0,3.8,5.2,30.0,280.0,40.0,1.2,14.0
+25,Poriyal,Vegetarian Curries & Sides,home_style,beans;carrot;grated_coconut;mustard_seeds;urad_dal;curry_leaves;oil,"Beans, Carrot, Grated Coconut, Mustard Seeds, Urad Dal, Curry Leaves, Oil",80.8,2.4,12.0,2.5,3.5,4.2,30.0,280.0,40.0,1.2,14.0
+25,Poriyal,Vegetarian Curries & Sides,healthy_choice,beans;carrot;grated_coconut;mustard_seeds;urad_dal;curry_leaves;oil,"Beans, Carrot, Grated Coconut, Mustard Seeds, Urad Dal, Curry Leaves, Oil",69.7,2.8,10.2,2.0,4.4,2.1,21.0,280.0,40.0,1.2,14.0
+26,Avial,Vegetarian Curries & Sides,healthy_choice,raw_banana;carrot;drumstick;yam;coconut_curd_paste;coconut_oil;curry_leaves,"Raw Banana, Carrot, Drumstick, Yam, Coconut Curd Paste, Coconut Oil, Curry Leaves",94.3,3.2,11.9,3.4,4.8,2.5,21.0,280.0,40.0,1.2,14.0
+26,Avial,Vegetarian Curries & Sides,hotel_style,raw_banana;carrot;drumstick;yam;coconut_curd_paste;coconut_oil;curry_leaves,"Raw Banana, Carrot, Drumstick, Yam, Coconut Curd Paste, Coconut Oil, Curry Leaves",135.7,2.8,14.7,7.0,3.8,5.1,30.0,280.0,40.0,1.2,14.0
+27,Kurma,Vegetarian Curries & Sides,home_style,mixed_vegetables;coconut_cashew_paste;poppy_seeds;onion;garlic;spices;oil,"Mixed Vegetables, Coconut Cashew Paste, Poppy Seeds, Onion, Garlic, Spices, Oil",133.0,3.5,16.0,6.0,3.2,5.6,30.0,280.0,40.0,1.2,14.0
+27,Kurma,Vegetarian Curries & Sides,healthy_choice,mixed_vegetables;coconut_cashew_paste;poppy_seeds;onion;garlic;spices;oil,"Mixed Vegetables, Coconut Cashew Paste, Poppy Seeds, Onion, Garlic, Spices, Oil",114.8,4.0,13.6,4.5,4.0,2.8,21.0,280.0,40.0,1.2,14.0
+28,Paneer butter masala,Vegetarian Curries & Sides,healthy_choice,paneer_cottage_cheese;cream;tomato_puree;cashew_paste;kasuri_methi;spices,"Paneer Cottage Cheese, Cream, Tomato Puree, Cashew Paste, Kasuri Methi, Spices",196.8,10.9,10.2,11.4,2.2,0.2,399.0,150.0,5.0,1.0,2.0
+28,Paneer butter masala,Vegetarian Curries & Sides,home_style,paneer_cottage_cheese;butter;cream;tomato_puree;cashew_paste;kasuri_methi;spices,"Paneer Cottage Cheese, Butter, Cream, Tomato Puree, Cashew Paste, Kasuri Methi, Spices",228.0,9.5,12.0,14.9,1.8,0.5,570.0,150.0,5.0,1.0,2.0
+29,Palak paneer,Vegetarian Curries & Sides,standard,fresh_spinach;paneer;garlic;onion;green_chilli;cream;ghee,"Fresh Spinach, Paneer, Garlic, Onion, Green Chilli, Cream, Ghee",185.0,9.0,8.0,13.0,2.8,0.5,280.0,150.0,480.0,1.0,2.0
+29,Palak paneer,Vegetarian Curries & Sides,home_style,fresh_spinach;paneer;garlic;onion;green_chilli;cream;ghee,"Fresh Spinach, Paneer, Garlic, Onion, Green Chilli, Cream, Ghee",175.8,9.0,8.0,11.0,2.8,0.5,280.0,150.0,480.0,1.0,2.0
+30,Chana masala,Vegetarian Curries & Sides,hotel_style,boiled_chickpeas;onion;tomato_puree;ginger_garlic;chana_masala_spice;oil,"Boiled Chickpeas, Onion, Tomato Puree, Ginger Garlic, Chana Masala Spice, Oil",188.8,7.2,23.1,6.5,5.5,8.1,30.0,280.0,40.0,1.2,14.0
+30,Chana masala,Vegetarian Curries & Sides,standard,boiled_chickpeas;onion;tomato_puree;ginger_garlic;chana_masala_spice;oil,"Boiled Chickpeas, Onion, Tomato Puree, Ginger Garlic, Chana Masala Spice, Oil",160.0,7.2,22.0,4.8,5.5,7.7,30.0,280.0,40.0,1.2,14.0
+31,Rajma,Vegetarian Curries & Sides,standard,red_kidney_beans;onion_tomato_gravy;ginger_garlic;coriander;spices;oil,"Red Kidney Beans, Onion Tomato Gravy, Ginger Garlic, Coriander, Spices, Oil",155.0,7.5,23.0,3.8,6.0,8.0,30.0,280.0,40.0,1.2,14.0
+31,Rajma,Vegetarian Curries & Sides,healthy_choice,red_kidney_beans;onion_tomato_gravy;ginger_garlic;coriander;spices;oil,"Red Kidney Beans, Onion Tomato Gravy, Ginger Garlic, Coriander, Spices, Oil",127.1,8.6,19.6,2.5,7.5,4.0,21.0,280.0,40.0,1.2,14.0
+32,Vegetable curry,Vegetarian Curries & Sides,standard,mixed_vegetables;onion;tomato;curry_powder;coriander;oil,"Mixed Vegetables, Onion, Tomato, Curry Powder, Coriander, Oil",110.0,3.0,15.0,4.5,3.0,5.2,30.0,280.0,40.0,1.2,14.0
+32,Vegetable curry,Vegetarian Curries & Sides,home_style,mixed_vegetables;onion;tomato;curry_powder;coriander;oil,"Mixed Vegetables, Onion, Tomato, Curry Powder, Coriander, Oil",104.5,3.0,15.0,3.8,3.0,5.2,30.0,280.0,40.0,1.2,14.0
+33,Mushroom curry,Vegetarian Curries & Sides,home_style,button_mushrooms;onion;tomato;garlic;coconut_milk;spices;oil,"Button Mushrooms, Onion, Tomato, Garlic, Coconut Milk, Spices, Oil",90.2,3.8,9.0,4.2,2.0,3.1,30.0,280.0,40.0,1.2,14.0
+33,Mushroom curry,Vegetarian Curries & Sides,healthy_choice,button_mushrooms;onion;tomato;garlic;coconut_milk;spices;oil,"Button Mushrooms, Onion, Tomato, Garlic, Coconut Milk, Spices, Oil",77.9,4.4,7.6,3.2,2.5,1.6,21.0,280.0,40.0,1.2,14.0
+34,Vegetable pulao,Vegetarian Curries & Sides,home_style,basmati_rice;carrot;peas;french_beans;whole_garam_masala;ghee,"Basmati Rice, Carrot, Peas, French Beans, Whole Garam Masala, Ghee",175.8,3.8,32.0,4.1,2.2,11.2,30.0,280.0,40.0,1.2,14.0
+34,Vegetable pulao,Vegetarian Curries & Sides,hotel_style,basmati_rice;carrot;peas;french_beans;whole_garam_masala;ghee,"Basmati Rice, Carrot, Peas, French Beans, Whole Garam Masala, Ghee",218.3,3.8,33.6,6.5,2.2,11.8,30.0,280.0,40.0,1.2,14.0
+35,Vegetable fried rice,Vegetarian Curries & Sides,home_style,cooked_rice;cabbage;carrot;spring_onion;soy_sauce;pepper;oil,"Cooked Rice, Cabbage, Carrot, Spring Onion, Soy Sauce, Pepper, Oil",180.5,3.5,34.0,3.8,1.8,11.9,30.0,280.0,40.0,1.2,14.0
+35,Vegetable fried rice,Vegetarian Curries & Sides,hotel_style,cooked_rice;cabbage;carrot;spring_onion;soy_sauce;pepper;oil,"Cooked Rice, Cabbage, Carrot, Spring Onion, Soy Sauce, Pepper, Oil",224.2,3.5,35.7,6.1,1.8,12.5,30.0,280.0,40.0,1.2,14.0
+36,Cucumber salad,Salads,home_style,cucumber_salad,Cucumber Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+36,Cucumber salad,Salads,standard,cucumber_salad,Cucumber Salad,150.0,5.0,22.0,4.0,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+37,Carrot salad,Salads,standard,carrot_salad,Carrot Salad,150.0,5.0,22.0,4.0,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+37,Carrot salad,Salads,hotel_style,carrot_salad,Carrot Salad,177.0,5.0,23.1,5.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+38,Beetroot salad,Salads,home_style,beetroot_salad,Beetroot Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+38,Beetroot salad,Salads,standard,beetroot_salad,Beetroot Salad,150.0,5.0,22.0,4.0,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+39,Onion tomato salad,Salads,healthy_choice,onion_tomato_salad,Onion Tomato Salad,123.0,5.8,18.7,2.6,2.5,0.2,84.0,150.0,25.0,1.0,2.0
+39,Onion tomato salad,Salads,home_style,onion_tomato_salad,Onion Tomato Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+40,Mixed vegetable salad,Salads,healthy_choice,mixed_vegetable_salad,Mixed Vegetable Salad,123.0,5.8,18.7,2.6,2.5,0.2,84.0,150.0,25.0,1.0,2.0
+40,Mixed vegetable salad,Salads,home_style,mixed_vegetable_salad,Mixed Vegetable Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+41,Sprouts salad,Salads,hotel_style,sprouts_salad,Sprouts Salad,177.0,5.0,23.1,5.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+41,Sprouts salad,Salads,home_style,sprouts_salad,Sprouts Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+42,Chickpea salad,Salads,healthy_choice,chickpea_salad,Chickpea Salad,123.0,5.8,18.7,2.6,2.5,0.2,84.0,150.0,25.0,1.0,2.0
+42,Chickpea salad,Salads,home_style,chickpea_salad,Chickpea Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+43,Protein salad,Salads,healthy_choice,protein_salad,Protein Salad,123.0,5.8,18.7,2.6,2.5,0.2,84.0,150.0,25.0,1.0,2.0
+43,Protein salad,Salads,standard,protein_salad,Protein Salad,150.0,5.0,22.0,4.0,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+44,Green gram sprouts,Sprouts & Legumes,home_style,boiled_green_gram_sprouts,Boiled Green Gram Sprouts,133.0,9.5,22.0,1.0,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+44,Green gram sprouts,Sprouts & Legumes,standard,boiled_green_gram_sprouts,Boiled Green Gram Sprouts,140.0,9.5,22.0,1.2,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+45,Black gram sprouts,Sprouts & Legumes,hotel_style,boiled_black_gram_sprouts,Boiled Black Gram Sprouts,165.2,9.5,23.1,1.6,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+45,Black gram sprouts,Sprouts & Legumes,standard,boiled_black_gram_sprouts,Boiled Black Gram Sprouts,140.0,9.5,22.0,1.2,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+46,Chickpea sprouts,Sprouts & Legumes,healthy_choice,boiled_chickpea_sprouts,Boiled Chickpea Sprouts,114.8,10.9,18.7,0.8,8.1,1.2,126.0,380.0,55.0,3.2,2.0
+46,Chickpea sprouts,Sprouts & Legumes,home_style,boiled_chickpea_sprouts,Boiled Chickpea Sprouts,133.0,9.5,22.0,1.0,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+47,Black chana,Sprouts & Legumes,home_style,boiled_black_chana,Boiled Black Chana,133.0,9.5,22.0,1.0,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+47,Black chana,Sprouts & Legumes,hotel_style,boiled_black_chana,Boiled Black Chana,165.2,9.5,23.1,1.6,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+48,Horse gram,Sprouts & Legumes,healthy_choice,boiled_horse_gram,Boiled Horse Gram,114.8,10.9,18.7,0.8,8.1,1.2,126.0,380.0,55.0,3.2,2.0
+48,Horse gram,Sprouts & Legumes,standard,boiled_horse_gram,Boiled Horse Gram,140.0,9.5,22.0,1.2,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+49,Mixed sprouts,Sprouts & Legumes,home_style,boiled_mixed_sprouts,Boiled Mixed Sprouts,133.0,9.5,22.0,1.0,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+49,Mixed sprouts,Sprouts & Legumes,hotel_style,boiled_mixed_sprouts,Boiled Mixed Sprouts,165.2,9.5,23.1,1.6,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+50,Boiled chickpeas,Sprouts & Legumes,healthy_choice,boiled_boiled_chickpeas,Boiled Boiled Chickpeas,114.8,10.9,18.7,0.8,8.1,1.2,126.0,380.0,55.0,3.2,2.0
+50,Boiled chickpeas,Sprouts & Legumes,home_style,boiled_boiled_chickpeas,Boiled Boiled Chickpeas,133.0,9.5,22.0,1.0,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+51,Kidney beans,Sprouts & Legumes,home_style,boiled_kidney_beans,Boiled Kidney Beans,133.0,9.5,22.0,1.0,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+51,Kidney beans,Sprouts & Legumes,healthy_choice,boiled_kidney_beans,Boiled Kidney Beans,114.8,10.9,18.7,0.8,8.1,1.2,126.0,380.0,55.0,3.2,2.0
+52,Lentils,Sprouts & Legumes,standard,boiled_lentils,Boiled Lentils,140.0,9.5,22.0,1.2,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+52,Lentils,Sprouts & Legumes,healthy_choice,boiled_lentils,Boiled Lentils,114.8,10.9,18.7,0.8,8.1,1.2,126.0,380.0,55.0,3.2,2.0
+53,Soybeans,Sprouts & Legumes,standard,boiled_soybeans,Boiled Soybeans,140.0,9.5,22.0,1.2,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+53,Soybeans,Sprouts & Legumes,hotel_style,boiled_soybeans,Boiled Soybeans,165.2,9.5,23.1,1.6,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+54,Green peas,Sprouts & Legumes,healthy_choice,boiled_green_peas,Boiled Green Peas,114.8,10.9,18.7,0.8,8.1,1.2,126.0,380.0,55.0,3.2,2.0
+54,Green peas,Sprouts & Legumes,standard,boiled_green_peas,Boiled Green Peas,140.0,9.5,22.0,1.2,6.5,2.5,180.0,380.0,55.0,3.2,2.0
+55,Sundal,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,2.5,180.0,380.0,55.0,3.2,2.0
+55,Sundal,Breakfast & Snacks,healthy_choice,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",229.6,6.9,35.7,7.2,3.8,1.2,126.0,380.0,55.0,3.2,2.0
+56,Chicken curry,Non-Vegetarian,standard,chicken_pieces;onion;tomato;ginger_garlic;curry_powder;coriander;oil,"Chicken Pieces, Onion, Tomato, Ginger Garlic, Curry Powder, Coriander, Oil",175.0,16.5,5.0,10.0,1.2,0.5,220.0,280.0,25.0,1.3,2.0
+56,Chicken curry,Non-Vegetarian,home_style,chicken_pieces;onion;tomato;ginger_garlic;curry_powder;coriander;oil,"Chicken Pieces, Onion, Tomato, Ginger Garlic, Curry Powder, Coriander, Oil",166.2,16.5,5.0,8.5,1.2,0.5,220.0,280.0,25.0,1.3,2.0
+57,Chicken 65,Non-Vegetarian,home_style,boneless_chicken;curd;kashmiri_chilli;corn_flour;ginger_garlic;curry_leaves;oil,"Boneless Chicken, Curd, Kashmiri Chilli, Corn Flour, Ginger Garlic, Curry Leaves, Oil",247.0,22.0,9.0,12.8,0.8,0.5,220.0,280.0,25.0,1.3,2.0
+57,Chicken 65,Non-Vegetarian,hotel_style,boneless_chicken;curd;kashmiri_chilli;corn_flour;ginger_garlic;curry_leaves;oil,"Boneless Chicken, Curd, Kashmiri Chilli, Corn Flour, Ginger Garlic, Curry Leaves, Oil",306.8,22.0,9.5,20.2,0.8,0.5,220.0,280.0,25.0,1.3,2.0
+58,Chicken fry,Non-Vegetarian,hotel_style,chicken;shallots;black_pepper;garlic;curry_leaves;oil,"Chicken, Shallots, Black Pepper, Garlic, Curry Leaves, Oil",295.0,21.0,6.3,21.6,0.5,0.5,220.0,280.0,25.0,1.3,2.0
+58,Chicken fry,Non-Vegetarian,healthy_choice,chicken;shallots;black_pepper;garlic;curry_leaves;oil,"Chicken, Shallots, Black Pepper, Garlic, Curry Leaves, Oil",205.0,24.1,5.1,10.4,0.6,0.2,154.0,280.0,25.0,1.3,2.0
+59,Chicken biryani,Non-Vegetarian,healthy_choice,basmati_rice;chicken;yogurt;fried_onions;biryani_masala;mint;ghee,"Basmati Rice, Chicken, Yogurt, Fried Onions, Biryani Masala, Mint, Ghee",176.3,16.7,20.4,4.4,1.5,0.2,154.0,280.0,25.0,1.3,2.0
+59,Chicken biryani,Non-Vegetarian,standard,basmati_rice;chicken;yogurt;fried_onions;biryani_masala;mint;ghee,"Basmati Rice, Chicken, Yogurt, Fried Onions, Biryani Masala, Mint, Ghee",215.0,14.5,24.0,6.8,1.2,0.5,220.0,280.0,25.0,1.3,2.0
+60,Tandoori chicken,Non-Vegetarian,home_style,chicken_leg_breast;hung_curd;lemon_juice;tandoori_spices;mustard_oil,"Chicken Leg Breast, Hung Curd, Lemon Juice, Tandoori Spices, Mustard Oil",185.2,24.0,3.0,8.1,0.5,0.5,220.0,280.0,25.0,1.3,2.0
+60,Tandoori chicken,Non-Vegetarian,hotel_style,chicken_leg_breast;hung_curd;lemon_juice;tandoori_spices;mustard_oil,"Chicken Leg Breast, Hung Curd, Lemon Juice, Tandoori Spices, Mustard Oil",230.1,24.0,3.2,12.8,0.5,0.5,220.0,280.0,25.0,1.3,2.0
+61,Chicken tikka,Non-Vegetarian,healthy_choice,boneless_chicken_cubes;yogurt;garlic;kashmiri_mirch;lemon,"Boneless Chicken Cubes, Yogurt, Garlic, Kashmiri Mirch, Lemon",151.7,27.0,3.0,5.5,0.5,0.2,154.0,280.0,25.0,1.3,2.0
+61,Chicken tikka,Non-Vegetarian,hotel_style,boneless_chicken_cubes;yogurt;garlic;kashmiri_mirch;lemon;butter,"Boneless Chicken Cubes, Yogurt, Garlic, Kashmiri Mirch, Lemon, Butter",218.3,23.5,3.7,11.5,0.4,0.5,220.0,280.0,25.0,1.3,2.0
+62,Grilled chicken,Non-Vegetarian,home_style,chicken_breast;olive_oil;black_pepper;herbs;lemon_juice;salt,"Chicken Breast, Olive Oil, Black Pepper, Herbs, Lemon Juice, Salt",156.8,28.0,0.0,4.7,0.0,0.5,220.0,280.0,25.0,1.3,2.0
+62,Grilled chicken,Non-Vegetarian,healthy_choice,chicken_breast;olive_oil;black_pepper;herbs;lemon_juice;salt,"Chicken Breast, Olive Oil, Black Pepper, Herbs, Lemon Juice, Salt",135.3,32.2,0.0,3.6,0.0,0.2,154.0,280.0,25.0,1.3,2.0
+63,Chicken kebab,Non-Vegetarian,standard,minced_chicken;onion;egg;green_chilli;garam_masala;coriander,"Minced Chicken, Onion, Egg, Green Chilli, Garam Masala, Coriander",205.0,22.0,5.0,11.0,0.6,0.5,220.0,280.0,25.0,1.3,2.0
+63,Chicken kebab,Non-Vegetarian,home_style,minced_chicken;onion;egg;green_chilli;garam_masala;coriander,"Minced Chicken, Onion, Egg, Green Chilli, Garam Masala, Coriander",194.8,22.0,5.0,9.3,0.6,0.5,220.0,280.0,25.0,1.3,2.0
+64,Chicken burger,Fast Foods & International,healthy_choice,burger_bun;chicken_patty;lettuce;tomato_slice;mayonnaise,"Burger Bun, Chicken Patty, Lettuce, Tomato Slice, Mayonnaise",205.0,16.1,22.1,6.8,1.9,0.2,154.0,280.0,25.0,1.3,2.0
+64,Chicken burger,Fast Foods & International,standard,burger_bun;chicken_patty;lettuce;tomato_slice;mayonnaise,"Burger Bun, Chicken Patty, Lettuce, Tomato Slice, Mayonnaise",250.0,14.0,26.0,10.5,1.5,0.5,220.0,280.0,25.0,1.3,2.0
+65,Chicken pizza,Fast Foods & International,hotel_style,pizza_dough;chicken_chunks;pizza_sauce;mozzarella_cheese;capsicum,"Pizza Dough, Chicken Chunks, Pizza Sauce, Mozzarella Cheese, Capsicum",318.6,13.5,31.5,14.9,1.8,0.5,220.0,280.0,25.0,1.3,2.0
+65,Chicken pizza,Fast Foods & International,home_style,pizza_dough;chicken_chunks;pizza_sauce;mozzarella_cheese;capsicum,"Pizza Dough, Chicken Chunks, Pizza Sauce, Mozzarella Cheese, Capsicum",256.5,13.5,30.0,9.3,1.8,0.5,220.0,280.0,25.0,1.3,2.0
+66,Mutton curry,Non-Vegetarian,home_style,mutton_goat_meat;onion;tomato;ginger_garlic;spices;oil,"Mutton Goat Meat, Onion, Tomato, Ginger Garlic, Spices, Oil",218.5,18.0,4.5,13.2,1.0,0.5,220.0,280.0,25.0,2.4,2.0
+66,Mutton curry,Non-Vegetarian,hotel_style,mutton_goat_meat;onion;tomato;ginger_garlic;spices;oil,"Mutton Goat Meat, Onion, Tomato, Ginger Garlic, Spices, Oil",271.4,18.0,4.7,20.9,1.0,0.5,220.0,280.0,25.0,2.4,2.0
+67,Mutton biryani,Non-Vegetarian,healthy_choice,seeraga_samba_rice;tender_mutton;ghee;curd;spices;mint;coriander,"Seeraga Samba Rice, Tender Mutton, Ghee, Curd, Spices, Mint, Coriander",200.9,15.5,21.2,6.8,1.4,0.2,154.0,280.0,25.0,2.4,2.0
+67,Mutton biryani,Non-Vegetarian,home_style,seeraga_samba_rice;tender_mutton;ghee;curd;spices;mint;coriander,"Seeraga Samba Rice, Tender Mutton, Ghee, Curd, Spices, Mint, Coriander",232.8,13.5,25.0,8.9,1.1,0.5,220.0,280.0,25.0,2.4,2.0
+68,Fish curry,Non-Vegetarian,standard,fresh_fish;tamarind_extract;shallots;tomato;fenugreek;curry_powder;oil,"Fresh Fish, Tamarind Extract, Shallots, Tomato, Fenugreek, Curry Powder, Oil",140.0,15.0,4.0,7.0,0.8,0.5,220.0,280.0,25.0,1.2,2.0
+68,Fish curry,Non-Vegetarian,healthy_choice,fresh_fish;tamarind_extract;shallots;tomato;fenugreek;curry_powder;oil,"Fresh Fish, Tamarind Extract, Shallots, Tomato, Fenugreek, Curry Powder, Oil",114.8,17.2,3.4,4.5,1.0,0.2,154.0,280.0,25.0,1.2,2.0
+69,Fish fry,Non-Vegetarian,home_style,fish_slice;red_chilli_paste;lemon_juice;turmeric;rice_flour;oil,"Fish Slice, Red Chilli Paste, Lemon Juice, Turmeric, Rice Flour, Oil",213.8,19.5,5.5,11.9,0.5,0.5,220.0,280.0,25.0,1.2,2.0
+69,Fish fry,Non-Vegetarian,standard,fish_slice;red_chilli_paste;lemon_juice;turmeric;rice_flour;oil,"Fish Slice, Red Chilli Paste, Lemon Juice, Turmeric, Rice Flour, Oil",225.0,19.5,5.5,14.0,0.5,0.5,220.0,280.0,25.0,1.2,2.0
+70,Grilled fish,Non-Vegetarian,hotel_style,fish_fillet;olive_oil;lemon;garlic;herbs;black_pepper,"Fish Fillet, Olive Oil, Lemon, Garlic, Herbs, Black Pepper",177.0,22.0,0.5,8.8,0.0,0.5,220.0,280.0,25.0,1.2,2.0
+70,Grilled fish,Non-Vegetarian,home_style,fish_fillet;olive_oil;lemon;garlic;herbs;black_pepper,"Fish Fillet, Olive Oil, Lemon, Garlic, Herbs, Black Pepper",142.5,22.0,0.5,5.5,0.0,0.5,220.0,280.0,25.0,1.2,2.0
+71,Prawn masala,Non-Vegetarian,home_style,prawns;onion;tomato;ginger_garlic;curry_powder;fennel;oil,"Prawns, Onion, Tomato, Ginger Garlic, Curry Powder, Fennel, Oil",147.2,17.5,5.0,6.4,1.0,0.5,220.0,280.0,25.0,1.2,2.0
+71,Prawn masala,Non-Vegetarian,healthy_choice,prawns;onion;tomato;ginger_garlic;curry_powder;fennel;oil,"Prawns, Onion, Tomato, Ginger Garlic, Curry Powder, Fennel, Oil",127.1,20.1,4.2,4.9,1.2,0.2,154.0,280.0,25.0,1.2,2.0
+72,Prawn fry,Non-Vegetarian,hotel_style,prawns;kashmiri_chilli;pepper;curry_leaves;coconut_oil,"Prawns, Kashmiri Chilli, Pepper, Curry Leaves, Coconut Oil",247.8,20.0,6.3,16.2,0.5,0.5,220.0,280.0,25.0,1.2,2.0
+72,Prawn fry,Non-Vegetarian,healthy_choice,prawns;kashmiri_chilli;pepper;curry_leaves;coconut_oil,"Prawns, Kashmiri Chilli, Pepper, Curry Leaves, Coconut Oil",172.2,23.0,5.1,7.8,0.6,0.2,154.0,280.0,25.0,1.2,2.0
+73,Crab curry,Non-Vegetarian,hotel_style,crab;shallots;coconut_paste;fennel;garlic;curry_powder;oil,"Crab, Shallots, Coconut Paste, Fennel, Garlic, Curry Powder, Oil",153.4,16.0,4.4,7.4,0.8,0.5,220.0,280.0,25.0,1.2,2.0
+73,Crab curry,Non-Vegetarian,standard,crab;shallots;coconut_paste;fennel;garlic;curry_powder;oil,"Crab, Shallots, Coconut Paste, Fennel, Garlic, Curry Powder, Oil",130.0,16.0,4.2,5.5,0.8,0.5,220.0,280.0,25.0,1.2,2.0
+74,Egg boiled,Non-Vegetarian,healthy_choice,whole_hen_egg;water,"Whole Hen Egg, Water",127.1,14.5,0.9,6.9,0.0,0.4,98.0,138.0,56.0,1.75,0.0
+74,Egg boiled,Non-Vegetarian,standard,whole_hen_egg;water,"Whole Hen Egg, Water",155.0,12.6,1.1,10.6,0.0,0.8,140.0,138.0,56.0,1.75,0.0
+75,Egg omelette,Non-Vegetarian,hotel_style,eggs;onion;green_chilli;black_pepper;salt;oil,"Eggs, Onion, Green Chilli, Black Pepper, Salt, Oil",218.3,12.0,2.6,18.9,0.4,0.8,140.0,138.0,56.0,1.75,0.0
+75,Egg omelette,Non-Vegetarian,healthy_choice,eggs;onion;green_chilli;black_pepper;salt;oil,"Eggs, Onion, Green Chilli, Black Pepper, Salt, Oil",151.7,13.8,2.1,9.1,0.5,0.4,98.0,138.0,56.0,1.75,0.0
+76,Egg bhurji,Non-Vegetarian,home_style,eggs;onion;tomato;green_chilli;coriander;butter_oil,"Eggs, Onion, Tomato, Green Chilli, Coriander, Butter Oil",180.5,11.8,3.8,12.1,0.6,0.8,140.0,138.0,56.0,1.75,0.0
+76,Egg bhurji,Non-Vegetarian,healthy_choice,eggs;onion;tomato;green_chilli;coriander,"Eggs, Onion, Tomato, Green Chilli, Coriander",155.8,13.6,3.2,9.2,0.8,0.4,98.0,138.0,56.0,1.75,0.0
+77,Egg dosa,Non-Vegetarian,home_style,dosa_batter;whole_egg;pepper_powder;oil,"Dosa Batter, Whole Egg, Pepper Powder, Oil",185.2,7.5,24.0,6.6,1.0,0.8,140.0,138.0,56.0,1.75,0.0
+77,Egg dosa,Non-Vegetarian,hotel_style,dosa_batter;whole_egg;pepper_powder;oil,"Dosa Batter, Whole Egg, Pepper Powder, Oil",230.1,7.5,25.2,10.5,1.0,0.8,140.0,138.0,56.0,1.75,0.0
+78,Burger,Fast Foods & International,standard,bun;patty;lettuce;onion;tomato;sauce,"Bun, Patty, Lettuce, Onion, Tomato, Sauce",260.0,12.0,28.0,11.5,1.6,4.5,480.0,210.0,85.0,1.8,2.0
+78,Burger,Fast Foods & International,hotel_style,bun;patty;lettuce;onion;tomato;sauce,"Bun, Patty, Lettuce, Onion, Tomato, Sauce",306.8,12.0,29.4,15.5,1.6,4.5,480.0,210.0,85.0,1.8,2.0
+79,Veg burger,Fast Foods & International,hotel_style,bun;veggie_potato_patty;lettuce;tomato;mayo,"Bun, Veggie Potato Patty, Lettuce, Tomato, Mayo",259.6,7.5,33.6,10.1,3.2,4.5,480.0,210.0,85.0,1.8,2.0
+79,Veg burger,Fast Foods & International,standard,bun;veggie_potato_patty;lettuce;tomato;mayo,"Bun, Veggie Potato Patty, Lettuce, Tomato, Mayo",220.0,7.5,32.0,7.5,3.2,4.5,480.0,210.0,85.0,1.8,2.0
+80,Cheese burger,Fast Foods & International,hotel_style,bun;patty;cheddar_cheese_slice;pickles;ketchup,"Bun, Patty, Cheddar Cheese Slice, Pickles, Ketchup",342.2,14.5,29.4,18.9,1.5,0.5,280.0,150.0,480.0,1.0,2.0
+80,Cheese burger,Fast Foods & International,standard,bun;patty;cheddar_cheese_slice;pickles;ketchup,"Bun, Patty, Cheddar Cheese Slice, Pickles, Ketchup",290.0,14.5,28.0,14.0,1.5,0.5,280.0,150.0,480.0,1.0,2.0
+81,Pizza,Fast Foods & International,standard,flour_crust;pizza_sauce;mozzarella_cheese;olive_oil;herbs,"Flour Crust, Pizza Sauce, Mozzarella Cheese, Olive Oil, Herbs",265.0,11.0,32.0,10.0,2.0,4.5,480.0,210.0,85.0,1.8,2.0
+81,Pizza,Fast Foods & International,hotel_style,flour_crust;pizza_sauce;mozzarella_cheese;olive_oil;herbs,"Flour Crust, Pizza Sauce, Mozzarella Cheese, Olive Oil, Herbs",312.7,11.0,33.6,13.5,2.0,4.5,480.0,210.0,85.0,1.8,2.0
+82,Veg pizza,Fast Foods & International,standard,flour_crust;tomato_sauce;cheese;capsicum;onion;olives,"Flour Crust, Tomato Sauce, Cheese, Capsicum, Onion, Olives",240.0,9.5,33.0,8.0,2.5,4.5,480.0,210.0,85.0,1.8,2.0
+82,Veg pizza,Fast Foods & International,healthy_choice,flour_crust;tomato_sauce;cheese;capsicum;onion;olives,"Flour Crust, Tomato Sauce, Cheese, Capsicum, Onion, Olives",196.8,10.9,28.1,5.2,3.1,2.2,336.0,210.0,85.0,1.8,2.0
+83,Cheese pizza,Fast Foods & International,hotel_style,pizza_crust;marinara_sauce;blend_of_mozzarella_cheeses,"Pizza Crust, Marinara Sauce, Blend Of Mozzarella Cheeses",330.4,12.0,32.6,16.2,1.8,0.5,280.0,150.0,480.0,1.0,2.0
+83,Cheese pizza,Fast Foods & International,healthy_choice,pizza_crust;marinara_sauce;blend_of_mozzarella_cheeses,"Pizza Crust, Marinara Sauce, Blend Of Mozzarella Cheeses",229.6,13.8,26.3,7.8,2.2,0.2,196.0,150.0,480.0,1.0,2.0
+84,Sandwich,Fast Foods & International,healthy_choice,bread_slices;cucumber;tomato;chutney,"Bread Slices, Cucumber, Tomato, Chutney",172.2,8.0,25.5,4.5,2.5,2.2,336.0,210.0,85.0,1.8,2.0
+84,Sandwich,Fast Foods & International,hotel_style,bread_slices;cucumber;tomato;butter;chutney,"Bread Slices, Cucumber, Tomato, Butter, Chutney",247.8,7.0,31.5,9.5,2.0,4.5,480.0,210.0,85.0,1.8,2.0
+85,Grilled sandwich,Fast Foods & International,home_style,bread;cheese;vegetable_filling;butter,"Bread, Cheese, Vegetable Filling, Butter",242.2,8.5,31.0,9.3,2.1,4.5,480.0,210.0,85.0,1.8,2.0
+85,Grilled sandwich,Fast Foods & International,healthy_choice,bread;cheese;vegetable_filling,"Bread, Cheese, Vegetable Filling",209.1,9.8,26.3,7.2,2.6,2.2,336.0,210.0,85.0,1.8,2.0
+86,Wraps,Fast Foods & International,home_style,tortilla_flatbread;filling;sauce;greens,"Tortilla Flatbread, Filling, Sauce, Greens",209.0,8.0,30.0,6.8,2.5,4.5,480.0,210.0,85.0,1.8,2.0
+86,Wraps,Fast Foods & International,standard,tortilla_flatbread;filling;sauce;greens,"Tortilla Flatbread, Filling, Sauce, Greens",220.0,8.0,30.0,8.0,2.5,4.5,480.0,210.0,85.0,1.8,2.0
+87,Shawarma,Fast Foods & International,home_style,pita_flatbread;marinated_meat;tahini_garlic_sauce;pickles,"Pita Flatbread, Marinated Meat, Tahini Garlic Sauce, Pickles",228.0,14.0,22.0,9.3,1.5,4.5,480.0,210.0,85.0,1.8,2.0
+87,Shawarma,Fast Foods & International,healthy_choice,pita_flatbread;marinated_meat;tahini_garlic_sauce;pickles,"Pita Flatbread, Marinated Meat, Tahini Garlic Sauce, Pickles",196.8,16.1,18.7,7.2,1.9,2.2,336.0,210.0,85.0,1.8,2.0
+88,Tacos,Fast Foods & International,healthy_choice,corn_tortilla;seasoned_filling;lettuce;cheese;salsa,"Corn Tortilla, Seasoned Filling, Lettuce, Cheese, Salsa",172.2,10.9,17.8,6.5,3.0,2.2,336.0,210.0,85.0,1.8,2.0
+88,Tacos,Fast Foods & International,hotel_style,corn_tortilla;seasoned_filling;lettuce;cheese;salsa,"Corn Tortilla, Seasoned Filling, Lettuce, Cheese, Salsa",247.8,9.5,22.1,13.5,2.4,4.5,480.0,210.0,85.0,1.8,2.0
+89,Pasta,Fast Foods & International,hotel_style,durum_wheat_pasta;tomato_sauce;garlic;herbs;olive_oil,"Durum Wheat Pasta, Tomato Sauce, Garlic, Herbs, Olive Oil",188.8,5.5,29.4,4.1,1.8,4.5,480.0,210.0,85.0,1.8,2.0
+89,Pasta,Fast Foods & International,standard,durum_wheat_pasta;tomato_sauce;garlic;herbs;olive_oil,"Durum Wheat Pasta, Tomato Sauce, Garlic, Herbs, Olive Oil",160.0,5.5,28.0,3.0,1.8,4.5,480.0,210.0,85.0,1.8,2.0
+90,Macaroni,Fast Foods & International,healthy_choice,macaroni_elbows;cheese_sauce;milk,"Macaroni Elbows, Cheese Sauce, Milk",143.5,6.9,24.6,2.6,1.9,2.2,336.0,210.0,85.0,1.8,2.0
+90,Macaroni,Fast Foods & International,standard,macaroni_elbows;cheese_sauce;butter;milk,"Macaroni Elbows, Cheese Sauce, Butter, Milk",175.0,6.0,29.0,4.0,1.5,4.5,480.0,210.0,85.0,1.8,2.0
+91,Noodles,Fast Foods & International,healthy_choice,wheat_noodles;shredded_veggies;soy_sauce;chilli_oil,"Wheat Noodles, Shredded Veggies, Soy Sauce, Chilli Oil",147.6,5.2,27.2,2.6,1.9,2.2,336.0,210.0,85.0,1.8,2.0
+91,Noodles,Fast Foods & International,hotel_style,wheat_noodles;shredded_veggies;soy_sauce;chilli_oil,"Wheat Noodles, Shredded Veggies, Soy Sauce, Chilli Oil",212.4,4.5,33.6,5.4,1.5,4.5,480.0,210.0,85.0,1.8,2.0
+92,Fried rice,Fast Foods & International,healthy_choice,steamed_rice;egg_or_vegetables;soy_sauce;scallions;oil,"Steamed Rice, Egg Or Vegetables, Soy Sauce, Scallions, Oil",159.9,4.6,28.9,3.2,1.8,2.2,336.0,210.0,85.0,1.8,2.0
+92,Fried rice,Fast Foods & International,home_style,steamed_rice;egg_or_vegetables;soy_sauce;scallions;oil,"Steamed Rice, Egg Or Vegetables, Soy Sauce, Scallions, Oil",185.2,4.0,34.0,4.2,1.4,4.5,480.0,210.0,85.0,1.8,2.0
+93,French fries,Fast Foods & International,standard,potato_strips;vegetable_oil;salt,"Potato Strips, Vegetable Oil, Salt",310.0,3.4,41.0,15.0,3.8,4.5,480.0,210.0,85.0,1.8,2.0
+93,French fries,Fast Foods & International,hotel_style,potato_strips;vegetable_oil;salt,"Potato Strips, Vegetable Oil, Salt",365.8,3.4,43.1,20.2,3.8,4.5,480.0,210.0,85.0,1.8,2.0
+94,Nachos,Fast Foods & International,standard,corn_tortilla_chips;melted_cheese;jalapenos;salsa,"Corn Tortilla Chips, Melted Cheese, Jalapenos, Salsa",305.0,5.0,38.0,15.0,3.0,4.5,480.0,210.0,85.0,1.8,2.0
+94,Nachos,Fast Foods & International,healthy_choice,corn_tortilla_chips;melted_cheese;jalapenos;salsa,"Corn Tortilla Chips, Melted Cheese, Jalapenos, Salsa",250.1,5.8,32.3,9.8,3.8,2.2,336.0,210.0,85.0,1.8,2.0
+95,Hot dogs,Fast Foods & International,hotel_style,hot_dog_bun;frankfurter_sausage;mustard;ketchup,"Hot Dog Bun, Frankfurter Sausage, Mustard, Ketchup",318.6,10.0,25.2,20.2,1.0,4.5,480.0,210.0,85.0,1.8,2.0
+95,Hot dogs,Fast Foods & International,standard,hot_dog_bun;frankfurter_sausage;mustard;ketchup,"Hot Dog Bun, Frankfurter Sausage, Mustard, Ketchup",270.0,10.0,24.0,15.0,1.0,4.5,480.0,210.0,85.0,1.8,2.0
+96,Carrot,Vegetables,hotel_style,fresh_carrot,Fresh Carrot,41.3,1.8,7.4,0.3,2.8,2.6,30.0,280.0,40.0,1.2,14.0
+96,Carrot,Vegetables,healthy_choice,fresh_carrot,Fresh Carrot,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+97,Beetroot,Vegetables,home_style,fresh_beetroot,Fresh Beetroot,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+97,Beetroot,Vegetables,healthy_choice,fresh_beetroot,Fresh Beetroot,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+98,Cucumber,Vegetables,healthy_choice,fresh_cucumber,Fresh Cucumber,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+98,Cucumber,Vegetables,home_style,fresh_cucumber,Fresh Cucumber,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+99,Tomato,Vegetables,hotel_style,fresh_tomato,Fresh Tomato,41.3,1.8,7.4,0.3,2.8,2.6,30.0,280.0,40.0,1.2,14.0
+99,Tomato,Vegetables,home_style,fresh_tomato,Fresh Tomato,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+100,Onion,Vegetables,healthy_choice,fresh_onion,Fresh Onion,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+100,Onion,Vegetables,home_style,fresh_onion,Fresh Onion,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+101,Potato,Vegetables,home_style,fresh_potato,Fresh Potato,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+101,Potato,Vegetables,standard,fresh_potato,Fresh Potato,35.0,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+102,Sweet potato,Vegetables,home_style,fresh_sweet_potato,Fresh Sweet Potato,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+102,Sweet potato,Vegetables,standard,fresh_sweet_potato,Fresh Sweet Potato,35.0,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+103,Broccoli,Vegetables,hotel_style,fresh_broccoli,Fresh Broccoli,41.3,1.8,7.4,0.3,2.8,2.6,30.0,280.0,40.0,1.2,89.0
+103,Broccoli,Vegetables,standard,fresh_broccoli,Fresh Broccoli,35.0,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,89.0
+104,Cauliflower,Vegetables,home_style,fresh_cauliflower,Fresh Cauliflower,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+104,Cauliflower,Vegetables,healthy_choice,fresh_cauliflower,Fresh Cauliflower,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+105,Spinach,Vegetables,healthy_choice,fresh_spinach,Fresh Spinach,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,99.0,2.71,14.0
+105,Spinach,Vegetables,standard,fresh_spinach,Fresh Spinach,35.0,1.8,7.0,0.2,2.8,2.4,30.0,280.0,99.0,2.71,14.0
+106,Amaranth leaves,Vegetables,healthy_choice,fresh_amaranth_leaves,Fresh Amaranth Leaves,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+106,Amaranth leaves,Vegetables,home_style,fresh_amaranth_leaves,Fresh Amaranth Leaves,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+107,Cabbage,Vegetables,hotel_style,fresh_cabbage,Fresh Cabbage,41.3,1.8,7.4,0.3,2.8,2.6,30.0,280.0,40.0,1.2,48.0
+107,Cabbage,Vegetables,standard,fresh_cabbage,Fresh Cabbage,35.0,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,48.0
+108,Beans,Vegetables,healthy_choice,fresh_beans,Fresh Beans,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+108,Beans,Vegetables,home_style,fresh_beans,Fresh Beans,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+109,Capsicum,Vegetables,home_style,fresh_capsicum,Fresh Capsicum,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+109,Capsicum,Vegetables,healthy_choice,fresh_capsicum,Fresh Capsicum,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+110,Pumpkin,Vegetables,healthy_choice,fresh_pumpkin,Fresh Pumpkin,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+110,Pumpkin,Vegetables,home_style,fresh_pumpkin,Fresh Pumpkin,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+111,Bottle gourd,Vegetables,standard,fresh_bottle_gourd,Fresh Bottle Gourd,35.0,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+111,Bottle gourd,Vegetables,healthy_choice,fresh_bottle_gourd,Fresh Bottle Gourd,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+112,Bitter gourd,Vegetables,home_style,fresh_bitter_gourd,Fresh Bitter Gourd,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+112,Bitter gourd,Vegetables,standard,fresh_bitter_gourd,Fresh Bitter Gourd,35.0,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+113,Drumstick,Vegetables,home_style,fresh_drumstick,Fresh Drumstick,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+113,Drumstick,Vegetables,hotel_style,fresh_drumstick,Fresh Drumstick,41.3,1.8,7.4,0.3,2.8,2.6,30.0,280.0,40.0,1.2,14.0
+114,Brinjal,Vegetables,hotel_style,fresh_brinjal,Fresh Brinjal,41.3,1.8,7.4,0.3,2.8,2.6,30.0,280.0,40.0,1.2,14.0
+114,Brinjal,Vegetables,healthy_choice,fresh_brinjal,Fresh Brinjal,28.7,2.1,6.0,0.1,3.5,1.2,21.0,280.0,40.0,1.2,14.0
+115,Mushroom,Vegetables,home_style,fresh_mushroom,Fresh Mushroom,33.2,1.8,7.0,0.2,2.8,2.4,30.0,280.0,40.0,1.2,14.0
+115,Mushroom,Vegetables,hotel_style,fresh_mushroom,Fresh Mushroom,41.3,1.8,7.4,0.3,2.8,2.6,30.0,280.0,40.0,1.2,14.0
+116,Apple,Fruits,healthy_choice,fresh_apple,Fresh Apple,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+116,Apple,Fruits,standard,fresh_apple,Fresh Apple,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+117,Banana,Fruits,home_style,fresh_banana,Fresh Banana,49.4,0.6,13.5,0.2,2.4,10.5,2.0,358.0,18.0,0.4,18.0
+117,Banana,Fruits,healthy_choice,fresh_banana,Fresh Banana,42.6,0.7,11.5,0.1,3.0,5.2,1.4,358.0,18.0,0.4,18.0
+118,Mango,Fruits,healthy_choice,fresh_mango,Fresh Mango,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+118,Mango,Fruits,hotel_style,fresh_mango,Fresh Mango,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+119,Orange,Fruits,healthy_choice,fresh_orange,Fresh Orange,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,53.0
+119,Orange,Fruits,hotel_style,fresh_orange,Fresh Orange,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,53.0
+120,Papaya,Fruits,hotel_style,fresh_papaya,Fresh Papaya,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+120,Papaya,Fruits,standard,fresh_papaya,Fresh Papaya,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+121,Pineapple,Fruits,standard,fresh_pineapple,Fresh Pineapple,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+121,Pineapple,Fruits,healthy_choice,fresh_pineapple,Fresh Pineapple,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+122,Watermelon,Fruits,home_style,fresh_watermelon,Fresh Watermelon,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+122,Watermelon,Fruits,standard,fresh_watermelon,Fresh Watermelon,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+123,Muskmelon,Fruits,home_style,fresh_muskmelon,Fresh Muskmelon,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+123,Muskmelon,Fruits,healthy_choice,fresh_muskmelon,Fresh Muskmelon,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+124,Guava,Fruits,hotel_style,fresh_guava,Fresh Guava,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,228.0
+124,Guava,Fruits,home_style,fresh_guava,Fresh Guava,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,228.0
+125,Grapes,Fruits,hotel_style,fresh_grapes,Fresh Grapes,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+125,Grapes,Fruits,healthy_choice,fresh_grapes,Fresh Grapes,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+126,Pomegranate,Fruits,healthy_choice,fresh_pomegranate,Fresh Pomegranate,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+126,Pomegranate,Fruits,standard,fresh_pomegranate,Fresh Pomegranate,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+127,Kiwi,Fruits,healthy_choice,fresh_kiwi,Fresh Kiwi,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+127,Kiwi,Fruits,hotel_style,fresh_kiwi,Fresh Kiwi,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+128,Dragon fruit,Fruits,standard,fresh_dragon_fruit,Fresh Dragon Fruit,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+128,Dragon fruit,Fruits,hotel_style,fresh_dragon_fruit,Fresh Dragon Fruit,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+129,Strawberry,Fruits,healthy_choice,fresh_strawberry,Fresh Strawberry,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+129,Strawberry,Fruits,hotel_style,fresh_strawberry,Fresh Strawberry,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+130,Blueberry,Fruits,standard,fresh_blueberry,Fresh Blueberry,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+130,Blueberry,Fruits,home_style,fresh_blueberry,Fresh Blueberry,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+131,Avocado,Fruits,hotel_style,fresh_avocado,Fresh Avocado,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+131,Avocado,Fruits,home_style,fresh_avocado,Fresh Avocado,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+132,Jackfruit,Fruits,standard,fresh_jackfruit,Fresh Jackfruit,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+132,Jackfruit,Fruits,healthy_choice,fresh_jackfruit,Fresh Jackfruit,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+133,Dates,Fruits,hotel_style,fresh_dates,Fresh Dates,61.4,0.6,14.2,0.3,2.4,11.1,2.0,220.0,18.0,0.4,18.0
+133,Dates,Fruits,home_style,fresh_dates,Fresh Dates,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+134,Fig,Fruits,standard,fresh_fig,Fresh Fig,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+134,Fig,Fruits,home_style,fresh_fig,Fresh Fig,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+135,Sapota,Fruits,home_style,fresh_sapota,Fresh Sapota,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+135,Sapota,Fruits,standard,fresh_sapota,Fresh Sapota,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+136,Custard apple,Fruits,home_style,fresh_custard_apple,Fresh Custard Apple,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+136,Custard apple,Fruits,standard,fresh_custard_apple,Fresh Custard Apple,52.0,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+137,Coconut,Fruits,healthy_choice,fresh_coconut,Fresh Coconut,42.6,0.7,11.5,0.1,3.0,5.2,1.4,220.0,18.0,0.4,18.0
+137,Coconut,Fruits,home_style,fresh_coconut,Fresh Coconut,49.4,0.6,13.5,0.2,2.4,10.5,2.0,220.0,18.0,0.4,18.0
+138,Mixed fruit salad,Salads,home_style,mixed_fruit_salad,Mixed Fruit Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+138,Mixed fruit salad,Salads,healthy_choice,mixed_fruit_salad,Mixed Fruit Salad,123.0,5.8,18.7,2.6,2.5,0.2,84.0,150.0,25.0,1.0,2.0
+139,Apple fruit salad,Salads,healthy_choice,apple_fruit_salad,Apple Fruit Salad,123.0,5.8,18.7,2.6,2.5,0.2,84.0,150.0,25.0,1.0,2.0
+139,Apple fruit salad,Salads,standard,apple_fruit_salad,Apple Fruit Salad,150.0,5.0,22.0,4.0,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+140,Mango fruit salad,Salads,standard,mango_fruit_salad,Mango Fruit Salad,150.0,5.0,22.0,4.0,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+140,Mango fruit salad,Salads,home_style,mango_fruit_salad,Mango Fruit Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+141,Watermelon fruit salad,Salads,healthy_choice,watermelon_fruit_salad,Watermelon Fruit Salad,123.0,5.8,18.7,2.6,2.5,0.2,84.0,150.0,25.0,1.0,2.0
+141,Watermelon fruit salad,Salads,home_style,watermelon_fruit_salad,Watermelon Fruit Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+142,Seasonal fruit salad,Salads,standard,seasonal_fruit_salad,Seasonal Fruit Salad,150.0,5.0,22.0,4.0,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+142,Seasonal fruit salad,Salads,home_style,seasonal_fruit_salad,Seasonal Fruit Salad,142.5,5.0,22.0,3.4,2.0,0.5,120.0,150.0,25.0,1.0,2.0
+143,Almonds,Nuts,standard,whole_almonds,Whole Almonds,579.0,21.2,21.6,49.9,12.5,4.2,5.0,680.0,160.0,4.5,2.0
+143,Almonds,Nuts,healthy_choice,whole_almonds,Whole Almonds,474.8,24.4,18.4,32.4,15.6,2.1,3.5,680.0,160.0,4.5,2.0
+144,Cashews,Nuts,hotel_style,whole_cashews,Whole Cashews,652.5,18.2,31.7,59.1,3.3,4.2,5.0,680.0,160.0,4.5,2.0
+144,Cashews,Nuts,healthy_choice,whole_cashews,Whole Cashews,453.5,20.9,25.7,28.5,4.1,2.1,3.5,680.0,160.0,4.5,2.0
+145,Walnuts,Nuts,home_style,shelled_walnuts,Shelled Walnuts,621.3,15.2,13.7,55.4,6.7,4.2,5.0,680.0,160.0,4.5,2.0
+145,Walnuts,Nuts,standard,shelled_walnuts,Shelled Walnuts,654.0,15.2,13.7,65.2,6.7,4.2,5.0,680.0,160.0,4.5,2.0
+146,Pistachios,Nuts,healthy_choice,pistachio_nuts,Pistachio Nuts,460.8,23.2,23.4,29.4,13.2,2.1,3.5,680.0,160.0,4.5,2.0
+146,Pistachios,Nuts,standard,pistachio_nuts,Pistachio Nuts,562.0,20.2,27.5,45.3,10.6,4.2,5.0,680.0,160.0,4.5,2.0
+147,Peanuts,Nuts,healthy_choice,roasted_peanuts,Roasted Peanuts,464.9,29.7,13.7,32.0,10.6,2.1,3.5,680.0,160.0,4.5,2.0
+147,Peanuts,Nuts,standard,roasted_peanuts,Roasted Peanuts,567.0,25.8,16.1,49.2,8.5,4.2,5.0,680.0,160.0,4.5,2.0
+148,Hazelnuts,Nuts,standard,hazelnuts,Hazelnuts,628.0,15.0,16.7,60.8,9.7,4.2,5.0,680.0,160.0,4.5,2.0
+148,Hazelnuts,Nuts,home_style,hazelnuts,Hazelnuts,596.6,15.0,16.7,51.7,9.7,4.2,5.0,680.0,160.0,4.5,2.0
+149,Brazil nuts,Nuts,standard,brazil_nuts,Brazil Nuts,659.0,14.3,12.3,67.1,7.5,4.2,5.0,680.0,160.0,4.5,2.0
+149,Brazil nuts,Nuts,hotel_style,brazil_nuts,Brazil Nuts,777.6,14.3,12.9,90.6,7.5,4.2,5.0,680.0,160.0,4.5,2.0
+150,Macadamia nuts,Nuts,standard,macadamia_nuts,Macadamia Nuts,718.0,7.9,13.8,75.8,8.6,4.2,5.0,680.0,160.0,4.5,2.0
+150,Macadamia nuts,Nuts,healthy_choice,macadamia_nuts,Macadamia Nuts,588.8,9.1,11.7,49.3,10.8,2.1,3.5,680.0,160.0,4.5,2.0
+151,Pecans,Nuts,healthy_choice,pecan_nuts,Pecan Nuts,566.6,10.6,11.8,46.8,12.0,2.1,3.5,680.0,160.0,4.5,2.0
+151,Pecans,Nuts,standard,pecan_nuts,Pecan Nuts,691.0,9.2,13.9,72.0,9.6,4.2,5.0,680.0,160.0,4.5,2.0
+152,Chia seeds,Seeds,standard,whole_chia_seeds,Whole Chia Seeds,486.0,16.5,42.1,30.7,34.4,4.2,5.0,680.0,631.0,4.5,2.0
+152,Chia seeds,Seeds,home_style,whole_chia_seeds,Whole Chia Seeds,461.7,16.5,42.1,26.1,34.4,4.2,5.0,680.0,631.0,4.5,2.0
+153,Flax seeds,Seeds,hotel_style,whole_flax_seeds,Whole Flax Seeds,630.1,18.3,30.3,57.0,27.3,4.2,5.0,680.0,160.0,4.5,2.0
+153,Flax seeds,Seeds,home_style,whole_flax_seeds,Whole Flax Seeds,507.3,18.3,28.9,35.9,27.3,4.2,5.0,680.0,160.0,4.5,2.0
+154,Pumpkin seeds,Seeds,healthy_choice,pepita_pumpkin_seeds,Pepita Pumpkin Seeds,458.4,34.7,9.1,31.9,7.5,2.1,3.5,680.0,160.0,4.5,2.0
+154,Pumpkin seeds,Seeds,hotel_style,pepita_pumpkin_seeds,Pepita Pumpkin Seeds,659.6,30.2,11.2,66.3,6.0,4.2,5.0,680.0,160.0,4.5,2.0
+155,Sunflower seeds,Seeds,home_style,hulled_sunflower_seeds,Hulled Sunflower Seeds,554.8,20.8,20.0,43.8,8.6,4.2,5.0,680.0,160.0,4.5,2.0
+155,Sunflower seeds,Seeds,hotel_style,hulled_sunflower_seeds,Hulled Sunflower Seeds,689.1,20.8,21.0,69.5,8.6,4.2,5.0,680.0,160.0,4.5,2.0
+156,Sesame seeds,Seeds,home_style,sesame_seeds,Sesame Seeds,544.4,17.7,23.4,42.2,11.8,4.2,5.0,680.0,160.0,4.5,2.0
+156,Sesame seeds,Seeds,standard,sesame_seeds,Sesame Seeds,573.0,17.7,23.4,49.7,11.8,4.2,5.0,680.0,160.0,4.5,2.0
+157,Watermelon seeds,Seeds,hotel_style,dried_watermelon_seeds,Dried Watermelon Seeds,657.3,28.3,16.1,64.0,5.0,4.2,5.0,680.0,160.0,4.5,2.0
+157,Watermelon seeds,Seeds,standard,dried_watermelon_seeds,Dried Watermelon Seeds,557.0,28.3,15.3,47.4,5.0,4.2,5.0,680.0,160.0,4.5,2.0
+158,Melon seeds,Seeds,standard,melon_seeds_magaz,Melon Seeds Magaz,550.0,26.0,18.0,46.0,6.0,4.2,5.0,680.0,160.0,4.5,2.0
+158,Melon seeds,Seeds,hotel_style,melon_seeds_magaz,Melon Seeds Magaz,649.0,26.0,18.9,62.1,6.0,4.2,5.0,680.0,160.0,4.5,2.0
+159,Hemp seeds,Seeds,healthy_choice,hulled_hemp_hearts,Hulled Hemp Hearts,453.5,36.3,7.4,31.7,5.0,2.1,3.5,680.0,160.0,4.5,2.0
+159,Hemp seeds,Seeds,hotel_style,hulled_hemp_hearts,Hulled Hemp Hearts,652.5,31.6,9.1,65.9,4.0,4.2,5.0,680.0,160.0,4.5,2.0
+160,Basil seeds,Seeds,hotel_style,sabja_sweet_basil_seeds,Sabja Sweet Basil Seeds,531.0,14.8,45.1,33.8,37.0,4.2,5.0,680.0,160.0,4.5,2.0
+160,Basil seeds,Seeds,healthy_choice,sabja_sweet_basil_seeds,Sabja Sweet Basil Seeds,369.0,17.0,36.5,16.2,46.2,2.1,3.5,680.0,160.0,4.5,2.0
+161,Poppy seeds,Seeds,standard,khus_khus_poppy_seeds,Khus Khus Poppy Seeds,525.0,18.0,28.1,41.6,19.5,4.2,5.0,680.0,160.0,4.5,2.0
+161,Poppy seeds,Seeds,healthy_choice,khus_khus_poppy_seeds,Khus Khus Poppy Seeds,430.5,20.7,23.9,27.0,24.4,2.1,3.5,680.0,160.0,4.5,2.0
+162,Toned milk,Dairy Products,home_style,toned_milk,Toned Milk,61.8,3.3,4.8,3.1,0.0,4.3,50.0,160.0,130.0,1.0,2.0
+162,Toned milk,Dairy Products,healthy_choice,toned_milk,Toned Milk,53.3,3.8,4.1,2.4,0.0,2.1,35.0,160.0,130.0,1.0,2.0
+163,Curd,Dairy Products,hotel_style,fermented_milk_cultures,Fermented Milk Cultures,70.8,4.0,4.7,4.3,0.0,4.2,50.0,160.0,150.0,1.0,2.0
+163,Curd,Dairy Products,healthy_choice,fermented_milk_cultures,Fermented Milk Cultures,49.2,4.6,3.8,2.1,0.0,2.0,35.0,160.0,150.0,1.0,2.0
+164,Greek yogurt,Dairy Products,standard,fermented_milk_cultures,Fermented Milk Cultures,60.0,4.0,4.5,3.2,0.0,4.0,50.0,160.0,150.0,1.0,2.0
+164,Greek yogurt,Dairy Products,home_style,fermented_milk_cultures,Fermented Milk Cultures,57.0,4.0,4.5,2.7,0.0,4.0,50.0,160.0,150.0,1.0,2.0
+165,Paneer,Dairy Products,standard,coagulated_milk_curd,Coagulated Milk Curd,290.0,18.0,4.0,22.0,0.0,0.5,280.0,150.0,480.0,1.0,2.0
+165,Paneer,Dairy Products,home_style,coagulated_milk_curd,Coagulated Milk Curd,275.5,18.0,4.0,18.7,0.0,0.5,280.0,150.0,480.0,1.0,2.0
+166,Cheese,Dairy Products,hotel_style,coagulated_milk_curd,Coagulated Milk Curd,342.2,18.0,4.2,29.7,0.0,0.5,280.0,150.0,480.0,1.0,2.0
+166,Cheese,Dairy Products,home_style,coagulated_milk_curd,Coagulated Milk Curd,275.5,18.0,4.0,18.7,0.0,0.5,280.0,150.0,480.0,1.0,2.0
+167,Butter,Dairy Products,hotel_style,clarified_butterfat,Clarified Butterfat,1038.4,0.5,0.0,133.7,0.0,0.5,570.0,150.0,5.0,1.0,2.0
+167,Butter,Dairy Products,standard,clarified_butterfat,Clarified Butterfat,880.0,0.5,0.0,99.0,0.0,0.5,570.0,150.0,5.0,1.0,2.0
+168,Ghee,Dairy Products,standard,clarified_butterfat,Clarified Butterfat,880.0,0.5,0.0,99.0,0.0,0.5,10.0,150.0,5.0,1.0,2.0
+168,Ghee,Dairy Products,home_style,clarified_butterfat,Clarified Butterfat,836.0,0.5,0.0,84.1,0.0,0.5,10.0,150.0,5.0,1.0,2.0
+169,Overnight oats,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+169,Overnight oats,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+170,Oatmeal,Breakfast & Snacks,healthy_choice,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",229.6,6.9,35.7,7.2,3.8,0.2,84.0,150.0,25.0,1.0,2.0
+170,Oatmeal,Breakfast & Snacks,home_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",266.0,6.0,42.0,9.3,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+171,Cornflakes,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+171,Cornflakes,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+172,Muesli,Breakfast & Snacks,home_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",266.0,6.0,42.0,9.3,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+172,Muesli,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+173,Granola,Breakfast & Snacks,healthy_choice,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",229.6,6.9,35.7,7.2,3.8,0.2,84.0,150.0,25.0,1.0,2.0
+173,Granola,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+174,Peanut butter,Breakfast & Snacks,home_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",266.0,6.0,42.0,9.3,3.0,0.5,570.0,150.0,5.0,1.0,2.0
+174,Peanut butter,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,570.0,150.0,5.0,1.0,2.0
+175,Boiled corn,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+175,Boiled corn,Breakfast & Snacks,healthy_choice,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",229.6,6.9,35.7,7.2,3.8,0.2,84.0,150.0,25.0,1.0,2.0
+176,Popcorn,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+176,Popcorn,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+177,Samosa,Breakfast & Snacks,home_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",266.0,6.0,42.0,9.3,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+177,Samosa,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+178,Vada,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+178,Vada,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+179,Bajji,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+179,Bajji,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+180,Bonda,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+180,Bonda,Breakfast & Snacks,healthy_choice,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",229.6,6.9,35.7,7.2,3.8,0.2,84.0,150.0,25.0,1.0,2.0
+181,Murukku,Breakfast & Snacks,home_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",266.0,6.0,42.0,9.3,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+181,Murukku,Breakfast & Snacks,standard,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",280.0,6.0,42.0,11.0,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+182,Biscuits,Breakfast & Snacks,hotel_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",330.4,6.0,44.1,14.9,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+182,Biscuits,Breakfast & Snacks,home_style,gram_flour_or_cereal;spices;oil,"Gram Flour Or Cereal, Spices, Oil",266.0,6.0,42.0,9.3,3.0,0.5,120.0,150.0,25.0,1.0,2.0
+183,Payasam,Desserts & Sweets,hotel_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",377.6,4.0,57.8,13.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+183,Payasam,Desserts & Sweets,standard,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",320.0,4.0,55.0,10.0,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+184,Halwa,Desserts & Sweets,standard,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",320.0,4.0,55.0,10.0,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+184,Halwa,Desserts & Sweets,hotel_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",377.6,4.0,57.8,13.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+185,Laddu,Desserts & Sweets,hotel_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",377.6,4.0,57.8,13.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+185,Laddu,Desserts & Sweets,standard,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",320.0,4.0,55.0,10.0,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+186,Gulab jamun,Desserts & Sweets,hotel_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",377.6,4.0,57.8,13.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+186,Gulab jamun,Desserts & Sweets,healthy_choice,milk_solid_or_flour;ghee;cardamom,"Milk Solid Or Flour, Ghee, Cardamom",262.4,4.6,46.8,6.5,1.2,0.2,84.0,150.0,25.0,1.0,2.0
+187,Rasgulla,Desserts & Sweets,healthy_choice,milk_solid_or_flour;ghee;cardamom,"Milk Solid Or Flour, Ghee, Cardamom",262.4,4.6,46.8,6.5,1.2,0.2,84.0,150.0,25.0,1.0,2.0
+187,Rasgulla,Desserts & Sweets,home_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",304.0,4.0,55.0,8.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+188,Kheer,Desserts & Sweets,hotel_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",377.6,4.0,57.8,13.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+188,Kheer,Desserts & Sweets,standard,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",320.0,4.0,55.0,10.0,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+189,Ice cream,Desserts & Sweets,healthy_choice,milk_solid_or_flour;ghee;cardamom,"Milk Solid Or Flour, Ghee, Cardamom",262.4,4.6,46.8,6.5,1.2,0.2,84.0,150.0,25.0,1.0,2.0
+189,Ice cream,Desserts & Sweets,hotel_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",377.6,4.0,57.8,13.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+190,Cake,Desserts & Sweets,healthy_choice,milk_solid_or_flour;ghee;cardamom,"Milk Solid Or Flour, Ghee, Cardamom",262.4,4.6,46.8,6.5,1.2,0.2,84.0,150.0,25.0,1.0,2.0
+190,Cake,Desserts & Sweets,home_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",304.0,4.0,55.0,8.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+191,Brownies,Desserts & Sweets,standard,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",320.0,4.0,55.0,10.0,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+191,Brownies,Desserts & Sweets,healthy_choice,milk_solid_or_flour;ghee;cardamom,"Milk Solid Or Flour, Ghee, Cardamom",262.4,4.6,46.8,6.5,1.2,0.2,84.0,150.0,25.0,1.0,2.0
+192,Dark chocolate,Desserts & Sweets,standard,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",320.0,4.0,55.0,10.0,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+192,Dark chocolate,Desserts & Sweets,healthy_choice,milk_solid_or_flour;ghee;cardamom,"Milk Solid Or Flour, Ghee, Cardamom",262.4,4.6,46.8,6.5,1.2,0.2,84.0,150.0,25.0,1.0,2.0
+193,Dates-based sweets,Desserts & Sweets,hotel_style,milk_solid_or_flour;sugar;ghee;cardamom,"Milk Solid Or Flour, Sugar, Ghee, Cardamom",377.6,4.0,57.8,13.5,1.0,0.5,120.0,150.0,25.0,1.0,2.0
+193,Dates-based sweets,Desserts & Sweets,healthy_choice,milk_solid_or_flour;ghee;cardamom,"Milk Solid Or Flour, Ghee, Cardamom",262.4,4.6,46.8,6.5,1.2,0.2,84.0,150.0,25.0,1.0,2.0
+194,Water,Drinks & Beverages,hotel_style,pure_water,Pure Water,0.0,0.0,0.0,0.0,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+194,Water,Drinks & Beverages,healthy_choice,pure_water,Pure Water,0.0,0.0,0.0,0.0,0.0,0.2,84.0,150.0,25.0,1.0,2.0
+195,Tender coconut water,Drinks & Beverages,home_style,tender_coconut_water,Tender Coconut Water,38.0,0.5,9.5,0.1,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+195,Tender coconut water,Drinks & Beverages,healthy_choice,tender_coconut_water,Tender Coconut Water,32.8,0.6,8.1,0.1,0.0,0.2,84.0,150.0,25.0,1.0,2.0
+196,Milk,Drinks & Beverages,home_style,whole_cow_milk,Whole Cow Milk,58.9,3.2,4.8,3.1,0.0,4.3,50.0,160.0,130.0,1.0,2.0
+196,Milk,Drinks & Beverages,hotel_style,whole_cow_milk,Whole Cow Milk,73.2,3.2,5.0,4.9,0.0,4.5,50.0,160.0,130.0,1.0,2.0
+197,Skimmed milk,Drinks & Beverages,home_style,skimmed_cow_milk,Skimmed Cow Milk,33.2,3.4,5.0,0.2,0.0,4.5,50.0,160.0,130.0,1.0,2.0
+197,Skimmed milk,Drinks & Beverages,healthy_choice,skimmed_cow_milk,Skimmed Cow Milk,28.7,3.9,4.2,0.1,0.0,2.2,35.0,160.0,130.0,1.0,2.0
+198,Buttermilk,Drinks & Beverages,hotel_style,buttermilk,Buttermilk,47.2,0.5,10.0,0.1,0.0,0.5,570.0,150.0,5.0,1.0,2.0
+198,Buttermilk,Drinks & Beverages,healthy_choice,buttermilk,Buttermilk,32.8,0.6,8.1,0.1,0.0,0.2,399.0,150.0,5.0,1.0,2.0
+199,Lassi,Drinks & Beverages,home_style,lassi,Lassi,38.0,0.5,9.5,0.1,0.0,8.6,50.0,160.0,150.0,1.0,2.0
+199,Lassi,Drinks & Beverages,healthy_choice,lassi,Lassi,32.8,0.6,8.1,0.1,0.0,4.3,35.0,160.0,150.0,1.0,2.0
+200,Filter coffee,Drinks & Beverages,standard,filter_coffee,Filter Coffee,40.0,0.5,9.5,0.1,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+200,Filter coffee,Drinks & Beverages,home_style,filter_coffee,Filter Coffee,38.0,0.5,9.5,0.1,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+201,Tea,Drinks & Beverages,home_style,brewed_tea_leaves;water,"Brewed Tea Leaves, Water",1.9,0.2,0.3,0.0,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+201,Tea,Drinks & Beverages,healthy_choice,brewed_tea_leaves;water,"Brewed Tea Leaves, Water",1.6,0.2,0.3,0.0,0.0,0.2,84.0,150.0,25.0,1.0,2.0
+202,Green tea,Drinks & Beverages,hotel_style,brewed_tea_leaves;water,"Brewed Tea Leaves, Water",2.4,0.2,0.3,0.0,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+202,Green tea,Drinks & Beverages,standard,brewed_tea_leaves;water,"Brewed Tea Leaves, Water",2.0,0.2,0.3,0.0,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+203,Lemon juice,Drinks & Beverages,healthy_choice,fresh_lemon_juice,Fresh Lemon Juice,36.9,0.8,8.9,0.1,0.5,0.2,84.0,150.0,25.0,1.0,2.0
+203,Lemon juice,Drinks & Beverages,hotel_style,fresh_lemon_juice,Fresh Lemon Juice,53.1,0.7,11.0,0.3,0.4,0.5,120.0,150.0,25.0,1.0,2.0
+204,Orange juice,Drinks & Beverages,home_style,fresh_orange_juice,Fresh Orange Juice,42.8,0.7,10.5,0.2,0.4,0.5,120.0,150.0,25.0,1.0,2.0
+204,Orange juice,Drinks & Beverages,standard,fresh_orange_juice,Fresh Orange Juice,45.0,0.7,10.5,0.2,0.4,0.5,120.0,150.0,25.0,1.0,2.0
+205,Apple juice,Drinks & Beverages,home_style,fresh_apple_juice,Fresh Apple Juice,42.8,0.7,10.5,0.2,0.4,0.5,120.0,150.0,25.0,1.0,2.0
+205,Apple juice,Drinks & Beverages,healthy_choice,fresh_apple_juice,Fresh Apple Juice,36.9,0.8,8.9,0.1,0.5,0.2,84.0,150.0,25.0,1.0,2.0
+206,Sugarcane juice,Drinks & Beverages,healthy_choice,fresh_sugarcane_juice,Fresh Sugarcane Juice,36.9,0.8,8.9,0.1,0.5,0.2,84.0,150.0,25.0,1.0,2.0
+206,Sugarcane juice,Drinks & Beverages,home_style,fresh_sugarcane_juice,Fresh Sugarcane Juice,42.8,0.7,10.5,0.2,0.4,0.5,120.0,150.0,25.0,1.0,2.0
+207,Fresh fruit juices,Drinks & Beverages,home_style,fresh_fresh_fruit_juices,Fresh Fresh Fruit Juices,42.8,0.7,10.5,0.2,0.4,0.5,120.0,150.0,25.0,1.0,2.0
+207,Fresh fruit juices,Drinks & Beverages,healthy_choice,fresh_fresh_fruit_juices,Fresh Fresh Fruit Juices,36.9,0.8,8.9,0.1,0.5,0.2,84.0,150.0,25.0,1.0,2.0
+208,Soft drinks,Drinks & Beverages,standard,soft_drinks,Soft Drinks,40.0,0.5,9.5,0.1,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+208,Soft drinks,Drinks & Beverages,home_style,soft_drinks,Soft Drinks,38.0,0.5,9.5,0.1,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+209,Energy drinks,Drinks & Beverages,healthy_choice,energy_drinks,Energy Drinks,32.8,0.6,8.1,0.1,0.0,0.2,84.0,150.0,25.0,1.0,2.0
+209,Energy drinks,Drinks & Beverages,home_style,energy_drinks,Energy Drinks,38.0,0.5,9.5,0.1,0.0,0.5,120.0,150.0,25.0,1.0,2.0
+210,Recovery shakes,Gym & Sports Nutrition,healthy_choice,milk;whey_protein;banana;honey,"Milk, Whey Protein, Banana, Honey",131.2,17.2,17.0,1.6,1.9,2.1,3.5,680.0,160.0,4.5,2.0
+210,Recovery shakes,Gym & Sports Nutrition,hotel_style,milk;whey_protein;banana;honey,"Milk, Whey Protein, Banana, Honey",188.8,15.0,21.0,3.4,1.5,4.2,5.0,680.0,160.0,4.5,2.0
+211,Whey protein,Gym & Sports Nutrition,healthy_choice,whey_protein_concentrate_powder,Whey Protein Concentrate Powder,311.6,89.7,5.5,3.1,0.0,2.1,3.5,680.0,160.0,4.5,2.0
+211,Whey protein,Gym & Sports Nutrition,hotel_style,whey_protein_concentrate_powder,Whey Protein Concentrate Powder,448.4,78.0,6.8,6.5,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+212,Whey isolate,Gym & Sports Nutrition,home_style,whey_protein_isolate_powder,Whey Protein Isolate Powder,351.5,90.0,1.5,0.8,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+212,Whey isolate,Gym & Sports Nutrition,standard,whey_protein_isolate_powder,Whey Protein Isolate Powder,370.0,90.0,1.5,1.0,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+213,Casein protein,Gym & Sports Nutrition,hotel_style,micellar_casein_powder,Micellar Casein Powder,430.7,76.0,7.4,4.7,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+213,Casein protein,Gym & Sports Nutrition,home_style,micellar_casein_powder,Micellar Casein Powder,346.8,76.0,7.0,3.0,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+214,Plant protein,Gym & Sports Nutrition,standard,pea_protein_isolate;brown_rice_protein,"Pea Protein Isolate, Brown Rice Protein",375.0,72.0,10.0,5.0,4.0,4.2,5.0,680.0,160.0,4.5,2.0
+214,Plant protein,Gym & Sports Nutrition,hotel_style,pea_protein_isolate;brown_rice_protein,"Pea Protein Isolate, Brown Rice Protein",442.5,72.0,10.5,6.8,4.0,4.2,5.0,680.0,160.0,4.5,2.0
+215,Soy protein,Gym & Sports Nutrition,healthy_choice,soy_protein_isolate,Soy Protein Isolate,311.6,97.7,1.7,2.0,1.2,2.1,3.5,680.0,160.0,4.5,2.0
+215,Soy protein,Gym & Sports Nutrition,standard,soy_protein_isolate,Soy Protein Isolate,380.0,85.0,2.0,3.0,1.0,4.2,5.0,680.0,160.0,4.5,2.0
+216,Creatine,Gym & Sports Nutrition,healthy_choice,creatine_monohydrate_powder,Creatine Monohydrate Powder,0.0,0.0,0.0,0.0,0.0,2.1,3.5,680.0,160.0,4.5,2.0
+216,Creatine,Gym & Sports Nutrition,hotel_style,creatine_monohydrate_powder,Creatine Monohydrate Powder,0.0,0.0,0.0,0.0,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+217,Protein bars,Gym & Sports Nutrition,standard,protein_blend;dates_or_maltitol;oats;almonds;cocoa,"Protein Blend, Dates Or Maltitol, Oats, Almonds, Cocoa",385.0,30.0,38.0,12.0,8.0,4.2,5.0,680.0,160.0,4.5,2.0
+217,Protein bars,Gym & Sports Nutrition,hotel_style,protein_blend;dates_or_maltitol;oats;almonds;cocoa,"Protein Blend, Dates Or Maltitol, Oats, Almonds, Cocoa",454.3,30.0,39.9,16.2,8.0,4.2,5.0,680.0,160.0,4.5,2.0
+218,Mass gainers,Gym & Sports Nutrition,healthy_choice,maltodextrin_complex_carbs;whey_protein;vitamins,"Maltodextrin Complex Carbs, Whey Protein, Vitamins",323.9,28.7,57.8,2.0,2.5,2.1,3.5,680.0,160.0,4.5,2.0
+218,Mass gainers,Gym & Sports Nutrition,home_style,maltodextrin_complex_carbs;whey_protein;vitamins,"Maltodextrin Complex Carbs, Whey Protein, Vitamins",375.2,25.0,68.0,2.5,2.0,4.2,5.0,680.0,160.0,4.5,2.0
+219,Electrolyte drinks,Gym & Sports Nutrition,healthy_choice,water;sodium_chloride;potassium_citrate;glucose;flavour,"Water, Sodium Chloride, Potassium Citrate, Glucose, Flavour",23.0,0.0,6.0,0.0,0.0,2.1,3.5,680.0,160.0,4.5,2.0
+219,Electrolyte drinks,Gym & Sports Nutrition,home_style,water;sodium_chloride;potassium_citrate;glucose;flavour,"Water, Sodium Chloride, Potassium Citrate, Glucose, Flavour",26.6,0.0,7.0,0.0,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+220,Pre-workout drinks,Gym & Sports Nutrition,standard,caffeine_anhydrous;beta_alanine;l_citrulline_malate;electrolytes,"Caffeine Anhydrous, Beta Alanine, L Citrulline Malate, Electrolytes",15.0,1.0,2.0,0.0,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+220,Pre-workout drinks,Gym & Sports Nutrition,hotel_style,caffeine_anhydrous;beta_alanine;l_citrulline_malate;electrolytes,"Caffeine Anhydrous, Beta Alanine, L Citrulline Malate, Electrolytes",17.7,1.0,2.1,0.0,0.0,4.2,5.0,680.0,160.0,4.5,2.0
+221,Poori,Indian Breads,hotel_style,whole_wheat_flour;oil;salt;water,"Whole Wheat Flour, Oil, Salt, Water",340.4,6.7,43.1,14.4,3.2,0.9,241.5,135.0,18.0,1.9,0.0
+221,Poori,Indian Breads,home_style,whole_wheat_flour;oil;salt;water,"Whole Wheat Flour, Oil, Salt, Water",281.2,6.9,40.2,9.8,3.6,0.8,189.0,135.0,18.0,1.9,0.0
+222,Chutney,South Indian,hotel_style,fresh_grated_coconut;chana_dal;green_chilli;ginger;curry_leaves;mustard_seeds;oil;salt,"Fresh Grated Coconut, Chana Dal, Green Chilli, Ginger, Curry Leaves, Mustard Seeds, Oil, Salt",212.7,4.1,11.6,17.5,4.3,2.6,368.0,210.0,28.0,1.4,4.5
+222,Chutney,South Indian,home_style,fresh_grated_coconut;chana_dal;green_chilli;ginger;curry_leaves;mustard_seeds;oil;salt,"Fresh Grated Coconut, Chana Dal, Green Chilli, Ginger, Curry Leaves, Mustard Seeds, Oil, Salt",175.8,4.3,10.8,11.9,4.7,2.3,288.0,210.0,28.0,1.4,4.5
+223,Momos,Snacks & Street Food,hotel_style,maida_refined_flour;cabbage;carrot;onion;garlic;ginger;soy_sauce;black_pepper;oil;salt,"Maida Refined Flour, Cabbage, Carrot, Onion, Garlic, Ginger, Soy Sauce, Black Pepper, Oil, Salt",201.2,5.1,28.9,6.0,2.1,2.3,471.5,165.0,24.0,1.3,8.0
+223,Momos,Snacks & Street Food,home_style,maida_refined_flour;cabbage;carrot;onion;garlic;ginger;soy_sauce;black_pepper;oil;salt,"Maida Refined Flour, Cabbage, Carrot, Onion, Garlic, Ginger, Soy Sauce, Black Pepper, Oil, Salt",166.2,5.3,26.9,4.1,2.3,2.0,369.0,165.0,24.0,1.3,8.0
+224,Pani puri,Snacks & Street Food,hotel_style,roasted_semolina;maida_refined_flour;potato;boiled_chickpeas;tamarind;mint;coriander;green_chilli;cumin;salt,"Roasted Semolina, Maida Refined Flour, Potato, Boiled Chickpeas, Tamarind, Mint, Coriander, Green Chilli, Cumin, Salt",209.3,4.0,32.6,5.6,2.8,4.2,563.5,220.0,26.0,1.7,7.5
+224,Pani puri,Snacks & Street Food,home_style,roasted_semolina;maida_refined_flour;potato;boiled_chickpeas;tamarind;mint;coriander;green_chilli;cumin;salt,"Roasted Semolina, Maida Refined Flour, Potato, Boiled Chickpeas, Tamarind, Mint, Coriander, Green Chilli, Cumin, Salt",172.9,4.2,30.4,3.8,3.2,3.6,441.0,220.0,26.0,1.7,7.5
+225,Jalebi,Sweets & Desserts,hotel_style,maida_refined_flour;curd;sugar;ghee;cardamom;saffron;water,"Maida Refined Flour, Curd, Sugar, Ghee, Cardamom, Saffron, Water",434.7,2.5,65.1,16.9,0.6,46.2,51.7,55.0,22.0,0.9,0.0
+225,Jalebi,Sweets & Desserts,home_style,maida_refined_flour;curd;sugar;ghee;cardamom;saffron;water,"Maida Refined Flour, Curd, Sugar, Ghee, Cardamom, Saffron, Water",359.1,2.7,60.8,11.5,0.6,39.9,40.5,55.0,22.0,0.9,0.0
+226,Vada pav,Snacks & Street Food,hotel_style,bun;potato;gram_flour_besan;garlic;green_chilli;mustard_seeds;curry_leaves;turmeric;oil;salt,"Bun, Potato, Gram Flour Besan, Garlic, Green Chilli, Mustard Seeds, Curry Leaves, Turmeric, Oil, Salt",308.2,6.1,40.4,12.2,2.7,2.9,529.0,240.0,34.0,1.8,5.0
+226,Vada pav,Snacks & Street Food,home_style,bun;potato;gram_flour_besan;garlic;green_chilli;mustard_seeds;curry_leaves;turmeric;oil;salt,"Bun, Potato, Gram Flour Besan, Garlic, Green Chilli, Mustard Seeds, Curry Leaves, Turmeric, Oil, Salt",254.6,6.3,37.7,8.3,2.9,2.5,414.0,240.0,34.0,1.8,5.0
+227,Pav,Indian Breads,hotel_style,maida_refined_flour;yeast;milk;butter;sugar;salt;water,"Maida Refined Flour, Yeast, Milk, Butter, Sugar, Salt, Water",304.8,7.4,51.5,5.2,2.0,5.0,448.5,115.0,42.0,2.0,0.0
+227,Pav,Indian Breads,home_style,maida_refined_flour;yeast;milk;butter;sugar;salt;water,"Maida Refined Flour, Yeast, Milk, Butter, Sugar, Salt, Water",251.8,7.8,48.0,3.6,2.2,4.3,351.0,115.0,42.0,2.0,0.0
+228,Naan,Indian Breads,hotel_style,maida_refined_flour;curd;butter;yeast;garlic;milk;sugar;salt,"Maida Refined Flour, Curd, Butter, Yeast, Garlic, Milk, Sugar, Salt",333.5,8.2,50.4,8.5,2.1,3.7,471.5,130.0,58.0,2.1,0.5
+228,Naan,Indian Breads,home_style,maida_refined_flour;curd;butter;yeast;garlic;milk;sugar;salt,"Maida Refined Flour, Curd, Butter, Yeast, Garlic, Milk, Sugar, Salt",275.5,8.6,47.0,5.8,2.3,3.2,369.0,130.0,58.0,2.1,0.5
+229,Cutlet,Snacks & Street Food,hotel_style,potato;carrot;green_peas;beans;onion;bread_crumbs;garam_masala;ginger;coriander;oil;salt,"Potato, Carrot, Green Peas, Beans, Onion, Bread Crumbs, Garam Masala, Ginger, Coriander, Oil, Salt",266.8,5.3,30.5,13.2,3.4,3.1,437.0,270.0,28.0,1.6,9.0
+229,Cutlet,Snacks & Street Food,home_style,potato;carrot;green_peas;beans;onion;bread_crumbs;garam_masala;ginger;coriander;oil;salt,"Potato, Carrot, Green Peas, Beans, Onion, Bread Crumbs, Garam Masala, Ginger, Coriander, Oil, Salt",220.4,5.5,28.4,9.0,3.8,2.7,342.0,270.0,28.0,1.6,9.0
+230,Poha,Breakfast,hotel_style,flattened_rice_poha;onion;peanuts;mustard_seeds;curry_leaves;turmeric;green_chilli;lemon_juice;coriander;oil;salt,"Flattened Rice Poha, Onion, Peanuts, Mustard Seeds, Curry Leaves, Turmeric, Green Chilli, Lemon Juice, Coriander, Oil, Salt",181.7,3.4,28.9,4.9,2.0,1.5,322.0,145.0,20.0,2.4,6.0
+230,Poha,Breakfast,home_style,flattened_rice_poha;onion;peanuts;mustard_seeds;curry_leaves;turmeric;green_chilli;lemon_juice;coriander;oil;salt,"Flattened Rice Poha, Onion, Peanuts, Mustard Seeds, Curry Leaves, Turmeric, Green Chilli, Lemon Juice, Coriander, Oil, Salt",150.1,3.6,26.9,3.3,2.2,1.3,252.0,145.0,20.0,2.4,6.0

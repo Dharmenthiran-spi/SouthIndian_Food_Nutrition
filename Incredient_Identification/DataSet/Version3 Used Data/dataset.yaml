@@ -1,0 +1,581 @@
+version: 3.0
+description: Ingredient Identification & Comprehensive Nutrition Dataset Version 3
+num_foods: 231
+num_ingredients: 328
+total_samples: 924
+train_samples: 462
+val_samples: 231
+test_samples: 231
+nutrition_targets:
+- calories_kcal
+- protein_g
+- carbohydrates_g
+- fat_g
+- fiber_g
+- sugar_g
+- sodium_mg
+- potassium_mg
+- calcium_mg
+- iron_mg
+- vitamin_c_mg
+names:
+  0: Idli
+  1: Dosa
+  2: Masala dosa
+  3: Ragi dosa
+  4: Ragi koozh
+  5: Pongal
+  6: Upma
+  7: Appam
+  8: Puttu
+  9: Idiyappam
+  10: Adai
+  11: Chapati
+  12: Parotta
+  13: Rice
+  14: Lemon rice
+  15: Curd rice
+  16: Tomato rice
+  17: Sambar rice
+  18: Rasam rice
+  19: Pulao
+  20: Kichadi
+  21: Sambar
+  22: Rasam
+  23: Dal
+  24: Kootu
+  25: Poriyal
+  26: Avial
+  27: Kurma
+  28: Paneer butter masala
+  29: Palak paneer
+  30: Chana masala
+  31: Rajma
+  32: Vegetable curry
+  33: Mushroom curry
+  34: Vegetable pulao
+  35: Vegetable fried rice
+  36: Cucumber salad
+  37: Carrot salad
+  38: Beetroot salad
+  39: Onion tomato salad
+  40: Mixed vegetable salad
+  41: Sprouts salad
+  42: Chickpea salad
+  43: Protein salad
+  44: Green gram sprouts
+  45: Black gram sprouts
+  46: Chickpea sprouts
+  47: Black chana
+  48: Horse gram
+  49: Mixed sprouts
+  50: Boiled chickpeas
+  51: Kidney beans
+  52: Lentils
+  53: Soybeans
+  54: Green peas
+  55: Sundal
+  56: Chicken curry
+  57: Chicken 65
+  58: Chicken fry
+  59: Chicken biryani
+  60: Tandoori chicken
+  61: Chicken tikka
+  62: Grilled chicken
+  63: Chicken kebab
+  64: Chicken burger
+  65: Chicken pizza
+  66: Mutton curry
+  67: Mutton biryani
+  68: Fish curry
+  69: Fish fry
+  70: Grilled fish
+  71: Prawn masala
+  72: Prawn fry
+  73: Crab curry
+  74: Egg boiled
+  75: Egg omelette
+  76: Egg bhurji
+  77: Egg dosa
+  78: Burger
+  79: Veg burger
+  80: Cheese burger
+  81: Pizza
+  82: Veg pizza
+  83: Cheese pizza
+  84: Sandwich
+  85: Grilled sandwich
+  86: Wraps
+  87: Shawarma
+  88: Tacos
+  89: Pasta
+  90: Macaroni
+  91: Noodles
+  92: Fried rice
+  93: French fries
+  94: Nachos
+  95: Hot dogs
+  96: Carrot
+  97: Beetroot
+  98: Cucumber
+  99: Tomato
+  100: Onion
+  101: Potato
+  102: Sweet potato
+  103: Broccoli
+  104: Cauliflower
+  105: Spinach
+  106: Amaranth leaves
+  107: Cabbage
+  108: Beans
+  109: Capsicum
+  110: Pumpkin
+  111: Bottle gourd
+  112: Bitter gourd
+  113: Drumstick
+  114: Brinjal
+  115: Mushroom
+  116: Apple
+  117: Banana
+  118: Mango
+  119: Orange
+  120: Papaya
+  121: Pineapple
+  122: Watermelon
+  123: Muskmelon
+  124: Guava
+  125: Grapes
+  126: Pomegranate
+  127: Kiwi
+  128: Dragon fruit
+  129: Strawberry
+  130: Blueberry
+  131: Avocado
+  132: Jackfruit
+  133: Dates
+  134: Fig
+  135: Sapota
+  136: Custard apple
+  137: Coconut
+  138: Mixed fruit salad
+  139: Apple fruit salad
+  140: Mango fruit salad
+  141: Watermelon fruit salad
+  142: Seasonal fruit salad
+  143: Almonds
+  144: Cashews
+  145: Walnuts
+  146: Pistachios
+  147: Peanuts
+  148: Hazelnuts
+  149: Brazil nuts
+  150: Macadamia nuts
+  151: Pecans
+  152: Chia seeds
+  153: Flax seeds
+  154: Pumpkin seeds
+  155: Sunflower seeds
+  156: Sesame seeds
+  157: Watermelon seeds
+  158: Melon seeds
+  159: Hemp seeds
+  160: Basil seeds
+  161: Poppy seeds
+  162: Toned milk
+  163: Curd
+  164: Greek yogurt
+  165: Paneer
+  166: Cheese
+  167: Butter
+  168: Ghee
+  169: Overnight oats
+  170: Oatmeal
+  171: Cornflakes
+  172: Muesli
+  173: Granola
+  174: Peanut butter
+  175: Boiled corn
+  176: Popcorn
+  177: Samosa
+  178: Vada
+  179: Bajji
+  180: Bonda
+  181: Murukku
+  182: Biscuits
+  183: Payasam
+  184: Halwa
+  185: Laddu
+  186: Gulab jamun
+  187: Rasgulla
+  188: Kheer
+  189: Ice cream
+  190: Cake
+  191: Brownies
+  192: Dark chocolate
+  193: Dates-based sweets
+  194: Water
+  195: Tender coconut water
+  196: Milk
+  197: Skimmed milk
+  198: Buttermilk
+  199: Lassi
+  200: Filter coffee
+  201: Tea
+  202: Green tea
+  203: Lemon juice
+  204: Orange juice
+  205: Apple juice
+  206: Sugarcane juice
+  207: Fresh fruit juices
+  208: Soft drinks
+  209: Energy drinks
+  210: Recovery shakes
+  211: Whey protein
+  212: Whey isolate
+  213: Casein protein
+  214: Plant protein
+  215: Soy protein
+  216: Creatine
+  217: Protein bars
+  218: Mass gainers
+  219: Electrolyte drinks
+  220: Pre-workout drinks
+  221: Poori
+  222: Chutney
+  223: Momos
+  224: Pani puri
+  225: Jalebi
+  226: Vada pav
+  227: Pav
+  228: Naan
+  229: Cutlet
+  230: Poha
+ingredients:
+  0: Almonds
+  1: Apple Fruit Salad
+  2: Asafoetida
+  3: Banana
+  4: Basmati Rice
+  5: Beans
+  6: Beetroot Salad
+  7: Beta Alanine
+  8: Biryani Masala
+  9: Black Pepper
+  10: Blend Of Mozzarella Cheeses
+  11: Boiled Black Chana
+  12: Boiled Black Gram Sprouts
+  13: Boiled Boiled Chickpeas
+  14: Boiled Chickpea Sprouts
+  15: Boiled Chickpeas
+  16: Boiled Green Gram Sprouts
+  17: Boiled Green Peas
+  18: Boiled Horse Gram
+  19: Boiled Kidney Beans
+  20: Boiled Lentils
+  21: Boiled Mixed Sprouts
+  22: Boiled Soybeans
+  23: Boiled White Rice
+  24: Boneless Chicken
+  25: Boneless Chicken Cubes
+  26: Brazil Nuts
+  27: Bread
+  28: Bread Crumbs
+  29: Bread Slices
+  30: Brewed Tea Leaves
+  31: Broken Raw Rice
+  32: Brown Rice Protein
+  33: Bun
+  34: Burger Bun
+  35: Butter
+  36: Butter Oil
+  37: Buttermilk
+  38: Button Mushrooms
+  39: Cabbage
+  40: Caffeine Anhydrous
+  41: Capsicum
+  42: Cardamom
+  43: Carrot
+  44: Carrot Salad
+  45: Cashew Paste
+  46: Cashews
+  47: Chana Dal
+  48: Chana Masala Spice
+  49: Cheddar Cheese Slice
+  50: Cheese
+  51: Cheese Sauce
+  52: Chicken
+  53: Chicken Breast
+  54: Chicken Chunks
+  55: Chicken Leg Breast
+  56: Chicken Patty
+  57: Chicken Pieces
+  58: Chickpea Salad
+  59: Chilli Oil
+  60: Chow Chow
+  61: Chutney
+  62: Clarified Butterfat
+  63: Coagulated Milk Curd
+  64: Coarse Rice Flour
+  65: Cocoa
+  66: Coconut Cashew Paste
+  67: Coconut Curd Paste
+  68: Coconut Milk
+  69: Coconut Oil
+  70: Coconut Paste
+  71: Cooked Rice
+  72: Coriander
+  73: Corn Flour
+  74: Corn Tortilla
+  75: Corn Tortilla Chips
+  76: Crab
+  77: Cream
+  78: Creatine Monohydrate Powder
+  79: Crushed Black Pepper
+  80: Cucumber
+  81: Cucumber Salad
+  82: Cumin
+  83: Curd
+  84: Curry Leaves
+  85: Curry Powder
+  86: Dates Or Maltitol
+  87: Dosa Batter
+  88: Dried Watermelon Seeds
+  89: Drumstick
+  90: Dry Red Chilli
+  91: Durum Wheat Pasta
+  92: Egg
+  93: Egg Or Vegetables
+  94: Eggs
+  95: Electrolytes
+  96: Energy Drinks
+  97: Fennel
+  98: Fenugreek
+  99: Fenugreek Seeds
+  100: Fermented Milk Cultures
+  101: Filling
+  102: Filter Coffee
+  103: Finger Millet Flour
+  104: Fish Fillet
+  105: Fish Slice
+  106: Flattened Rice Poha
+  107: Flavour
+  108: Flour Crust
+  109: Frankfurter Sausage
+  110: French Beans
+  111: Fresh Amaranth Leaves
+  112: Fresh Apple
+  113: Fresh Apple Juice
+  114: Fresh Avocado
+  115: Fresh Banana
+  116: Fresh Beans
+  117: Fresh Beetroot
+  118: Fresh Bitter Gourd
+  119: Fresh Blueberry
+  120: Fresh Bottle Gourd
+  121: Fresh Brinjal
+  122: Fresh Broccoli
+  123: Fresh Cabbage
+  124: Fresh Capsicum
+  125: Fresh Carrot
+  126: Fresh Cauliflower
+  127: Fresh Coconut
+  128: Fresh Cucumber
+  129: Fresh Curd
+  130: Fresh Custard Apple
+  131: Fresh Dates
+  132: Fresh Dragon Fruit
+  133: Fresh Drumstick
+  134: Fresh Fig
+  135: Fresh Fish
+  136: Fresh Fresh Fruit Juices
+  137: Fresh Grapes
+  138: Fresh Grated Coconut
+  139: Fresh Guava
+  140: Fresh Jackfruit
+  141: Fresh Kiwi
+  142: Fresh Lemon Juice
+  143: Fresh Mango
+  144: Fresh Mushroom
+  145: Fresh Muskmelon
+  146: Fresh Onion
+  147: Fresh Orange
+  148: Fresh Orange Juice
+  149: Fresh Papaya
+  150: Fresh Pineapple
+  151: Fresh Pomegranate
+  152: Fresh Potato
+  153: Fresh Pumpkin
+  154: Fresh Sapota
+  155: Fresh Spinach
+  156: Fresh Strawberry
+  157: Fresh Sugarcane Juice
+  158: Fresh Sweet Potato
+  159: Fresh Tomato
+  160: Fresh Watermelon
+  161: Fried Onions
+  162: Garam Masala
+  163: Garlic
+  164: Ghee
+  165: Ginger
+  166: Ginger Garlic
+  167: Glucose
+  168: Gram Flour Besan
+  169: Gram Flour Or Cereal
+  170: Grated Coconut
+  171: Green Chilli
+  172: Green Peas
+  173: Greens
+  174: Hazelnuts
+  175: Herbs
+  176: Honey
+  177: Hot Dog Bun
+  178: Hulled Hemp Hearts
+  179: Hulled Sunflower Seeds
+  180: Hung Curd
+  181: Jalapenos
+  182: Kashmiri Chilli
+  183: Kashmiri Mirch
+  184: Kasuri Methi
+  185: Ketchup
+  186: Khus Khus Poppy Seeds
+  187: L Citrulline Malate
+  188: Lassi
+  189: Lemon
+  190: Lemon Juice
+  191: Lettuce
+  192: Macadamia Nuts
+  193: Macaroni Elbows
+  194: Maida Refined Flour
+  195: Maltodextrin Complex Carbs
+  196: Mango Fruit Salad
+  197: Marinara Sauce
+  198: Marinated Meat
+  199: Mayo
+  200: Mayonnaise
+  201: Melon Seeds Magaz
+  202: Melted Cheese
+  203: Micellar Casein Powder
+  204: Milk
+  205: Milk Solid Or Flour
+  206: Minced Chicken
+  207: Mint
+  208: Mixed Fruit Salad
+  209: Mixed Vegetable Salad
+  210: Mixed Vegetables
+  211: Moong Dal
+  212: Mozzarella Cheese
+  213: Mustard
+  214: Mustard Oil
+  215: Mustard Seeds
+  216: Mutton Goat Meat
+  217: Oats
+  218: Oil
+  219: Olive Oil
+  220: Olives
+  221: Onion
+  222: Onion Tomato Gravy
+  223: Onion Tomato Salad
+  224: Paneer
+  225: Paneer Cottage Cheese
+  226: Parboiled Rice
+  227: Patty
+  228: Pea Protein Isolate
+  229: Peanuts
+  230: Peas
+  231: Pecan Nuts
+  232: Pepita Pumpkin Seeds
+  233: Pepper
+  234: Pepper Powder
+  235: Pickles
+  236: Pistachio Nuts
+  237: Pita Flatbread
+  238: Pizza Crust
+  239: Pizza Dough
+  240: Pizza Sauce
+  241: Pomegranate
+  242: Poppy Seeds
+  243: Potassium Citrate
+  244: Potato
+  245: Potato Strips
+  246: Prawns
+  247: Protein Blend
+  248: Protein Salad
+  249: Pure Water
+  250: Ragi Flour
+  251: Raw Banana
+  252: Raw Rice
+  253: Red Chilli Paste
+  254: Red Kidney Beans
+  255: Rice
+  256: Rice Flour
+  257: Ripe Tomatoes
+  258: Roasted Peanuts
+  259: Roasted Rice Flour
+  260: Roasted Semolina
+  261: Sabja Sweet Basil Seeds
+  262: Saffron
+  263: Salsa
+  264: Salt
+  265: Sambar Powder
+  266: Sauce
+  267: Scallions
+  268: Seasonal Fruit Salad
+  269: Seasoned Filling
+  270: Seeraga Samba Rice
+  271: Sesame Seeds
+  272: Shallots
+  273: Shelled Walnuts
+  274: Shredded Veggies
+  275: Skimmed Cow Milk
+  276: Sodium Chloride
+  277: Soft Drinks
+  278: Soy Protein Isolate
+  279: Soy Sauce
+  280: Spices
+  281: Spring Onion
+  282: Sprouts Salad
+  283: Steamed Rice
+  284: Sugar
+  285: Tahini Garlic Sauce
+  286: Tamarind
+  287: Tamarind Extract
+  288: Tamarind Water
+  289: Tandoori Spices
+  290: Tender Coconut Water
+  291: Tender Mutton
+  292: Tomato
+  293: Tomato Puree
+  294: Tomato Rasam
+  295: Tomato Sauce
+  296: Tomato Slice
+  297: Toned Milk
+  298: Toor Dal
+  299: Tortilla Flatbread
+  300: Turmeric
+  301: Urad Dal
+  302: Vegetable Filling
+  303: Vegetable Oil
+  304: Vegetables
+  305: Veggie Potato Patty
+  306: Vitamins
+  307: Water
+  308: Watermelon Fruit Salad
+  309: Wheat Noodles
+  310: Whey Protein
+  311: Whey Protein Concentrate Powder
+  312: Whey Protein Isolate Powder
+  313: Whole Almonds
+  314: Whole Cashews
+  315: Whole Chia Seeds
+  316: Whole Cow Milk
+  317: Whole Egg
+  318: Whole Flax Seeds
+  319: Whole Garam Masala
+  320: Whole Hen Egg
+  321: Whole Spices
+  322: Whole Wheat Flour
+  323: Yam
+  324: Yeast
+  325: Yellow Lentils
+  326: Yellow Moong Dal
+  327: Yogurt
